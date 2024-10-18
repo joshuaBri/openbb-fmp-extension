@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "openbb_fmp_extension"
+version = "1.3.5"
+description = ""
+authors = [" fmp_extension <2541874972@qq.com>"]
+readme = "README.md"
+packages = [{ include = "fmp" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openbb-core = "^1.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."openbb_provider_extension"]
+fmp = "openbb_fmp:fmp_provider"

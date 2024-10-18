@@ -82,7 +82,7 @@ class ExampleFetcher(
         If you said your Provider class needs credentials you can get them here.
         """
         api_key = (
-            credentials.get("fmp_api_key")
+            credentials.get("openbb_fmp_extension_api_key")
             if credentials
             else ""
         )

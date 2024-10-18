@@ -16,10 +16,10 @@ With it you can:
 
 We recommend you check out the files in the following order:
 
-* `fmp/README.md`
-* `fmp/models/example.py`
-* `fmp/provider.py`
-* `fmp/router.py`
+* `openbb_fmp_extension/README.md`
+* `openbb_fmp_extension/models/example.py`
+* `openbb_fmp_extension/provider.py`
+* `openbb_fmp_extension/router.py`
 
 ---
 

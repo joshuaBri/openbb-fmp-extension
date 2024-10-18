@@ -1,4 +1,4 @@
-"""fmp OpenBB Platform extension."""
+"""openbb_fmp_extension OpenBB Platform extension."""
 from pathlib import Path
 from typing import List, Optional, Union
 
@@ -34,7 +34,7 @@ def build(
 
 try:
     # pylint: disable=import-outside-toplevel
-    from fmp.package.__extensions__ import Extensions as _Extensions
+    from openbb_fmp_extension.package.__extensions__ import Extensions as _Extensions
 
     obb: Union[_BaseApp, _Extensions] = _create_app(_Extensions)  # type: ignore
     sdk = obb

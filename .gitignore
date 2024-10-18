@@ -1,6 +1,6 @@
 
 # OpenBB Platform extension specifig paths to ignore
-fmp/package/
+openbb_fmp_extension/package/
 
 # Bellow this line is a default .gitignore for Python projects.
 

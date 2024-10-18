@@ -1,4 +1,4 @@
-"""fmp router command example."""
+"""openbb_fmp_extension router command example."""
 
 import requests
 from openbb_core.app.model.command_context import CommandContext

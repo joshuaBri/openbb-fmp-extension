@@ -13,8 +13,8 @@ router = Router(prefix="")
 
 
 @router.command(methods=["GET"])
-async def get_example(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get options data."""
+async def discounted_cash_flow(symbol: str = "AAPL") -> OBBject[dict]:
+    """Get The DCF valuation data."""
     base_url = "https://www.cboe.com/education/tools/trade-optimizer/symbol-info"
 
     response = requests.get(base_url + f"?symbol={symbol}", timeout=5).json()

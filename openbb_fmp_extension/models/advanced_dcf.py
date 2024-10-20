@@ -9,41 +9,41 @@ from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import amake_request
 from openbb_fmp.utils.helpers import create_url, response_callback
 
-from openbb_fmp_extension.standard_models.discounted_cashflow import (
-    DiscountedCashflowData,
-    DiscountedCashflowQueryParams,
+from openbb_fmp_extension.standard_models.advanced_dcf import (
+    AdvancedDcfData,
+    AdvancedDcfQueryParams,
 )
 
 
-class FMPDiscountedCashflowQueryParams(DiscountedCashflowQueryParams):
+class FMPAdvancedDcfQueryParams(AdvancedDcfQueryParams):
     """Discounted Cashflow Query Parameters.
 
     Source: https://financialmodelingprep.com/api/v3/discounted-cash-flow
     """
 
 
-class FMPDiscountedCashflowData(DiscountedCashflowData):
+class FMPAdvancedDcfData(AdvancedDcfData):
     """House Disclosure Data Model."""
 
     __alias_dict__ = {"symbol": "ticker"}
 
 
-class FMPDiscountedCashflowFetcher(
+class FMPAdvancedDcfFetcher(
     Fetcher[
-        DiscountedCashflowQueryParams,
-        List[DiscountedCashflowData],
+        AdvancedDcfQueryParams,
+        List[AdvancedDcfData],
     ]
 ):
     """Fetches and transforms data from the House Disclosure endpoints."""
 
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> DiscountedCashflowQueryParams:
+    def transform_query(params: Dict[str, Any]) -> AdvancedDcfQueryParams:
         """Transform the query params."""
-        return DiscountedCashflowQueryParams(**params)
+        return AdvancedDcfQueryParams(**params)
 
     @staticmethod
     async def aextract_data(
-        query: FMPDiscountedCashflowQueryParams,
+        query: FMPAdvancedDcfQueryParams,
         credentials: Optional[Dict[str, str]] = None,
         **kwargs: Any,
     ) -> List[Dict]:
@@ -54,7 +54,7 @@ class FMPDiscountedCashflowFetcher(
 
         async def get_one(symbol):
             """Get data for the given symbol."""
-            url = f"https://fmp.a.pinggy.link/api/v3/discounted-cash-flow/{symbol}"
+            url = f"https://fmp.a.pinggy.link/api/v4/advanced_discounted_cash_flow?symbol={symbol}"
             result = await amake_request(
                 url, response_callback=response_callback, **kwargs
             )
@@ -72,7 +72,7 @@ class FMPDiscountedCashflowFetcher(
 
     @staticmethod
     def transform_data(
-        query: FMPDiscountedCashflowQueryParams, data: List[Dict], **kwargs: Any
-    ) -> List[DiscountedCashflowData]:
+        query: FMPAdvancedDcfQueryParams, data: List[Dict], **kwargs: Any
+    ) -> List[AdvancedDcfData]:
         """Return the transformed data."""
-        return [FMPDiscountedCashflowData(**d) for d in data]
+        return [FMPAdvancedDcfData(**d) for d in data]

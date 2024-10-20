@@ -9,41 +9,41 @@ from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import amake_request
 from openbb_fmp.utils.helpers import create_url, response_callback
 
-from openbb_fmp_extension.standard_models.discounted_cashflow import (
-    DiscountedCashflowData,
-    DiscountedCashflowQueryParams,
+from openbb_fmp_extension.standard_models.historical_rating import (
+    HistoricalRatingData,
+    HistoricalRatingQueryParams,
 )
 
 
-class FMPDiscountedCashflowQueryParams(DiscountedCashflowQueryParams):
+class FMPHistoricalRatingQueryParams(HistoricalRatingQueryParams):
     """Discounted Cashflow Query Parameters.
 
-    Source: https://financialmodelingprep.com/api/v3/discounted-cash-flow
+    Source: https://financialmodelingprep.com/api/v3/historical-rating/AAPL
     """
 
 
-class FMPDiscountedCashflowData(DiscountedCashflowData):
+class FMPHistoricalRatingData(HistoricalRatingData):
     """House Disclosure Data Model."""
 
     __alias_dict__ = {"symbol": "ticker"}
 
 
-class FMPDiscountedCashflowFetcher(
+class FMPHistoricalRatingFetcher(
     Fetcher[
-        DiscountedCashflowQueryParams,
-        List[DiscountedCashflowData],
+        HistoricalRatingQueryParams,
+        List[HistoricalRatingData],
     ]
 ):
     """Fetches and transforms data from the House Disclosure endpoints."""
 
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> DiscountedCashflowQueryParams:
+    def transform_query(params: Dict[str, Any]) -> HistoricalRatingQueryParams:
         """Transform the query params."""
-        return DiscountedCashflowQueryParams(**params)
+        return HistoricalRatingQueryParams(**params)
 
     @staticmethod
     async def aextract_data(
-        query: FMPDiscountedCashflowQueryParams,
+        query: FMPHistoricalRatingQueryParams,
         credentials: Optional[Dict[str, str]] = None,
         **kwargs: Any,
     ) -> List[Dict]:
@@ -54,7 +54,7 @@ class FMPDiscountedCashflowFetcher(
 
         async def get_one(symbol):
             """Get data for the given symbol."""
-            url = f"https://fmp.a.pinggy.link/api/v3/discounted-cash-flow/{symbol}"
+            url = f"https://fmp.a.pinggy.link/api/v3/historical-rating/{symbol}"
             result = await amake_request(
                 url, response_callback=response_callback, **kwargs
             )
@@ -72,7 +72,7 @@ class FMPDiscountedCashflowFetcher(
 
     @staticmethod
     def transform_data(
-        query: FMPDiscountedCashflowQueryParams, data: List[Dict], **kwargs: Any
-    ) -> List[DiscountedCashflowData]:
+        query: FMPHistoricalRatingQueryParams, data: List[Dict], **kwargs: Any
+    ) -> List[HistoricalRatingData]:
         """Return the transformed data."""
-        return [FMPDiscountedCashflowData(**d) for d in data]
+        return [FMPHistoricalRatingData(**d) for d in data]

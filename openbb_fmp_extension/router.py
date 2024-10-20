@@ -15,9 +15,44 @@ router = Router(prefix="")
 @router.command(methods=["GET"])
 async def discounted_cash_flow(symbol: str = "AAPL") -> OBBject[dict]:
     """Get The DCF valuation data."""
-    base_url = "https://www.cboe.com/education/tools/trade-optimizer/symbol-info"
+    base_url = f"https://fmp.a.pinggy.link/api/v3/discounted-cash-flow/{symbol}"
 
-    response = requests.get(base_url + f"?symbol={symbol}", timeout=5).json()
+    response = requests.get(base_url, timeout=5).json()
+    return OBBject(results=response["details"])
+
+
+@router.command(methods=["GET"])
+async def advanced_dcf(symbol: str = "AAPL") -> OBBject[dict]:
+    """Get The advanced_dcf valuation data."""
+    base_url = f"https://fmp.a.pinggy.link/api/v4/advanced_discounted_cash_flow?symbol={symbol}"
+
+    response = requests.get(base_url, timeout=5).json()
+    return OBBject(results=response["details"])
+
+@router.command(methods=["GET"])
+async def company_rating(symbol: str = "AAPL") -> OBBject[dict]:
+    """Get The company_rating valuation data."""
+    base_url = f"https://fmp.a.pinggy.link//api/v3/rating/{symbol}"
+
+    response = requests.get(base_url, timeout=5).json()
+    return OBBject(results=response["details"])
+
+
+@router.command(methods=["GET"])
+async def historical_rating(symbol: str = "AAPL") -> OBBject[dict]:
+    """Get The historical_rating valuation data."""
+    base_url = f"https://fmp.a.pinggy.link/api/v3/historical-rating/{symbol}"
+
+    response = requests.get(base_url, timeout=5).json()
+    return OBBject(results=response["details"])
+
+
+@router.command(methods=["GET"])
+async def levered_dcf(symbol: str = "AAPL") -> OBBject[dict]:
+    """Get The levered_dcf data."""
+    base_url = f"https://fmp.a.pinggy.link/api/v4/advanced_levered_discounted_cash_flow?symbol={symbol}"
+
+    response = requests.get(base_url, timeout=5).json()
     return OBBject(results=response["details"])
 
 

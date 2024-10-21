@@ -10,7 +10,7 @@ from openbb_core.provider.abstract.query_params import QueryParams
 from openbb_core.provider.utils.descriptions import QUERY_DESCRIPTIONS, DATA_DESCRIPTIONS
 
 
-class HistoricalRatingQueryParams(QueryParams):
+class CompanyRatingQueryParams(QueryParams):
     """Historical Rating Query Parameters."""
 
     symbol: str = Field(..., description=QUERY_DESCRIPTIONS.get("symbol", "The symbol of the company."))
@@ -22,7 +22,7 @@ class HistoricalRatingQueryParams(QueryParams):
         return v.upper()
 
 
-class HistoricalRatingData(Data):
+class CompanyRatingData(Data):
     """Historical Rating Data Model."""
     symbol: str = Field(description=DATA_DESCRIPTIONS.get("symbol", "The symbol of the company."))
     date: str = Field(description="The date of the rating.")

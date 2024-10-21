@@ -8,7 +8,7 @@ test_credentials = UserService().default_user_settings.credentials.model_dump(
 )
 
 
-@pytest.mark.record_http
+@pytest.mark.vcr()
 def test_fmp_discounted_cashflow_fetcher(credentials=test_credentials):
     """Test discounted cashflow fetcher."""
     params = {

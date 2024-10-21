@@ -3,6 +3,10 @@
 from openbb_core.provider.abstract.provider import Provider
 
 from openbb_fmp_extension.models.discounted_cashflow import FMPDiscountedCashflowFetcher
+from openbb_fmp_extension.models.advanced_dcf import FMPAdvancedDcfFetcher
+from openbb_fmp_extension.models.company_rating import FMPCompanyRatingFetcher
+from openbb_fmp_extension.models.historical_rating import FMPHistoricalRatingFetcher
+from openbb_fmp_extension.models.levered_dcf import FMPLeveredDcfFetcher
 
 
 # mypy: disable-error-code="list-item"
@@ -17,6 +21,10 @@ provider = Provider(
     # The dictionary key is the fetcher's name, used in the `router.py`.
     fetcher_dict={
         "DiscountedCashflow": FMPDiscountedCashflowFetcher,
+        "AdvancedDcf": FMPAdvancedDcfFetcher,
+        "CompanyRating": FMPCompanyRatingFetcher,
+        "HistoricalRating": FMPHistoricalRatingFetcher,
+        "LeveredDcf": FMPLeveredDcfFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

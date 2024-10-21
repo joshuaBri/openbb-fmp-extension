@@ -11,50 +11,52 @@ from pydantic import BaseModel
 
 router = Router(prefix="")
 
+@router.command(methods=["GET"],model="DiscountedCashflow")
+async def discounted_cashflow(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
 
-@router.command(methods=["GET"])
-async def discounted_cash_flow(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get The DCF valuation data."""
-    base_url = f"https://fmp.a.pinggy.link/api/v3/discounted-cash-flow/{symbol}"
+@router.command(methods=["GET"],model="AdvancedDcf")
+async def advanced_dcf(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
 
-    response = requests.get(base_url, timeout=5).json()
-    return OBBject(results=response["details"])
-
-
-@router.command(methods=["GET"])
-async def advanced_dcf(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get The advanced_dcf valuation data."""
-    base_url = f"https://fmp.a.pinggy.link/api/v4/advanced_discounted_cash_flow?symbol={symbol}"
-
-    response = requests.get(base_url, timeout=5).json()
-    return OBBject(results=response["details"])
-
-@router.command(methods=["GET"])
-async def company_rating(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get The company_rating valuation data."""
-    base_url = f"https://fmp.a.pinggy.link//api/v3/rating/{symbol}"
-
-    response = requests.get(base_url, timeout=5).json()
-    return OBBject(results=response["details"])
-
-
-@router.command(methods=["GET"])
-async def historical_rating(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get The historical_rating valuation data."""
-    base_url = f"https://fmp.a.pinggy.link/api/v3/historical-rating/{symbol}"
-
-    response = requests.get(base_url, timeout=5).json()
-    return OBBject(results=response["details"])
+@router.command(methods=["GET"],model="CompanyRating")
+async def company_rating(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
 
 
-@router.command(methods=["GET"])
-async def levered_dcf(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get The levered_dcf data."""
-    base_url = f"https://fmp.a.pinggy.link/api/v4/advanced_levered_discounted_cash_flow?symbol={symbol}"
+@router.command(methods=["GET"],model="HistoricalRating")
+async def historical_rating(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
 
-    response = requests.get(base_url, timeout=5).json()
-    return OBBject(results=response["details"])
 
+@router.command(methods=["GET"],model="LeveredDcf")
+async def levered_dcf(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
 
 @router.command(methods=["POST"])
 async def post_example(

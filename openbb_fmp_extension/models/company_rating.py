@@ -3,7 +3,9 @@
 import asyncio
 from typing import Any, Dict, List, Optional
 from warnings import warn
-
+from urllib.request import urlopen
+import certifi
+import json
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import amake_request
@@ -51,13 +53,14 @@ class FMPCompanyRatingFetcher(
         api_key = credentials.get("fmp_api_key") if credentials else ""
         symbols = query.symbol.split(",")
         results: List[Dict] = []
-
+        def get_jsonparsed_data(url):
+            response = urlopen(url, cafile=certifi.where())
+            data = response.read().decode("utf-8")
+            return json.loads(data)
         async def get_one(symbol):
             """Get data for the given symbol."""
             url = f"https://fmp.a.pinggy.link//api/v3/rating/{symbol}"
-            result = await amake_request(
-                url, response_callback=response_callback, **kwargs
-            )
+            result = get_jsonparsed_data(url)
             if not result or len(result) == 0:
                 warn(f"Symbol Error: No data found for symbol {symbol}")
             if result:

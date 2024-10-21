@@ -4,12 +4,12 @@ import asyncio
 from typing import Any, Dict, List, Optional
 from warnings import warn
 from urllib.request import urlopen
+import certifi
+import json
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import amake_request
 from openbb_fmp.utils.helpers import create_url, response_callback
-import certifi
-import json
 from openbb_fmp_extension.standard_models.discounted_cashflow import (
     DiscountedCashflowData,
     DiscountedCashflowQueryParams,

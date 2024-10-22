@@ -7,6 +7,7 @@ from openbb_fmp_extension.models.advanced_dcf import FMPAdvancedDcfFetcher
 from openbb_fmp_extension.models.company_rating import FMPCompanyRatingFetcher
 from openbb_fmp_extension.models.historical_rating import FMPHistoricalRatingFetcher
 from openbb_fmp_extension.models.levered_dcf import FMPLeveredDcfFetcher
+from openbb_fmp_extension.models.equity_historical import FMPEquityHistoricalFetcher
 
 
 # mypy: disable-error-code="list-item"
@@ -25,6 +26,7 @@ provider = Provider(
         "CompanyRating": FMPCompanyRatingFetcher,
         "HistoricalRating": FMPHistoricalRatingFetcher,
         "LeveredDcf": FMPLeveredDcfFetcher,
+        "EquityHistorical": FMPEquityHistoricalFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

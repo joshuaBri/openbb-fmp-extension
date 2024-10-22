@@ -11,7 +11,8 @@ from pydantic import BaseModel
 
 router = Router(prefix="")
 
-@router.command(methods=["GET"],model="DiscountedCashflow")
+
+@router.command(methods=["GET"], model="DiscountedCashflow")
 async def discounted_cashflow(
         cc: CommandContext,
         provider_choices: ProviderChoices,
@@ -20,7 +21,8 @@ async def discounted_cashflow(
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
 
-@router.command(methods=["GET"],model="AdvancedDcf")
+
+@router.command(methods=["GET"], model="AdvancedDcf")
 async def advanced_dcf(
         cc: CommandContext,
         provider_choices: ProviderChoices,
@@ -29,7 +31,8 @@ async def advanced_dcf(
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
 
-@router.command(methods=["GET"],model="CompanyRating")
+
+@router.command(methods=["GET"], model="CompanyRating")
 async def company_rating(
         cc: CommandContext,
         provider_choices: ProviderChoices,
@@ -39,7 +42,7 @@ async def company_rating(
     return await OBBject.from_query(Query(**locals()))
 
 
-@router.command(methods=["GET"],model="HistoricalRating")
+@router.command(methods=["GET"], model="HistoricalRating")
 async def historical_rating(
         cc: CommandContext,
         provider_choices: ProviderChoices,
@@ -49,7 +52,7 @@ async def historical_rating(
     return await OBBject.from_query(Query(**locals()))
 
 
-@router.command(methods=["GET"],model="LeveredDcf")
+@router.command(methods=["GET"], model="LeveredDcf")
 async def levered_dcf(
         cc: CommandContext,
         provider_choices: ProviderChoices,
@@ -58,11 +61,22 @@ async def levered_dcf(
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
 
+
+@router.command(methods=["GET"], model="EquityHistorical")
+async def equity_historical(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    return await OBBject.from_query(Query(**locals()))
+
+
 @router.command(methods=["POST"])
 async def post_example(
-    data: dict,
-    bid_col: str = "bid",
-    ask_col: str = "ask",
+        data: dict,
+        bid_col: str = "bid",
+        ask_col: str = "ask",
 ) -> OBBject[dict]:
     """Calculate mid and spread."""
     bid = data[bid_col]
@@ -76,10 +90,10 @@ async def post_example(
 # pylint: disable=unused-argument
 @router.command(model="Example")
 async def model_example(
-    cc: CommandContext,
-    provider_choices: ProviderChoices,
-    standard_params: StandardParams,
-    extra_params: ExtraParams,
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
 ) -> OBBject[BaseModel]:
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))

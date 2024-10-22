@@ -26,7 +26,9 @@ class FMPDiscountedCashflowQueryParams(DiscountedCashflowQueryParams):
 class FMPDiscountedCashflowData(DiscountedCashflowData):
     """House Disclosure Data Model."""
 
-    __alias_dict__ = {"symbol": "ticker"}
+    __alias_dict__ = {
+        "stock_price": "Stock Price"
+    }
 
 
 class FMPDiscountedCashflowFetcher(

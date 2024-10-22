@@ -24,37 +24,105 @@ class LeveredDcfQueryParams(QueryParams):
 
 class LeveredDcfData(Data):
     """Levered  Dcf Data Model."""
-    year: str = Field(description="The financial year.")
-    symbol: str = Field(description="The symbol of the company.")
-    revenue: int = Field(description="Total projected revenue.")
-    revenuePercentage: float = Field(description="Percentage change in revenue.")
-    capitalExpenditure: int = Field(description="Capital expenditures.")
-    capitalExpenditurePercentage: float = Field(description="Percentage of capital expenditure.")
-    price: float = Field(description="Current stock price.")
-    beta: float = Field(description="Beta value of the stock.")
-    dilutedSharesOutstanding: int = Field(description="Number of diluted shares outstanding.")
-    costofDebt: float = Field(description="Cost of debt capital.")
-    taxRate: float = Field(description="Applicable tax rate.")
-    afterTaxCostOfDebt: float = Field(description="After-tax cost of debt.")
-    riskFreeRate: float = Field(description="Risk-free interest rate.")
-    marketRiskPremium: float = Field(description="Market risk premium.")
-    costOfEquity: float = Field(description="Cost of equity capital.")
-    totalDebt: int = Field(description="Total debt of the company.")
-    totalEquity: int = Field(description="Total equity of the company.")
-    totalCapital: int = Field(description="Total capital of the company.")
-    debtWeighting: float = Field(description="Weighting of debt in capital structure.")
-    equityWeighting: float = Field(description="Weighting of equity in capital structure.")
-    wacc: float = Field(description="Weighted average cost of capital.")
-    operatingCashFlow: int = Field(description="Operating cash flow.")
-    pvLfcf: float = Field(description="Present value of free cash flow.")
-    sumPvLfcf: float = Field(description="Sum of present values of free cash flows.")
-    longTermGrowthRate: float = Field(description="Expected long-term growth rate.")
-    freeCashFlow: int = Field(description="Free cash flow.")
-    terminalValue: int = Field(description="Terminal value of the company.")
-    presentTerminalValue: int = Field(description="Present value of the terminal value.")
-    enterpriseValue: int = Field(description="Enterprise value of the company.")
-    netDebt: int = Field(description="Net debt of the company.")
-    equityValue: int = Field(description="Equity value of the company.")
-    equityValuePerShare: float = Field(description="Equity value per share.")
-    freeCashFlowT1: int = Field(description="Free cash flow for the next period.")
-    operatingCashFlowPercentage: float = Field(description="Percentage of operating cash flow.")
+    year: Optional[str] = Field(
+        default=None, description="Year of the financial data."
+    )
+    symbol: Optional[str] = Field(
+        default=None, description=DATA_DESCRIPTIONS.get("symbol", "")
+    )
+    revenue: Optional[int] = Field(
+        default=None, description="Total revenue in USD."
+    )
+    revenue_percentage: Optional[float] = Field(
+        default=None, description="Revenue percentage change."
+    )
+    capital_expenditure: Optional[int] = Field(
+        default=None, description="Capital expenditure in USD."
+    )
+    capital_expenditure_percentage: Optional[float] = Field(
+        default=None, description="Capital expenditure percentage change."
+    )
+    price: Optional[float] = Field(
+        default=None, description="Stock price in USD."
+    )
+    beta: Optional[float] = Field(
+        default=None, description="Beta value."
+    )
+    diluted_shares_outstanding: Optional[int] = Field(
+        default=None, description="Diluted shares outstanding."
+    )
+    cost_of_debt: Optional[float] = Field(
+        default=None, description="Cost of debt in percentage."
+    )
+    tax_rate: Optional[float] = Field(
+        default=None, description="Tax rate in percentage."
+    )
+    after_tax_cost_of_debt: Optional[float] = Field(
+        default=None, description="After-tax cost of debt."
+    )
+    risk_free_rate: Optional[float] = Field(
+        default=None, description="Risk-free rate in percentage."
+    )
+    market_risk_premium: Optional[float] = Field(
+        default=None, description="Market risk premium in percentage."
+    )
+    cost_of_equity: Optional[float] = Field(
+        default=None, description="Cost of equity in percentage."
+    )
+    total_debt: Optional[int] = Field(
+        default=None, description="Total debt in USD."
+    )
+    total_equity: Optional[int] = Field(
+        default=None, description="Total equity in USD."
+    )
+    total_capital: Optional[int] = Field(
+        default=None, description="Total capital in USD."
+    )
+    debt_weighting: Optional[float] = Field(
+        default=None, description="Debt weighting in percentage."
+    )
+    equity_weighting: Optional[float] = Field(
+        default=None, description="Equity weighting in percentage."
+    )
+    wacc: Optional[float] = Field(
+        default=None, description="Weighted Average Cost of Capital (WACC) in percentage."
+    )
+    operating_cash_flow: Optional[int] = Field(
+        default=None, description="Operating cash flow in USD."
+    )
+    pv_lfcf: Optional[int] = Field(
+        default=None, description="Present value of levered free cash flow (LFCF) in USD."
+    )
+    sum_pv_lfcf: Optional[int] = Field(
+        default=None, description="Sum of the present value of levered free cash flow (LFCF) in USD."
+    )
+    long_term_growth_rate: Optional[float] = Field(
+        default=None, description="Long-term growth rate in percentage."
+    )
+    free_cash_flow: Optional[int] = Field(
+        default=None, description="Free cash flow in USD."
+    )
+    terminal_value: Optional[int] = Field(
+        default=None, description="Terminal value in USD."
+    )
+    present_terminal_value: Optional[int] = Field(
+        default=None, description="Present terminal value in USD."
+    )
+    enterprise_value: Optional[int] = Field(
+        default=None, description="Enterprise value in USD."
+    )
+    net_debt: Optional[int] = Field(
+        default=None, description="Net debt in USD."
+    )
+    equity_value: Optional[int] = Field(
+        default=None, description="Equity value in USD."
+    )
+    equity_value_per_share: Optional[float] = Field(
+        default=None, description="Equity value per share in USD."
+    )
+    free_cash_flow_t1: Optional[int] = Field(
+        default=None, description="Free cash flow in USD at time t1."
+    )
+    operating_cash_flow_percentage: Optional[float] = Field(
+        default=None, description="Operating cash flow percentage."
+    )

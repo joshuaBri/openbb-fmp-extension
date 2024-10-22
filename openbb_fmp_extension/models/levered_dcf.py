@@ -27,7 +27,42 @@ class FMPLeveredDcfQueryParams(LeveredDcfQueryParams):
 class FMPLeveredDcfData(LeveredDcfData):
     """House Disclosure Data Model."""
 
-    __alias_dict__ = {"symbol": "ticker"}
+    __alias_dict__ = {
+        "year": "year",
+        "symbol": "symbol",
+        "revenue": "revenue",
+        "revenue_percentage": "revenuePercentage",
+        "capital_expenditure": "capitalExpenditure",
+        "capital_expenditure_percentage": "capitalExpenditurePercentage",
+        "price": "price",
+        "beta": "beta",
+        "diluted_shares_outstanding": "dilutedSharesOutstanding",
+        "cost_of_debt": "costOfDebt",
+        "tax_rate": "taxRate",
+        "after_tax_cost_of_debt": "afterTaxCostOfDebt",
+        "risk_free_rate": "riskFreeRate",
+        "market_risk_premium": "marketRiskPremium",
+        "cost_of_equity": "costOfEquity",
+        "total_debt": "totalDebt",
+        "total_equity": "totalEquity",
+        "total_capital": "totalCapital",
+        "debt_weighting": "debtWeighting",
+        "equity_weighting": "equityWeighting",
+        "wacc": "wacc",
+        "operating_cash_flow": "operatingCashFlow",
+        "pv_lfcf": "pvLfcf",
+        "sum_pv_lfcf": "sumPvLfcf",
+        "long_term_growth_rate": "longTermGrowthRate",
+        "free_cash_flow": "freeCashFlow",
+        "terminal_value": "terminalValue",
+        "present_terminal_value": "presentTerminalValue",
+        "enterprise_value": "enterpriseValue",
+        "net_debt": "netDebt",
+        "equity_value": "equityValue",
+        "equity_value_per_share": "equityValuePerShare",
+        "free_cash_flow_t1": "freeCashFlowT1",
+        "operating_cash_flow_percentage": "operatingCashFlowPercentage"
+    }
 
 
 class FMPLeveredDcfFetcher(

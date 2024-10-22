@@ -27,7 +27,22 @@ class FMPCompanyRatingQueryParams(CompanyRatingQueryParams):
 class FMPCompanyRatingData(CompanyRatingData):
     """House Disclosure Data Model."""
 
-    __alias_dict__ = {"symbol": "ticker"}
+    __alias_dict__ = {
+        "rating_score": "ratingScore",
+        "rating_recommendation": "ratingRecommendation",
+        "rating_details_dcf_score": "ratingDetailsDCFScore",
+        "rating_details_dcf_recommendation": "ratingDetailsDCFRecommendation",
+        "rating_details_roe_score": "ratingDetailsROEScore",
+        "rating_details_roe_recommendation": "ratingDetailsROERecommendation",
+        "rating_details_roa_score": "ratingDetailsROAScore",
+        "rating_details_roa_recommendation": "ratingDetailsROARecommendation",
+        "rating_details_de_score": "ratingDetailsDEScore",
+        "rating_details_de_recommendation": "ratingDetailsDERecommendation",
+        "rating_details_pe_score": "ratingDetailsPEScore",
+        "rating_details_pe_recommendation": "ratingDetailsPERecommendation",
+        "rating_details_pb_score": "ratingDetailsPBScore",
+        "rating_details_pb_recommendation": "ratingDetailsPBRecommendation"
+    }
 
 
 class FMPCompanyRatingFetcher(
@@ -59,7 +74,7 @@ class FMPCompanyRatingFetcher(
             return json.loads(data)
         async def get_one(symbol):
             """Get data for the given symbol."""
-            url = f"https://fmp.a.pinggy.link//api/v3/rating/{symbol}"
+            url = f"https://fmp.a.pinggy.link/api/v3/rating/{symbol}"
             result = get_jsonparsed_data(url)
             if not result or len(result) == 0:
                 warn(f"Symbol Error: No data found for symbol {symbol}")

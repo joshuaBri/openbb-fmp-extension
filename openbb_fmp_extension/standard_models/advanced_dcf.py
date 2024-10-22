@@ -24,56 +24,144 @@ class AdvancedDcfQueryParams(QueryParams):
 
 class AdvancedDcfData(Data):
     """Advanced Dcf Data Model."""
-    symbol: str = Field(description=DATA_DESCRIPTIONS.get("symbol", "The symbol of the company."))
-    price: float = Field(description="Current price of the stock.")
-    beta: float = Field(description="Beta value of the stock.")
-    final_tax_rate: float = Field(description="Final tax rate applied.")
-    total_debt: int = Field(description="Total debt of the company.")
-    total_equity: int = Field(description="Total equity of the company.")
-    total_capital: int = Field(description="Total capital of the company.")
-    diluted_shares_outstanding: int = Field(description="Number of diluted shares outstanding.")
-    debt_weighting: float = Field(description="Weighting of debt in capital structure.")
-    equity_weighting: float = Field(description="Weighting of equity in capital structure.")
-    year: str = Field(description="The financial year.")
-    period: str = Field(description="The financial reporting period.")
-    revenue: int = Field(description="Total revenue generated.")
-    ebitda: int = Field(description="Earnings before interest, taxes, depreciation, and amortization.")
-    operating_cash_flow: int = Field(description="Cash flow from operating activities.")
-    ebit: int = Field(description="Earnings before interest and taxes.")
-    weighted_average_shs_out_dil: int = Field(description="Weighted average shares outstanding, diluted.")
-    net_debt: int = Field(description="Net debt of the company.")
-    inventories: int = Field(description="Total inventories held.")
-    receivables: int = Field(description="Total receivables.")
-    payable: int = Field(description="Total payables.")
-    capital_expenditure: int = Field(description="Capital expenditures.")
-    previous_revenue: int = Field(description="Revenue from the previous year.")
-    revenue_percentage: float = Field(description="Percentage change in revenue.")
-    tax_rate: float = Field(description="The applicable tax rate.")
-    ebitda_percentage: float = Field(description="EBITDA as a percentage of revenue.")
-    receivables_percentage: float = Field(description="Receivables as a percentage of revenue.")
-    inventories_percentage: float = Field(description="Inventories as a percentage of revenue.")
-    payable_percentage: float = Field(description="Payables as a percentage of revenue.")
-    ebit_percentage: float = Field(description="EBIT as a percentage of revenue.")
-    capital_expenditure_percentage: float = Field(description="Percentage of capital expenditure.")
-    operating_cash_flow_percentage: float = Field(description="Percentage of operating cash flow.")
-    after_tax_cost_of_debt: float = Field(description="After-tax cost of debt.")
-    market_risk_premium: float = Field(description="Market risk premium.")
-    long_term_growth_rate: float = Field(description="Expected long-term growth rate.")
-    cost_of_equity: float = Field(description="Cost of equity capital.")
-    wacc: float = Field(description="Weighted average cost of capital.")
-    tax_rate_cash: int = Field(description="Cash tax rate.")
-    ebiat: int = Field(description="Earnings before interest after tax.")
-    ufcf: int = Field(description="Unlevered free cash flow.")
-    risk_free_rate: float = Field(description="Risk-free rate of return.")
-    sum_pv_ufcf: float = Field(description="Sum of present values of unlevered free cash flow.")
-    terminal_value: int = Field(description="Terminal value of the company.")
-    present_terminal_value: int = Field(description="Present value of the terminal value.")
-    enterprise_value: int = Field(description="Enterprise value of the company.")
-    equity_value: int = Field(description="Equity value of the company.")
-    equity_value_per_share: float = Field(description="Equity value per share.")
-    free_cash_flow_t1: int = Field(description="Free cash flow for the next period.")
-    cost_of_debt: float = Field(description="Cost of debt capital.")
-    depreciation: int = Field(description="Depreciation expense.")
-    total_cash: int = Field(description="Total cash available.")
-    depreciation_percentage: float = Field(description="Depreciation as a percentage of revenue.")
-    total_cash_percentage: float = Field(description="Total cash as a percentage of revenue.")
+    year: Optional[str] = Field(
+        default=None, description="Year of the projection data."
+    )
+    symbol: Optional[str] = Field(
+        default=None, description=DATA_DESCRIPTIONS.get("symbol", "")
+    )
+    revenue: Optional[int] = Field(
+        default=None, description="Total revenue in USD."
+    )
+    revenue_percentage: Optional[float] = Field(
+        default=None, description="Revenue percentage change."
+    )
+    ebitda: Optional[int] = Field(
+        default=None, description="Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA) in USD."
+    )
+    ebitda_percentage: Optional[float] = Field(
+        default=None, description="EBITDA percentage change."
+    )
+    ebit: Optional[int] = Field(
+        default=None, description="Earnings Before Interest and Taxes (EBIT) in USD."
+    )
+    ebit_percentage: Optional[float] = Field(
+        default=None, description="EBIT percentage change."
+    )
+    depreciation: Optional[int] = Field(
+        default=None, description="Depreciation amount in USD."
+    )
+    depreciation_percentage: Optional[float] = Field(
+        default=None, description="Depreciation percentage change."
+    )
+    total_cash: Optional[int] = Field(
+        default=None, description="Total cash in USD."
+    )
+    total_cash_percentage: Optional[float] = Field(
+        default=None, description="Total cash percentage change."
+    )
+    receivables: Optional[int] = Field(
+        default=None, description="Total receivables in USD."
+    )
+    receivables_percentage: Optional[float] = Field(
+        default=None, description="Receivables percentage change."
+    )
+    inventories: Optional[int] = Field(
+        default=None, description="Total inventories in USD."
+    )
+    inventories_percentage: Optional[float] = Field(
+        default=None, description="Inventories percentage change."
+    )
+    payable: Optional[int] = Field(
+        default=None, description="Total payable in USD."
+    )
+    payable_percentage: Optional[float] = Field(
+        default=None, description="Payable percentage change."
+    )
+    capital_expenditure: Optional[int] = Field(
+        default=None, description="Capital expenditure in USD."
+    )
+    capital_expenditure_percentage: Optional[float] = Field(
+        default=None, description="Capital expenditure percentage change."
+    )
+    price: Optional[float] = Field(
+        default=None, description="Stock price in USD."
+    )
+    beta: Optional[float] = Field(
+        default=None, description="Beta value."
+    )
+    diluted_shares_outstanding: Optional[int] = Field(
+        default=None, description="Diluted shares outstanding."
+    )
+    cost_of_debt: Optional[float] = Field(
+        default=None, description="Cost of debt in percentage."
+    )
+    tax_rate: Optional[float] = Field(
+        default=None, description="Tax rate in percentage."
+    )
+    after_tax_cost_of_debt: Optional[float] = Field(
+        default=None, description="After-tax cost of debt."
+    )
+    risk_free_rate: Optional[float] = Field(
+        default=None, description="Risk-free rate in percentage."
+    )
+    market_risk_premium: Optional[float] = Field(
+        default=None, description="Market risk premium in percentage."
+    )
+    cost_of_equity: Optional[float] = Field(
+        default=None, description="Cost of equity in percentage."
+    )
+    total_debt: Optional[int] = Field(
+        default=None, description="Total debt in USD."
+    )
+    total_equity: Optional[int] = Field(
+        default=None, description="Total equity in USD."
+    )
+    total_capital: Optional[int] = Field(
+        default=None, description="Total capital in USD."
+    )
+    debt_weighting: Optional[float] = Field(
+        default=None, description="Debt weighting in percentage."
+    )
+    equity_weighting: Optional[float] = Field(
+        default=None, description="Equity weighting in percentage."
+    )
+    wacc: Optional[float] = Field(
+        default=None, description="Weighted Average Cost of Capital (WACC) in percentage."
+    )
+    tax_rate_cash: Optional[int] = Field(
+        default=None, description="Tax rate cash amount."
+    )
+    ebiat: Optional[int] = Field(
+        default=None, description="Earnings Before Interest After Taxes (EBIAT) in USD."
+    )
+    ufcf: Optional[int] = Field(
+        default=None, description="Unlevered Free Cash Flow (UFCF) in USD."
+    )
+    sum_pv_ufcf: Optional[int] = Field(
+        default=None, description="Sum of present value of UFCF in USD."
+    )
+    long_term_growth_rate: Optional[float] = Field(
+        default=None, description="Long-term growth rate in percentage."
+    )
+    terminal_value: Optional[int] = Field(
+        default=None, description="Terminal value in USD."
+    )
+    present_terminal_value: Optional[int] = Field(
+        default=None, description="Present terminal value in USD."
+    )
+    enterprise_value: Optional[int] = Field(
+        default=None, description="Enterprise value in USD."
+    )
+    net_debt: Optional[int] = Field(
+        default=None, description="Net debt in USD."
+    )
+    equity_value: Optional[int] = Field(
+        default=None, description="Equity value in USD."
+    )
+    equity_value_per_share: Optional[float] = Field(
+        default=None, description="Equity value per share in USD."
+    )
+    free_cash_flow_t1: Optional[int] = Field(
+        default=None, description="Free cash flow in USD at time t1."
+    )

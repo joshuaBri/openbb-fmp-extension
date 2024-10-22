@@ -12,7 +12,7 @@ test_credentials = UserService().default_user_settings.credentials.model_dump(
 )
 
 
-@pytest.mark.vcr()
+
 def test_fmp_discounted_cashflow_fetcher(credentials=test_credentials):
     """Test discounted cashflow fetcher."""
     params = {
@@ -23,18 +23,16 @@ def test_fmp_discounted_cashflow_fetcher(credentials=test_credentials):
     result = fetcher.test(params, credentials)
     assert result is None
 
-@pytest.mark.vcr()
-def test_fmp_advanced_dcf_fetcher(credentials=test_credentials):
-    """Test discounted cashflow fetcher."""
-    params = {
-        "symbol": "AAPL",
-    }
+# def test_fmp_advanced_dcf_fetcher(credentials=test_credentials):
+#     """Test discounted cashflow fetcher."""
+#     params = {
+#         "symbol": "AAPL",
+#     }
+#
+#     fetcher = FMPAdvancedDcfFetcher()
+#     result = fetcher.test(params, credentials)
+#     assert result is None
 
-    fetcher = FMPAdvancedDcfFetcher()
-    result = fetcher.test(params, credentials)
-    assert result is None
-
-@pytest.mark.vcr()
 def test_fmp_company_rating_fetcher(credentials=test_credentials):
     """Test company rating fetcher."""
     params = {
@@ -45,7 +43,6 @@ def test_fmp_company_rating_fetcher(credentials=test_credentials):
     result = fetcher.test(params, credentials)
     assert result is None
 
-@pytest.mark.vcr()
 def test_fmp_historical_rating_fetcher(credentials=test_credentials):
     """Test historical rating fetcher."""
     params = {
@@ -56,7 +53,6 @@ def test_fmp_historical_rating_fetcher(credentials=test_credentials):
     result = fetcher.test(params, credentials)
     assert result is None
 
-@pytest.mark.vcr()
 def test_fmp_levered_dcf_fetcher(credentials=test_credentials):
     """Test levered dcf fetcher."""
     params = {

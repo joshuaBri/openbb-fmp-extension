@@ -1,6 +1,9 @@
 """FMP Helpers Module."""
+import json
 from typing import Optional, Any, List
+from urllib.request import urlopen
 
+import certifi
 from openbb_core.provider.utils.helpers import get_querystring
 
 
@@ -39,3 +42,9 @@ def create_url(
     query_string = get_querystring(the_dict, exclude or [])
     base_url = f"https://fmp.a.pinggy.link/api/v{version}/"
     return f"{base_url}{endpoint}?{query_string}"
+
+
+def get_jsonparsed_data(url):
+    response = urlopen(url, cafile=certifi.where())
+    data = response.read().decode("utf-8")
+    return json.loads(data)

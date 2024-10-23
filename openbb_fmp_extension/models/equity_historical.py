@@ -19,11 +19,12 @@ from openbb_core.provider.utils.descriptions import (
 )
 from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import (
-    amake_request,
-    get_querystring,
+    get_querystring, to_snake_case,
 )
 from openbb_fmp.utils.helpers import get_interval
 from pydantic import Field
+
+from openbb_fmp_extension.utils.helpers import get_jsonparsed_data
 
 
 class FMPEquityHistoricalQueryParams(EquityHistoricalQueryParams):
@@ -121,7 +122,7 @@ class FMPEquityHistoricalFetcher(
 
             data = []
 
-            response = await amake_request(url, **kwargs)
+            response = get_jsonparsed_data(url)
 
             if isinstance(response, dict) and response.get("Error Message"):
                 message = f"Error fetching data for {symbol}: {response.get('Error Message', '')}"
@@ -156,6 +157,8 @@ class FMPEquityHistoricalFetcher(
             raise EmptyDataError(
                 f"{str(','.join(messages)).replace(',',' ') if messages else 'No data found'}"
             )
+        results = [{to_snake_case(key): value for key, value in d.items()} for d in results]
+
 
         return results
 

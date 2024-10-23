@@ -8,21 +8,44 @@ interactions:
       - gzip, deflate
       Connection:
       - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 10.0; WOW64; rv:86.0) Gecko/20100101 Firefox/86.0
     method: GET
     uri: https://fmp.a.pinggy.link/api/v3/historical-price-full/AAPL?from=2023-01-01&to=2023-01-10
   response:
     body:
-      string: !!binary |
-        H4sIAAAAAAAAA42UTW+cQAyG7/kViPMysueb3qLeokjNoeql6oHsouxWLET7FUVR/nsHsowHmKVc
-        OLz2eOxnXvxxlyTp8X3/3FTptyS9v396TFettt0dT81hty5a/bdTkuSj+7rYpjiVbTYHLjLADKE7
-        08Wa17J2MRTAuPbqdvey7VQM1ap5a0VuGXIvrqvmWF4rGOHlYvP3ex/hOdNU5dJU532ra2FzjUr5
-        yLl2p87HU7n5dTNnvS3qlzYCTJqR+lQe1mV96oJCg6UmL2/F67VHyDlVq4rnsgP5UNTn4vCeIKwS
-        LtJR4R+X8vBzt/+6FqCr3WV8ruZJQx4lHXTuSQsmcUI6ZzaPkkaaYUQa6IAnbcDkYJFeJ0J6kuNJ
-        Z44mjl+AWLswl4rTSAHs3N5G7RqdR521rLvSy1jrKWuuGRBVz9p1TJR61jLKuvUu+WjA2jIVcbU1
-        RkmDs66e5HjWgmkcqUSaMxtceKXMDTMwZ2nQ/7c0t3oZYxVhbFjgmp5x2xZZghgbmoAYK9dBnLGM
-        AIZccwPkrBjgcQ6ZmTO8TTjDwabqEWuGwSwTwGqBkVEvJCyjLg6s6QnbsNeesEMZTO05arcQ44QV
-        E/R6BDlHFFrMboxJTrgx1FgeLAyJRlObAWcjzZyV5QLS0BVfBltMYbfLgVoLVkZsYwS2GLiZ5KGb
-        GdB0njUiR3SDky0jsKdJRFsxPmPp4BeilaFhDrNYgFl+EXbfP3ef/wBIkqGxlwgAAA==
+      string: "{\n  \"symbol\": \"AAPL\",\n  \"historical\": [\n    {\n      \"date\":
+        \"2023-01-10\",\n      \"open\": 130.26,\n      \"high\": 131.26,\n      \"low\":
+        128.12,\n      \"close\": 130.73,\n      \"adjClose\": 129.51,\n      \"volume\":
+        63896155,\n      \"unadjustedVolume\": 63896155,\n      \"change\": 0.47,\n
+        \     \"changePercent\": 0.36082,\n      \"vwap\": 130.0925,\n      \"label\":
+        \"January 10, 23\",\n      \"changeOverTime\": 0.0036082\n    },\n    {\n
+        \     \"date\": \"2023-01-09\",\n      \"open\": 130.47,\n      \"high\":
+        133.41,\n      \"low\": 129.89,\n      \"close\": 130.15,\n      \"adjClose\":
+        128.94,\n      \"volume\": 70790813,\n      \"unadjustedVolume\": 70790813,\n
+        \     \"change\": -0.315,\n      \"changePercent\": -0.24527,\n      \"vwap\":
+        130.98,\n      \"label\": \"January 09, 23\",\n      \"changeOverTime\": -0.0024527\n
+        \   },\n    {\n      \"date\": \"2023-01-06\",\n      \"open\": 126.01,\n
+        \     \"high\": 130.29,\n      \"low\": 124.89,\n      \"close\": 129.62,\n
+        \     \"adjClose\": 128.41,\n      \"volume\": 87754715,\n      \"unadjustedVolume\":
+        87754715,\n      \"change\": 3.61,\n      \"changePercent\": 2.86,\n      \"vwap\":
+        127.7025,\n      \"label\": \"January 06, 23\",\n      \"changeOverTime\":
+        0.0286\n    },\n    {\n      \"date\": \"2023-01-05\",\n      \"open\": 127.13,\n
+        \     \"high\": 127.77,\n      \"low\": 124.76,\n      \"close\": 125.02,\n
+        \     \"adjClose\": 123.86,\n      \"volume\": 80962708,\n      \"unadjustedVolume\":
+        80962708,\n      \"change\": -2.11,\n      \"changePercent\": -1.66,\n      \"vwap\":
+        126.17,\n      \"label\": \"January 05, 23\",\n      \"changeOverTime\": -0.0166\n
+        \   },\n    {\n      \"date\": \"2023-01-04\",\n      \"open\": 126.89,\n
+        \     \"high\": 128.66,\n      \"low\": 125.08,\n      \"close\": 126.36,\n
+        \     \"adjClose\": 125.18,\n      \"volume\": 89113633,\n      \"unadjustedVolume\":
+        89113633,\n      \"change\": -0.53,\n      \"changePercent\": -0.41768,\n
+        \     \"vwap\": 126.7475,\n      \"label\": \"January 04, 23\",\n      \"changeOverTime\":
+        -0.0041768\n    },\n    {\n      \"date\": \"2023-01-03\",\n      \"open\":
+        130.28,\n      \"high\": 130.9,\n      \"low\": 124.17,\n      \"close\":
+        125.07,\n      \"adjClose\": 123.9,\n      \"volume\": 112117471,\n      \"unadjustedVolume\":
+        112117471,\n      \"change\": -5.21,\n      \"changePercent\": -4,\n      \"vwap\":
+        127.605,\n      \"label\": \"January 03, 23\",\n      \"changeOverTime\":
+        -0.04\n    }\n  ]\n}"
     headers:
       Access-Control-Allow-Credentials:
       - 'true'
@@ -37,18 +60,16 @@ interactions:
       - '3600'
       Connection:
       - keep-alive
-      Content-Encoding:
-      - gzip
+      Content-Length:
+      - '2201'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Thu, 27 Jun 2024 10:12:18 GMT
+      - Wed, 23 Oct 2024 04:18:32 GMT
       Etag:
-      - W/"897-aUpaUaSzf2R/CkIjdB2BtX6inMM"
+      - W/"899-fbHWFpAPYqSig+P/VNrlVdIZScs"
       Server:
-      - nginx/1.18.0 (Ubuntu)
-      Transfer-Encoding:
-      - chunked
+      - gunicorn
       Vary:
       - Accept-Encoding
       X-Frame-Options:

@@ -1,4 +1,4 @@
-"""House Disclosure Standard Model."""
+"""Company Rating Model."""
 
 from datetime import date as dateType
 from typing import Optional

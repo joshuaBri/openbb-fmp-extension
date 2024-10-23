@@ -23,7 +23,7 @@ class FMPDiscountedCashflowQueryParams(DiscountedCashflowQueryParams):
 
 
 class FMPDiscountedCashflowData(DiscountedCashflowData):
-    """House Disclosure Data Model."""
+    """Discounted Cashflow Data Model."""
 
     __alias_dict__ = {
         "stock_price": "Stock Price"
@@ -55,7 +55,7 @@ class FMPDiscountedCashflowFetcher(
         async def get_one(symbol):
             """Get data for the given symbol."""
             url = create_url(
-                3, f"discounted-cash-flow", query
+                3, f"discounted-cash-flow/{query.symbol}"
             )
             result = get_jsonparsed_data(url)
             if not result or len(result) == 0:

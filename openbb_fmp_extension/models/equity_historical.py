@@ -96,7 +96,6 @@ class FMPEquityHistoricalFetcher(
         **kwargs: Any,
     ) -> List[Dict]:
         """Return the raw data from the FMP endpoint."""
-        api_key = credentials.get("fmp_api_key") if credentials else ""
 
         interval = get_interval(query.interval)
 

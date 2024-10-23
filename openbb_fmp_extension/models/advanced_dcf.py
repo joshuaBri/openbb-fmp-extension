@@ -16,7 +16,7 @@ from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
 
 
 class FMPAdvancedDcfQueryParams(AdvancedDcfQueryParams):
-    """Discounted Cashflow Query Parameters.
+    """Advanced Dcf Query Parameters.
 
     Source: https://fmp.a.pinggy.link/api/v3/discounted-cash-flow
     """

@@ -18,7 +18,7 @@ from openbb_fmp_extension.utils.helpers import get_jsonparsed_data, create_url
 class FMPDiscountedCashflowQueryParams(DiscountedCashflowQueryParams):
     """Discounted Cashflow Query Parameters.
 
-    Source: https://financialmodelingprep.com/api/v3/discounted-cash-flow
+    Source: https://fmp.a.pinggy.link/api/v3/discounted-cash-flow
     """
 
 

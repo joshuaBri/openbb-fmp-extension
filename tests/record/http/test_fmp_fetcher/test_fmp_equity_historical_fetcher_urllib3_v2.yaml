@@ -2,16 +2,14 @@ interactions:
 - request:
     body: null
     headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
       Connection:
-      - keep-alive
+      - close
+      Host:
+      - fmp.a.pinggy.link
       User-Agent:
-      - Mozilla/5.0 (Windows NT 10.0; WOW64; rv:86.0) Gecko/20100101 Firefox/86.0
+      - Python-urllib/3.11
     method: GET
-    uri: https://fmp.a.pinggy.link/api/v3/historical-price-full/AAPL?from=2023-01-01&to=2023-01-10
+    uri: https://127.0.0.1:7890/api/v3/historical-price-full/AAPL?from=2023-01-01&to=2023-01-10
   response:
     body:
       string: "{\n  \"symbol\": \"AAPL\",\n  \"historical\": [\n    {\n      \"date\":
@@ -59,13 +57,13 @@ interactions:
       Access-Control-Max-Age:
       - '3600'
       Connection:
-      - keep-alive
+      - close
       Content-Length:
       - '2201'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 04:18:32 GMT
+      - Wed, 23 Oct 2024 08:35:52 GMT
       Etag:
       - W/"899-fbHWFpAPYqSig+P/VNrlVdIZScs"
       Server:

@@ -1,0 +1,144 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - fmp.a.pinggy.link
+      User-Agent:
+      - Python-urllib/3.11
+    method: GET
+    uri: https://127.0.0.1:7890/api/v3/income-statement/AAPL?limit=5&period=annual
+  response:
+    body:
+      string: "[\n  {\n    \"date\": \"2023-09-30\",\n    \"symbol\": \"AAPL\",\n
+        \   \"reportedCurrency\": \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\":
+        \"2023-11-03\",\n    \"acceptedDate\": \"2023-11-02 18:08:27\",\n    \"calendarYear\":
+        \"2023\",\n    \"period\": \"FY\",\n    \"revenue\": 383285000000,\n    \"costOfRevenue\":
+        214137000000,\n    \"grossProfit\": 169148000000,\n    \"grossProfitRatio\":
+        0.4413112958,\n    \"researchAndDevelopmentExpenses\": 29915000000,\n    \"generalAndAdministrativeExpenses\":
+        0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
+        24932000000,\n    \"otherExpenses\": 382000000,\n    \"operatingExpenses\":
+        55229000000,\n    \"costAndExpenses\": 269366000000,\n    \"interestIncome\":
+        3750000000,\n    \"interestExpense\": 3933000000,\n    \"depreciationAndAmortization\":
+        11519000000,\n    \"ebitda\": 125820000000,\n    \"ebitdaratio\": 0.3282674772,\n
+        \   \"operatingIncome\": 114301000000,\n    \"operatingIncomeRatio\": 0.2982141227,\n
+        \   \"totalOtherIncomeExpensesNet\": 565000000,\n    \"incomeBeforeTax\":
+        113736000000,\n    \"incomeBeforeTaxRatio\": 0.2967400237,\n    \"incomeTaxExpense\":
+        16741000000,\n    \"netIncome\": 96995000000,\n    \"netIncomeRatio\": 0.2530623426,\n
+        \   \"eps\": 6.16,\n    \"epsdiluted\": 6.13,\n    \"weightedAverageShsOut\":
+        15744231000,\n    \"weightedAverageShsOutDil\": 15812547000,\n    \"link\":
+        \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/0000320193-23-000106-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm\"\n
+        \ },\n  {\n    \"date\": \"2022-09-24\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2022-10-28\",\n
+        \   \"acceptedDate\": \"2022-10-27 18:01:14\",\n    \"calendarYear\": \"2022\",\n
+        \   \"period\": \"FY\",\n    \"revenue\": 394328000000,\n    \"costOfRevenue\":
+        223546000000,\n    \"grossProfit\": 170782000000,\n    \"grossProfitRatio\":
+        0.4330963056,\n    \"researchAndDevelopmentExpenses\": 26251000000,\n    \"generalAndAdministrativeExpenses\":
+        0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
+        25094000000,\n    \"otherExpenses\": 228000000,\n    \"operatingExpenses\":
+        51573000000,\n    \"costAndExpenses\": 275119000000,\n    \"interestIncome\":
+        2825000000,\n    \"interestExpense\": 2931000000,\n    \"depreciationAndAmortization\":
+        11104000000,\n    \"ebitda\": 130541000000,\n    \"ebitdaratio\": 0.3310467428,\n
+        \   \"operatingIncome\": 119437000000,\n    \"operatingIncomeRatio\": 0.302887444,\n
+        \   \"totalOtherIncomeExpensesNet\": 334000000,\n    \"incomeBeforeTax\":
+        119103000000,\n    \"incomeBeforeTaxRatio\": 0.3020404333,\n    \"incomeTaxExpense\":
+        19300000000,\n    \"netIncome\": 99803000000,\n    \"netIncomeRatio\": 0.2530964071,\n
+        \   \"eps\": 6.15,\n    \"epsdiluted\": 6.11,\n    \"weightedAverageShsOut\":
+        16215963000,\n    \"weightedAverageShsOutDil\": 16325819000,\n    \"link\":
+        \"https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/0000320193-22-000108-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm\"\n
+        \ },\n  {\n    \"date\": \"2021-09-25\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2021-10-29\",\n
+        \   \"acceptedDate\": \"2021-10-28 18:04:28\",\n    \"calendarYear\": \"2021\",\n
+        \   \"period\": \"FY\",\n    \"revenue\": 365817000000,\n    \"costOfRevenue\":
+        212981000000,\n    \"grossProfit\": 152836000000,\n    \"grossProfitRatio\":
+        0.4177935963,\n    \"researchAndDevelopmentExpenses\": 21914000000,\n    \"generalAndAdministrativeExpenses\":
+        0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
+        21973000000,\n    \"otherExpenses\": -60000000,\n    \"operatingExpenses\":
+        43827000000,\n    \"costAndExpenses\": 256808000000,\n    \"interestIncome\":
+        2843000000,\n    \"interestExpense\": 2645000000,\n    \"depreciationAndAmortization\":
+        11284000000,\n    \"ebitda\": 120233000000,\n    \"ebitdaratio\": 0.3286697994,\n
+        \   \"operatingIncome\": 108949000000,\n    \"operatingIncomeRatio\": 0.2978237753,\n
+        \   \"totalOtherIncomeExpensesNet\": -258000000,\n    \"incomeBeforeTax\":
+        109207000000,\n    \"incomeBeforeTaxRatio\": 0.2985290459,\n    \"incomeTaxExpense\":
+        14527000000,\n    \"netIncome\": 94680000000,\n    \"netIncomeRatio\": 0.2588179336,\n
+        \   \"eps\": 5.67,\n    \"epsdiluted\": 5.61,\n    \"weightedAverageShsOut\":
+        16701272000,\n    \"weightedAverageShsOutDil\": 16864919000,\n    \"link\":
+        \"https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/0000320193-21-000105-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm\"\n
+        \ },\n  {\n    \"date\": \"2020-09-26\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2020-10-30\",\n
+        \   \"acceptedDate\": \"2020-10-29 18:06:25\",\n    \"calendarYear\": \"2020\",\n
+        \   \"period\": \"FY\",\n    \"revenue\": 274515000000,\n    \"costOfRevenue\":
+        169559000000,\n    \"grossProfit\": 104956000000,\n    \"grossProfitRatio\":
+        0.3823324773,\n    \"researchAndDevelopmentExpenses\": 18752000000,\n    \"generalAndAdministrativeExpenses\":
+        0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
+        19916000000,\n    \"otherExpenses\": 87000000,\n    \"operatingExpenses\":
+        38755000000,\n    \"costAndExpenses\": 208314000000,\n    \"interestIncome\":
+        3763000000,\n    \"interestExpense\": 2873000000,\n    \"depreciationAndAmortization\":
+        11056000000,\n    \"ebitda\": 77344000000,\n    \"ebitdaratio\": 0.2817478098,\n
+        \   \"operatingIncome\": 66288000000,\n    \"operatingIncomeRatio\": 0.2414731435,\n
+        \   \"totalOtherIncomeExpensesNet\": -803000000,\n    \"incomeBeforeTax\":
+        67091000000,\n    \"incomeBeforeTaxRatio\": 0.2443983025,\n    \"incomeTaxExpense\":
+        9680000000,\n    \"netIncome\": 57411000000,\n    \"netIncomeRatio\": 0.2091361128,\n
+        \   \"eps\": 3.31,\n    \"epsdiluted\": 3.28,\n    \"weightedAverageShsOut\":
+        17352119000,\n    \"weightedAverageShsOutDil\": 17528214000,\n    \"link\":
+        \"https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/0000320193-20-000096-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm\"\n
+        \ },\n  {\n    \"date\": \"2019-09-28\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2019-10-31\",\n
+        \   \"acceptedDate\": \"2019-10-30 18:12:36\",\n    \"calendarYear\": \"2019\",\n
+        \   \"period\": \"FY\",\n    \"revenue\": 260174000000,\n    \"costOfRevenue\":
+        161782000000,\n    \"grossProfit\": 98392000000,\n    \"grossProfitRatio\":
+        0.3781776811,\n    \"researchAndDevelopmentExpenses\": 16217000000,\n    \"generalAndAdministrativeExpenses\":
+        0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
+        18245000000,\n    \"otherExpenses\": -422000000,\n    \"operatingExpenses\":
+        34040000000,\n    \"costAndExpenses\": 195822000000,\n    \"interestIncome\":
+        4961000000,\n    \"interestExpense\": 3576000000,\n    \"depreciationAndAmortization\":
+        11300000000,\n    \"ebitda\": 76477000000,\n    \"ebitdaratio\": 0.2939455903,\n
+        \   \"operatingIncome\": 63930000000,\n    \"operatingIncomeRatio\": 0.2457201719,\n
+        \   \"totalOtherIncomeExpensesNet\": -1807000000,\n    \"incomeBeforeTax\":
+        65737000000,\n    \"incomeBeforeTaxRatio\": 0.2526655238,\n    \"incomeTaxExpense\":
+        10481000000,\n    \"netIncome\": 55256000000,\n    \"netIncomeRatio\": 0.2123809451,\n
+        \   \"eps\": 2.99,\n    \"epsdiluted\": 2.97,\n    \"weightedAverageShsOut\":
+        18471336000,\n    \"weightedAverageShsOutDil\": 18595652000,\n    \"link\":
+        \"https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/0000320193-19-000119-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm\"\n
+        \ }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '7495'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Oct 2024 08:36:03 GMT
+      Etag:
+      - W/"1d47-ICee1+jqiwp5cP6XV1GikeXWcm8"
+      Server:
+      - gunicorn
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

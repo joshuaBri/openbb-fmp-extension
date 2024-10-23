@@ -1,0 +1,149 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - fmp.a.pinggy.link
+      User-Agent:
+      - Python-urllib/3.11
+    method: GET
+    uri: https://127.0.0.1:7890/api/v3/cash-flow-statement/AAPL?limit=5&period=annual
+  response:
+    body:
+      string: "[\n  {\n    \"date\": \"2023-09-30\",\n    \"symbol\": \"AAPL\",\n
+        \   \"reportedCurrency\": \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\":
+        \"2023-11-03\",\n    \"acceptedDate\": \"2023-11-02 18:08:27\",\n    \"calendarYear\":
+        \"2023\",\n    \"period\": \"FY\",\n    \"netIncome\": 96995000000,\n    \"depreciationAndAmortization\":
+        11519000000,\n    \"deferredIncomeTax\": 0,\n    \"stockBasedCompensation\":
+        10833000000,\n    \"changeInWorkingCapital\": -6577000000,\n    \"accountsReceivables\":
+        -1688000000,\n    \"inventory\": -1618000000,\n    \"accountsPayables\": -1889000000,\n
+        \   \"otherWorkingCapital\": -2653000000,\n    \"otherNonCashItems\": -2227000000,\n
+        \   \"netCashProvidedByOperatingActivities\": 110543000000,\n    \"investmentsInPropertyPlantAndEquipment\":
+        -10959000000,\n    \"acquisitionsNet\": 0,\n    \"purchasesOfInvestments\":
+        -29513000000,\n    \"salesMaturitiesOfInvestments\": 45514000000,\n    \"otherInvestingActivites\":
+        -1337000000,\n    \"netCashUsedForInvestingActivites\": 3705000000,\n    \"debtRepayment\":
+        -5923000000,\n    \"commonStockIssued\": 0,\n    \"commonStockRepurchased\":
+        -82981000000,\n    \"dividendsPaid\": -15025000000,\n    \"otherFinancingActivites\":
+        -4559000000,\n    \"netCashUsedProvidedByFinancingActivities\": -108488000000,\n
+        \   \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\": 5760000000,\n
+        \   \"cashAtEndOfPeriod\": 30737000000,\n    \"cashAtBeginningOfPeriod\":
+        24977000000,\n    \"operatingCashFlow\": 110543000000,\n    \"capitalExpenditure\":
+        -10959000000,\n    \"freeCashFlow\": 99584000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/0000320193-23-000106-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm\"\n
+        \ },\n  {\n    \"date\": \"2022-09-24\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2022-10-28\",\n
+        \   \"acceptedDate\": \"2022-10-27 18:01:14\",\n    \"calendarYear\": \"2022\",\n
+        \   \"period\": \"FY\",\n    \"netIncome\": 99803000000,\n    \"depreciationAndAmortization\":
+        11104000000,\n    \"deferredIncomeTax\": 895000000,\n    \"stockBasedCompensation\":
+        9038000000,\n    \"changeInWorkingCapital\": 1200000000,\n    \"accountsReceivables\":
+        -1823000000,\n    \"inventory\": 1484000000,\n    \"accountsPayables\": 9448000000,\n
+        \   \"otherWorkingCapital\": 478000000,\n    \"otherNonCashItems\": 111000000,\n
+        \   \"netCashProvidedByOperatingActivities\": 122151000000,\n    \"investmentsInPropertyPlantAndEquipment\":
+        -10708000000,\n    \"acquisitionsNet\": -306000000,\n    \"purchasesOfInvestments\":
+        -76923000000,\n    \"salesMaturitiesOfInvestments\": 67363000000,\n    \"otherInvestingActivites\":
+        -2086000000,\n    \"netCashUsedForInvestingActivites\": -22354000000,\n    \"debtRepayment\":
+        -4078000000,\n    \"commonStockIssued\": 0,\n    \"commonStockRepurchased\":
+        -95625000000,\n    \"dividendsPaid\": -14841000000,\n    \"otherFinancingActivites\":
+        3795000000,\n    \"netCashUsedProvidedByFinancingActivities\": -110749000000,\n
+        \   \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\": -10952000000,\n
+        \   \"cashAtEndOfPeriod\": 24977000000,\n    \"cashAtBeginningOfPeriod\":
+        35929000000,\n    \"operatingCashFlow\": 122151000000,\n    \"capitalExpenditure\":
+        -10708000000,\n    \"freeCashFlow\": 111443000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/0000320193-22-000108-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm\"\n
+        \ },\n  {\n    \"date\": \"2021-09-25\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2021-10-29\",\n
+        \   \"acceptedDate\": \"2021-10-28 18:04:28\",\n    \"calendarYear\": \"2021\",\n
+        \   \"period\": \"FY\",\n    \"netIncome\": 94680000000,\n    \"depreciationAndAmortization\":
+        11284000000,\n    \"deferredIncomeTax\": -4774000000,\n    \"stockBasedCompensation\":
+        7906000000,\n    \"changeInWorkingCapital\": -4911000000,\n    \"accountsReceivables\":
+        -10125000000,\n    \"inventory\": -2642000000,\n    \"accountsPayables\":
+        12326000000,\n    \"otherWorkingCapital\": 1676000000,\n    \"otherNonCashItems\":
+        -147000000,\n    \"netCashProvidedByOperatingActivities\": 104038000000,\n
+        \   \"investmentsInPropertyPlantAndEquipment\": -11085000000,\n    \"acquisitionsNet\":
+        -33000000,\n    \"purchasesOfInvestments\": -109558000000,\n    \"salesMaturitiesOfInvestments\":
+        106483000000,\n    \"otherInvestingActivites\": -385000000,\n    \"netCashUsedForInvestingActivites\":
+        -14545000000,\n    \"debtRepayment\": -11643000000,\n    \"commonStockIssued\":
+        1105000000,\n    \"commonStockRepurchased\": -92527000000,\n    \"dividendsPaid\":
+        -14467000000,\n    \"otherFinancingActivites\": 1998000000,\n    \"netCashUsedProvidedByFinancingActivities\":
+        -93353000000,\n    \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\":
+        -3860000000,\n    \"cashAtEndOfPeriod\": 35929000000,\n    \"cashAtBeginningOfPeriod\":
+        39789000000,\n    \"operatingCashFlow\": 104038000000,\n    \"capitalExpenditure\":
+        -11085000000,\n    \"freeCashFlow\": 92953000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/0000320193-21-000105-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm\"\n
+        \ },\n  {\n    \"date\": \"2020-09-26\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2020-10-30\",\n
+        \   \"acceptedDate\": \"2020-10-29 18:06:25\",\n    \"calendarYear\": \"2020\",\n
+        \   \"period\": \"FY\",\n    \"netIncome\": 57411000000,\n    \"depreciationAndAmortization\":
+        11056000000,\n    \"deferredIncomeTax\": -215000000,\n    \"stockBasedCompensation\":
+        6829000000,\n    \"changeInWorkingCapital\": 5690000000,\n    \"accountsReceivables\":
+        6917000000,\n    \"inventory\": -127000000,\n    \"accountsPayables\": -4062000000,\n
+        \   \"otherWorkingCapital\": 2081000000,\n    \"otherNonCashItems\": -97000000,\n
+        \   \"netCashProvidedByOperatingActivities\": 80674000000,\n    \"investmentsInPropertyPlantAndEquipment\":
+        -7309000000,\n    \"acquisitionsNet\": -1524000000,\n    \"purchasesOfInvestments\":
+        -114938000000,\n    \"salesMaturitiesOfInvestments\": 120391000000,\n    \"otherInvestingActivites\":
+        -909000000,\n    \"netCashUsedForInvestingActivites\": -4289000000,\n    \"debtRepayment\":
+        -3462000000,\n    \"commonStockIssued\": 880000000,\n    \"commonStockRepurchased\":
+        -75992000000,\n    \"dividendsPaid\": -14081000000,\n    \"otherFinancingActivites\":
+        -209000000,\n    \"netCashUsedProvidedByFinancingActivities\": -86820000000,\n
+        \   \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\": -10435000000,\n
+        \   \"cashAtEndOfPeriod\": 39789000000,\n    \"cashAtBeginningOfPeriod\":
+        50224000000,\n    \"operatingCashFlow\": 80674000000,\n    \"capitalExpenditure\":
+        -7309000000,\n    \"freeCashFlow\": 73365000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/0000320193-20-000096-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm\"\n
+        \ },\n  {\n    \"date\": \"2019-09-28\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
+        \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2019-10-31\",\n
+        \   \"acceptedDate\": \"2019-10-30 18:12:36\",\n    \"calendarYear\": \"2019\",\n
+        \   \"period\": \"FY\",\n    \"netIncome\": 55256000000,\n    \"depreciationAndAmortization\":
+        12547000000,\n    \"deferredIncomeTax\": -340000000,\n    \"stockBasedCompensation\":
+        6068000000,\n    \"changeInWorkingCapital\": -3488000000,\n    \"accountsReceivables\":
+        245000000,\n    \"inventory\": -289000000,\n    \"accountsPayables\": -1923000000,\n
+        \   \"otherWorkingCapital\": -625000000,\n    \"otherNonCashItems\": -652000000,\n
+        \   \"netCashProvidedByOperatingActivities\": 69391000000,\n    \"investmentsInPropertyPlantAndEquipment\":
+        -10495000000,\n    \"acquisitionsNet\": -624000000,\n    \"purchasesOfInvestments\":
+        -40631000000,\n    \"salesMaturitiesOfInvestments\": 98724000000,\n    \"otherInvestingActivites\":
+        -1078000000,\n    \"netCashUsedForInvestingActivites\": 45896000000,\n    \"debtRepayment\":
+        -1842000000,\n    \"commonStockIssued\": 781000000,\n    \"commonStockRepurchased\":
+        -69714000000,\n    \"dividendsPaid\": -14119000000,\n    \"otherFinancingActivites\":
+        -5301000000,\n    \"netCashUsedProvidedByFinancingActivities\": -90976000000,\n
+        \   \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\": 24311000000,\n
+        \   \"cashAtEndOfPeriod\": 50224000000,\n    \"cashAtBeginningOfPeriod\":
+        25913000000,\n    \"operatingCashFlow\": 69391000000,\n    \"capitalExpenditure\":
+        -10495000000,\n    \"freeCashFlow\": 58896000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/0000320193-19-000119-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm\"\n
+        \ }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '8463'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Oct 2024 08:36:01 GMT
+      Etag:
+      - W/"210f-HoY6KKBuTvZpjZoT1/PWm82ptVY"
+      Server:
+      - gunicorn
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

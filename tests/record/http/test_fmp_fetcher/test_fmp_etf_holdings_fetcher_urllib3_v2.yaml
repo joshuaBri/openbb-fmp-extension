@@ -1,0 +1,1812 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - fmp.a.pinggy.link
+      User-Agent:
+      - Python-urllib/3.11
+    method: GET
+    uri: https://127.0.0.1:7890/api/v3/etf-holder/SPY?
+  response:
+    body:
+      string: "[\n  {\n    \"asset\": \"AAPL\",\n    \"name\": \"APPLE INC\",\n    \"isin\":
+        \"US0378331005\",\n    \"cusip\": \"037833100\",\n    \"sharesNumber\": 186068866,\n
+        \   \"weightPercentage\": 7.162,\n    \"marketValue\": 42937251518.159996,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NVDA\",\n
+        \   \"name\": \"NVIDIA CORP\",\n    \"isin\": \"US67066G1040\",\n    \"cusip\":
+        \"67066G104\",\n    \"sharesNumber\": 301056782,\n    \"weightPercentage\":
+        7.008,\n    \"marketValue\": 42015484495.92,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MSFT\",\n    \"name\": \"MICROSOFT
+        CORP\",\n    \"isin\": \"US5949181045\",\n    \"cusip\": \"594918104\",\n
+        \   \"sharesNumber\": 90966097,\n    \"weightPercentage\": 6.443,\n    \"marketValue\":
+        38624204786.200005,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"AMZN\",\n    \"name\": \"AMAZON.COM INC\",\n    \"isin\":
+        \"US0231351067\",\n    \"cusip\": \"023135106\",\n    \"sharesNumber\": 114317875,\n
+        \   \"weightPercentage\": 3.522,\n    \"marketValue\": 21115654691.25,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"META\",\n    \"name\":
+        \"META PLATFORMS INC CLASS A\",\n    \"isin\": \"US30303M1027\",\n    \"cusip\":
+        \"30303M102\",\n    \"sharesNumber\": 26737569,\n    \"weightPercentage\":
+        2.514,\n    \"marketValue\": 15071700269.61,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"GOOGL\",\n    \"name\": \"ALPHABET
+        INC CL A\",\n    \"isin\": \"US02079K3059\",\n    \"cusip\": \"02079K305\",\n
+        \   \"sharesNumber\": 71705340,\n    \"weightPercentage\": 1.947,\n    \"marketValue\":
+        11672195245.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"BRK-B\",\n    \"name\": \"BERKSHIRE HATHAWAY INC CL B\",\n    \"isin\":
+        \"US0846707026\",\n    \"cusip\": \"084670702\",\n    \"sharesNumber\": 22418607,\n
+        \   \"weightPercentage\": 1.722,\n    \"marketValue\": 10326234570.27,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AVGO\",\n    \"name\":
+        \"BROADCOM INC\",\n    \"isin\": \"US11135F1012\",\n    \"cusip\": \"11135F101\",\n
+        \   \"sharesNumber\": 56969206,\n    \"weightPercentage\": 1.649,\n    \"marketValue\":
+        9884726933.06,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"GOOG\",\n    \"name\": \"ALPHABET INC CL C\",\n    \"isin\": \"US02079K1079\",\n
+        \   \"cusip\": \"02079K107\",\n    \"sharesNumber\": 58783463,\n    \"weightPercentage\":
+        1.613,\n    \"marketValue\": 9668703994.24,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LLY\",\n    \"name\": \"ELI LILLY
+        & CO\",\n    \"isin\": \"US5324571083\",\n    \"cusip\": \"532457108\",\n
+        \   \"sharesNumber\": 9654544,\n    \"weightPercentage\": 1.455,\n    \"marketValue\":
+        8720466868,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"JPM\",\n    \"name\": \"JPMORGAN CHASE & CO\",\n    \"isin\": \"US46625H1005\",\n
+        \   \"cusip\": \"46625H100\",\n    \"sharesNumber\": 34821589,\n    \"weightPercentage\":
+        1.298,\n    \"marketValue\": 7779491198.49,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TSLA\",\n    \"name\": \"TESLA INC\",\n
+        \   \"isin\": \"US88160R1014\",\n    \"cusip\": \"88160R101\",\n    \"sharesNumber\":
+        33957422,\n    \"weightPercentage\": 1.21,\n    \"marketValue\": 7255003210.3,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"XOM\",\n
+        \   \"name\": \"EXXON MOBIL CORP\",\n    \"isin\": \"US30231G1022\",\n    \"cusip\":
+        \"30231G102\",\n    \"sharesNumber\": 54375825,\n    \"weightPercentage\":
+        1.091,\n    \"marketValue\": 6539780472.75,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"UNH\",\n    \"name\": \"UNITEDHEALTH
+        GROUP INC\",\n    \"isin\": \"US91324P1021\",\n    \"cusip\": \"91324P102\",\n
+        \   \"sharesNumber\": 11301692,\n    \"weightPercentage\": 1.064,\n    \"marketValue\":
+        6381387370.88,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"V\",\n    \"name\": \"VISA INC CLASS A SHARES\",\n    \"isin\": \"US92826C8394\",\n
+        \   \"cusip\": \"92826C839\",\n    \"sharesNumber\": 20444773,\n    \"weightPercentage\":
+        0.968,\n    \"marketValue\": 5801408786.48,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MA\",\n    \"name\": \"MASTERCARD
+        INC   A\",\n    \"isin\": \"US57636Q1040\",\n    \"cusip\": \"57636Q104\",\n
+        \   \"sharesNumber\": 10097877,\n    \"weightPercentage\": 0.865,\n    \"marketValue\":
+        5187582351.21,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"JNJ\",\n    \"name\": \"JOHNSON & JOHNSON\",\n    \"isin\": \"US4781601046\",\n
+        \   \"cusip\": \"478160104\",\n    \"sharesNumber\": 29463294,\n    \"weightPercentage\":
+        0.815,\n    \"marketValue\": 4886781942.84,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PG\",\n    \"name\": \"PROCTER & GAMBLE
+        CO/THE\",\n    \"isin\": \"US7427181091\",\n    \"cusip\": \"742718109\",\n
+        \   \"sharesNumber\": 28811909,\n    \"weightPercentage\": 0.815,\n    \"marketValue\":
+        4885923528.22,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"COST\",\n    \"name\": \"COSTCO WHOLESALE CORP\",\n    \"isin\": \"US22160K1051\",\n
+        \   \"cusip\": \"22160K105\",\n    \"sharesNumber\": 5424908,\n    \"weightPercentage\":
+        0.814,\n    \"marketValue\": 4877914526.36,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HD\",\n    \"name\": \"HOME DEPOT
+        INC\",\n    \"isin\": \"US4370761029\",\n    \"cusip\": \"437076102\",\n    \"sharesNumber\":
+        12136658,\n    \"weightPercentage\": 0.809,\n    \"marketValue\": 4850294003.12,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"WMT\",\n
+        \   \"name\": \"WALMART INC\",\n    \"isin\": \"US9311421039\",\n    \"cusip\":
+        \"931142103\",\n    \"sharesNumber\": 53162886,\n    \"weightPercentage\":
+        0.738,\n    \"marketValue\": 4426873517.219999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ABBV\",\n    \"name\": \"ABBVIE INC\",\n
+        \   \"isin\": \"US00287Y1091\",\n    \"cusip\": \"00287Y109\",\n    \"sharesNumber\":
+        21619282,\n    \"weightPercentage\": 0.678,\n    \"marketValue\": 4061830702.16,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NFLX\",\n
+        \   \"name\": \"NETFLIX INC\",\n    \"isin\": \"US64110L1061\",\n    \"cusip\":
+        \"64110L106\",\n    \"sharesNumber\": 5252899,\n    \"weightPercentage\":
+        0.657,\n    \"marketValue\": 3935944691.71,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BAC\",\n    \"name\": \"BANK OF AMERICA
+        CORP\",\n    \"isin\": \"US0605051046\",\n    \"cusip\": \"060505104\",\n
+        \   \"sharesNumber\": 82630929,\n    \"weightPercentage\": 0.584,\n    \"marketValue\":
+        3498593533.86,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ORCL\",\n    \"name\": \"ORACLE CORP\",\n    \"isin\": \"US68389X1054\",\n
+        \   \"cusip\": \"68389X105\",\n    \"sharesNumber\": 19564508,\n    \"weightPercentage\":
+        0.565,\n    \"marketValue\": 3386616334.7999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CRM\",\n    \"name\": \"SALESFORCE
+        INC\",\n    \"isin\": \"US79466L3024\",\n    \"cusip\": \"79466L302\",\n    \"sharesNumber\":
+        11860588,\n    \"weightPercentage\": 0.563,\n    \"marketValue\": 3373507044.84,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MRK\",\n
+        \   \"name\": \"MERCK & CO. INC.\",\n    \"isin\": \"US58933Y1055\",\n    \"cusip\":
+        \"58933Y105\",\n    \"sharesNumber\": 31025850,\n    \"weightPercentage\":
+        0.551,\n    \"marketValue\": 3300529923,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"KO\",\n    \"name\": \"COCA COLA CO/THE\",\n    \"isin\":
+        \"US1912161007\",\n    \"cusip\": \"191216100\",\n    \"sharesNumber\": 47477433,\n
+        \   \"weightPercentage\": 0.539,\n    \"marketValue\": 3228940218.3300004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CVX\",\n
+        \   \"name\": \"CHEVRON CORP\",\n    \"isin\": \"US1667641005\",\n    \"cusip\":
+        \"166764100\",\n    \"sharesNumber\": 20813767,\n    \"weightPercentage\":
+        0.522,\n    \"marketValue\": 3132055658.16,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AMD\",\n    \"name\": \"ADVANCED MICRO
+        DEVICES\",\n    \"isin\": \"US0079031078\",\n    \"cusip\": \"007903107\",\n
+        \   \"sharesNumber\": 19810396,\n    \"weightPercentage\": 0.505,\n    \"marketValue\":
+        3029207652.36,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"PEP\",\n    \"name\": \"PEPSICO INC\",\n    \"isin\": \"US7134481081\",\n
+        \   \"cusip\": \"713448108\",\n    \"sharesNumber\": 16808645,\n    \"weightPercentage\":
+        0.485,\n    \"marketValue\": 2907055152.75,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ACN\",\n    \"name\": \"ACCENTURE
+        PLC CL A\",\n    \"isin\": \"IE00B4BNMY34\",\n    \"cusip\": \"G1151C101\",\n
+        \   \"sharesNumber\": 7665019,\n    \"weightPercentage\": 0.474,\n    \"marketValue\":
+        2840885991.97,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"LIN\",\n    \"name\": \"LINDE PLC\",\n    \"isin\": \"IE000S9YS762\",\n
+        \   \"cusip\": \"50202M102\",\n    \"sharesNumber\": 5882327,\n    \"weightPercentage\":
+        0.468,\n    \"marketValue\": 2808399379.61,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CSCO\",\n    \"name\": \"CISCO SYSTEMS
+        INC\",\n    \"isin\": \"US17275R1023\",\n    \"cusip\": \"17275R102\",\n    \"sharesNumber\":
+        49301024,\n    \"weightPercentage\": 0.463,\n    \"marketValue\": 2774661630.7200003,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"TMO\",\n
+        \   \"name\": \"THERMO FISHER SCIENTIFIC INC\",\n    \"isin\": \"US8835561023\",\n
+        \   \"cusip\": \"883556102\",\n    \"sharesNumber\": 4674492,\n    \"weightPercentage\":
+        0.449,\n    \"marketValue\": 2694797893.08,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"WFC\",\n    \"name\": \"WELLS FARGO
+        & CO\",\n    \"isin\": \"US9497461015\",\n    \"cusip\": \"949746101\",\n
+        \   \"sharesNumber\": 41652543,\n    \"weightPercentage\": 0.449,\n    \"marketValue\":
+        2689088176.08,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ADBE\",\n    \"name\": \"ADOBE INC\",\n    \"isin\": \"US00724F1012\",\n
+        \   \"cusip\": \"00724F101\",\n    \"sharesNumber\": 5425699,\n    \"weightPercentage\":
+        0.439,\n    \"marketValue\": 2631626785.97,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"IBM\",\n    \"name\": \"INTL BUSINESS
+        MACHINES CORP\",\n    \"isin\": \"US4592001014\",\n    \"cusip\": \"459200101\",\n
+        \   \"sharesNumber\": 11275590,\n    \"weightPercentage\": 0.438,\n    \"marketValue\":
+        2624393572.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"MCD\",\n    \"name\": \"MCDONALD S CORP\",\n    \"isin\": \"US5801351017\",\n
+        \   \"cusip\": \"580135101\",\n    \"sharesNumber\": 8780740,\n    \"weightPercentage\":
+        0.437,\n    \"marketValue\": 2621665541.7999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PM\",\n    \"name\": \"PHILIP MORRIS
+        INTERNATIONAL\",\n    \"isin\": \"US7181721090\",\n    \"cusip\": \"718172109\",\n
+        \   \"sharesNumber\": 19026109,\n    \"weightPercentage\": 0.417,\n    \"marketValue\":
+        2500220983.69,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ABT\",\n    \"name\": \"ABBOTT LABORATORIES\",\n    \"isin\": \"US0028241000\",\n
+        \   \"cusip\": \"002824100\",\n    \"sharesNumber\": 21291065,\n    \"weightPercentage\":
+        0.416,\n    \"marketValue\": 2491267515.65,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"GE\",\n    \"name\": \"GENERAL ELECTRIC\",\n
+        \   \"isin\": \"US3696043013\",\n    \"cusip\": \"369604301\",\n    \"sharesNumber\":
+        13268864,\n    \"weightPercentage\": 0.402,\n    \"marketValue\": 2410819900.16,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CAT\",\n
+        \   \"name\": \"CATERPILLAR INC\",\n    \"isin\": \"US1491231015\",\n    \"cusip\":
+        \"149123101\",\n    \"sharesNumber\": 5935666,\n    \"weightPercentage\":
+        0.382,\n    \"marketValue\": 2289564446.1800003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NOW\",\n    \"name\": \"SERVICENOW
+        INC\",\n    \"isin\": \"US81762P1021\",\n    \"cusip\": \"81762P102\",\n    \"sharesNumber\":
+        2520573,\n    \"weightPercentage\": 0.382,\n    \"marketValue\": 2287873700.64,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"QCOM\",\n
+        \   \"name\": \"QUALCOMM INC\",\n    \"isin\": \"US7475251036\",\n    \"cusip\":
+        \"747525103\",\n    \"sharesNumber\": 13632103,\n    \"weightPercentage\":
+        0.379,\n    \"marketValue\": 2271108359.7999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TXN\",\n    \"name\": \"TEXAS INSTRUMENTS
+        INC\",\n    \"isin\": \"US8825081040\",\n    \"cusip\": \"882508104\",\n    \"sharesNumber\":
+        11173019,\n    \"weightPercentage\": 0.376,\n    \"marketValue\": 2254044853.06,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ISRG\",\n
+        \   \"name\": \"INTUITIVE SURGICAL INC\",\n    \"isin\": \"US46120E6023\",\n
+        \   \"cusip\": \"46120E602\",\n    \"sharesNumber\": 4340583,\n    \"weightPercentage\":
+        0.371,\n    \"marketValue\": 2224896034.1400003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"VZ\",\n    \"name\": \"VERIZON COMMUNICATIONS
+        INC\",\n    \"isin\": \"US92343V1044\",\n    \"cusip\": \"92343V104\",\n    \"sharesNumber\":
+        51512855,\n    \"weightPercentage\": 0.368,\n    \"marketValue\": 2207840965.3,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DIS\",\n
+        \   \"name\": \"WALT DISNEY CO/THE\",\n    \"isin\": \"US2546871060\",\n    \"cusip\":
+        \"254687106\",\n    \"sharesNumber\": 22193365,\n    \"weightPercentage\":
+        0.356,\n    \"marketValue\": 2135889447.6,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NEE\",\n    \"name\": \"NEXTERA ENERGY
+        INC\",\n    \"isin\": \"US65339F1012\",\n    \"cusip\": \"65339F101\",\n    \"sharesNumber\":
+        25141790,\n    \"weightPercentage\": 0.356,\n    \"marketValue\": 2136046478.3999999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AMGN\",\n
+        \   \"name\": \"AMGEN INC\",\n    \"isin\": \"US0311621009\",\n    \"cusip\":
+        \"031162100\",\n    \"sharesNumber\": 6577688,\n    \"weightPercentage\":
+        0.345,\n    \"marketValue\": 2071313951.1999998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"RTX\",\n    \"name\": \"RTX CORP\",\n
+        \   \"isin\": \"US75513E1010\",\n    \"cusip\": \"75513E101\",\n    \"sharesNumber\":
+        16278436,\n    \"weightPercentage\": 0.345,\n    \"marketValue\": 2070779843.56,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"INTU\",\n
+        \   \"name\": \"INTUIT INC\",\n    \"isin\": \"US4612021034\",\n    \"cusip\":
+        \"461202103\",\n    \"sharesNumber\": 3422012,\n    \"weightPercentage\":
+        0.344,\n    \"marketValue\": 2060085444.12,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"UBER\",\n    \"name\": \"UBER TECHNOLOGIES
+        INC\",\n    \"isin\": \"US90353T1007\",\n    \"cusip\": \"90353T100\",\n    \"sharesNumber\":
+        25709379,\n    \"weightPercentage\": 0.342,\n    \"marketValue\": 2052379725.57,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DHR\",\n
+        \   \"name\": \"DANAHER CORP\",\n    \"isin\": \"US2358511028\",\n    \"cusip\":
+        \"235851102\",\n    \"sharesNumber\": 7865832,\n    \"weightPercentage\":
+        0.336,\n    \"marketValue\": 2013652992,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PFE\",\n    \"name\": \"PFIZER INC\",\n    \"isin\":
+        \"US7170811035\",\n    \"cusip\": \"717081103\",\n    \"sharesNumber\": 69344247,\n
+        \   \"weightPercentage\": 0.334,\n    \"marketValue\": 2001274968.42,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SPGI\",\n    \"name\":
+        \"S&P GLOBAL INC\",\n    \"isin\": \"US78409V1044\",\n    \"cusip\": \"78409V104\",\n
+        \   \"sharesNumber\": 3919753,\n    \"weightPercentage\": 0.334,\n    \"marketValue\":
+        2002680202.76,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"GS\",\n    \"name\": \"GOLDMAN SACHS GROUP INC\",\n    \"isin\": \"US38141G1040\",\n
+        \   \"cusip\": \"38141G104\",\n    \"sharesNumber\": 3864430,\n    \"weightPercentage\":
+        0.333,\n    \"marketValue\": 1998683196.0000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"T\",\n    \"name\": \"AT&T INC\",\n
+        \   \"isin\": \"US00206R1023\",\n    \"cusip\": \"00206R102\",\n    \"sharesNumber\":
+        87743290,\n    \"weightPercentage\": 0.329,\n    \"marketValue\": 1973346592.1,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CMCSA\",\n
+        \   \"name\": \"COMCAST CORP CLASS A\",\n    \"isin\": \"US20030N1019\",\n
+        \   \"cusip\": \"20030N101\",\n    \"sharesNumber\": 47273297,\n    \"weightPercentage\":
+        0.328,\n    \"marketValue\": 1964205490.35,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LOW\",\n    \"name\": \"LOWE S COS
+        INC\",\n    \"isin\": \"US5486611073\",\n    \"cusip\": \"548661107\",\n    \"sharesNumber\":
+        6973341,\n    \"weightPercentage\": 0.314,\n    \"marketValue\": 1883569137.51,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AXP\",\n
+        \   \"name\": \"AMERICAN EXPRESS CO\",\n    \"isin\": \"US0258161092\",\n
+        \   \"cusip\": \"025816109\",\n    \"sharesNumber\": 6872659,\n    \"weightPercentage\":
+        0.311,\n    \"marketValue\": 1864071300.5700002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AMAT\",\n    \"name\": \"APPLIED MATERIALS
+        INC\",\n    \"isin\": \"US0382221051\",\n    \"cusip\": \"038222105\",\n    \"sharesNumber\":
+        10132096,\n    \"weightPercentage\": 0.309,\n    \"marketValue\": 1851133939.1999998,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MS\",\n
+        \   \"name\": \"MORGAN STANLEY\",\n    \"isin\": \"US6174464486\",\n    \"cusip\":
+        \"617446448\",\n    \"sharesNumber\": 15244359,\n    \"weightPercentage\":
+        0.301,\n    \"marketValue\": 1803102782.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"UNP\",\n    \"name\": \"UNION PACIFIC
+        CORP\",\n    \"isin\": \"US9078181081\",\n    \"cusip\": \"907818108\",\n
+        \   \"sharesNumber\": 7454804,\n    \"weightPercentage\": 0.3,\n    \"marketValue\":
+        1799216945.3999999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"PGR\",\n    \"name\": \"PROGRESSIVE CORP\",\n    \"isin\":
+        \"US7433151039\",\n    \"cusip\": \"743315103\",\n    \"sharesNumber\": 7166774,\n
+        \   \"weightPercentage\": 0.296,\n    \"marketValue\": 1771984871.5,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BKNG\",\n    \"name\":
+        \"BOOKING HOLDINGS INC\",\n    \"isin\": \"US09857L1089\",\n    \"cusip\":
+        \"09857L108\",\n    \"sharesNumber\": 410123,\n    \"weightPercentage\": 0.295,\n
+        \   \"marketValue\": 1768864600.23,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"HON\",\n    \"name\": \"HONEYWELL INTERNATIONAL
+        INC\",\n    \"isin\": \"US4385161066\",\n    \"cusip\": \"438516106\",\n    \"sharesNumber\":
+        7968831,\n    \"weightPercentage\": 0.293,\n    \"marketValue\": 1755852222.54,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BLK\",\n
+        \   \"name\": \"BLACKROCK INC\",\n    \"isin\": \"US09247X1019\",\n    \"cusip\":
+        \"09247X101\",\n    \"sharesNumber\": 1703908,\n    \"weightPercentage\":
+        0.281,\n    \"marketValue\": 1683733729.28,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ETN\",\n    \"name\": \"EATON CORP
+        PLC\",\n    \"isin\": \"IE00B8KQN827\",\n    \"cusip\": \"G29183103\",\n    \"sharesNumber\":
+        4873762,\n    \"weightPercentage\": 0.28,\n    \"marketValue\": 1681252939.52,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BSX\",\n
+        \   \"name\": \"BOSTON SCIENTIFIC CORP\",\n    \"isin\": \"US1011371077\",\n
+        \   \"cusip\": \"101137107\",\n    \"sharesNumber\": 18020879,\n    \"weightPercentage\":
+        0.263,\n    \"marketValue\": 1575925868.55,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TJX\",\n    \"name\": \"TJX COMPANIES
+        INC\",\n    \"isin\": \"US8725401090\",\n    \"cusip\": \"872540109\",\n    \"sharesNumber\":
+        13829824,\n    \"weightPercentage\": 0.263,\n    \"marketValue\": 1579642497.28,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SYK\",\n
+        \   \"name\": \"STRYKER CORP\",\n    \"isin\": \"US8636671013\",\n    \"cusip\":
+        \"863667101\",\n    \"sharesNumber\": 4195543,\n    \"weightPercentage\":
+        0.254,\n    \"marketValue\": 1523989039.32,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"COP\",\n    \"name\": \"CONOCOPHILLIPS\",\n
+        \   \"isin\": \"US20825C1045\",\n    \"cusip\": \"20825C104\",\n    \"sharesNumber\":
+        14210132,\n    \"weightPercentage\": 0.248,\n    \"marketValue\": 1485100895.3200002,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"VRTX\",\n
+        \   \"name\": \"VERTEX PHARMACEUTICALS INC\",\n    \"isin\": \"US92532F1003\",\n
+        \   \"cusip\": \"92532F100\",\n    \"sharesNumber\": 3158348,\n    \"weightPercentage\":
+        0.248,\n    \"marketValue\": 1484581477.4,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LMT\",\n    \"name\": \"LOCKHEED MARTIN
+        CORP\",\n    \"isin\": \"US5398301094\",\n    \"cusip\": \"539830109\",\n
+        \   \"sharesNumber\": 2595956,\n    \"weightPercentage\": 0.247,\n    \"marketValue\":
+        1482550471.6000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"C\",\n    \"name\": \"CITIGROUP INC\",\n    \"isin\": \"US1729674242\",\n
+        \   \"cusip\": \"172967424\",\n    \"sharesNumber\": 23345756,\n    \"weightPercentage\":
+        0.246,\n    \"marketValue\": 1473117203.6000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BX\",\n    \"name\": \"BLACKSTONE
+        INC\",\n    \"isin\": \"US09260D1072\",\n    \"cusip\": \"09260D107\",\n    \"sharesNumber\":
+        8811373,\n    \"weightPercentage\": 0.245,\n    \"marketValue\": 1470794381.1599998,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MDT\",\n
+        \   \"name\": \"MEDTRONIC PLC\",\n    \"isin\": \"IE00BTN1Y115\",\n    \"cusip\":
+        \"G5960L103\",\n    \"sharesNumber\": 15695475,\n    \"weightPercentage\":
+        0.242,\n    \"marketValue\": 1448221478.25,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ADP\",\n    \"name\": \"AUTOMATIC
+        DATA PROCESSING\",\n    \"isin\": \"US0530151036\",\n    \"cusip\": \"053015103\",\n
+        \   \"sharesNumber\": 4989951,\n    \"weightPercentage\": 0.241,\n    \"marketValue\":
+        1447285388.0400002,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"FI\",\n    \"name\": \"FISERV INC\",\n    \"isin\": \"US3377381088\",\n
+        \   \"cusip\": \"337738108\",\n    \"sharesNumber\": 7044958,\n    \"weightPercentage\":
+        0.238,\n    \"marketValue\": 1425617700.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MU\",\n    \"name\": \"MICRON TECHNOLOGY
+        INC\",\n    \"isin\": \"US5951121038\",\n    \"cusip\": \"595112103\",\n    \"sharesNumber\":
+        13568653,\n    \"weightPercentage\": 0.238,\n    \"marketValue\": 1425386997.6499999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PANW\",\n
+        \   \"name\": \"PALO ALTO NETWORKS INC\",\n    \"isin\": \"US6974351057\",\n
+        \   \"cusip\": \"697435105\",\n    \"sharesNumber\": 3962514,\n    \"weightPercentage\":
+        0.237,\n    \"marketValue\": 1419332889.66,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ADI\",\n    \"name\": \"ANALOG DEVICES
+        INC\",\n    \"isin\": \"US0326541051\",\n    \"cusip\": \"032654105\",\n    \"sharesNumber\":
+        6071886,\n    \"weightPercentage\": 0.23,\n    \"marketValue\": 1377407339.1,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PLD\",\n
+        \   \"name\": \"PROLOGIS INC\",\n    \"isin\": \"US74340W1036\",\n    \"cusip\":
+        \"74340W103\",\n    \"sharesNumber\": 11330845,\n    \"weightPercentage\":
+        0.228,\n    \"marketValue\": 1369106001.35,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CB\",\n    \"name\": \"CHUBB LTD\",\n
+        \   \"isin\": \"CH0044328745\",\n    \"cusip\": \"H1467J104\",\n    \"sharesNumber\":
+        4596653,\n    \"weightPercentage\": 0.226,\n    \"marketValue\": 1356012635,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SBUX\",\n
+        \   \"name\": \"STARBUCKS CORP\",\n    \"isin\": \"US8552441094\",\n    \"cusip\":
+        \"855244109\",\n    \"sharesNumber\": 13867309,\n    \"weightPercentage\":
+        0.226,\n    \"marketValue\": 1354142723.8500001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MMC\",\n    \"name\": \"MARSH & MCLENNAN
+        COS\",\n    \"isin\": \"US5717481023\",\n    \"cusip\": \"571748102\",\n    \"sharesNumber\":
+        6017883,\n    \"weightPercentage\": 0.224,\n    \"marketValue\": 1344936671.67,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GILD\",\n
+        \   \"name\": \"GILEAD SCIENCES INC\",\n    \"isin\": \"US3755581036\",\n
+        \   \"cusip\": \"375558103\",\n    \"sharesNumber\": 15235401,\n    \"weightPercentage\":
+        0.222,\n    \"marketValue\": 1328984029.23,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TMUS\",\n    \"name\": \"T MOBILE
+        US INC\",\n    \"isin\": \"US8725901040\",\n    \"cusip\": \"872590104\",\n
+        \   \"sharesNumber\": 5997007,\n    \"weightPercentage\": 0.221,\n    \"marketValue\":
+        1325038696.6499999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"BMY\",\n    \"name\": \"BRISTOL MYERS SQUIBB CO\",\n    \"isin\":
+        \"US1101221083\",\n    \"cusip\": \"110122108\",\n    \"sharesNumber\": 24809706,\n
+        \   \"weightPercentage\": 0.22,\n    \"marketValue\": 1316403000.3600001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SCHW\",\n
+        \   \"name\": \"SCHWAB (CHARLES) CORP\",\n    \"isin\": \"US8085131055\",\n
+        \   \"cusip\": \"808513105\",\n    \"sharesNumber\": 18280657,\n    \"weightPercentage\":
+        0.219,\n    \"marketValue\": 1310905913.4699998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AMT\",\n    \"name\": \"AMERICAN TOWER
+        CORP\",\n    \"isin\": \"US03027X1000\",\n    \"cusip\": \"03027X100\",\n
+        \   \"sharesNumber\": 5715554,\n    \"weightPercentage\": 0.216,\n    \"marketValue\":
+        1293258403.5800002,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"DE\",\n    \"name\": \"DEERE & CO\",\n    \"isin\": \"US2441991054\",\n
+        \   \"cusip\": \"244199105\",\n    \"sharesNumber\": 3136091,\n    \"weightPercentage\":
+        0.214,\n    \"marketValue\": 1281532226.24,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SO\",\n    \"name\": \"SOUTHERN CO/THE\",\n
+        \   \"isin\": \"US8425871071\",\n    \"cusip\": \"842587107\",\n    \"sharesNumber\":
+        13380141,\n    \"weightPercentage\": 0.21,\n    \"marketValue\": 1259740275.15,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ANET\",\n
+        \   \"name\": \"ARISTA NETWORKS INC\",\n    \"isin\": \"US0404131064\",\n
+        \   \"cusip\": \"040413106\",\n    \"sharesNumber\": 3152556,\n    \"weightPercentage\":
+        0.207,\n    \"marketValue\": 1242233166.24,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"REGN\",\n    \"name\": \"REGENERON
+        PHARMACEUTICALS\",\n    \"isin\": \"US75886F1075\",\n    \"cusip\": \"75886F107\",\n
+        \   \"sharesNumber\": 1299303,\n    \"weightPercentage\": 0.204,\n    \"marketValue\":
+        1223150851.17,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ELV\",\n    \"name\": \"ELEVANCE HEALTH INC\",\n    \"isin\": \"US0367521038\",\n
+        \   \"cusip\": \"036752103\",\n    \"sharesNumber\": 2836294,\n    \"weightPercentage\":
+        0.197,\n    \"marketValue\": 1178593608.76,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NKE\",\n    \"name\": \"NIKE INC  CL
+        B\",\n    \"isin\": \"US6541061031\",\n    \"cusip\": \"654106103\",\n    \"sharesNumber\":
+        14702455,\n    \"weightPercentage\": 0.196,\n    \"marketValue\": 1176931522.75,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"UPS\",\n
+        \   \"name\": \"UNITED PARCEL SERVICE CL B\",\n    \"isin\": \"US9113121068\",\n
+        \   \"cusip\": \"911312106\",\n    \"sharesNumber\": 8964119,\n    \"weightPercentage\":
+        0.196,\n    \"marketValue\": 1177974877.79,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LRCX\",\n    \"name\": \"LAM RESEARCH
+        CORP\",\n    \"isin\": \"US5128071082\",\n    \"cusip\": \"512807108\",\n
+        \   \"sharesNumber\": 15955314,\n    \"weightPercentage\": 0.194,\n    \"marketValue\":
+        1162504178.04,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ICE\",\n    \"name\": \"INTERCONTINENTAL EXCHANGE IN\",\n    \"isin\": \"US45866F1049\",\n
+        \   \"cusip\": \"45866F104\",\n    \"sharesNumber\": 7025588,\n    \"weightPercentage\":
+        0.193,\n    \"marketValue\": 1159222020,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"MDLZ\",\n    \"name\": \"MONDELEZ INTERNATIONAL
+        INC A\",\n    \"isin\": \"US6092071058\",\n    \"cusip\": \"609207105\",\n
+        \   \"sharesNumber\": 16346195,\n    \"weightPercentage\": 0.192,\n    \"marketValue\":
+        1153387519.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"INTC\",\n    \"name\": \"INTEL CORP\",\n    \"isin\": \"US4581401001\",\n
+        \   \"cusip\": \"458140100\",\n    \"sharesNumber\": 52216374,\n    \"weightPercentage\":
+        0.191,\n    \"marketValue\": 1147715900.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KKR\",\n    \"name\": \"KKR & CO INC\",\n
+        \   \"isin\": \"US48251W1045\",\n    \"cusip\": \"48251W104\",\n    \"sharesNumber\":
+        8252710,\n    \"weightPercentage\": 0.191,\n    \"marketValue\": 1143412970.5,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DUK\",\n
+        \   \"name\": \"DUKE ENERGY CORP\",\n    \"isin\": \"US26441C2044\",\n    \"cusip\":
+        \"26441C204\",\n    \"sharesNumber\": 9447089,\n    \"weightPercentage\":
+        0.19,\n    \"marketValue\": 1139035520.73,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BA\",\n    \"name\": \"BOEING CO/THE\",\n
+        \   \"isin\": \"US0970231058\",\n    \"cusip\": \"097023105\",\n    \"sharesNumber\":
+        7163152,\n    \"weightPercentage\": 0.188,\n    \"marketValue\": 1125044653.1200001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"KLAC\",\n
+        \   \"name\": \"KLA CORP\",\n    \"isin\": \"US4824801009\",\n    \"cusip\":
+        \"482480100\",\n    \"sharesNumber\": 1644782,\n    \"weightPercentage\":
+        0.182,\n    \"marketValue\": 1093171460.66,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TT\",\n    \"name\": \"TRANE TECHNOLOGIES
+        PLC\",\n    \"isin\": \"IE00BK9ZQ967\",\n    \"cusip\": \"G8994E103\",\n    \"sharesNumber\":
+        2761573,\n    \"weightPercentage\": 0.182,\n    \"marketValue\": 1093113440.59,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CI\",\n
+        \   \"name\": \"THE CIGNA GROUP\",\n    \"isin\": \"US1255231003\",\n    \"cusip\":
+        \"125523100\",\n    \"sharesNumber\": 3421118,\n    \"weightPercentage\":
+        0.181,\n    \"marketValue\": 1086444443.26,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PLTR\",\n    \"name\": \"PALANTIR
+        TECHNOLOGIES INC A\",\n    \"isin\": \"US69608A1088\",\n    \"cusip\": \"69608A108\",\n
+        \   \"sharesNumber\": 24643210,\n    \"weightPercentage\": 0.175,\n    \"marketValue\":
+        1049554313.9000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ZTS\",\n    \"name\": \"ZOETIS INC\",\n    \"isin\": \"US98978V1035\",\n
+        \   \"cusip\": \"98978V103\",\n    \"sharesNumber\": 5544041,\n    \"weightPercentage\":
+        0.175,\n    \"marketValue\": 1047768308.59,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EQIX\",\n    \"name\": \"EQUINIX INC\",\n
+        \   \"isin\": \"US29444U7000\",\n    \"cusip\": \"29444U700\",\n    \"sharesNumber\":
+        1161863,\n    \"weightPercentage\": 0.173,\n    \"marketValue\": 1035405831.0799999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MO\",\n
+        \   \"name\": \"ALTRIA GROUP INC\",\n    \"isin\": \"US02209S1033\",\n    \"cusip\":
+        \"02209S103\",\n    \"sharesNumber\": 20879276,\n    \"weightPercentage\":
+        0.173,\n    \"marketValue\": 1039787944.8,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SHW\",\n    \"name\": \"SHERWIN WILLIAMS
+        CO/THE\",\n    \"isin\": \"US8243481061\",\n    \"cusip\": \"824348106\",\n
+        \   \"sharesNumber\": 2840154,\n    \"weightPercentage\": 0.172,\n    \"marketValue\":
+        1030180658.8800001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"CEG\",\n    \"name\": \"CONSTELLATION ENERGY\",\n    \"isin\":
+        \"US21037T1097\",\n    \"cusip\": \"21037T109\",\n    \"sharesNumber\": 3826155,\n
+        \   \"weightPercentage\": 0.17,\n    \"marketValue\": 1017948537.75,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PYPL\",\n    \"name\":
+        \"PAYPAL HOLDINGS INC\",\n    \"isin\": \"US70450Y1038\",\n    \"cusip\":
+        \"70450Y103\",\n    \"sharesNumber\": 12510379,\n    \"weightPercentage\":
+        0.169,\n    \"marketValue\": 1011213934.5699999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"APH\",\n    \"name\": \"AMPHENOL CORP
+        CL A\",\n    \"isin\": \"US0320951017\",\n    \"cusip\": \"032095101\",\n
+        \   \"sharesNumber\": 14737302,\n    \"weightPercentage\": 0.168,\n    \"marketValue\":
+        1009063067.9399999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"CME\",\n    \"name\": \"CME GROUP INC\",\n    \"isin\": \"US12572Q1058\",\n
+        \   \"cusip\": \"12572Q105\",\n    \"sharesNumber\": 4406382,\n    \"weightPercentage\":
+        0.167,\n    \"marketValue\": 1000865607.4799999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CL\",\n    \"name\": \"COLGATE PALMOLIVE
+        CO\",\n    \"isin\": \"US1941621039\",\n    \"cusip\": \"194162103\",\n    \"sharesNumber\":
+        9999246,\n    \"weightPercentage\": 0.165,\n    \"marketValue\": 989725369.08,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CMG\",\n
+        \   \"name\": \"CHIPOTLE MEXICAN GRILL INC\",\n    \"isin\": \"US1696561059\",\n
+        \   \"cusip\": \"169656105\",\n    \"sharesNumber\": 16758457,\n    \"weightPercentage\":
+        0.165,\n    \"marketValue\": 989084132.1400001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PH\",\n    \"name\": \"PARKER HANNIFIN
+        CORP\",\n    \"isin\": \"US7010941042\",\n    \"cusip\": \"701094104\",\n
+        \   \"sharesNumber\": 1573169,\n    \"weightPercentage\": 0.165,\n    \"marketValue\":
+        990624519.3000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"GD\",\n    \"name\": \"GENERAL DYNAMICS CORP\",\n    \"isin\":
+        \"US3695501086\",\n    \"cusip\": \"369550108\",\n    \"sharesNumber\": 3155715,\n
+        \   \"weightPercentage\": 0.16,\n    \"marketValue\": 960599645.9999999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AON\",\n
+        \   \"name\": \"AON PLC CLASS A\",\n    \"isin\": \"IE00BLP1HW54\",\n    \"cusip\":
+        \"G0403H108\",\n    \"sharesNumber\": 2658443,\n    \"weightPercentage\":
+        0.159,\n    \"marketValue\": 952493542.47,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MSI\",\n    \"name\": \"MOTOROLA SOLUTIONS
+        INC\",\n    \"isin\": \"US6200763075\",\n    \"cusip\": \"620076307\",\n    \"sharesNumber\":
+        2041407,\n    \"weightPercentage\": 0.159,\n    \"marketValue\": 953500381.56,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"WM\",\n
+        \   \"name\": \"WASTE MANAGEMENT INC\",\n    \"isin\": \"US94106L1098\",\n
+        \   \"cusip\": \"94106L109\",\n    \"sharesNumber\": 4468777,\n    \"weightPercentage\":
+        0.158,\n    \"marketValue\": 946486968.6,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"GEV\",\n    \"name\": \"GE VERNOVA INC\",\n    \"isin\":
+        \"US36828A1016\",\n    \"cusip\": \"36828A101\",\n    \"sharesNumber\": 3362873,\n
+        \   \"weightPercentage\": 0.157,\n    \"marketValue\": 941200895.24,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HCA\",\n    \"name\":
+        \"HCA HEALTHCARE INC\",\n    \"isin\": \"US40412C1018\",\n    \"cusip\": \"40412C101\",\n
+        \   \"sharesNumber\": 2274293,\n    \"weightPercentage\": 0.156,\n    \"marketValue\":
+        932528358.79,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"WELL\",\n    \"name\": \"WELLTOWER INC\",\n    \"isin\": \"US95040Q1040\",\n
+        \   \"cusip\": \"95040Q104\",\n    \"sharesNumber\": 7081530,\n    \"weightPercentage\":
+        0.156,\n    \"marketValue\": 933133208.1,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"TDG\",\n    \"name\": \"TRANSDIGM GROUP INC\",\n
+        \   \"isin\": \"US8936411003\",\n    \"cusip\": \"893641100\",\n    \"sharesNumber\":
+        686536,\n    \"weightPercentage\": 0.155,\n    \"marketValue\": 932034408.2399999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"USB\",\n
+        \   \"name\": \"US BANCORP\",\n    \"isin\": \"US9029733048\",\n    \"cusip\":
+        \"902973304\",\n    \"sharesNumber\": 19095940,\n    \"weightPercentage\":
+        0.155,\n    \"marketValue\": 926725968.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"SNPS\",\n    \"name\": \"SYNOPSYS INC\",\n    \"isin\":
+        \"US8716071076\",\n    \"cusip\": \"871607107\",\n    \"sharesNumber\": 1874702,\n
+        \   \"weightPercentage\": 0.154,\n    \"marketValue\": 924996713.82,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PNC\",\n    \"name\":
+        \"PNC FINANCIAL SERVICES GROUP\",\n    \"isin\": \"US6934751057\",\n    \"cusip\":
+        \"693475105\",\n    \"sharesNumber\": 4864029,\n    \"weightPercentage\":
+        0.153,\n    \"marketValue\": 915458898.09,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MCO\",\n    \"name\": \"MOODY S CORP\",\n
+        \   \"isin\": \"US6153691059\",\n    \"cusip\": \"615369105\",\n    \"sharesNumber\":
+        1916170,\n    \"weightPercentage\": 0.15,\n    \"marketValue\": 898415466.2,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"APD\",\n
+        \   \"name\": \"AIR PRODUCTS & CHEMICALS INC\",\n    \"isin\": \"US0091581068\",\n
+        \   \"cusip\": \"009158106\",\n    \"sharesNumber\": 2720520,\n    \"weightPercentage\":
+        0.148,\n    \"marketValue\": 888576242.4,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"CTAS\",\n    \"name\": \"CINTAS CORP\",\n    \"isin\":
+        \"US1729081059\",\n    \"cusip\": \"172908105\",\n    \"sharesNumber\": 4192725,\n
+        \   \"weightPercentage\": 0.147,\n    \"marketValue\": 879256359.75,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CVS\",\n    \"name\":
+        \"CVS HEALTH CORP\",\n    \"isin\": \"US1266501006\",\n    \"cusip\": \"126650100\",\n
+        \   \"sharesNumber\": 15393816,\n    \"weightPercentage\": 0.146,\n    \"marketValue\":
+        874060872.48,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"EOG\",\n    \"name\": \"EOG RESOURCES INC\",\n    \"isin\": \"US26875P1012\",\n
+        \   \"cusip\": \"26875P101\",\n    \"sharesNumber\": 6957930,\n    \"weightPercentage\":
+        0.145,\n    \"marketValue\": 867862608.9,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"NOC\",\n    \"name\": \"NORTHROP GRUMMAN CORP\",\n
+        \   \"isin\": \"US6668071029\",\n    \"cusip\": \"666807102\",\n    \"sharesNumber\":
+        1682273,\n    \"weightPercentage\": 0.145,\n    \"marketValue\": 868725777.1999999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MMM\",\n
+        \   \"name\": \"3M CO\",\n    \"isin\": \"US88579Y1010\",\n    \"cusip\":
+        \"88579Y101\",\n    \"sharesNumber\": 6722744,\n    \"weightPercentage\":
+        0.143,\n    \"marketValue\": 859906185.04,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BDX\",\n    \"name\": \"BECTON DICKINSON
+        AND CO\",\n    \"isin\": \"US0758871091\",\n    \"cusip\": \"075887109\",\n
+        \   \"sharesNumber\": 3536790,\n    \"weightPercentage\": 0.142,\n    \"marketValue\":
+        850668730.8000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ORLY\",\n    \"name\": \"O REILLY AUTOMOTIVE INC\",\n    \"isin\":
+        \"US67103H1077\",\n    \"cusip\": \"67103H107\",\n    \"sharesNumber\": 709713,\n
+        \   \"weightPercentage\": 0.142,\n    \"marketValue\": 851123315.25,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CRWD\",\n    \"name\":
+        \"CROWDSTRIKE HOLDINGS INC   A\",\n    \"isin\": \"US22788C1053\",\n    \"cusip\":
+        \"22788C105\",\n    \"sharesNumber\": 2825300,\n    \"weightPercentage\":
+        0.141,\n    \"marketValue\": 845612290,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"FCX\",\n    \"name\": \"FREEPORT MCMORAN INC\",\n
+        \   \"isin\": \"US35671D8570\",\n    \"cusip\": \"35671D857\",\n    \"sharesNumber\":
+        17583213,\n    \"weightPercentage\": 0.141,\n    \"marketValue\": 842587566.96,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ITW\",\n
+        \   \"name\": \"ILLINOIS TOOL WORKS\",\n    \"isin\": \"US4523081093\",\n
+        \   \"cusip\": \"452308109\",\n    \"sharesNumber\": 3306009,\n    \"weightPercentage\":
+        0.141,\n    \"marketValue\": 847396226.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TGT\",\n    \"name\": \"TARGET CORP\",\n
+        \   \"isin\": \"US87612E1064\",\n    \"cusip\": \"87612E106\",\n    \"sharesNumber\":
+        5661615,\n    \"weightPercentage\": 0.14,\n    \"marketValue\": 838202100.7500001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CDNS\",\n
+        \   \"name\": \"CADENCE DESIGN SYS INC\",\n    \"isin\": \"US1273871087\",\n
+        \   \"cusip\": \"127387108\",\n    \"sharesNumber\": 3350471,\n    \"weightPercentage\":
+        0.139,\n    \"marketValue\": 834568821.39,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CARR\",\n    \"name\": \"CARRIER GLOBAL
+        CORP\",\n    \"isin\": \"US14448C1045\",\n    \"cusip\": \"14448C104\",\n
+        \   \"sharesNumber\": 10273983,\n    \"weightPercentage\": 0.137,\n    \"marketValue\":
+        821404940.85,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"NEM\",\n    \"name\": \"NEWMONT CORP\",\n    \"isin\": \"US6516391066\",\n
+        \   \"cusip\": \"651639106\",\n    \"sharesNumber\": 14041152,\n    \"weightPercentage\":
+        0.135,\n    \"marketValue\": 810736116.48,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ECL\",\n    \"name\": \"ECOLAB INC\",\n
+        \   \"isin\": \"US2788651006\",\n    \"cusip\": \"278865100\",\n    \"sharesNumber\":
+        3098717,\n    \"weightPercentage\": 0.134,\n    \"marketValue\": 801700062.2400001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CSX\",\n
+        \   \"name\": \"CSX CORP\",\n    \"isin\": \"US1264081035\",\n    \"cusip\":
+        \"126408103\",\n    \"sharesNumber\": 23725131,\n    \"weightPercentage\":
+        0.133,\n    \"marketValue\": 796927150.2900001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MCK\",\n    \"name\": \"MCKESSON CORP\",\n
+        \   \"isin\": \"US58155Q1031\",\n    \"cusip\": \"58155Q103\",\n    \"sharesNumber\":
+        1586536,\n    \"weightPercentage\": 0.133,\n    \"marketValue\": 796060303.36,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"WMB\",\n
+        \   \"name\": \"WILLIAMS COS INC\",\n    \"isin\": \"US9694571004\",\n    \"cusip\":
+        \"969457100\",\n    \"sharesNumber\": 14915930,\n    \"weightPercentage\":
+        0.13,\n    \"marketValue\": 779357342.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"AJG\",\n    \"name\": \"ARTHUR J GALLAGHER & CO\",\n
+        \   \"isin\": \"US3635761097\",\n    \"cusip\": \"363576109\",\n    \"sharesNumber\":
+        2681018,\n    \"weightPercentage\": 0.129,\n    \"marketValue\": 774626530.74,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EMR\",\n
+        \   \"name\": \"EMERSON ELECTRIC CO\",\n    \"isin\": \"US2910111044\",\n
+        \   \"cusip\": \"291011104\",\n    \"sharesNumber\": 7008210,\n    \"weightPercentage\":
+        0.127,\n    \"marketValue\": 760460867.1,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"ADSK\",\n    \"name\": \"AUTODESK INC\",\n    \"isin\":
+        \"US0527691069\",\n    \"cusip\": \"052769106\",\n    \"sharesNumber\": 2636515,\n
+        \   \"weightPercentage\": 0.126,\n    \"marketValue\": 754821061.9250001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"FDX\",\n
+        \   \"name\": \"FEDEX CORP\",\n    \"isin\": \"US31428X1063\",\n    \"cusip\":
+        \"31428X106\",\n    \"sharesNumber\": 2758006,\n    \"weightPercentage\":
+        0.123,\n    \"marketValue\": 739283508.3000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MAR\",\n    \"name\": \"MARRIOTT INTERNATIONAL
+        \ CL A\",\n    \"isin\": \"US5719032022\",\n    \"cusip\": \"571903202\",\n
+        \   \"sharesNumber\": 2859582,\n    \"weightPercentage\": 0.123,\n    \"marketValue\":
+        737257431.24,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"NXPI\",\n    \"name\": \"NXP SEMICONDUCTORS NV\",\n    \"isin\": \"NL0009538784\",\n
+        \   \"cusip\": \"N6596X109\",\n    \"sharesNumber\": 3117103,\n    \"weightPercentage\":
+        0.123,\n    \"marketValue\": 736633780.96,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SLB\",\n    \"name\": \"SCHLUMBERGER
+        LTD\",\n    \"isin\": \"AN8068571086\",\n    \"cusip\": \"806857108\",\n    \"sharesNumber\":
+        17376930,\n    \"weightPercentage\": 0.122,\n    \"marketValue\": 732090060.9000001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GM\",\n
+        \   \"name\": \"GENERAL MOTORS CO\",\n    \"isin\": \"US37045V1008\",\n    \"cusip\":
+        \"37045V100\",\n    \"sharesNumber\": 13753352,\n    \"weightPercentage\":
+        0.121,\n    \"marketValue\": 727827387.84,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"COF\",\n    \"name\": \"CAPITAL ONE
+        FINANCIAL CORP\",\n    \"isin\": \"US14040H1059\",\n    \"cusip\": \"14040H105\",\n
+        \   \"sharesNumber\": 4672790,\n    \"weightPercentage\": 0.12,\n    \"marketValue\":
+        720777857.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"TRV\",\n    \"name\": \"TRAVELERS COS INC/THE\",\n    \"isin\": \"US89417E1091\",\n
+        \   \"cusip\": \"89417E109\",\n    \"sharesNumber\": 2788944,\n    \"weightPercentage\":
+        0.12,\n    \"marketValue\": 717734738.4000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NSC\",\n    \"name\": \"NORFOLK SOUTHERN
+        CORP\",\n    \"isin\": \"US6558441084\",\n    \"cusip\": \"655844108\",\n
+        \   \"sharesNumber\": 2766578,\n    \"weightPercentage\": 0.119,\n    \"marketValue\":
+        710955214.44,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ROP\",\n    \"name\": \"ROPER TECHNOLOGIES INC\",\n    \"isin\": \"US7766961061\",\n
+        \   \"cusip\": \"776696106\",\n    \"sharesNumber\": 1311623,\n    \"weightPercentage\":
+        0.119,\n    \"marketValue\": 712132591.6200001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TFC\",\n    \"name\": \"TRUIST FINANCIAL
+        CORP\",\n    \"isin\": \"US89832Q1094\",\n    \"cusip\": \"89832Q109\",\n
+        \   \"sharesNumber\": 16387161,\n    \"weightPercentage\": 0.119,\n    \"marketValue\":
+        711858273.8399999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ABNB\",\n    \"name\": \"AIRBNB INC CLASS A\",\n    \"isin\":
+        \"US0090661010\",\n    \"cusip\": \"009066101\",\n    \"sharesNumber\": 5384132,\n
+        \   \"weightPercentage\": 0.118,\n    \"marketValue\": 710274693.4399999,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HLT\",\n
+        \   \"name\": \"HILTON WORLDWIDE HOLDINGS IN\",\n    \"isin\": \"US43300A2033\",\n
+        \   \"cusip\": \"43300A203\",\n    \"sharesNumber\": 3015425,\n    \"weightPercentage\":
+        0.117,\n    \"marketValue\": 704101737.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"AFL\",\n    \"name\": \"AFLAC INC\",\n    \"isin\":
+        \"US0010551028\",\n    \"cusip\": \"001055102\",\n    \"sharesNumber\": 6167765,\n
+        \   \"weightPercentage\": 0.115,\n    \"marketValue\": 691653167.1,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BK\",\n    \"name\":
+        \"BANK OF NEW YORK MELLON CORP\",\n    \"isin\": \"US0640581007\",\n    \"cusip\":
+        \"064058100\",\n    \"sharesNumber\": 9030606,\n    \"weightPercentage\":
+        0.115,\n    \"marketValue\": 689667380.22,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"OKE\",\n    \"name\": \"ONEOK INC\",\n
+        \   \"isin\": \"US6826801036\",\n    \"cusip\": \"682680103\",\n    \"sharesNumber\":
+        7147267,\n    \"weightPercentage\": 0.115,\n    \"marketValue\": 691569554.9200001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"O\",\n
+        \   \"name\": \"REALTY INCOME CORP\",\n    \"isin\": \"US7561091049\",\n    \"cusip\":
+        \"756109104\",\n    \"sharesNumber\": 10656722,\n    \"weightPercentage\":
+        0.114,\n    \"marketValue\": 684587821.28,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"URI\",\n    \"name\": \"UNITED RENTALS
+        INC\",\n    \"isin\": \"US9113631090\",\n    \"cusip\": \"911363109\",\n    \"sharesNumber\":
+        814717,\n    \"weightPercentage\": 0.113,\n    \"marketValue\": 679620627.06,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AZO\",\n
+        \   \"name\": \"AUTOZONE INC\",\n    \"isin\": \"US0533321024\",\n    \"cusip\":
+        \"053332102\",\n    \"sharesNumber\": 209011,\n    \"weightPercentage\": 0.111,\n
+        \   \"marketValue\": 668114112.0500001,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PCAR\",\n    \"name\": \"PACCAR INC\",\n    \"isin\":
+        \"US6937181088\",\n    \"cusip\": \"693718108\",\n    \"sharesNumber\": 6415061,\n
+        \   \"weightPercentage\": 0.111,\n    \"marketValue\": 665883331.8,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SRE\",\n    \"name\":
+        \"SEMPRA\",\n    \"isin\": \"US8168511090\",\n    \"cusip\": \"816851109\",\n
+        \   \"sharesNumber\": 7747819,\n    \"weightPercentage\": 0.111,\n    \"marketValue\":
+        666002521.24,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"AEP\",\n    \"name\": \"AMERICAN ELECTRIC POWER\",\n    \"isin\": \"US0255371017\",\n
+        \   \"cusip\": \"025537101\",\n    \"sharesNumber\": 6511981,\n    \"weightPercentage\":
+        0.11,\n    \"marketValue\": 656603044.23,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PSX\",\n    \"name\": \"PHILLIPS 66\",\n    \"isin\":
+        \"US7185461040\",\n    \"cusip\": \"718546104\",\n    \"sharesNumber\": 5122351,\n
+        \   \"weightPercentage\": 0.11,\n    \"marketValue\": 661397961.12,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PSA\",\n    \"name\":
+        \"PUBLIC STORAGE\",\n    \"isin\": \"US74460D1090\",\n    \"cusip\": \"74460D109\",\n
+        \   \"sharesNumber\": 1927743,\n    \"weightPercentage\": 0.109,\n    \"marketValue\":
+        654989239.11,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"SPG\",\n    \"name\": \"SIMON PROPERTY GROUP INC\",\n    \"isin\": \"US8288061091\",\n
+        \   \"cusip\": \"828806109\",\n    \"sharesNumber\": 3750709,\n    \"weightPercentage\":
+        0.109,\n    \"marketValue\": 651948238.38,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DHI\",\n    \"name\": \"DR HORTON
+        INC\",\n    \"isin\": \"US23331A1097\",\n    \"cusip\": \"23331A109\",\n    \"sharesNumber\":
+        3590926,\n    \"weightPercentage\": 0.108,\n    \"marketValue\": 647408048.54,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MPC\",\n
+        \   \"name\": \"MARATHON PETROLEUM CORP\",\n    \"isin\": \"US56585A1025\",\n
+        \   \"cusip\": \"56585A102\",\n    \"sharesNumber\": 4095402,\n    \"weightPercentage\":
+        0.105,\n    \"marketValue\": 629709011.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ALL\",\n    \"name\": \"ALLSTATE CORP\",\n
+        \   \"isin\": \"US0200021014\",\n    \"cusip\": \"020002101\",\n    \"sharesNumber\":
+        3231396,\n    \"weightPercentage\": 0.104,\n    \"marketValue\": 622948520.88,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AMP\",\n
+        \   \"name\": \"AMERIPRISE FINANCIAL INC\",\n    \"isin\": \"US03076C1062\",\n
+        \   \"cusip\": \"03076C106\",\n    \"sharesNumber\": 1201634,\n    \"weightPercentage\":
+        0.104,\n    \"marketValue\": 625414447.98,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"D\",\n    \"name\": \"DOMINION ENERGY
+        INC\",\n    \"isin\": \"US25746U1097\",\n    \"cusip\": \"25746U109\",\n    \"sharesNumber\":
+        10265847,\n    \"weightPercentage\": 0.104,\n    \"marketValue\": 625498057.71,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DLR\",\n
+        \   \"name\": \"DIGITAL REALTY TRUST INC\",\n    \"isin\": \"US2538681030\",\n
+        \   \"cusip\": \"253868103\",\n    \"sharesNumber\": 3765893,\n    \"weightPercentage\":
+        0.104,\n    \"marketValue\": 624385059.4000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FTNT\",\n    \"name\": \"FORTINET
+        INC\",\n    \"isin\": \"US34959E1091\",\n    \"cusip\": \"34959E109\",\n    \"sharesNumber\":
+        7768958,\n    \"weightPercentage\": 0.104,\n    \"marketValue\": 624391154.46,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"JCI\",\n
+        \   \"name\": \"JOHNSON CONTROLS INTERNATION\",\n    \"isin\": \"IE00BY7QL619\",\n
+        \   \"cusip\": \"G51502105\",\n    \"sharesNumber\": 8174825,\n    \"weightPercentage\":
+        0.104,\n    \"marketValue\": 625210616,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"AIG\",\n    \"name\": \"AMERICAN INTERNATIONAL
+        GROUP\",\n    \"isin\": \"US0268747849\",\n    \"cusip\": \"026874784\",\n
+        \   \"sharesNumber\": 7880040,\n    \"weightPercentage\": 0.102,\n    \"marketValue\":
+        610151497.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"MET\",\n    \"name\": \"METLIFE INC\",\n    \"isin\": \"US59156R1086\",\n
+        \   \"cusip\": \"59156R108\",\n    \"sharesNumber\": 7199094,\n    \"weightPercentage\":
+        0.101,\n    \"marketValue\": 605659778.2199999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FICO\",\n    \"name\": \"FAIR ISAAC
+        CORP\",\n    \"isin\": \"US3032501047\",\n    \"cusip\": \"303250104\",\n
+        \   \"sharesNumber\": 299625,\n    \"weightPercentage\": 0.1,\n    \"marketValue\":
+        598848502.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"FIS\",\n    \"name\": \"FIDELITY NATIONAL INFO SERV\",\n    \"isin\": \"US31620M1062\",\n
+        \   \"cusip\": \"31620M106\",\n    \"sharesNumber\": 6676655,\n    \"weightPercentage\":
+        0.1,\n    \"marketValue\": 600231284.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"GWW\",\n    \"name\": \"WW GRAINGER INC\",\n    \"isin\":
+        \"US3848021040\",\n    \"cusip\": \"384802104\",\n    \"sharesNumber\": 543526,\n
+        \   \"weightPercentage\": 0.099,\n    \"marketValue\": 593818460.78,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ROST\",\n    \"name\":
+        \"ROSS STORES INC\",\n    \"isin\": \"US7782961038\",\n    \"cusip\": \"778296103\",\n
+        \   \"sharesNumber\": 4082349,\n    \"weightPercentage\": 0.099,\n    \"marketValue\":
+        592920368.76,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"CCI\",\n    \"name\": \"CROWN CASTLE INC\",\n    \"isin\": \"US22822V1017\",\n
+        \   \"cusip\": \"22822V101\",\n    \"sharesNumber\": 5317814,\n    \"weightPercentage\":
+        0.098,\n    \"marketValue\": 588575653.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KMI\",\n    \"name\": \"KINDER MORGAN
+        INC\",\n    \"isin\": \"US49456B1017\",\n    \"cusip\": \"49456B101\",\n    \"sharesNumber\":
+        23629165,\n    \"weightPercentage\": 0.098,\n    \"marketValue\": 585294417.05,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"RCL\",\n
+        \   \"name\": \"ROYAL CARIBBEAN CRUISES LTD\",\n    \"isin\": \"LR0008862868\",\n
+        \   \"cusip\": \"V7780T103\",\n    \"sharesNumber\": 2898465,\n    \"weightPercentage\":
+        0.097,\n    \"marketValue\": 582997250.0999999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MSCI\",\n    \"name\": \"MSCI INC\",\n
+        \   \"isin\": \"US55354G1004\",\n    \"cusip\": \"55354G100\",\n    \"sharesNumber\":
+        962132,\n    \"weightPercentage\": 0.096,\n    \"marketValue\": 573796282.16,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"LHX\",\n
+        \   \"name\": \"L3HARRIS TECHNOLOGIES INC\",\n    \"isin\": \"US5024311095\",\n
+        \   \"cusip\": \"502431109\",\n    \"sharesNumber\": 2321641,\n    \"weightPercentage\":
+        0.095,\n    \"marketValue\": 570705790.62,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KMB\",\n    \"name\": \"KIMBERLY CLARK
+        CORP\",\n    \"isin\": \"US4943681035\",\n    \"cusip\": \"494368103\",\n
+        \   \"sharesNumber\": 4121152,\n    \"weightPercentage\": 0.094,\n    \"marketValue\":
+        564144497.28,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"PAYX\",\n    \"name\": \"PAYCHEX INC\",\n    \"isin\": \"US7043261079\",\n
+        \   \"cusip\": \"704326107\",\n    \"sharesNumber\": 3922245,\n    \"weightPercentage\":
+        0.093,\n    \"marketValue\": 554723110.35,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CMI\",\n    \"name\": \"CUMMINS INC\",\n
+        \   \"isin\": \"US2310211063\",\n    \"cusip\": \"231021106\",\n    \"sharesNumber\":
+        1677301,\n    \"weightPercentage\": 0.092,\n    \"marketValue\": 553459010.97,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CPRT\",\n
+        \   \"name\": \"COPART INC\",\n    \"isin\": \"US2172041061\",\n    \"cusip\":
+        \"217204106\",\n    \"sharesNumber\": 10715916,\n    \"weightPercentage\":
+        0.092,\n    \"marketValue\": 550369445.76,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PEG\",\n    \"name\": \"PUBLIC SERVICE
+        ENTERPRISE GP\",\n    \"isin\": \"US7445731067\",\n    \"cusip\": \"744573106\",\n
+        \   \"sharesNumber\": 6096439,\n    \"weightPercentage\": 0.092,\n    \"marketValue\":
+        553129910.47,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"PWR\",\n    \"name\": \"QUANTA SERVICES INC\",\n    \"isin\": \"US74762E1029\",\n
+        \   \"cusip\": \"74762E102\",\n    \"sharesNumber\": 1803050,\n    \"weightPercentage\":
+        0.092,\n    \"marketValue\": 552869221.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PRU\",\n    \"name\": \"PRUDENTIAL FINANCIAL INC\",\n
+        \   \"isin\": \"US7443201022\",\n    \"cusip\": \"744320102\",\n    \"sharesNumber\":
+        4368311,\n    \"weightPercentage\": 0.091,\n    \"marketValue\": 546737804.76,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PCG\",\n
+        \   \"name\": \"P G & E CORP\",\n    \"isin\": \"US69331C1080\",\n    \"cusip\":
+        \"69331C108\",\n    \"sharesNumber\": 26156787,\n    \"weightPercentage\":
+        0.09,\n    \"marketValue\": 538306676.4599999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TEL\",\n    \"name\": \"TE CONNECTIVITY
+        PLC\",\n    \"isin\": \"CH0102993182\",\n    \"cusip\": \"H84989104\",\n    \"sharesNumber\":
+        3718995,\n    \"weightPercentage\": 0.09,\n    \"marketValue\": 541002202.65,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"FAST\",\n
+        \   \"name\": \"FASTENAL CO\",\n    \"isin\": \"US3119001044\",\n    \"cusip\":
+        \"311900104\",\n    \"sharesNumber\": 7007213,\n    \"weightPercentage\":
+        0.089,\n    \"marketValue\": 532057683.09000003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KVUE\",\n    \"name\": \"KENVUE INC\",\n
+        \   \"isin\": \"US49177J1025\",\n    \"cusip\": \"49177J102\",\n    \"sharesNumber\":
+        23436540,\n    \"weightPercentage\": 0.089,\n    \"marketValue\": 533415650.40000004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"F\",\n
+        \   \"name\": \"FORD MOTOR CO\",\n    \"isin\": \"US3453708600\",\n    \"cusip\":
+        \"345370860\",\n    \"sharesNumber\": 47778762,\n    \"weightPercentage\":
+        0.088,\n    \"marketValue\": 528433107.72,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MPWR\",\n    \"name\": \"MONOLITHIC
+        POWER SYSTEMS INC\",\n    \"isin\": \"US6098391054\",\n    \"cusip\": \"609839105\",\n
+        \   \"sharesNumber\": 596801,\n    \"weightPercentage\": 0.088,\n    \"marketValue\":
+        527357235.64,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"VST\",\n    \"name\": \"VISTRA CORP\",\n    \"isin\": \"US92840M1027\",\n
+        \   \"cusip\": \"92840M102\",\n    \"sharesNumber\": 4203797,\n    \"weightPercentage\":
+        0.088,\n    \"marketValue\": 530140839.67,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EW\",\n    \"name\": \"EDWARDS LIFESCIENCES
+        CORP\",\n    \"isin\": \"US28176E1082\",\n    \"cusip\": \"28176E108\",\n
+        \   \"sharesNumber\": 7371705,\n    \"weightPercentage\": 0.087,\n    \"marketValue\":
+        520516090.05,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"VLO\",\n    \"name\": \"VALERO ENERGY CORP\",\n    \"isin\": \"US91913Y1001\",\n
+        \   \"cusip\": \"91913Y100\",\n    \"sharesNumber\": 3920718,\n    \"weightPercentage\":
+        0.087,\n    \"marketValue\": 521024215.0199999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CTVA\",\n    \"name\": \"CORTEVA INC\",\n
+        \   \"isin\": \"US22052L1044\",\n    \"cusip\": \"22052L104\",\n    \"sharesNumber\":
+        8471173,\n    \"weightPercentage\": 0.086,\n    \"marketValue\": 514962606.67,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HWM\",\n
+        \   \"name\": \"HOWMET AEROSPACE INC\",\n    \"isin\": \"US4432011082\",\n
+        \   \"cusip\": \"443201108\",\n    \"sharesNumber\": 4994968,\n    \"weightPercentage\":
+        0.086,\n    \"marketValue\": 513632559.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LEN\",\n    \"name\": \"LENNAR CORP
+        A\",\n    \"isin\": \"US5260571048\",\n    \"cusip\": \"526057104\",\n    \"sharesNumber\":
+        2957421,\n    \"weightPercentage\": 0.085,\n    \"marketValue\": 510362141.96999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"RSG\",\n
+        \   \"name\": \"REPUBLIC SERVICES INC\",\n    \"isin\": \"US7607591002\",\n
+        \   \"cusip\": \"760759100\",\n    \"sharesNumber\": 2497867,\n    \"weightPercentage\":
+        0.085,\n    \"marketValue\": 509514910.65999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"COR\",\n    \"name\": \"CENCORA INC\",\n
+        \   \"isin\": \"US03073E1055\",\n    \"cusip\": \"03090BBJ8\",\n    \"sharesNumber\":
+        2134854,\n    \"weightPercentage\": 0.084,\n    \"marketValue\": 500665960.08000004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"OTIS\",\n
+        \   \"name\": \"OTIS WORLDWIDE CORP\",\n    \"isin\": \"US68902V1070\",\n
+        \   \"cusip\": \"68902V107\",\n    \"sharesNumber\": 4901599,\n    \"weightPercentage\":
+        0.084,\n    \"marketValue\": 504178473.14,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EXC\",\n    \"name\": \"EXELON CORP\",\n
+        \   \"isin\": \"US30161N1019\",\n    \"cusip\": \"30161N101\",\n    \"sharesNumber\":
+        12236898,\n    \"weightPercentage\": 0.083,\n    \"marketValue\": 498531224.52000004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GEHC\",\n
+        \   \"name\": \"GE HEALTHCARE TECHNOLOGY\",\n    \"isin\": \"US36266G1076\",\n
+        \   \"cusip\": \"36266G107\",\n    \"sharesNumber\": 5588132,\n    \"weightPercentage\":
+        0.083,\n    \"marketValue\": 498964306.28000003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ACGL\",\n    \"name\": \"ARCH CAPITAL
+        GROUP LTD\",\n    \"isin\": \"BMG0450A1053\",\n    \"cusip\": \"G0450A105\",\n
+        \   \"sharesNumber\": 4583435,\n    \"weightPercentage\": 0.082,\n    \"marketValue\":
+        490427545,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"IT\",\n    \"name\": \"GARTNER INC\",\n    \"isin\": \"US3666511072\",\n
+        \   \"cusip\": \"366651107\",\n    \"sharesNumber\": 942624,\n    \"weightPercentage\":
+        0.082,\n    \"marketValue\": 490965710.40000004,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MCHP\",\n    \"name\": \"MICROCHIP
+        TECHNOLOGY INC\",\n    \"isin\": \"US5950171042\",\n    \"cusip\": \"595017104\",\n
+        \   \"sharesNumber\": 6565115,\n    \"weightPercentage\": 0.082,\n    \"marketValue\":
+        494156206.04999995,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"IQV\",\n    \"name\": \"IQVIA HOLDINGS INC\",\n    \"isin\":
+        \"US46266C1053\",\n    \"cusip\": \"46266C105\",\n    \"sharesNumber\": 2119280,\n
+        \   \"weightPercentage\": 0.081,\n    \"marketValue\": 483852816.8,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"A\",\n    \"name\": \"AGILENT
+        TECHNOLOGIES INC\",\n    \"isin\": \"US00846U1016\",\n    \"cusip\": \"00846U101\",\n
+        \   \"sharesNumber\": 3570355,\n    \"weightPercentage\": 0.079,\n    \"marketValue\":
+        474964325.65,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"AME\",\n    \"name\": \"AMETEK INC\",\n    \"isin\": \"US0311001004\",\n
+        \   \"cusip\": \"031100100\",\n    \"sharesNumber\": 2832972,\n    \"weightPercentage\":
+        0.079,\n    \"marketValue\": 472171443.23999995,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"IR\",\n    \"name\": \"INGERSOLL RAND
+        INC\",\n    \"isin\": \"US45687V1061\",\n    \"cusip\": \"45687V106\",\n    \"sharesNumber\":
+        4937696,\n    \"weightPercentage\": 0.079,\n    \"marketValue\": 475944517.44,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"KDP\",\n
+        \   \"name\": \"KEURIG DR PEPPER INC\",\n    \"isin\": \"US49271V1008\",\n
+        \   \"cusip\": \"49271V100\",\n    \"sharesNumber\": 12943573,\n    \"weightPercentage\":
+        0.079,\n    \"marketValue\": 475029129.1,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"GIS\",\n    \"name\": \"GENERAL MILLS INC\",\n
+        \   \"isin\": \"US3703341046\",\n    \"cusip\": \"370334104\",\n    \"sharesNumber\":
+        6811419,\n    \"weightPercentage\": 0.078,\n    \"marketValue\": 467127115.02,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HES\",\n
+        \   \"name\": \"HESS CORP\",\n    \"isin\": \"US42809H1077\",\n    \"cusip\":
+        \"42809H107\",\n    \"sharesNumber\": 3382308,\n    \"weightPercentage\":
+        0.078,\n    \"marketValue\": 466927619.40000004,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KR\",\n    \"name\": \"KROGER CO\",\n
+        \   \"isin\": \"US5010441013\",\n    \"cusip\": \"501044101\",\n    \"sharesNumber\":
+        8125803,\n    \"weightPercentage\": 0.078,\n    \"marketValue\": 468208768.85999995,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"VRSK\",\n
+        \   \"name\": \"VERISK ANALYTICS INC\",\n    \"isin\": \"US92345Y1064\",\n
+        \   \"cusip\": \"92345Y106\",\n    \"sharesNumber\": 1742913,\n    \"weightPercentage\":
+        0.078,\n    \"marketValue\": 464643176.66999996,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CTSH\",\n    \"name\": \"COGNIZANT
+        TECH SOLUTIONS A\",\n    \"isin\": \"US1924461023\",\n    \"cusip\": \"192446102\",\n
+        \   \"sharesNumber\": 6065313,\n    \"weightPercentage\": 0.077,\n    \"marketValue\":
+        461388359.90999997,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"IDXX\",\n    \"name\": \"IDEXX LABORATORIES INC\",\n    \"isin\":
+        \"US45168D1046\",\n    \"cusip\": \"45168D104\",\n    \"sharesNumber\": 1007688,\n
+        \   \"weightPercentage\": 0.077,\n    \"marketValue\": 461420335.2,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MNST\",\n    \"name\":
+        \"MONSTER BEVERAGE CORP\",\n    \"isin\": \"US61174X1090\",\n    \"cusip\":
+        \"61174X109\",\n    \"sharesNumber\": 8630854,\n    \"weightPercentage\":
+        0.077,\n    \"marketValue\": 462268540.24,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"STZ\",\n    \"name\": \"CONSTELLATION
+        BRANDS INC A\",\n    \"isin\": \"US21036P1084\",\n    \"cusip\": \"21036P108\",\n
+        \   \"sharesNumber\": 1917085,\n    \"weightPercentage\": 0.077,\n    \"marketValue\":
+        462822660.7,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"YUM\",\n    \"name\": \"YUM  BRANDS INC\",\n    \"isin\": \"US9884981013\",\n
+        \   \"cusip\": \"988498101\",\n    \"sharesNumber\": 3440913,\n    \"weightPercentage\":
+        0.077,\n    \"marketValue\": 461151160.26000005,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CBRE\",\n    \"name\": \"CBRE GROUP
+        INC   A\",\n    \"isin\": \"US12504L1098\",\n    \"cusip\": \"12504L109\",\n
+        \   \"sharesNumber\": 3686432,\n    \"weightPercentage\": 0.076,\n    \"marketValue\":
+        453873507.84000003,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ED\",\n    \"name\": \"CONSOLIDATED EDISON INC\",\n    \"isin\":
+        \"US2091151041\",\n    \"cusip\": \"209115104\",\n    \"sharesNumber\": 4232189,\n
+        \   \"weightPercentage\": 0.076,\n    \"marketValue\": 454537098.6,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BKR\",\n    \"name\":
+        \"BAKER HUGHES CO\",\n    \"isin\": \"US05722G1004\",\n    \"cusip\": \"05722G100\",\n
+        \   \"sharesNumber\": 12156292,\n    \"weightPercentage\": 0.075,\n    \"marketValue\":
+        449782804,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"IRM\",\n    \"name\": \"IRON MOUNTAIN INC\",\n    \"isin\": \"US46284V1017\",\n
+        \   \"cusip\": \"46284V101\",\n    \"sharesNumber\": 3589722,\n    \"weightPercentage\":
+        0.075,\n    \"marketValue\": 450653699.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SYY\",\n    \"name\": \"SYSCO CORP\",\n
+        \   \"isin\": \"US8718291078\",\n    \"cusip\": \"871829107\",\n    \"sharesNumber\":
+        6017870,\n    \"weightPercentage\": 0.075,\n    \"marketValue\": 449113638.09999996,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DFS\",\n
+        \   \"name\": \"DISCOVER FINANCIAL SERVICES\",\n    \"isin\": \"US2547091080\",\n
+        \   \"cusip\": \"254709108\",\n    \"sharesNumber\": 3072480,\n    \"weightPercentage\":
+        0.074,\n    \"marketValue\": 446001196.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"DOW\",\n    \"name\": \"DOW INC\",\n    \"isin\":
+        \"US2605571031\",\n    \"cusip\": \"260557103\",\n    \"sharesNumber\": 8577232,\n
+        \   \"weightPercentage\": 0.074,\n    \"marketValue\": 441641675.68,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GLW\",\n    \"name\":
+        \"CORNING INC\",\n    \"isin\": \"US2193501051\",\n    \"cusip\": \"219350105\",\n
+        \   \"sharesNumber\": 9422374,\n    \"weightPercentage\": 0.074,\n    \"marketValue\":
+        441815116.86,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"TRGP\",\n    \"name\": \"TARGA RESOURCES CORP\",\n    \"isin\": \"US87612G1013\",\n
+        \   \"cusip\": \"87612G101\",\n    \"sharesNumber\": 2680867,\n    \"weightPercentage\":
+        0.074,\n    \"marketValue\": 444594983.28000003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EXR\",\n    \"name\": \"EXTRA SPACE
+        STORAGE INC\",\n    \"isin\": \"US30225T1025\",\n    \"cusip\": \"30225T102\",\n
+        \   \"sharesNumber\": 2593473,\n    \"weightPercentage\": 0.073,\n    \"marketValue\":
+        438452545.38,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ODFL\",\n    \"name\": \"OLD DOMINION FREIGHT LINE\",\n    \"isin\": \"US6795801009\",\n
+        \   \"cusip\": \"679580100\",\n    \"sharesNumber\": 2307624,\n    \"weightPercentage\":
+        0.073,\n    \"marketValue\": 435379420.08,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"XEL\",\n    \"name\": \"XCEL ENERGY
+        INC\",\n    \"isin\": \"US98389B1008\",\n    \"cusip\": \"98389B100\",\n    \"sharesNumber\":
+        6822571,\n    \"weightPercentage\": 0.073,\n    \"marketValue\": 438827766.71999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DAL\",\n
+        \   \"name\": \"DELTA AIR LINES INC\",\n    \"isin\": \"US2473617023\",\n
+        \   \"cusip\": \"247361702\",\n    \"sharesNumber\": 7847192,\n    \"weightPercentage\":
+        0.072,\n    \"marketValue\": 428849042.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"DD\",\n    \"name\": \"DUPONT DE NEMOURS INC\",\n
+        \   \"isin\": \"US26614N1028\",\n    \"cusip\": \"26614N102\",\n    \"sharesNumber\":
+        5108938,\n    \"weightPercentage\": 0.072,\n    \"marketValue\": 431143277.82,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HIG\",\n
+        \   \"name\": \"HARTFORD FINANCIAL SVCS GRP\",\n    \"isin\": \"US4165151048\",\n
+        \   \"cusip\": \"416515104\",\n    \"sharesNumber\": 3585956,\n    \"weightPercentage\":
+        0.072,\n    \"marketValue\": 429776826.59999996,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HPQ\",\n    \"name\": \"HP INC\",\n
+        \   \"isin\": \"US40434L1052\",\n    \"cusip\": \"40434L105\",\n    \"sharesNumber\":
+        11975039,\n    \"weightPercentage\": 0.072,\n    \"marketValue\": 429305148.15000004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EA\",\n
+        \   \"name\": \"ELECTRONIC ARTS INC\",\n    \"isin\": \"US2855121099\",\n
+        \   \"cusip\": \"285512109\",\n    \"sharesNumber\": 2942359,\n    \"weightPercentage\":
+        0.071,\n    \"marketValue\": 426230124.74000007,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"OXY\",\n    \"name\": \"OCCIDENTAL
+        PETROLEUM CORP\",\n    \"isin\": \"US6745991058\",\n    \"cusip\": \"674599105\",\n
+        \   \"sharesNumber\": 8239778,\n    \"weightPercentage\": 0.071,\n    \"marketValue\":
+        422865406.96,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"RMD\",\n    \"name\": \"RESMED INC\",\n    \"isin\": \"US7611521078\",\n
+        \   \"cusip\": \"761152107\",\n    \"sharesNumber\": 1798414,\n    \"weightPercentage\":
+        0.071,\n    \"marketValue\": 426943483.6,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"DELL\",\n    \"name\": \"DELL TECHNOLOGIES  C\",\n
+        \   \"isin\": \"US24703L2025\",\n    \"cusip\": \"24703L202\",\n    \"sharesNumber\":
+        3520700,\n    \"weightPercentage\": 0.07,\n    \"marketValue\": 420688443,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MLM\",\n
+        \   \"name\": \"MARTIN MARIETTA MATERIALS\",\n    \"isin\": \"US5732841060\",\n
+        \   \"cusip\": \"573284106\",\n    \"sharesNumber\": 747838,\n    \"weightPercentage\":
+        0.07,\n    \"marketValue\": 420875748.02,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"VICI\",\n    \"name\": \"VICI PROPERTIES INC\",\n
+        \   \"isin\": \"US9256521090\",\n    \"cusip\": \"925652109\",\n    \"sharesNumber\":
+        12814291,\n    \"weightPercentage\": 0.07,\n    \"marketValue\": 420821316.44000006,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EFX\",\n
+        \   \"name\": \"EQUIFAX INC\",\n    \"isin\": \"US2944291051\",\n    \"cusip\":
+        \"294429105\",\n    \"sharesNumber\": 1514218,\n    \"weightPercentage\":
+        0.069,\n    \"marketValue\": 411503883.68,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FANG\",\n    \"name\": \"DIAMONDBACK
+        ENERGY INC\",\n    \"isin\": \"US25278X1090\",\n    \"cusip\": \"25278X109\",\n
+        \   \"sharesNumber\": 2292534,\n    \"weightPercentage\": 0.069,\n    \"marketValue\":
+        415223758.08,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"LULU\",\n    \"name\": \"LULULEMON ATHLETICA INC\",\n    \"isin\": \"US5500211090\",\n
+        \   \"cusip\": \"550021109\",\n    \"sharesNumber\": 1407475,\n    \"weightPercentage\":
+        0.069,\n    \"marketValue\": 412587221.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"NUE\",\n    \"name\": \"NUCOR CORP\",\n    \"isin\":
+        \"US6703461052\",\n    \"cusip\": \"670346105\",\n    \"sharesNumber\": 2904467,\n
+        \   \"weightPercentage\": 0.069,\n    \"marketValue\": 411446795.21999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EIX\",\n
+        \   \"name\": \"EDISON INTERNATIONAL\",\n    \"isin\": \"US2810201077\",\n
+        \   \"cusip\": \"281020107\",\n    \"sharesNumber\": 4726062,\n    \"weightPercentage\":
+        0.068,\n    \"marketValue\": 406441332,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"VMC\",\n    \"name\": \"VULCAN MATERIALS CO\",\n
+        \   \"isin\": \"US9291601097\",\n    \"cusip\": \"929160109\",\n    \"sharesNumber\":
+        1616157,\n    \"weightPercentage\": 0.068,\n    \"marketValue\": 409808930.49,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AVB\",\n
+        \   \"name\": \"AVALONBAY COMMUNITIES INC\",\n    \"isin\": \"US0534841012\",\n
+        \   \"cusip\": \"053484101\",\n    \"sharesNumber\": 1738286,\n    \"weightPercentage\":
+        0.067,\n    \"marketValue\": 399006168.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"WAB\",\n    \"name\": \"WABTEC CORP\",\n
+        \   \"isin\": \"US9297401088\",\n    \"cusip\": \"929740108\",\n    \"sharesNumber\":
+        2143516,\n    \"weightPercentage\": 0.067,\n    \"marketValue\": 401566287.44,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CHTR\",\n
+        \   \"name\": \"CHARTER COMMUNICATIONS INC A\",\n    \"isin\": \"US16119P1084\",\n
+        \   \"cusip\": \"16119P108\",\n    \"sharesNumber\": 1187584,\n    \"weightPercentage\":
+        0.066,\n    \"marketValue\": 394539156.48,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MTB\",\n    \"name\": \"M & T BANK
+        CORP\",\n    \"isin\": \"US55261F1049\",\n    \"cusip\": \"55261F104\",\n
+        \   \"sharesNumber\": 2043312,\n    \"weightPercentage\": 0.066,\n    \"marketValue\":
+        396096031.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"AXON\",\n    \"name\": \"AXON ENTERPRISE INC\",\n    \"isin\": \"US05464C1018\",\n
+        \   \"cusip\": \"05464C101\",\n    \"sharesNumber\": 878272,\n    \"weightPercentage\":
+        0.065,\n    \"marketValue\": 388802231.68,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"XYL\",\n    \"name\": \"XYLEM INC\",\n
+        \   \"isin\": \"US98419M1009\",\n    \"cusip\": \"98419M100\",\n    \"sharesNumber\":
+        2972241,\n    \"weightPercentage\": 0.065,\n    \"marketValue\": 391503584.52,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CNC\",\n
+        \   \"name\": \"CENTENE CORP\",\n    \"isin\": \"US15135B1017\",\n    \"cusip\":
+        \"15135B101\",\n    \"sharesNumber\": 6437106,\n    \"weightPercentage\":
+        0.064,\n    \"marketValue\": 385067680.92,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EBAY\",\n    \"name\": \"EBAY INC\",\n
+        \   \"isin\": \"US2786421030\",\n    \"cusip\": \"278642103\",\n    \"sharesNumber\":
+        5983816,\n    \"weightPercentage\": 0.064,\n    \"marketValue\": 380989564.72,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HUM\",\n
+        \   \"name\": \"HUMANA INC\",\n    \"isin\": \"US4448591028\",\n    \"cusip\":
+        \"444859102\",\n    \"sharesNumber\": 1473395,\n    \"weightPercentage\":
+        0.064,\n    \"marketValue\": 381093616.74999994,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KHC\",\n    \"name\": \"KRAFT HEINZ
+        CO/THE\",\n    \"isin\": \"US5007541064\",\n    \"cusip\": \"500754106\",\n
+        \   \"sharesNumber\": 10800729,\n    \"weightPercentage\": 0.064,\n    \"marketValue\":
+        383425879.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"TSCO\",\n    \"name\": \"TRACTOR SUPPLY COMPANY\",\n    \"isin\": \"US8923561067\",\n
+        \   \"cusip\": \"892356106\",\n    \"sharesNumber\": 1320408,\n    \"weightPercentage\":
+        0.064,\n    \"marketValue\": 385677972.71999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"WEC\",\n    \"name\": \"WEC ENERGY
+        GROUP INC\",\n    \"isin\": \"US92939U1060\",\n    \"cusip\": \"92939U106\",\n
+        \   \"sharesNumber\": 3867655,\n    \"weightPercentage\": 0.064,\n    \"marketValue\":
+        384947702.15,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"NDAQ\",\n    \"name\": \"NASDAQ INC\",\n    \"isin\": \"US6311031081\",\n
+        \   \"cusip\": \"631103108\",\n    \"sharesNumber\": 5063983,\n    \"weightPercentage\":
+        0.062,\n    \"marketValue\": 374278983.53,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ROK\",\n    \"name\": \"ROCKWELL AUTOMATION
+        INC\",\n    \"isin\": \"US7739031091\",\n    \"cusip\": \"773903109\",\n    \"sharesNumber\":
+        1388619,\n    \"weightPercentage\": 0.062,\n    \"marketValue\": 369983646.36,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CSGP\",\n
+        \   \"name\": \"COSTAR GROUP INC\",\n    \"isin\": \"US22160N1090\",\n    \"cusip\":
+        \"22160N109\",\n    \"sharesNumber\": 5015463,\n    \"weightPercentage\":
+        0.061,\n    \"marketValue\": 365226015.65999997,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FITB\",\n    \"name\": \"FIFTH THIRD
+        BANCORP\",\n    \"isin\": \"US3167731005\",\n    \"cusip\": \"316773100\",\n
+        \   \"sharesNumber\": 8282239,\n    \"weightPercentage\": 0.061,\n    \"marketValue\":
+        363341824.93,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"WTW\",\n    \"name\": \"WILLIS TOWERS WATSON PLC\",\n    \"isin\": \"IE00BDB6Q211\",\n
+        \   \"cusip\": \"G96629103\",\n    \"sharesNumber\": 1242900,\n    \"weightPercentage\":
+        0.061,\n    \"marketValue\": 362827368,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"ETR\",\n    \"name\": \"ENTERGY CORP\",\n    \"isin\":
+        \"US29364G1031\",\n    \"cusip\": \"29364G103\",\n    \"sharesNumber\": 2616410,\n
+        \   \"weightPercentage\": 0.06,\n    \"marketValue\": 358317349.5,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PPG\",\n    \"name\":
+        \"PPG INDUSTRIES INC\",\n    \"isin\": \"US6935061076\",\n    \"cusip\": \"693506107\",\n
+        \   \"sharesNumber\": 2854494,\n    \"weightPercentage\": 0.06,\n    \"marketValue\":
+        360465502.32,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"CDW\",\n    \"name\": \"CDW CORP/DE\",\n    \"isin\": \"US12514G1085\",\n
+        \   \"cusip\": \"12514G108\",\n    \"sharesNumber\": 1634856,\n    \"weightPercentage\":
+        0.059,\n    \"marketValue\": 355826408.40000004,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DXCM\",\n    \"name\": \"DEXCOM INC\",\n
+        \   \"isin\": \"US2521311074\",\n    \"cusip\": \"252131107\",\n    \"sharesNumber\":
+        4903582,\n    \"weightPercentage\": 0.059,\n    \"marketValue\": 355411623.36,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NVR\",\n
+        \   \"name\": \"NVR INC\",\n    \"isin\": \"US62944T1051\",\n    \"cusip\":
+        \"62944T105\",\n    \"sharesNumber\": 37627,\n    \"weightPercentage\": 0.059,\n
+        \   \"marketValue\": 354109954.62,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"ON\",\n    \"name\": \"ON SEMICONDUCTOR\",\n    \"isin\":
+        \"US6821891057\",\n    \"cusip\": \"682189105\",\n    \"sharesNumber\": 5241520,\n
+        \   \"weightPercentage\": 0.059,\n    \"marketValue\": 356266114.4,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ANSS\",\n    \"name\":
+        \"ANSYS INC\",\n    \"isin\": \"US03662Q1058\",\n    \"cusip\": \"03662Q105\",\n
+        \   \"sharesNumber\": 1069303,\n    \"weightPercentage\": 0.057,\n    \"marketValue\":
+        344155170.55,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"AWK\",\n    \"name\": \"AMERICAN WATER WORKS CO INC\",\n    \"isin\": \"US0304201033\",\n
+        \   \"cusip\": \"030420103\",\n    \"sharesNumber\": 2384726,\n    \"weightPercentage\":
+        0.057,\n    \"marketValue\": 338917259.12,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MTD\",\n    \"name\": \"METTLER TOLEDO
+        INTERNATIONAL\",\n    \"isin\": \"US5926881054\",\n    \"cusip\": \"592688105\",\n
+        \   \"sharesNumber\": 259280,\n    \"weightPercentage\": 0.057,\n    \"marketValue\":
+        342340348,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"CAH\",\n    \"name\": \"CARDINAL HEALTH INC\",\n    \"isin\": \"US14149Y1082\",\n
+        \   \"cusip\": \"14149Y108\",\n    \"sharesNumber\": 2984239,\n    \"weightPercentage\":
+        0.056,\n    \"marketValue\": 333996028.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PHM\",\n    \"name\": \"PULTEGROUP
+        INC\",\n    \"isin\": \"US7458671010\",\n    \"cusip\": \"745867101\",\n    \"sharesNumber\":
+        2539247,\n    \"weightPercentage\": 0.056,\n    \"marketValue\": 338126130.52,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"STT\",\n
+        \   \"name\": \"STATE STREET CORP\",\n    \"isin\": \"US8574771031\",\n    \"cusip\":
+        \"857477103\",\n    \"sharesNumber\": 3654288,\n    \"weightPercentage\":
+        0.056,\n    \"marketValue\": 334111551.84000003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"VLTO\",\n    \"name\": \"VERALTO CORP\",\n
+        \   \"isin\": \"US92338C1036\",\n    \"cusip\": \"92338C103\",\n    \"sharesNumber\":
+        3024162,\n    \"weightPercentage\": 0.056,\n    \"marketValue\": 335470290.66,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"VTR\",\n
+        \   \"name\": \"VENTAS INC\",\n    \"isin\": \"US92276F1003\",\n    \"cusip\":
+        \"92276F100\",\n    \"sharesNumber\": 5055388,\n    \"weightPercentage\":
+        0.056,\n    \"marketValue\": 332947853.68,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ADM\",\n    \"name\": \"ARCHER DANIELS
+        MIDLAND CO\",\n    \"isin\": \"US0394831020\",\n    \"cusip\": \"039483102\",\n
+        \   \"sharesNumber\": 5851284,\n    \"weightPercentage\": 0.055,\n    \"marketValue\":
+        328140006.71999997,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"DTE\",\n    \"name\": \"DTE ENERGY COMPANY\",\n    \"isin\":
+        \"US2333311072\",\n    \"cusip\": \"233331107\",\n    \"sharesNumber\": 2533330,\n
+        \   \"weightPercentage\": 0.055,\n    \"marketValue\": 329307566.70000005,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HSY\",\n
+        \   \"name\": \"HERSHEY CO/THE\",\n    \"isin\": \"US4278661081\",\n    \"cusip\":
+        \"427866108\",\n    \"sharesNumber\": 1807132,\n    \"weightPercentage\":
+        0.055,\n    \"marketValue\": 328861881.35999995,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"KEYS\",\n    \"name\": \"KEYSIGHT
+        TECHNOLOGIES IN\",\n    \"isin\": \"US49338L1035\",\n    \"cusip\": \"49338L103\",\n
+        \   \"sharesNumber\": 2136020,\n    \"weightPercentage\": 0.055,\n    \"marketValue\":
+        327558667,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"BIIB\",\n    \"name\": \"BIOGEN INC\",\n    \"isin\": \"US09062X1037\",\n
+        \   \"cusip\": \"09062X103\",\n    \"sharesNumber\": 1782633,\n    \"weightPercentage\":
+        0.054,\n    \"marketValue\": 326186186.34,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DOV\",\n    \"name\": \"DOVER CORP\",\n
+        \   \"isin\": \"US2600031080\",\n    \"cusip\": \"260003108\",\n    \"sharesNumber\":
+        1682092,\n    \"weightPercentage\": 0.054,\n    \"marketValue\": 322423394.56,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"FTV\",\n
+        \   \"name\": \"FORTIVE CORP\",\n    \"isin\": \"US34959J1088\",\n    \"cusip\":
+        \"34959J108\",\n    \"sharesNumber\": 4286807,\n    \"weightPercentage\":
+        0.054,\n    \"marketValue\": 323696796.57,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"IFF\",\n    \"name\": \"INTL FLAVORS
+        & FRAGRANCES\",\n    \"isin\": \"US4595061015\",\n    \"cusip\": \"459506101\",\n
+        \   \"sharesNumber\": 3128796,\n    \"weightPercentage\": 0.054,\n    \"marketValue\":
+        325238344.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"TTWO\",\n    \"name\": \"TAKE TWO INTERACTIVE SOFTWRE\",\n    \"isin\":
+        \"US8740541094\",\n    \"cusip\": \"874054109\",\n    \"sharesNumber\": 1994780,\n
+        \   \"weightPercentage\": 0.054,\n    \"marketValue\": 321179527.79999995,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EQR\",\n
+        \   \"name\": \"EQUITY RESIDENTIAL\",\n    \"isin\": \"US29476L1070\",\n    \"cusip\":
+        \"29476L107\",\n    \"sharesNumber\": 4175046,\n    \"weightPercentage\":
+        0.053,\n    \"marketValue\": 316718989.56,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SBAC\",\n    \"name\": \"SBA COMMUNICATIONS
+        CORP\",\n    \"isin\": \"US78410G1040\",\n    \"cusip\": \"78410G104\",\n
+        \   \"sharesNumber\": 1314907,\n    \"weightPercentage\": 0.053,\n    \"marketValue\":
+        320429686.83,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"BR\",\n    \"name\": \"BROADRIDGE FINANCIAL SOLUTIO\",\n    \"isin\": \"US11133T1034\",\n
+        \   \"cusip\": \"11133T103\",\n    \"sharesNumber\": 1428371,\n    \"weightPercentage\":
+        0.052,\n    \"marketValue\": 309042349.56,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"GPN\",\n    \"name\": \"GLOBAL PAYMENTS
+        INC\",\n    \"isin\": \"US37940X1028\",\n    \"cusip\": \"37940X102\",\n    \"sharesNumber\":
+        3113606,\n    \"weightPercentage\": 0.052,\n    \"marketValue\": 310986967.28,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"RJF\",\n
+        \   \"name\": \"RAYMOND JAMES FINANCIAL INC\",\n    \"isin\": \"US7547301090\",\n
+        \   \"cusip\": \"754730109\",\n    \"sharesNumber\": 2267996,\n    \"weightPercentage\":
+        0.052,\n    \"marketValue\": 311531930.56,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BRO\",\n    \"name\": \"BROWN & BROWN
+        INC\",\n    \"isin\": \"US1152361010\",\n    \"cusip\": \"115236101\",\n    \"sharesNumber\":
+        2897697,\n    \"weightPercentage\": 0.051,\n    \"marketValue\": 307213835.94,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CHD\",\n
+        \   \"name\": \"CHURCH & DWIGHT CO INC\",\n    \"isin\": \"US1713401024\",\n
+        \   \"cusip\": \"171340102\",\n    \"sharesNumber\": 2995628,\n    \"weightPercentage\":
+        0.051,\n    \"marketValue\": 307231607.68,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DVN\",\n    \"name\": \"DEVON ENERGY
+        CORP\",\n    \"isin\": \"US25179M1036\",\n    \"cusip\": \"25179M103\",\n
+        \   \"sharesNumber\": 7662909,\n    \"weightPercentage\": 0.051,\n    \"marketValue\":
+        302761534.59,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"GRMN\",\n    \"name\": \"GARMIN LTD\",\n    \"isin\": \"CH0114405324\",\n
+        \   \"cusip\": \"H2906T109\",\n    \"sharesNumber\": 1882018,\n    \"weightPercentage\":
+        0.051,\n    \"marketValue\": 304096468.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HPE\",\n    \"name\": \"HEWLETT PACKARD
+        ENTERPRISE\",\n    \"isin\": \"US42824C1099\",\n    \"cusip\": \"42824C109\",\n
+        \   \"sharesNumber\": 15904377,\n    \"weightPercentage\": 0.051,\n    \"marketValue\":
+        307113519.87,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"TYL\",\n    \"name\": \"TYLER TECHNOLOGIES INC\",\n    \"isin\": \"US9022521051\",\n
+        \   \"cusip\": \"902252105\",\n    \"sharesNumber\": 522064,\n    \"weightPercentage\":
+        0.051,\n    \"marketValue\": 303956102.08000004,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CPAY\",\n    \"name\": \"CORPAY INC\",\n
+        \   \"isin\": \"US2199481068\",\n    \"cusip\": \"339041105\",\n    \"sharesNumber\":
+        849777,\n    \"weightPercentage\": 0.05,\n    \"marketValue\": 301143973.26,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HAL\",\n
+        \   \"name\": \"HALLIBURTON CO\",\n    \"isin\": \"US4062161017\",\n    \"cusip\":
+        \"406216101\",\n    \"sharesNumber\": 10803122,\n    \"weightPercentage\":
+        0.05,\n    \"marketValue\": 300434822.82,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"NTAP\",\n    \"name\": \"NETAPP INC\",\n    \"isin\":
+        \"US64110D1046\",\n    \"cusip\": \"64110D104\",\n    \"sharesNumber\": 2515420,\n
+        \   \"weightPercentage\": 0.05,\n    \"marketValue\": 299360134.2,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PPL\",\n    \"name\":
+        \"PPL CORP\",\n    \"isin\": \"US69351T1060\",\n    \"cusip\": \"69351T106\",\n
+        \   \"sharesNumber\": 9028054,\n    \"weightPercentage\": 0.05,\n    \"marketValue\":
+        299099429.02000004,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"TROW\",\n    \"name\": \"T ROWE PRICE GROUP INC\",\n    \"isin\":
+        \"US74144T1088\",\n    \"cusip\": \"74144T108\",\n    \"sharesNumber\": 2723771,\n
+        \   \"weightPercentage\": 0.05,\n    \"marketValue\": 298334637.63,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AEE\",\n    \"name\":
+        \"AMEREN CORPORATION\",\n    \"isin\": \"US0236081024\",\n    \"cusip\": \"023608102\",\n
+        \   \"sharesNumber\": 3264862,\n    \"weightPercentage\": 0.049,\n    \"marketValue\":
+        291225690.40000004,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ES\",\n    \"name\": \"EVERSOURCE ENERGY\",\n    \"isin\":
+        \"US30040W1080\",\n    \"cusip\": \"30040W108\",\n    \"sharesNumber\": 4373684,\n
+        \   \"weightPercentage\": 0.049,\n    \"marketValue\": 293430459.56,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HUBB\",\n    \"name\":
+        \"HUBBELL INC\",\n    \"isin\": \"US4435106079\",\n    \"cusip\": \"443510607\",\n
+        \   \"sharesNumber\": 657204,\n    \"weightPercentage\": 0.049,\n    \"marketValue\":
+        292271762.88,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"UAL\",\n    \"name\": \"UNITED AIRLINES HOLDINGS INC\",\n    \"isin\": \"US9100471096\",\n
+        \   \"cusip\": \"910047109\",\n    \"sharesNumber\": 4024145,\n    \"weightPercentage\":
+        0.049,\n    \"marketValue\": 295573450.25,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DECK\",\n    \"name\": \"DECKERS OUTDOOR
+        CORP\",\n    \"isin\": \"US2435371073\",\n    \"cusip\": \"243537107\",\n
+        \   \"sharesNumber\": 1865800,\n    \"weightPercentage\": 0.047,\n    \"marketValue\":
+        281661168,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"GDDY\",\n    \"name\": \"GODADDY INC   CLASS A\",\n    \"isin\": \"US3802371076\",\n
+        \   \"cusip\": \"380237107\",\n    \"sharesNumber\": 1725030,\n    \"weightPercentage\":
+        0.047,\n    \"marketValue\": 279265106.7,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"LYB\",\n    \"name\": \"LYONDELLBASELL INDU CL
+        A\",\n    \"isin\": \"NL0009434992\",\n    \"cusip\": \"N53745100\",\n    \"sharesNumber\":
+        3182270,\n    \"weightPercentage\": 0.047,\n    \"marketValue\": 282808334.90000004,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SMCI\",\n
+        \   \"name\": \"SUPER MICRO COMPUTER INC\",\n    \"isin\": \"US86800U1043\",\n
+        \   \"cusip\": \"86800U104\",\n    \"sharesNumber\": 6164590,\n    \"weightPercentage\":
+        0.047,\n    \"marketValue\": 279625802.4,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"SW\",\n    \"name\": \"SMURFIT WESTROCK PLC\",\n
+        \   \"isin\": \"IE00028FXN24\",\n    \"cusip\": \"\",\n    \"sharesNumber\":
+        6037845,\n    \"weightPercentage\": 0.047,\n    \"marketValue\": 281665469.25,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"WY\",\n
+        \   \"name\": \"WEYERHAEUSER CO\",\n    \"isin\": \"US9621661043\",\n    \"cusip\":
+        \"962166104\",\n    \"sharesNumber\": 8900569,\n    \"weightPercentage\":
+        0.047,\n    \"marketValue\": 283483122.65000004,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CBOE\",\n    \"name\": \"CBOE GLOBAL
+        MARKETS INC\",\n    \"isin\": \"US12503M1080\",\n    \"cusip\": \"12503M108\",\n
+        \   \"sharesNumber\": 1280667,\n    \"weightPercentage\": 0.046,\n    \"marketValue\":
+        273486437.85,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"FE\",\n    \"name\": \"FIRSTENERGY CORP\",\n    \"isin\": \"US3379321074\",\n
+        \   \"cusip\": \"337932107\",\n    \"sharesNumber\": 6272306,\n    \"weightPercentage\":
+        0.046,\n    \"marketValue\": 277674986.62,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HBAN\",\n    \"name\": \"HUNTINGTON
+        BANCSHARES INC\",\n    \"isin\": \"US4461501045\",\n    \"cusip\": \"446150104\",\n
+        \   \"sharesNumber\": 17773700,\n    \"weightPercentage\": 0.046,\n    \"marketValue\":
+        276203298,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"LDOS\",\n    \"name\": \"LEIDOS HOLDINGS INC\",\n    \"isin\": \"US5253271028\",\n
+        \   \"cusip\": \"525327102\",\n    \"sharesNumber\": 1648204,\n    \"weightPercentage\":
+        0.046,\n    \"marketValue\": 277409215.24,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ATO\",\n    \"name\": \"ATMOS ENERGY
+        CORP\",\n    \"isin\": \"US0495601058\",\n    \"cusip\": \"049560105\",\n
+        \   \"sharesNumber\": 1899228,\n    \"weightPercentage\": 0.045,\n    \"marketValue\":
+        271798519.08000004,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"PTC\",\n    \"name\": \"PTC INC\",\n    \"isin\": \"US69370C1009\",\n
+        \   \"cusip\": \"69370C100\",\n    \"sharesNumber\": 1470246,\n    \"weightPercentage\":
+        0.045,\n    \"marketValue\": 269922463.14,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"STE\",\n    \"name\": \"STERIS PLC\",\n
+        \   \"isin\": \"IE00BFY8C754\",\n    \"cusip\": \"G8473T100\",\n    \"sharesNumber\":
+        1206685,\n    \"weightPercentage\": 0.045,\n    \"marketValue\": 266858387.75,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"TDY\",\n
+        \   \"name\": \"TELEDYNE TECHNOLOGIES INC\",\n    \"isin\": \"US8793601050\",\n
+        \   \"cusip\": \"879360105\",\n    \"sharesNumber\": 572865,\n    \"weightPercentage\":
+        0.045,\n    \"marketValue\": 269298107.84999996,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CINF\",\n    \"name\": \"CINCINNATI
+        FINANCIAL CORP\",\n    \"isin\": \"US1720621010\",\n    \"cusip\": \"172062101\",\n
+        \   \"sharesNumber\": 1911841,\n    \"weightPercentage\": 0.044,\n    \"marketValue\":
+        265516478.07999998,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"CMS\",\n    \"name\": \"CMS ENERGY CORP\",\n    \"isin\":
+        \"US1258961002\",\n    \"cusip\": \"125896100\",\n    \"sharesNumber\": 3655555,\n
+        \   \"weightPercentage\": 0.044,\n    \"marketValue\": 263565515.49999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EQT\",\n
+        \   \"name\": \"EQT CORP\",\n    \"isin\": \"US26884L1098\",\n    \"cusip\":
+        \"26884L109\",\n    \"sharesNumber\": 7269120,\n    \"weightPercentage\":
+        0.044,\n    \"marketValue\": 263069452.79999998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"K\",\n    \"name\": \"KELLANOVA\",\n
+        \   \"isin\": \"US4878361082\",\n    \"cusip\": \"487836108\",\n    \"sharesNumber\":
+        3282869,\n    \"weightPercentage\": 0.044,\n    \"marketValue\": 265781074.23999998,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"RF\",\n
+        \   \"name\": \"REGIONS FINANCIAL CORP\",\n    \"isin\": \"US7591EP1005\",\n
+        \   \"cusip\": \"7591EP100\",\n    \"sharesNumber\": 11198324,\n    \"weightPercentage\":
+        0.044,\n    \"marketValue\": 264728379.36,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"STX\",\n    \"name\": \"SEAGATE TECHNOLOGY
+        HOLDINGS\",\n    \"isin\": \"IE00BKVD2N49\",\n    \"cusip\": \"G7997R103\",\n
+        \   \"sharesNumber\": 2569830,\n    \"weightPercentage\": 0.044,\n    \"marketValue\":
+        266028801.6,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"SYF\",\n    \"name\": \"SYNCHRONY FINANCIAL\",\n    \"isin\": \"US87165B1035\",\n
+        \   \"cusip\": \"87165B103\",\n    \"sharesNumber\": 4836552,\n    \"weightPercentage\":
+        0.044,\n    \"marketValue\": 266010360,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"WDC\",\n    \"name\": \"WESTERN DIGITAL CORP\",\n
+        \   \"isin\": \"US9581021055\",\n    \"cusip\": \"958102105\",\n    \"sharesNumber\":
+        3995408,\n    \"weightPercentage\": 0.044,\n    \"marketValue\": 266134126.88,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ZBH\",\n
+        \   \"name\": \"ZIMMER BIOMET HOLDINGS INC\",\n    \"isin\": \"US98956P1021\",\n
+        \   \"cusip\": \"98956P102\",\n    \"sharesNumber\": 2492088,\n    \"weightPercentage\":
+        0.044,\n    \"marketValue\": 260921613.6,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"BLDR\",\n    \"name\": \"BUILDERS FIRSTSOURCE
+        INC\",\n    \"isin\": \"US12008R1077\",\n    \"cusip\": \"12008R107\",\n    \"sharesNumber\":
+        1425409,\n    \"weightPercentage\": 0.043,\n    \"marketValue\": 255461800.98,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CCL\",\n
+        \   \"name\": \"CARNIVAL CORP\",\n    \"isin\": \"GB0031215220\",\n    \"cusip\":
+        \"143658300\",\n    \"sharesNumber\": 12361845,\n    \"weightPercentage\":
+        0.043,\n    \"marketValue\": 259598745,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"COO\",\n    \"name\": \"COOPER COS INC/THE\",\n
+        \   \"isin\": \"US2166485019\",\n    \"cusip\": \"216648402\",\n    \"sharesNumber\":
+        2436337,\n    \"weightPercentage\": 0.043,\n    \"marketValue\": 256595012.83999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EL\",\n
+        \   \"name\": \"ESTEE LAUDER COMPANIES CL A\",\n    \"isin\": \"US5184391044\",\n
+        \   \"cusip\": \"518439104\",\n    \"sharesNumber\": 2851245,\n    \"weightPercentage\":
+        0.042,\n    \"marketValue\": 250310798.55,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FSLR\",\n    \"name\": \"FIRST SOLAR
+        INC\",\n    \"isin\": \"US3364331070\",\n    \"cusip\": \"336433107\",\n    \"sharesNumber\":
+        1309914,\n    \"weightPercentage\": 0.042,\n    \"marketValue\": 252040552.74,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NTRS\",\n
+        \   \"name\": \"NORTHERN TRUST CORP\",\n    \"isin\": \"US6658591044\",\n
+        \   \"cusip\": \"665859104\",\n    \"sharesNumber\": 2467607,\n    \"weightPercentage\":
+        0.042,\n    \"marketValue\": 252954393.57000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PKG\",\n    \"name\": \"PACKAGING
+        CORP OF AMERICA\",\n    \"isin\": \"US6951561090\",\n    \"cusip\": \"695156109\",\n
+        \   \"sharesNumber\": 1091521,\n    \"weightPercentage\": 0.042,\n    \"marketValue\":
+        249576276.65,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"WST\",\n    \"name\": \"WEST PHARMACEUTICAL SERVICES\",\n    \"isin\": \"US9553061055\",\n
+        \   \"cusip\": \"955306105\",\n    \"sharesNumber\": 887892,\n    \"weightPercentage\":
+        0.042,\n    \"marketValue\": 254327784.48,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BALL\",\n    \"name\": \"BALL CORP\",\n
+        \   \"isin\": \"US0584981064\",\n    \"cusip\": \"058498106\",\n    \"sharesNumber\":
+        3714909,\n    \"weightPercentage\": 0.041,\n    \"marketValue\": 243252241.32000002,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MKC\",\n
+        \   \"name\": \"MCCORMICK & CO NON VTG SHRS\",\n    \"isin\": \"US5797802064\",\n
+        \   \"cusip\": \"579780206\",\n    \"sharesNumber\": 3084396,\n    \"weightPercentage\":
+        0.041,\n    \"marketValue\": 244808510.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TER\",\n    \"name\": \"TERADYNE INC\",\n
+        \   \"isin\": \"US8807701029\",\n    \"cusip\": \"880770102\",\n    \"sharesNumber\":
+        1996675,\n    \"weightPercentage\": 0.041,\n    \"marketValue\": 248446270.25,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CLX\",\n
+        \   \"name\": \"CLOROX COMPANY\",\n    \"isin\": \"US1890541097\",\n    \"cusip\":
+        \"189054109\",\n    \"sharesNumber\": 1515698,\n    \"weightPercentage\":
+        0.04,\n    \"marketValue\": 241026295.96,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"CNP\",\n    \"name\": \"CENTERPOINT ENERGY INC\",\n
+        \   \"isin\": \"US15189T1079\",\n    \"cusip\": \"15189T107\",\n    \"sharesNumber\":
+        7975186,\n    \"weightPercentage\": 0.04,\n    \"marketValue\": 237261783.5,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EXPE\",\n
+        \   \"name\": \"EXPEDIA GROUP INC\",\n    \"isin\": \"US30212P3038\",\n    \"cusip\":
+        \"30212P303\",\n    \"sharesNumber\": 1525052,\n    \"weightPercentage\":
+        0.04,\n    \"marketValue\": 241507234.72000003,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"INVH\",\n    \"name\": \"INVITATION
+        HOMES INC\",\n    \"isin\": \"US46187W1071\",\n    \"cusip\": \"46187W107\",\n
+        \   \"sharesNumber\": 6971898,\n    \"weightPercentage\": 0.04,\n    \"marketValue\":
+        241994579.58,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"OMC\",\n    \"name\": \"OMNICOM GROUP\",\n    \"isin\": \"US6819191064\",\n
+        \   \"cusip\": \"681919106\",\n    \"sharesNumber\": 2393901,\n    \"weightPercentage\":
+        0.04,\n    \"marketValue\": 241113708.72,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"WAT\",\n    \"name\": \"WATERS CORP\",\n    \"isin\":
+        \"US9418481035\",\n    \"cusip\": \"941848103\",\n    \"sharesNumber\": 726396,\n
+        \   \"weightPercentage\": 0.04,\n    \"marketValue\": 242093258.87999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DRI\",\n
+        \   \"name\": \"DARDEN RESTAURANTS INC\",\n    \"isin\": \"US2371941053\",\n
+        \   \"cusip\": \"237194105\",\n    \"sharesNumber\": 1449789,\n    \"weightPercentage\":
+        0.039,\n    \"marketValue\": 235387742.04000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ESS\",\n    \"name\": \"ESSEX PROPERTY
+        TRUST INC\",\n    \"isin\": \"US2971781057\",\n    \"cusip\": \"297178105\",\n
+        \   \"sharesNumber\": 785831,\n    \"weightPercentage\": 0.039,\n    \"marketValue\":
+        235717866.76,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"HOLX\",\n    \"name\": \"HOLOGIC INC\",\n    \"isin\": \"US4364401012\",\n
+        \   \"cusip\": \"436440101\",\n    \"sharesNumber\": 2842468,\n    \"weightPercentage\":
+        0.039,\n    \"marketValue\": 231234771.79999998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"PFG\",\n    \"name\": \"PRINCIPAL
+        FINANCIAL GROUP\",\n    \"isin\": \"US74251V1026\",\n    \"cusip\": \"74251V102\",\n
+        \   \"sharesNumber\": 2607579,\n    \"weightPercentage\": 0.039,\n    \"marketValue\":
+        233586926.82,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ZBRA\",\n    \"name\": \"ZEBRA TECHNOLOGIES CORP CL A\",\n    \"isin\":
+        \"US9892071054\",\n    \"cusip\": \"989207105\",\n    \"sharesNumber\": 630872,\n
+        \   \"weightPercentage\": 0.039,\n    \"marketValue\": 232217674.48,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"APTV\",\n    \"name\":
+        \"APTIV PLC\",\n    \"isin\": \"JE00B783TY65\",\n    \"cusip\": \"G6095L109\",\n
+        \   \"sharesNumber\": 3252495,\n    \"weightPercentage\": 0.038,\n    \"marketValue\":
+        226145977.35,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ARE\",\n    \"name\": \"ALEXANDRIA REAL ESTATE EQUIT\",\n    \"isin\": \"US0152711091\",\n
+        \   \"cusip\": \"015271109\",\n    \"sharesNumber\": 1905344,\n    \"weightPercentage\":
+        0.038,\n    \"marketValue\": 228450745.60000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BAX\",\n    \"name\": \"BAXTER INTERNATIONAL
+        INC\",\n    \"isin\": \"US0718131099\",\n    \"cusip\": \"071813109\",\n    \"sharesNumber\":
+        6244941,\n    \"weightPercentage\": 0.038,\n    \"marketValue\": 227752998.26999998,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CFG\",\n
+        \   \"name\": \"CITIZENS FINANCIAL GROUP\",\n    \"isin\": \"US1746101054\",\n
+        \   \"cusip\": \"174610105\",\n    \"sharesNumber\": 5485779,\n    \"weightPercentage\":
+        0.038,\n    \"marketValue\": 227330681.76,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"LH\",\n    \"name\": \"LABCORP HOLDINGS
+        INC\",\n    \"isin\": \"US50540R4092\",\n    \"cusip\": \"50540R409\",\n    \"sharesNumber\":
+        1027063,\n    \"weightPercentage\": 0.038,\n    \"marketValue\": 225851153.70000002,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"LUV\",\n
+        \   \"name\": \"SOUTHWEST AIRLINES CO\",\n    \"isin\": \"US8447411088\",\n
+        \   \"cusip\": \"844741108\",\n    \"sharesNumber\": 7331855,\n    \"weightPercentage\":
+        0.038,\n    \"marketValue\": 225307904.15,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"STLD\",\n    \"name\": \"STEEL DYNAMICS
+        INC\",\n    \"isin\": \"US8581191009\",\n    \"cusip\": \"858119100\",\n    \"sharesNumber\":
+        1756446,\n    \"weightPercentage\": 0.038,\n    \"marketValue\": 225949213.43999997,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BBY\",\n
+        \   \"name\": \"BEST BUY CO INC\",\n    \"isin\": \"US0865161014\",\n    \"cusip\":
+        \"086516101\",\n    \"sharesNumber\": 2402452,\n    \"weightPercentage\":
+        0.037,\n    \"marketValue\": 224268894.2,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"LVS\",\n    \"name\": \"LAS VEGAS SANDS CORP\",\n
+        \   \"isin\": \"US5178341070\",\n    \"cusip\": \"517834107\",\n    \"sharesNumber\":
+        4325286,\n    \"weightPercentage\": 0.037,\n    \"marketValue\": 220762597.44,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"LYV\",\n
+        \   \"name\": \"LIVE NATION ENTERTAINMENT IN\",\n    \"isin\": \"US5380341090\",\n
+        \   \"cusip\": \"538034109\",\n    \"sharesNumber\": 1916339,\n    \"weightPercentage\":
+        0.037,\n    \"marketValue\": 219861573.47,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MAA\",\n    \"name\": \"MID AMERICA
+        APARTMENT COMM\",\n    \"isin\": \"US59522J1034\",\n    \"cusip\": \"59522J103\",\n
+        \   \"sharesNumber\": 1430324,\n    \"weightPercentage\": 0.037,\n    \"marketValue\":
+        223616854.16,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"MAS\",\n    \"name\": \"MASCO CORP\",\n    \"isin\": \"US5745991068\",\n
+        \   \"cusip\": \"574599106\",\n    \"sharesNumber\": 2671060,\n    \"weightPercentage\":
+        0.037,\n    \"marketValue\": 218893367,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"MRNA\",\n    \"name\": \"MODERNA INC\",\n    \"isin\":
+        \"US60770K1079\",\n    \"cusip\": \"60770K107\",\n    \"sharesNumber\": 4139157,\n
+        \   \"weightPercentage\": 0.037,\n    \"marketValue\": 220989592.23,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NRG\",\n    \"name\":
+        \"NRG ENERGY INC\",\n    \"isin\": \"US6293775085\",\n    \"cusip\": \"629377508\",\n
+        \   \"sharesNumber\": 2525777,\n    \"weightPercentage\": 0.037,\n    \"marketValue\":
+        221586416.21,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"CTRA\",\n    \"name\": \"COTERRA ENERGY INC\",\n    \"isin\": \"US1270971039\",\n
+        \   \"cusip\": \"127097103\",\n    \"sharesNumber\": 9046932,\n    \"weightPercentage\":
+        0.036,\n    \"marketValue\": 214231349.76,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"DG\",\n    \"name\": \"DOLLAR GENERAL
+        CORP\",\n    \"isin\": \"US2566771059\",\n    \"cusip\": \"256677105\",\n
+        \   \"sharesNumber\": 2691223,\n    \"weightPercentage\": 0.036,\n    \"marketValue\":
+        218096711.92000002,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"DGX\",\n    \"name\": \"QUEST DIAGNOSTICS INC\",\n    \"isin\":
+        \"US74834L1008\",\n    \"cusip\": \"74834L100\",\n    \"sharesNumber\": 1362492,\n
+        \   \"weightPercentage\": 0.036,\n    \"marketValue\": 214074743.04,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"FDS\",\n    \"name\":
+        \"FACTSET RESEARCH SYSTEMS INC\",\n    \"isin\": \"US3030751057\",\n    \"cusip\":
+        \"303075105\",\n    \"sharesNumber\": 465204,\n    \"weightPercentage\": 0.036,\n
+        \   \"marketValue\": 215747659.07999998,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"J\",\n    \"name\": \"JACOBS SOLUTIONS INC\",\n
+        \   \"isin\": \"US46982L1089\",\n    \"cusip\": \"46982L108\",\n    \"sharesNumber\":
+        1532399,\n    \"weightPercentage\": 0.036,\n    \"marketValue\": 216650570.62,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ULTA\",\n
+        \   \"name\": \"ULTA BEAUTY INC\",\n    \"isin\": \"US90384S3031\",\n    \"cusip\":
+        \"90384S303\",\n    \"sharesNumber\": 583789,\n    \"weightPercentage\": 0.036,\n
+        \   \"marketValue\": 214262238.78,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"WRB\",\n    \"name\": \"WR BERKLEY CORP\",\n    \"isin\":
+        \"US0844231029\",\n    \"cusip\": \"084423102\",\n    \"sharesNumber\": 3678779,\n
+        \   \"weightPercentage\": 0.036,\n    \"marketValue\": 217526202.27,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"IP\",\n    \"name\":
+        \"INTERNATIONAL PAPER CO\",\n    \"isin\": \"US4601461035\",\n    \"cusip\":
+        \"460146103\",\n    \"sharesNumber\": 4251029,\n    \"weightPercentage\":
+        0.035,\n    \"marketValue\": 208512972.45,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SNA\",\n    \"name\": \"SNAP ON INC\",\n
+        \   \"isin\": \"US8330341012\",\n    \"cusip\": \"833034101\",\n    \"sharesNumber\":
+        644673,\n    \"weightPercentage\": 0.035,\n    \"marketValue\": 209673446.52,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AVY\",\n
+        \   \"name\": \"AVERY DENNISON CORP\",\n    \"isin\": \"US0536111091\",\n
+        \   \"cusip\": \"053611109\",\n    \"sharesNumber\": 984961,\n    \"weightPercentage\":
+        0.034,\n    \"marketValue\": 204527151.65,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EG\",\n    \"name\": \"EVEREST GROUP
+        LTD\",\n    \"isin\": \"BMG3223R1088\",\n    \"cusip\": \"\",\n    \"sharesNumber\":
+        530047,\n    \"weightPercentage\": 0.034,\n    \"marketValue\": 204417926.02,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"EXPD\",\n
+        \   \"name\": \"EXPEDITORS INTL WASH INC\",\n    \"isin\": \"US3021301094\",\n
+        \   \"cusip\": \"302130109\",\n    \"sharesNumber\": 1726905,\n    \"weightPercentage\":
+        0.034,\n    \"marketValue\": 206365147.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PODD\",\n    \"name\": \"INSULET CORP\",\n    \"isin\":
+        \"US45784P1012\",\n    \"cusip\": \"45784P101\",\n    \"sharesNumber\": 857786,\n
+        \   \"weightPercentage\": 0.034,\n    \"marketValue\": 201442464.24,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"TSN\",\n    \"name\":
+        \"TYSON FOODS INC CL A\",\n    \"isin\": \"US9024941034\",\n    \"cusip\":
+        \"902494103\",\n    \"sharesNumber\": 3497233,\n    \"weightPercentage\":
+        0.034,\n    \"marketValue\": 205917079.04000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AMCR\",\n    \"name\": \"AMCOR PLC\",\n
+        \   \"isin\": \"JE00BJ1F3079\",\n    \"cusip\": \"G0250X107\",\n    \"sharesNumber\":
+        17687073,\n    \"weightPercentage\": 0.033,\n    \"marketValue\": 195265285.92,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DOC\",\n
+        \   \"name\": \"HEALTHPEAK PROPERTIES INC\",\n    \"isin\": \"US71943U1043\",\n
+        \   \"cusip\": \"71943U104\",\n    \"sharesNumber\": 8612528,\n    \"weightPercentage\":
+        0.033,\n    \"marketValue\": 199121647.36,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"GPC\",\n    \"name\": \"GENUINE PARTS
+        CO\",\n    \"isin\": \"US3724601055\",\n    \"cusip\": \"372460105\",\n    \"sharesNumber\":
+        1704743,\n    \"weightPercentage\": 0.033,\n    \"marketValue\": 198159326.32,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"KIM\",\n
+        \   \"name\": \"KIMCO REALTY CORP\",\n    \"isin\": \"US49446R1095\",\n    \"cusip\":
+        \"49446R109\",\n    \"sharesNumber\": 8249039,\n    \"weightPercentage\":
+        0.033,\n    \"marketValue\": 197646974.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MOH\",\n    \"name\": \"MOLINA HEALTHCARE
+        INC\",\n    \"isin\": \"US60855R1005\",\n    \"cusip\": \"60855R100\",\n    \"sharesNumber\":
+        717321,\n    \"weightPercentage\": 0.033,\n    \"marketValue\": 197263275,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PNR\",\n
+        \   \"name\": \"PENTAIR PLC\",\n    \"isin\": \"IE00BLS09M33\",\n    \"cusip\":
+        \"G7S00T104\",\n    \"sharesNumber\": 2025623,\n    \"weightPercentage\":
+        0.033,\n    \"marketValue\": 198511054,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"TXT\",\n    \"name\": \"TEXTRON INC\",\n    \"isin\":
+        \"US8832031012\",\n    \"cusip\": \"883203101\",\n    \"sharesNumber\": 2292489,\n
+        \   \"weightPercentage\": 0.033,\n    \"marketValue\": 199148519.43,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"WBD\",\n    \"name\":
+        \"WARNER BROS DISCOVERY INC\",\n    \"isin\": \"US9344231041\",\n    \"cusip\":
+        \"934423104\",\n    \"sharesNumber\": 27304036,\n    \"weightPercentage\":
+        0.033,\n    \"marketValue\": 200138583.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AKAM\",\n    \"name\": \"AKAMAI TECHNOLOGIES
+        INC\",\n    \"isin\": \"US00971T1016\",\n    \"cusip\": \"00971T101\",\n    \"sharesNumber\":
+        1854025,\n    \"weightPercentage\": 0.032,\n    \"marketValue\": 190445448,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"IEX\",\n
+        \   \"name\": \"IDEX CORP\",\n    \"isin\": \"US45167R1041\",\n    \"cusip\":
+        \"45167R104\",\n    \"sharesNumber\": 926727,\n    \"weightPercentage\": 0.032,\n
+        \   \"marketValue\": 189849293.22,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"KEY\",\n    \"name\": \"KEYCORP\",\n    \"isin\":
+        \"US4932671088\",\n    \"cusip\": \"493267108\",\n    \"sharesNumber\": 11357515,\n
+        \   \"weightPercentage\": 0.032,\n    \"marketValue\": 193986356.2,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"LNT\",\n    \"name\":
+        \"ALLIANT ENERGY CORP\",\n    \"isin\": \"US0188021085\",\n    \"cusip\":
+        \"018802108\",\n    \"sharesNumber\": 3138707,\n    \"weightPercentage\":
+        0.032,\n    \"marketValue\": 194348737.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NI\",\n    \"name\": \"NISOURCE INC\",\n
+        \   \"isin\": \"US65473P1057\",\n    \"cusip\": \"65473P105\",\n    \"sharesNumber\":
+        5488275,\n    \"weightPercentage\": 0.032,\n    \"marketValue\": 193790990.25,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"SWK\",\n
+        \   \"name\": \"STANLEY BLACK & DECKER INC\",\n    \"isin\": \"US8545021011\",\n
+        \   \"cusip\": \"854502101\",\n    \"sharesNumber\": 1884220,\n    \"weightPercentage\":
+        0.032,\n    \"marketValue\": 194621083.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"VRSN\",\n    \"name\": \"VERISIGN INC\",\n    \"isin\":
+        \"US92343E1029\",\n    \"cusip\": \"92343E102\",\n    \"sharesNumber\": 1026709,\n
+        \   \"weightPercentage\": 0.032,\n    \"marketValue\": 190711196.75,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CF\",\n    \"name\":
+        \"CF INDUSTRIES HOLDINGS INC\",\n    \"isin\": \"US1252691001\",\n    \"cusip\":
+        \"125269100\",\n    \"sharesNumber\": 2207498,\n    \"weightPercentage\":
+        0.031,\n    \"marketValue\": 185805106.66,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SWKS\",\n    \"name\": \"SKYWORKS
+        SOLUTIONS INC\",\n    \"isin\": \"US83088M1027\",\n    \"cusip\": \"83088M102\",\n
+        \   \"sharesNumber\": 1954331,\n    \"weightPercentage\": 0.031,\n    \"marketValue\":
+        185544185.14,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"ALGN\",\n    \"name\": \"ALIGN TECHNOLOGY INC\",\n    \"isin\": \"US0162551016\",\n
+        \   \"cusip\": \"016255101\",\n    \"sharesNumber\": 858934,\n    \"weightPercentage\":
+        0.03,\n    \"marketValue\": 178366234.44,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"DPZ\",\n    \"name\": \"DOMINO S PIZZA INC\",\n
+        \   \"isin\": \"US25754A2015\",\n    \"cusip\": \"25754A201\",\n    \"sharesNumber\":
+        428327,\n    \"weightPercentage\": 0.03,\n    \"marketValue\": 181053822.9,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GEN\",\n
+        \   \"name\": \"GEN DIGITAL INC\",\n    \"isin\": \"US6687711084\",\n    \"cusip\":
+        \"668771108\",\n    \"sharesNumber\": 6628191,\n    \"weightPercentage\":
+        0.03,\n    \"marketValue\": 177635518.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"L\",\n    \"name\": \"LOEWS CORP\",\n    \"isin\":
+        \"US5404241086\",\n    \"cusip\": \"540424108\",\n    \"sharesNumber\": 2229322,\n
+        \   \"weightPercentage\": 0.03,\n    \"marketValue\": 180441322.68,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MRO\",\n    \"name\":
+        \"MARATHON OIL CORP\",\n    \"isin\": \"US5658491064\",\n    \"cusip\": \"565849106\",\n
+        \   \"sharesNumber\": 6845573,\n    \"weightPercentage\": 0.03,\n    \"marketValue\":
+        181065405.85,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"RVTY\",\n    \"name\": \"REVVITY INC\",\n    \"isin\": \"US7140461093\",\n
+        \   \"cusip\": \"714046109\",\n    \"sharesNumber\": 1509589,\n    \"weightPercentage\":
+        0.03,\n    \"marketValue\": 178886296.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"TRMB\",\n    \"name\": \"TRIMBLE INC\",\n    \"isin\":
+        \"US8962391004\",\n    \"cusip\": \"896239100\",\n    \"sharesNumber\": 2988493,\n
+        \   \"weightPercentage\": 0.03,\n    \"marketValue\": 180206127.9,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CAG\",\n    \"name\":
+        \"CONAGRA BRANDS INC\",\n    \"isin\": \"US2058871029\",\n    \"cusip\": \"205887102\",\n
+        \   \"sharesNumber\": 5860162,\n    \"weightPercentage\": 0.029,\n    \"marketValue\":
+        172581770.9,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"CE\",\n    \"name\": \"CELANESE CORP\",\n    \"isin\": \"US1508701034\",\n
+        \   \"cusip\": \"150870103\",\n    \"sharesNumber\": 1336708,\n    \"weightPercentage\":
+        0.029,\n    \"marketValue\": 172355129.52,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"EVRG\",\n    \"name\": \"EVERGY INC\",\n
+        \   \"isin\": \"US30034W1062\",\n    \"cusip\": \"30034W106\",\n    \"sharesNumber\":
+        2814387,\n    \"weightPercentage\": 0.029,\n    \"marketValue\": 174379418.52,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"JBHT\",\n
+        \   \"name\": \"HUNT (JB) TRANSPRT SVCS INC\",\n    \"isin\": \"US4456581077\",\n
+        \   \"cusip\": \"445658107\",\n    \"sharesNumber\": 985590,\n    \"weightPercentage\":
+        0.029,\n    \"marketValue\": 172921765.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"ROL\",\n    \"name\": \"ROLLINS INC\",\n    \"isin\":
+        \"US7757111049\",\n    \"cusip\": \"775711104\",\n    \"sharesNumber\": 3437779,\n
+        \   \"weightPercentage\": 0.029,\n    \"marketValue\": 171029505.25,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"JBL\",\n    \"name\":
+        \"JABIL INC\",\n    \"isin\": \"US4663131039\",\n    \"cusip\": \"466313103\",\n
+        \   \"sharesNumber\": 1388358,\n    \"weightPercentage\": 0.028,\n    \"marketValue\":
+        170684732.52,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"NDSN\",\n    \"name\": \"NORDSON CORP\",\n    \"isin\": \"US6556631025\",\n
+        \   \"cusip\": \"655663102\",\n    \"sharesNumber\": 665752,\n    \"weightPercentage\":
+        0.028,\n    \"marketValue\": 166418027.44,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"UHS\",\n    \"name\": \"UNIVERSAL
+        HEALTH SERVICES B\",\n    \"isin\": \"US9139031002\",\n    \"cusip\": \"913903100\",\n
+        \   \"sharesNumber\": 727637,\n    \"weightPercentage\": 0.028,\n    \"marketValue\":
+        170383479.92,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"VTRS\",\n    \"name\": \"VIATRIS INC\",\n    \"isin\": \"US92556V1061\",\n
+        \   \"cusip\": \"92556V106\",\n    \"sharesNumber\": 14605013,\n    \"weightPercentage\":
+        0.028,\n    \"marketValue\": 168687900.15,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ALLE\",\n    \"name\": \"ALLEGION
+        PLC\",\n    \"isin\": \"IE00BFRT3W74\",\n    \"cusip\": \"G0176J109\",\n    \"sharesNumber\":
+        1065913,\n    \"weightPercentage\": 0.027,\n    \"marketValue\": 160803635.18,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DLTR\",\n
+        \   \"name\": \"DOLLAR TREE INC\",\n    \"isin\": \"US2567461080\",\n    \"cusip\":
+        \"256746108\",\n    \"sharesNumber\": 2472392,\n    \"weightPercentage\":
+        0.027,\n    \"marketValue\": 163499282.95999998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"JKHY\",\n    \"name\": \"JACK HENRY
+        & ASSOCIATES INC\",\n    \"isin\": \"US4262811015\",\n    \"cusip\": \"426281101\",\n
+        \   \"sharesNumber\": 892144,\n    \"weightPercentage\": 0.027,\n    \"marketValue\":
+        164529196.48,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"POOL\",\n    \"name\": \"POOL CORP\",\n    \"isin\": \"US73278L1052\",\n
+        \   \"cusip\": \"73278L105\",\n    \"sharesNumber\": 468590,\n    \"weightPercentage\":
+        0.027,\n    \"marketValue\": 164325141.20000002,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"UDR\",\n    \"name\": \"UDR INC\",\n
+        \   \"isin\": \"US9026531049\",\n    \"cusip\": \"902653104\",\n    \"sharesNumber\":
+        3672995,\n    \"weightPercentage\": 0.027,\n    \"marketValue\": 164219606.45000002,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BG\",\n
+        \   \"name\": \"BUNGE GLOBAL SA\",\n    \"isin\": \"CH1300646267\",\n    \"cusip\":
+        \"G16962105\",\n    \"sharesNumber\": 1733026,\n    \"weightPercentage\":
+        0.026,\n    \"marketValue\": 154221983.73999998,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BXP\",\n    \"name\": \"BXP INC\",\n
+        \   \"isin\": \"US1011211018\",\n    \"cusip\": \"101121101\",\n    \"sharesNumber\":
+        1778337,\n    \"weightPercentage\": 0.026,\n    \"marketValue\": 154644185.51999998,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CHRW\",\n
+        \   \"name\": \"C.H. ROBINSON WORLDWIDE INC\",\n    \"isin\": \"US12541W2098\",\n
+        \   \"cusip\": \"12541W209\",\n    \"sharesNumber\": 1435083,\n    \"weightPercentage\":
+        0.026,\n    \"marketValue\": 154788052.38,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CPT\",\n    \"name\": \"CAMDEN PROPERTY
+        TRUST\",\n    \"isin\": \"US1331311027\",\n    \"cusip\": \"133131102\",\n
+        \   \"sharesNumber\": 1305087,\n    \"weightPercentage\": 0.026,\n    \"marketValue\":
+        157432644.81,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"EMN\",\n    \"name\": \"EASTMAN CHEMICAL CO\",\n    \"isin\": \"US2774321002\",\n
+        \   \"cusip\": \"277432100\",\n    \"sharesNumber\": 1430611,\n    \"weightPercentage\":
+        0.026,\n    \"marketValue\": 153046764.78,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FFIV\",\n    \"name\": \"F5 INC\",\n
+        \   \"isin\": \"US3156161024\",\n    \"cusip\": \"315616102\",\n    \"sharesNumber\":
+        712925,\n    \"weightPercentage\": 0.026,\n    \"marketValue\": 153571174.25,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"JNPR\",\n
+        \   \"name\": \"JUNIPER NETWORKS INC\",\n    \"isin\": \"US48203R1041\",\n
+        \   \"cusip\": \"48203R104\",\n    \"sharesNumber\": 4028031,\n    \"weightPercentage\":
+        0.026,\n    \"marketValue\": 157777974.27,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"SJM\",\n    \"name\": \"JM SMUCKER
+        CO/THE\",\n    \"isin\": \"US8326964058\",\n    \"cusip\": \"832696405\",\n
+        \   \"sharesNumber\": 1302652,\n    \"weightPercentage\": 0.026,\n    \"marketValue\":
+        153322140.4,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"AES\",\n    \"name\": \"AES CORP\",\n    \"isin\": \"US00130H1059\",\n    \"cusip\":
+        \"00130H105\",\n    \"sharesNumber\": 8699724,\n    \"weightPercentage\":
+        0.025,\n    \"marketValue\": 148591285.92,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HST\",\n    \"name\": \"HOST HOTELS
+        & RESORTS INC\",\n    \"isin\": \"US44107P1049\",\n    \"cusip\": \"44107P104\",\n
+        \   \"sharesNumber\": 8595922,\n    \"weightPercentage\": 0.025,\n    \"marketValue\":
+        149397124.35999998,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"ERIE\",\n    \"name\": \"ERIE INDEMNITY COMPANY CL A\",\n
+        \   \"isin\": \"US29530P1021\",\n    \"cusip\": \"29530P102\",\n    \"sharesNumber\":
+        305450,\n    \"weightPercentage\": 0.024,\n    \"marketValue\": 141661601,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"REG\",\n
+        \   \"name\": \"REGENCY CENTERS CORP\",\n    \"isin\": \"US7588491032\",\n
+        \   \"cusip\": \"758849103\",\n    \"sharesNumber\": 1998663,\n    \"weightPercentage\":
+        0.024,\n    \"marketValue\": 144363428.49,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"ALB\",\n    \"name\": \"ALBEMARLE
+        CORP\",\n    \"isin\": \"US0126531013\",\n    \"cusip\": \"012653101\",\n
+        \   \"sharesNumber\": 1438016,\n    \"weightPercentage\": 0.023,\n    \"marketValue\":
+        135115983.35999998,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"IPG\",\n    \"name\": \"INTERPUBLIC GROUP OF COS INC\",\n
+        \   \"isin\": \"US4606901001\",\n    \"cusip\": \"460690100\",\n    \"sharesNumber\":
+        4595871,\n    \"weightPercentage\": 0.023,\n    \"marketValue\": 138059964.84,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"KMX\",\n
+        \   \"name\": \"CARMAX INC\",\n    \"isin\": \"US1431301027\",\n    \"cusip\":
+        \"143130102\",\n    \"sharesNumber\": 1910025,\n    \"weightPercentage\":
+        0.023,\n    \"marketValue\": 137521800,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"LW\",\n    \"name\": \"LAMB WESTON HOLDINGS INC\",\n
+        \   \"isin\": \"US5132721045\",\n    \"cusip\": \"513272104\",\n    \"sharesNumber\":
+        1758439,\n    \"weightPercentage\": 0.023,\n    \"marketValue\": 135663568.85000002,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"TFX\",\n
+        \   \"name\": \"TELEFLEX INC\",\n    \"isin\": \"US8793691069\",\n    \"cusip\":
+        \"879369106\",\n    \"sharesNumber\": 576796,\n    \"weightPercentage\": 0.023,\n
+        \   \"marketValue\": 137173624.72,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"CTLT\",\n    \"name\": \"CATALENT INC\",\n    \"isin\":
+        \"US1488061029\",\n    \"cusip\": \"148806102\",\n    \"sharesNumber\": 2214932,\n
+        \   \"weightPercentage\": 0.022,\n    \"marketValue\": 131566960.8,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"ENPH\",\n    \"name\":
+        \"ENPHASE ENERGY INC\",\n    \"isin\": \"US29355A1079\",\n    \"cusip\": \"29355A107\",\n
+        \   \"sharesNumber\": 1657358,\n    \"weightPercentage\": 0.022,\n    \"marketValue\":
+        130052882.26,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"EPAM\",\n    \"name\": \"EPAM SYSTEMS INC\",\n    \"isin\": \"US29414B1044\",\n
+        \   \"cusip\": \"29414B104\",\n    \"sharesNumber\": 697118,\n    \"weightPercentage\":
+        0.022,\n    \"marketValue\": 134655312.88,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MKTX\",\n    \"name\": \"MARKETAXESS
+        HOLDINGS INC\",\n    \"isin\": \"US57060D1081\",\n    \"cusip\": \"57060D108\",\n
+        \   \"sharesNumber\": 461728,\n    \"weightPercentage\": 0.022,\n    \"marketValue\":
+        133388601.91999999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"TECH\",\n    \"name\": \"BIO TECHNE CORP\",\n    \"isin\":
+        \"US09073M1045\",\n    \"cusip\": \"09073M104\",\n    \"sharesNumber\": 1928475,\n
+        \   \"weightPercentage\": 0.022,\n    \"marketValue\": 133720456.5,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"DAY\",\n    \"name\":
+        \"DAYFORCE INC\",\n    \"isin\": \"US15677J1088\",\n    \"cusip\": \"15677J108\",\n
+        \   \"sharesNumber\": 1934562,\n    \"weightPercentage\": 0.021,\n    \"marketValue\":
+        125475691.32,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"INCY\",\n    \"name\": \"INCYTE CORP\",\n    \"isin\": \"US45337C1027\",\n
+        \   \"cusip\": \"45337C102\",\n    \"sharesNumber\": 1955971,\n    \"weightPercentage\":
+        0.021,\n    \"marketValue\": 127470630.07000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"NCLH\",\n    \"name\": \"NORWEGIAN
+        CRUISE LINE HOLDIN\",\n    \"isin\": \"BMG667211046\",\n    \"cusip\": \"G66721104\",\n
+        \   \"sharesNumber\": 5380426,\n    \"weightPercentage\": 0.021,\n    \"marketValue\":
+        125901968.39999999,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"PNW\",\n    \"name\": \"PINNACLE WEST CAPITAL\",\n    \"isin\":
+        \"US7234841010\",\n    \"cusip\": \"723484101\",\n    \"sharesNumber\": 1389657,\n
+        \   \"weightPercentage\": 0.021,\n    \"marketValue\": 124110266.67,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AIZ\",\n    \"name\":
+        \"ASSURANT INC\",\n    \"isin\": \"US04621X1081\",\n    \"cusip\": \"04621X108\",\n
+        \   \"sharesNumber\": 634194,\n    \"weightPercentage\": 0.02,\n    \"marketValue\":
+        122849719.74000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"CRL\",\n    \"name\": \"CHARLES RIVER LABORATORIES\",\n    \"isin\":
+        \"US1598641074\",\n    \"cusip\": \"159864107\",\n    \"sharesNumber\": 631490,\n
+        \   \"weightPercentage\": 0.02,\n    \"marketValue\": 117854978.7,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"GL\",\n    \"name\":
+        \"GLOBE LIFE INC\",\n    \"isin\": \"US37959E1029\",\n    \"cusip\": \"37959E102\",\n
+        \   \"sharesNumber\": 1099176,\n    \"weightPercentage\": 0.02,\n    \"marketValue\":
+        121854651.36,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"GNRC\",\n    \"name\": \"GENERAC HOLDINGS INC\",\n    \"isin\": \"US3687361044\",\n
+        \   \"cusip\": \"368736104\",\n    \"sharesNumber\": 735735,\n    \"weightPercentage\":
+        0.02,\n    \"marketValue\": 122264442.30000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HII\",\n    \"name\": \"HUNTINGTON
+        INGALLS INDUSTRIE\",\n    \"isin\": \"US4464131063\",\n    \"cusip\": \"446413106\",\n
+        \   \"sharesNumber\": 479753,\n    \"weightPercentage\": 0.02,\n    \"marketValue\":
+        122816768,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"LKQ\",\n    \"name\": \"LKQ CORP\",\n    \"isin\": \"US5018892084\",\n    \"cusip\":
+        \"501889208\",\n    \"sharesNumber\": 3221369,\n    \"weightPercentage\":
+        0.02,\n    \"marketValue\": 121703320.82000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MTCH\",\n    \"name\": \"MATCH GROUP
+        INC\",\n    \"isin\": \"US57667L1070\",\n    \"cusip\": \"57667L107\",\n    \"sharesNumber\":
+        3155929,\n    \"weightPercentage\": 0.02,\n    \"marketValue\": 118694489.69,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NWSA\",\n
+        \   \"name\": \"NEWS CORP   CLASS A\",\n    \"isin\": \"US65249B1098\",\n
+        \   \"cusip\": \"65249B109\",\n    \"sharesNumber\": 4629710,\n    \"weightPercentage\":
+        0.02,\n    \"marketValue\": 119816894.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"SOLV\",\n    \"name\": \"SOLVENTUM CORP\",\n    \"isin\":
+        \"US83444M1018\",\n    \"cusip\": \"83444M101\",\n    \"sharesNumber\": 1690436,\n
+        \   \"weightPercentage\": 0.02,\n    \"marketValue\": 122556610,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"TAP\",\n    \"name\":
+        \"MOLSON COORS BEVERAGE CO   B\",\n    \"isin\": \"US60871R2094\",\n    \"cusip\":
+        \"60871R209\",\n    \"sharesNumber\": 2150342,\n    \"weightPercentage\":
+        0.02,\n    \"marketValue\": 120505165.67999999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"TPR\",\n    \"name\": \"TAPESTRY INC\",\n
+        \   \"isin\": \"US8760301072\",\n    \"cusip\": \"876030107\",\n    \"sharesNumber\":
+        2817531,\n    \"weightPercentage\": 0.02,\n    \"marketValue\": 122675299.74,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"AOS\",\n
+        \   \"name\": \"SMITH (A.O.) CORP\",\n    \"isin\": \"US8318652091\",\n    \"cusip\":
+        \"831865209\",\n    \"sharesNumber\": 1468208,\n    \"weightPercentage\":
+        0.019,\n    \"marketValue\": 113492478.39999999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"CPB\",\n    \"name\": \"CAMPBELL SOUP
+        CO\",\n    \"isin\": \"US1344291091\",\n    \"cusip\": \"134429109\",\n    \"sharesNumber\":
+        2411158,\n    \"weightPercentage\": 0.019,\n    \"marketValue\": 113227979.68,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"CZR\",\n
+        \   \"name\": \"CAESARS ENTERTAINMENT INC\",\n    \"isin\": \"US12769G1004\",\n
+        \   \"cusip\": \"12769G100\",\n    \"sharesNumber\": 2646886,\n    \"weightPercentage\":
+        0.019,\n    \"marketValue\": 113286720.8,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"FOXA\",\n    \"name\": \"FOX CORP   CLASS A\",\n
+        \   \"isin\": \"US35137L1052\",\n    \"cusip\": \"35137L105\",\n    \"sharesNumber\":
+        2748683,\n    \"weightPercentage\": 0.019,\n    \"marketValue\": 115059870.38,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"HAS\",\n
+        \   \"name\": \"HASBRO INC\",\n    \"isin\": \"US4180561072\",\n    \"cusip\":
+        \"418056107\",\n    \"sharesNumber\": 1603398,\n    \"weightPercentage\":
+        0.019,\n    \"marketValue\": 112766981.34,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"MGM\",\n    \"name\": \"MGM RESORTS
+        INTERNATIONAL\",\n    \"isin\": \"US5529531015\",\n    \"cusip\": \"552953101\",\n
+        \   \"sharesNumber\": 2825103,\n    \"weightPercentage\": 0.019,\n    \"marketValue\":
+        111987082.92,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"QRVO\",\n    \"name\": \"QORVO INC\",\n    \"isin\": \"US74736K1016\",\n
+        \   \"cusip\": \"74736K101\",\n    \"sharesNumber\": 1160917,\n    \"weightPercentage\":
+        0.019,\n    \"marketValue\": 116370320.08,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"WYNN\",\n    \"name\": \"WYNN RESORTS
+        LTD\",\n    \"isin\": \"US9831341071\",\n    \"cusip\": \"983134107\",\n    \"sharesNumber\":
+        1144249,\n    \"weightPercentage\": 0.019,\n    \"marketValue\": 111770242.32000001,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"APA\",\n
+        \   \"name\": \"APA CORP\",\n    \"isin\": \"US03743Q1085\",\n    \"cusip\":
+        \"03743Q108\",\n    \"sharesNumber\": 4526579,\n    \"weightPercentage\":
+        0.018,\n    \"marketValue\": 110855919.71,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"BF-B\",\n    \"name\": \"BROWN FORMAN
+        CORP CLASS B\",\n    \"isin\": \"US1156372096\",\n    \"cusip\": \"115637209\",\n
+        \   \"sharesNumber\": 2243298,\n    \"weightPercentage\": 0.018,\n    \"marketValue\":
+        109450509.42,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"FRT\",\n    \"name\": \"FEDERAL REALTY INVS TRUST\",\n    \"isin\": \"US3137451015\",\n
+        \   \"cusip\": \"313745101\",\n    \"sharesNumber\": 920314,\n    \"weightPercentage\":
+        0.018,\n    \"marketValue\": 105311531.02000001,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"HRL\",\n    \"name\": \"HORMEL FOODS
+        CORP\",\n    \"isin\": \"US4404521001\",\n    \"cusip\": \"440452100\",\n
+        \   \"sharesNumber\": 3555933,\n    \"weightPercentage\": 0.018,\n    \"marketValue\":
+        110909550.27000001,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n
+        \   \"asset\": \"HSIC\",\n    \"name\": \"HENRY SCHEIN INC\",\n    \"isin\":
+        \"US8064071025\",\n    \"cusip\": \"806407102\",\n    \"sharesNumber\": 1550865,\n
+        \   \"weightPercentage\": 0.018,\n    \"marketValue\": 108901740.3,\n    \"updated\":
+        \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"MOS\",\n    \"name\":
+        \"MOSAIC CO/THE\",\n    \"isin\": \"US61945C1036\",\n    \"cusip\": \"61945C103\",\n
+        \   \"sharesNumber\": 3899363,\n    \"weightPercentage\": 0.017,\n    \"marketValue\":
+        103216138.61,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"BWA\",\n    \"name\": \"BORGWARNER INC\",\n    \"isin\": \"US0997241064\",\n
+        \   \"cusip\": \"099724106\",\n    \"sharesNumber\": 2787060,\n    \"weightPercentage\":
+        0.016,\n    \"marketValue\": 95094487.19999999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"FMC\",\n    \"name\": \"FMC CORP\",\n
+        \   \"isin\": \"US3024913036\",\n    \"cusip\": \"302491303\",\n    \"sharesNumber\":
+        1527816,\n    \"weightPercentage\": 0.016,\n    \"marketValue\": 94892651.76,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"IVZ\",\n
+        \   \"name\": \"INVESCO LTD\",\n    \"isin\": \"BMG491BT1088\",\n    \"cusip\":
+        \"G491BT108\",\n    \"sharesNumber\": 5506595,\n    \"weightPercentage\":
+        0.016,\n    \"marketValue\": 96365412.5,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"MHK\",\n    \"name\": \"MOHAWK INDUSTRIES INC\",\n
+        \   \"isin\": \"US6081901042\",\n    \"cusip\": \"608190104\",\n    \"sharesNumber\":
+        641189,\n    \"weightPercentage\": 0.016,\n    \"marketValue\": 97268371.3,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"PAYC\",\n
+        \   \"name\": \"PAYCOM SOFTWARE INC\",\n    \"isin\": \"US70432V1026\",\n
+        \   \"cusip\": \"70432V102\",\n    \"sharesNumber\": 595737,\n    \"weightPercentage\":
+        0.016,\n    \"marketValue\": 97933205.42999999,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"RL\",\n    \"name\": \"RALPH LAUREN
+        CORP\",\n    \"isin\": \"US7512121010\",\n    \"cusip\": \"751212101\",\n
+        \   \"sharesNumber\": 490492,\n    \"weightPercentage\": 0.016,\n    \"marketValue\":
+        96386582.92,\n    \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\":
+        \"DVA\",\n    \"name\": \"DAVITA INC\",\n    \"isin\": \"US23918K1088\",\n
+        \   \"cusip\": \"23918K108\",\n    \"sharesNumber\": 564561,\n    \"weightPercentage\":
+        0.015,\n    \"marketValue\": 91899239.58,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"WBA\",\n    \"name\": \"WALGREENS BOOTS ALLIANCE
+        INC\",\n    \"isin\": \"US9314271084\",\n    \"cusip\": \"931427108\",\n    \"sharesNumber\":
+        8767888,\n    \"weightPercentage\": 0.014,\n    \"marketValue\": 81979752.8,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"BEN\",\n
+        \   \"name\": \"FRANKLIN RESOURCES INC\",\n    \"isin\": \"US3546131018\",\n
+        \   \"cusip\": \"354613101\",\n    \"sharesNumber\": 3776129,\n    \"weightPercentage\":
+        0.013,\n    \"marketValue\": 75862431.61,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"PARA\",\n    \"name\": \"PARAMOUNT GLOBAL CLASS
+        B\",\n    \"isin\": \"US92556H2067\",\n    \"cusip\": \"92556H206\",\n    \"sharesNumber\":
+        7277284,\n    \"weightPercentage\": 0.013,\n    \"marketValue\": 75028798.04,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"FOX\",\n
+        \   \"name\": \"FOX CORP   CLASS B\",\n    \"isin\": \"US35137L2043\",\n    \"cusip\":
+        \"35137L204\",\n    \"sharesNumber\": 1614593,\n    \"weightPercentage\":
+        0.01,\n    \"marketValue\": 62016517.129999995,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  },\n  {\n    \"asset\": \"AMTM\",\n    \"name\": \"AMENTUM HOLDINGS
+        INC\",\n    \"isin\": \"US0239391016\",\n    \"cusip\": \"\",\n    \"sharesNumber\":
+        1532399,\n    \"weightPercentage\": 0.007,\n    \"marketValue\": 44240359.13,\n
+        \   \"updated\": \"2024-10-24 01:10:39\"\n  },\n  {\n    \"asset\": \"NWS\",\n
+        \   \"name\": \"NEWS CORP   CLASS B\",\n    \"isin\": \"US65249B2088\",\n
+        \   \"cusip\": \"65249B208\",\n    \"sharesNumber\": 1373524,\n    \"weightPercentage\":
+        0.006,\n    \"marketValue\": 37977938.6,\n    \"updated\": \"2024-10-24 01:10:39\"\n
+        \ },\n  {\n    \"asset\": \"\",\n    \"name\": \"US DOLLAR\",\n    \"isin\":
+        \"999USDZ92\",\n    \"cusip\": \"\",\n    \"sharesNumber\": 2036710573.77,\n
+        \   \"weightPercentage\": 0,\n    \"marketValue\": 0,\n    \"updated\": \"2024-10-24
+        01:10:39\"\n  }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '124993'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 25 Oct 2024 03:40:53 GMT
+      Etag:
+      - W/"1e841-jexxYAHeSI1pYYQkrsBt9fqZSqQ"
+      Server:
+      - gunicorn
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

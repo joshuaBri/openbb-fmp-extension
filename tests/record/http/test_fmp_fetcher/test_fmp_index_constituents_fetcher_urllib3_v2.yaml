@@ -1,0 +1,1929 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - fmp.a.pinggy.link
+      User-Agent:
+      - Python-urllib/3.11
+    method: GET
+    uri: https://127.0.0.1:7890/api/v3/sp500_constituent?
+  response:
+    body:
+      string: "[\n  {\n    \"symbol\": \"DELL\",\n    \"name\": \"Dell Technologies\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Technology Hardware,
+        Storage & Peripherals\",\n    \"headQuarter\": \"Round Rock, Texas\",\n    \"dateFirstAdded\":
+        \"2024-09-23\",\n    \"cik\": \"0001571996\",\n    \"founded\": \"2016\"\n
+        \ },\n  {\n    \"symbol\": \"ERIE\",\n    \"name\": \"Erie Indemnity\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Insurance Brokers\",\n
+        \   \"headQuarter\": \"Erie, Pennsylvania\",\n    \"dateFirstAdded\": \"2024-09-23\",\n
+        \   \"cik\": \"0000922621\",\n    \"founded\": \"1925\"\n  },\n  {\n    \"symbol\":
+        \"PLTR\",\n    \"name\": \"Palantir Technologies\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Internet Services & Infrastructure\",\n    \"headQuarter\":
+        \"Denver, Colorado\",\n    \"dateFirstAdded\": \"2024-09-23\",\n    \"cik\":
+        \"0001321655\",\n    \"founded\": \"2003\"\n  },\n  {\n    \"symbol\": \"SW\",\n
+        \   \"name\": \"Smurfit WestRock\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Paper & Plastic Packaging Products & Materials\",\n    \"headQuarter\":
+        \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"2024-07-08\",\n    \"cik\":
+        \"0002005951\",\n    \"founded\": \"1934\"\n  },\n  {\n    \"symbol\": \"CRWD\",\n
+        \   \"name\": \"CrowdStrike\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Software - Infrastructure\",\n    \"headQuarter\": \"Austin, Texas\",\n
+        \   \"dateFirstAdded\": \"2024-06-24\",\n    \"cik\": \"0001535527\",\n    \"founded\":
+        \"2011\"\n  },\n  {\n    \"symbol\": \"GDDY\",\n    \"name\": \"GoDaddy\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Internet Services &
+        Infrastructure\",\n    \"headQuarter\": \"Tempe, Arizona\",\n    \"dateFirstAdded\":
+        \"2024-06-24\",\n    \"cik\": \"0001609711\",\n    \"founded\": \"1997\"\n
+        \ },\n  {\n    \"symbol\": \"KKR\",\n    \"name\": \"KKR\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Asset Management & Custody Banks\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2024-06-24\",\n    \"cik\": \"0001404912\",\n    \"founded\": \"1976\"\n
+        \ },\n  {\n    \"symbol\": \"VST\",\n    \"name\": \"Vistra\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Electric Utilities\",\n    \"headQuarter\":
+        \"Irving, Texas\",\n    \"dateFirstAdded\": \"2024-05-08\",\n    \"cik\":
+        \"0001692819\",\n    \"founded\": \"2016\"\n  },\n  {\n    \"symbol\": \"GEV\",\n
+        \   \"name\": \"GE Vernova\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Heavy Electrical Equipment\",\n    \"headQuarter\": \"Cambridge, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"2024-04-02\",\n    \"cik\": \"0001996810\",\n    \"founded\":
+        \"2024\"\n  },\n  {\n    \"symbol\": \"SOLV\",\n    \"name\": \"Solventum\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Technology\",\n
+        \   \"headQuarter\": \"Saint Paul, Minnesota\",\n    \"dateFirstAdded\": \"2024-04-01\",\n
+        \   \"cik\": \"0001964738\",\n    \"founded\": \"2023\"\n  },\n  {\n    \"symbol\":
+        \"DECK\",\n    \"name\": \"Deckers Brands\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Footwear\",\n    \"headQuarter\": \"Goleta, California\",\n
+        \   \"dateFirstAdded\": \"2024-03-18\",\n    \"cik\": \"0000910521\",\n    \"founded\":
+        \"1973\"\n  },\n  {\n    \"symbol\": \"SMCI\",\n    \"name\": \"Supermicro\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Technology Hardware,
+        Storage & Peripherals\",\n    \"headQuarter\": \"San Jose, California\",\n
+        \   \"dateFirstAdded\": \"2024-03-18\",\n    \"cik\": \"0001375365\",\n    \"founded\":
+        \"1993\"\n  },\n  {\n    \"symbol\": \"BLDR\",\n    \"name\": \"Builders FirstSource\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Building Products\",\n
+        \   \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\": \"2023-12-18\",\n
+        \   \"cik\": \"0001316835\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\":
+        \"JBL\",\n    \"name\": \"Jabil\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Electronic Manufacturing Services\",\n    \"headQuarter\": \"St. Petersburg,
+        Florida\",\n    \"dateFirstAdded\": \"2023-12-18\",\n    \"cik\": \"0000898293\",\n
+        \   \"founded\": \"1966\"\n  },\n  {\n    \"symbol\": \"UBER\",\n    \"name\":
+        \"Uber\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Passenger
+        Ground Transportation\",\n    \"headQuarter\": \"San Francisco, California\",\n
+        \   \"dateFirstAdded\": \"2023-12-18\",\n    \"cik\": \"0001543151\",\n    \"founded\":
+        \"2009\"\n  },\n  {\n    \"symbol\": \"HUBB\",\n    \"name\": \"Hubbell Incorporated\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Shelton, Connecticut\",\n
+        \   \"dateFirstAdded\": \"2023-10-18\",\n    \"cik\": \"0000048898\",\n    \"founded\":
+        \"1888\"\n  },\n  {\n    \"symbol\": \"LULU\",\n    \"name\": \"Lululemon
+        Athletica\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Apparel
+        - Retail\",\n    \"headQuarter\": \"Vancouver, Canada\",\n    \"dateFirstAdded\":
+        \"2023-10-18\",\n    \"cik\": \"0001397187\",\n    \"founded\": \"1998\"\n
+        \ },\n  {\n    \"symbol\": \"VLTO\",\n    \"name\": \"Veralto\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Environmental & Facilities Services\",\n
+        \   \"headQuarter\": \"Waltham, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2023-10-02\",\n    \"cik\": \"0001967680\",\n    \"founded\": \"2023\"\n
+        \ },\n  {\n    \"symbol\": \"ABNB\",\n    \"name\": \"Airbnb\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Travel Services\",\n    \"headQuarter\":
+        \"San Francisco, California\",\n    \"dateFirstAdded\": \"2023-09-18\",\n
+        \   \"cik\": \"0001559720\",\n    \"founded\": \"2008\"\n  },\n  {\n    \"symbol\":
+        \"BX\",\n    \"name\": \"Blackstone Inc.\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Asset Management & Custody Banks\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"2023-09-18\",\n    \"cik\":
+        \"0001393818\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\": \"KVUE\",\n
+        \   \"name\": \"Kenvue\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Personal Care Products\",\n    \"headQuarter\": \"Skillman, New Jersey\",\n
+        \   \"dateFirstAdded\": \"2023-08-25\",\n    \"cik\": \"0001944048\",\n    \"founded\":
+        \"2022\"\n  },\n  {\n    \"symbol\": \"PANW\",\n    \"name\": \"Palo Alto
+        Networks\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Software
+        - Infrastructure\",\n    \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"2023-06-20\",\n    \"cik\": \"0001327567\",\n    \"founded\": \"2005\"\n
+        \ },\n  {\n    \"symbol\": \"AXON\",\n    \"name\": \"Axon Enterprise\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace & Defense\",\n
+        \   \"headQuarter\": \"Scottsdale, Arizona\",\n    \"dateFirstAdded\": \"2023-05-04\",\n
+        \   \"cik\": \"0001069183\",\n    \"founded\": \"1993\"\n  },\n  {\n    \"symbol\":
+        \"FICO\",\n    \"name\": \"Fair Isaac\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Application Software\",\n    \"headQuarter\": \"Bozeman,
+        Montana\",\n    \"dateFirstAdded\": \"2023-03-20\",\n    \"cik\": \"0000814547\",\n
+        \   \"founded\": \"1956\"\n  },\n  {\n    \"symbol\": \"BG\",\n    \"name\":
+        \"Bunge Global\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Agricultural Products & Services\",\n    \"headQuarter\": \"Chesterfield,
+        Missouri\",\n    \"dateFirstAdded\": \"2023-03-15\",\n    \"cik\": \"0001996862\",\n
+        \   \"founded\": \"1818\"\n  },\n  {\n    \"symbol\": \"PODD\",\n    \"name\":
+        \"Insulet Corporation\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Equipment\",\n    \"headQuarter\": \"Acton, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"2023-03-15\",\n    \"cik\": \"0001145197\",\n    \"founded\":
+        \"2000\"\n  },\n  {\n    \"symbol\": \"GEHC\",\n    \"name\": \"GE HealthCare\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Medical - Healthcare
+        Information Services\",\n    \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"2023-01-04\",\n    \"cik\": \"0001932393\",\n    \"founded\": \"1994\"\n
+        \ },\n  {\n    \"symbol\": \"STLD\",\n    \"name\": \"Steel Dynamics\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Steel\",\n    \"headQuarter\":
+        \"Fort Wayne, Indiana\",\n    \"dateFirstAdded\": \"2022-12-22\",\n    \"cik\":
+        \"0001022671\",\n    \"founded\": \"1993\"\n  },\n  {\n    \"symbol\": \"FSLR\",\n
+        \   \"name\": \"First Solar\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Semiconductors\",\n    \"headQuarter\": \"Tempe, Arizona\",\n    \"dateFirstAdded\":
+        \"2022-12-19\",\n    \"cik\": \"0001274494\",\n    \"founded\": \"1999\"\n
+        \ },\n  {\n    \"symbol\": \"ACGL\",\n    \"name\": \"Arch Capital Group\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Property & Casualty
+        Insurance\",\n    \"headQuarter\": \"Hamilton, Bermuda\",\n    \"dateFirstAdded\":
+        \"2022-11-01\",\n    \"cik\": \"0000947484\",\n    \"founded\": \"1995\"\n
+        \ },\n  {\n    \"symbol\": \"TRGP\",\n    \"name\": \"Targa Resources\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Storage & Transportation\",\n
+        \   \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\": \"2022-10-12\",\n
+        \   \"cik\": \"0001389170\",\n    \"founded\": \"2005\"\n  },\n  {\n    \"symbol\":
+        \"EQT\",\n    \"name\": \"EQT Corporation\",\n    \"sector\": \"Energy\",\n
+        \   \"subSector\": \"Oil & Gas Exploration & Production\",\n    \"headQuarter\":
+        \"Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\": \"2022-10-03\",\n    \"cik\":
+        \"0000033213\",\n    \"founded\": \"1888\"\n  },\n  {\n    \"symbol\": \"PCG\",\n
+        \   \"name\": \"PG&E Corporation\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Multi-Utilities\",\n    \"headQuarter\": \"Oakland, California\",\n    \"dateFirstAdded\":
+        \"2022-10-03\",\n    \"cik\": \"0001004980\",\n    \"founded\": \"1905\"\n
+        \ },\n  {\n    \"symbol\": \"CSGP\",\n    \"name\": \"CoStar Group\",\n    \"sector\":
+        \"Real Estate\",\n    \"subSector\": \"Real Estate - Services\",\n    \"headQuarter\":
+        \"Washington, D.C.\",\n    \"dateFirstAdded\": \"2022-09-19\",\n    \"cik\":
+        \"0001057352\",\n    \"founded\": \"1987\"\n  },\n  {\n    \"symbol\": \"INVH\",\n
+        \   \"name\": \"Invitation Homes\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Single-Family Residential REITs\",\n    \"headQuarter\": \"Dallas, Texas\",\n
+        \   \"dateFirstAdded\": \"2022-09-19\",\n    \"cik\": \"0001687229\",\n    \"founded\":
+        \"2012\"\n  },\n  {\n    \"symbol\": \"KDP\",\n    \"name\": \"Keurig Dr Pepper\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Beverages -
+        Non-Alcoholic\",\n    \"headQuarter\": \"Burlington, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2022-06-21\",\n    \"cik\": \"0001418135\",\n    \"founded\": \"1981\"\n
+        \ },\n  {\n    \"symbol\": \"ON\",\n    \"name\": \"ON Semiconductor\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Phoenix, Arizona\",\n    \"dateFirstAdded\": \"2022-06-21\",\n
+        \   \"cik\": \"0001097864\",\n    \"founded\": \"1999\"\n  },\n  {\n    \"symbol\":
+        \"VICI\",\n    \"name\": \"Vici Properties\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Hotel & Resort REITs\",\n    \"headQuarter\": \"New York
+        City, New York\",\n    \"dateFirstAdded\": \"2022-06-08\",\n    \"cik\": \"0001705696\",\n
+        \   \"founded\": \"2017\"\n  },\n  {\n    \"symbol\": \"WBD\",\n    \"name\":
+        \"Warner Bros. Discovery\",\n    \"sector\": \"Communication Services\",\n
+        \   \"subSector\": \"Entertainment\",\n    \"headQuarter\": \"New York City,
+        New York\",\n    \"dateFirstAdded\": \"2022-04-11\",\n    \"cik\": \"0001437107\",\n
+        \   \"founded\": \"2022\"\n  },\n  {\n    \"symbol\": \"CPT\",\n    \"name\":
+        \"Camden Property Trust\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Multi-Family Residential REITs\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"2022-04-04\",\n    \"cik\": \"0000906345\",\n    \"founded\":
+        \"1981\"\n  },\n  {\n    \"symbol\": \"MOH\",\n    \"name\": \"Molina Healthcare\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Managed Health Care\",\n
+        \   \"headQuarter\": \"Long Beach, California\",\n    \"dateFirstAdded\":
+        \"2022-03-02\",\n    \"cik\": \"0001179929\",\n    \"founded\": \"1980\"\n
+        \ },\n  {\n    \"symbol\": \"NDSN\",\n    \"name\": \"Nordson Corporation\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Westlake, Ohio\",\n    \"dateFirstAdded\":
+        \"2022-02-15\",\n    \"cik\": \"0000072331\",\n    \"founded\": \"1935\"\n
+        \ },\n  {\n    \"symbol\": \"CEG\",\n    \"name\": \"Constellation Energy\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Renewable Utilities\",\n
+        \   \"headQuarter\": \"Baltimore, Maryland\",\n    \"dateFirstAdded\": \"2022-02-02\",\n
+        \   \"cik\": \"0001868275\",\n    \"founded\": \"1999\"\n  },\n  {\n    \"symbol\":
+        \"FDS\",\n    \"name\": \"FactSet\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Financial Exchanges & Data\",\n    \"headQuarter\": \"Norwalk,
+        Connecticut\",\n    \"dateFirstAdded\": \"2021-12-20\",\n    \"cik\": \"0001013237\",\n
+        \   \"founded\": \"1978\"\n  },\n  {\n    \"symbol\": \"EPAM\",\n    \"name\":
+        \"EPAM Systems\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"IT
+        Consulting & Other Services\",\n    \"headQuarter\": \"Newtown, Pennsylvania\",\n
+        \   \"dateFirstAdded\": \"2021-12-14\",\n    \"cik\": \"0001352010\",\n    \"founded\":
+        \"1993\"\n  },\n  {\n    \"symbol\": \"BRO\",\n    \"name\": \"Brown & Brown\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Insurance Brokers\",\n
+        \   \"headQuarter\": \"Daytona Beach, Florida\",\n    \"dateFirstAdded\":
+        \"2021-09-20\",\n    \"cik\": \"0000079282\",\n    \"founded\": \"1939\"\n
+        \ },\n  {\n    \"symbol\": \"DAY\",\n    \"name\": \"Dayforce\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Human Resource & Employment Services\",\n
+        \   \"headQuarter\": \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\":
+        \"2021-09-20\",\n    \"cik\": \"0001725057\",\n    \"founded\": \"1992\"\n
+        \ },\n  {\n    \"symbol\": \"MTCH\",\n    \"name\": \"Match Group\",\n    \"sector\":
+        \"Communication Services\",\n    \"subSector\": \"Interactive Media & Services\",\n
+        \   \"headQuarter\": \"Dallas, Texas\",\n    \"dateFirstAdded\": \"2021-09-20\",\n
+        \   \"cik\": \"0000891103\",\n    \"founded\": \"1986\"\n  },\n  {\n    \"symbol\":
+        \"TECH\",\n    \"name\": \"Bio-Techne\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Life Sciences Tools & Services\",\n    \"headQuarter\":
+        \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\": \"2021-08-30\",\n    \"cik\":
+        \"0000842023\",\n    \"founded\": \"1976\"\n  },\n  {\n    \"symbol\": \"MRNA\",\n
+        \   \"name\": \"Moderna\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Biotechnology\",\n    \"headQuarter\": \"Cambridge, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2021-07-21\",\n    \"cik\": \"0001682852\",\n    \"founded\": \"2010\"\n
+        \ },\n  {\n    \"symbol\": \"CRL\",\n    \"name\": \"Charles River Laboratories\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Life Sciences Tools
+        & Services\",\n    \"headQuarter\": \"Wilmington, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2021-05-14\",\n    \"cik\": \"0001100682\",\n    \"founded\": \"1947\"\n
+        \ },\n  {\n    \"symbol\": \"PTC\",\n    \"name\": \"PTC Inc.\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Application Software\",\n    \"headQuarter\":
+        \"Boston, Massachusetts\",\n    \"dateFirstAdded\": \"2021-04-20\",\n    \"cik\":
+        \"0000857005\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\": \"CZR\",\n
+        \   \"name\": \"Caesars Entertainment\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Casinos & Gaming\",\n    \"headQuarter\": \"Reno, Nevada\",\n
+        \   \"dateFirstAdded\": \"2021-03-22\",\n    \"cik\": \"0001590895\",\n    \"founded\":
+        \"1973\"\n  },\n  {\n    \"symbol\": \"GNRC\",\n    \"name\": \"Generac\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Electrical Components
+        & Equipment\",\n    \"headQuarter\": \"Waukesha, Wisconsin\",\n    \"dateFirstAdded\":
+        \"2021-03-22\",\n    \"cik\": \"0001474735\",\n    \"founded\": \"1959\"\n
+        \ },\n  {\n    \"symbol\": \"NXPI\",\n    \"name\": \"NXP Semiconductors\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Eindhoven, Netherlands\",\n    \"dateFirstAdded\":
+        \"2021-03-22\",\n    \"cik\": \"0001413447\",\n    \"founded\": \"1953\"\n
+        \ },\n  {\n    \"symbol\": \"MPWR\",\n    \"name\": \"Monolithic Power Systems\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Kirkland, Washington\",\n    \"dateFirstAdded\": \"2021-02-12\",\n
+        \   \"cik\": \"0001280452\",\n    \"founded\": \"1997\"\n  },\n  {\n    \"symbol\":
+        \"TRMB\",\n    \"name\": \"Trimble Inc.\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Electronic Equipment & Instruments\",\n    \"headQuarter\":
+        \"Westminster, Colorado\",\n    \"dateFirstAdded\": \"2021-01-21\",\n    \"cik\":
+        \"0000864749\",\n    \"founded\": \"1978\"\n  },\n  {\n    \"symbol\": \"ENPH\",\n
+        \   \"name\": \"Enphase Energy\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Semiconductor Materials & Equipment\",\n    \"headQuarter\": \"Fremont,
+        California\",\n    \"dateFirstAdded\": \"2021-01-07\",\n    \"cik\": \"0001463101\",\n
+        \   \"founded\": \"2006\"\n  },\n  {\n    \"symbol\": \"TSLA\",\n    \"name\":
+        \"Tesla, Inc.\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Auto - Manufacturers\",\n    \"headQuarter\": \"Austin, Texas\",\n    \"dateFirstAdded\":
+        \"2020-12-21\",\n    \"cik\": \"0001318605\",\n    \"founded\": \"2003\"\n
+        \ },\n  {\n    \"symbol\": \"POOL\",\n    \"name\": \"Pool Corporation\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Distributors\",\n    \"headQuarter\":
+        \"Covington, Louisiana\",\n    \"dateFirstAdded\": \"2020-10-07\",\n    \"cik\":
+        \"0000945841\",\n    \"founded\": \"1993\"\n  },\n  {\n    \"symbol\": \"CTLT\",\n
+        \   \"name\": \"Catalent\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Pharmaceuticals\",\n    \"headQuarter\": \"Somerset, New Jersey\",\n    \"dateFirstAdded\":
+        \"2020-09-21\",\n    \"cik\": \"0001596783\",\n    \"founded\": \"2007\"\n
+        \ },\n  {\n    \"symbol\": \"TER\",\n    \"name\": \"Teradyne\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Semiconductor Materials & Equipment\",\n
+        \   \"headQuarter\": \"North Reading, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2020-09-21\",\n    \"cik\": \"0000097210\",\n    \"founded\": \"1960\"\n
+        \ },\n  {\n    \"symbol\": \"TDY\",\n    \"name\": \"Teledyne Technologies\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Electronic Equipment
+        & Instruments\",\n    \"headQuarter\": \"Thousand Oaks, California\",\n    \"dateFirstAdded\":
+        \"2020-06-22\",\n    \"cik\": \"0001094285\",\n    \"founded\": \"1960\"\n
+        \ },\n  {\n    \"symbol\": \"TYL\",\n    \"name\": \"Tyler Technologies\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Application Software\",\n
+        \   \"headQuarter\": \"Plano, Texas\",\n    \"dateFirstAdded\": \"2020-06-22\",\n
+        \   \"cik\": \"0000860731\",\n    \"founded\": \"1966\"\n  },\n  {\n    \"symbol\":
+        \"WST\",\n    \"name\": \"West Pharmaceutical Services\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Supplies\",\n    \"headQuarter\":
+        \"Exton, Pennsylvania\",\n    \"dateFirstAdded\": \"2020-05-22\",\n    \"cik\":
+        \"0000105770\",\n    \"founded\": \"1923\"\n  },\n  {\n    \"symbol\": \"DPZ\",\n
+        \   \"name\": \"Domino's\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Restaurants\",\n    \"headQuarter\": \"Ann Arbor, Michigan\",\n    \"dateFirstAdded\":
+        \"2020-05-12\",\n    \"cik\": \"0001286681\",\n    \"founded\": \"1960\"\n
+        \ },\n  {\n    \"symbol\": \"DXCM\",\n    \"name\": \"Dexcom\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Medical - Devices\",\n    \"headQuarter\":
+        \"San Diego, California\",\n    \"dateFirstAdded\": \"2020-05-12\",\n    \"cik\":
+        \"0001093557\",\n    \"founded\": \"1999\"\n  },\n  {\n    \"symbol\": \"CARR\",\n
+        \   \"name\": \"Carrier Global\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Building Products\",\n    \"headQuarter\": \"Palm Beach Gardens, Florida\",\n
+        \   \"dateFirstAdded\": \"2020-04-03\",\n    \"cik\": \"0001783180\",\n    \"founded\":
+        \"2020\"\n  },\n  {\n    \"symbol\": \"OTIS\",\n    \"name\": \"Otis Worldwide\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Farmington, Connecticut\",\n
+        \   \"dateFirstAdded\": \"2020-04-03\",\n    \"cik\": \"0001781335\",\n    \"founded\":
+        \"2020\"\n  },\n  {\n    \"symbol\": \"IR\",\n    \"name\": \"Ingersoll Rand\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Davidson, North Carolina\",\n
+        \   \"dateFirstAdded\": \"2020-03-03\",\n    \"cik\": \"0001699150\",\n    \"founded\":
+        \"1859\"\n  },\n  {\n    \"symbol\": \"PAYC\",\n    \"name\": \"Paycom\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Human Resource & Employment
+        Services\",\n    \"headQuarter\": \"Oklahoma City, Oklahoma\",\n    \"dateFirstAdded\":
+        \"2020-01-28\",\n    \"cik\": \"0001590955\",\n    \"founded\": \"1998\"\n
+        \ },\n  {\n    \"symbol\": \"LYV\",\n    \"name\": \"Live Nation Entertainment\",\n
+        \   \"sector\": \"Communication Services\",\n    \"subSector\": \"Movies &
+        Entertainment\",\n    \"headQuarter\": \"Beverly Hills, California\",\n    \"dateFirstAdded\":
+        \"2019-12-23\",\n    \"cik\": \"0001335258\",\n    \"founded\": \"2010\"\n
+        \ },\n  {\n    \"symbol\": \"STE\",\n    \"name\": \"Steris\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\":
+        \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"2019-12-23\",\n    \"cik\":
+        \"0001757898\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\": \"ZBRA\",\n
+        \   \"name\": \"Zebra Technologies\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Electronic Equipment & Instruments\",\n    \"headQuarter\": \"Lincolnshire,
+        Illinois\",\n    \"dateFirstAdded\": \"2019-12-23\",\n    \"cik\": \"0000877212\",\n
+        \   \"founded\": \"1969\"\n  },\n  {\n    \"symbol\": \"ODFL\",\n    \"name\":
+        \"Old Dominion\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Trucking\",\n
+        \   \"headQuarter\": \"Thomasville, North Carolina\",\n    \"dateFirstAdded\":
+        \"2019-12-09\",\n    \"cik\": \"0000878927\",\n    \"founded\": \"1934\"\n
+        \ },\n  {\n    \"symbol\": \"WRB\",\n    \"name\": \"W. R. Berkley Corporation\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Property & Casualty
+        Insurance\",\n    \"headQuarter\": \"Greenwich, Connecticut\",\n    \"dateFirstAdded\":
+        \"2019-12-05\",\n    \"cik\": \"0000011544\",\n    \"founded\": \"1967\"\n
+        \ },\n  {\n    \"symbol\": \"NOW\",\n    \"name\": \"ServiceNow\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Systems Software\",\n    \"headQuarter\":
+        \"Santa Clara, California\",\n    \"dateFirstAdded\": \"2019-11-21\",\n    \"cik\":
+        \"0001373715\",\n    \"founded\": \"2003\"\n  },\n  {\n    \"symbol\": \"LVS\",\n
+        \   \"name\": \"Las Vegas Sands\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Casinos & Gaming\",\n    \"headQuarter\": \"Las Vegas,
+        Nevada\",\n    \"dateFirstAdded\": \"2019-10-03\",\n    \"cik\": \"0001300514\",\n
+        \   \"founded\": \"1988\"\n  },\n  {\n    \"symbol\": \"NVR\",\n    \"name\":
+        \"NVR, Inc.\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Homebuilding\",\n    \"headQuarter\": \"Reston, Virginia\",\n    \"dateFirstAdded\":
+        \"2019-09-26\",\n    \"cik\": \"0000906163\",\n    \"founded\": \"1980\"\n
+        \ },\n  {\n    \"symbol\": \"CDW\",\n    \"name\": \"CDW\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Information Technology Services\",\n
+        \   \"headQuarter\": \"Vernon Hills, Illinois\",\n    \"dateFirstAdded\":
+        \"2019-09-23\",\n    \"cik\": \"0001402057\",\n    \"founded\": \"1984\"\n
+        \ },\n  {\n    \"symbol\": \"IEX\",\n    \"name\": \"IDEX Corporation\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Lake Forest, Illinois\",\n
+        \   \"dateFirstAdded\": \"2019-08-09\",\n    \"cik\": \"0000832101\",\n    \"founded\":
+        \"1988\"\n  },\n  {\n    \"symbol\": \"LDOS\",\n    \"name\": \"Leidos\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Diversified Support
+        Services\",\n    \"headQuarter\": \"Reston, Virginia\",\n    \"dateFirstAdded\":
+        \"2019-08-09\",\n    \"cik\": \"0001336920\",\n    \"founded\": \"1969\"\n
+        \ },\n  {\n    \"symbol\": \"TROW\",\n    \"name\": \"T. Rowe Price\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Asset Management & Custody Banks\",\n
+        \   \"headQuarter\": \"Baltimore, Maryland\",\n    \"dateFirstAdded\": \"2019-07-29\",\n
+        \   \"cik\": \"0001113169\",\n    \"founded\": \"1937\"\n  },\n  {\n    \"symbol\":
+        \"TMUS\",\n    \"name\": \"T-Mobile US\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Telecommunications Services\",\n    \"headQuarter\":
+        \"Bellevue, Washington\",\n    \"dateFirstAdded\": \"2019-07-15\",\n    \"cik\":
+        \"0001283699\",\n    \"founded\": \"1994\"\n  },\n  {\n    \"symbol\": \"MKTX\",\n
+        \   \"name\": \"MarketAxess\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Financial Exchanges & Data\",\n    \"headQuarter\": \"New
+        York City, New York\",\n    \"dateFirstAdded\": \"2019-07-01\",\n    \"cik\":
+        \"0001278021\",\n    \"founded\": \"2000\"\n  },\n  {\n    \"symbol\": \"AMCR\",\n
+        \   \"name\": \"Amcor\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Paper & Plastic Packaging Products & Materials\",\n    \"headQuarter\":
+        \"Warmley, Bristol, United Kingdom\",\n    \"dateFirstAdded\": \"2019-06-07\",\n
+        \   \"cik\": \"0001748790\",\n    \"founded\": \"2019\"\n  },\n  {\n    \"symbol\":
+        \"CTVA\",\n    \"name\": \"Corteva\",\n    \"sector\": \"Basic Materials\",\n
+        \   \"subSector\": \"Fertilizers & Agricultural Chemicals\",\n    \"headQuarter\":
+        \"Indianapolis, Indiana\",\n    \"dateFirstAdded\": \"2019-06-03\",\n    \"cik\":
+        \"0001755672\",\n    \"founded\": \"2019\"\n  },\n  {\n    \"symbol\": \"DD\",\n
+        \   \"name\": \"DuPont\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Specialty Chemicals\",\n    \"headQuarter\": \"Wilmington, Delaware\",\n
+        \   \"dateFirstAdded\": \"2019-04-02\",\n    \"cik\": \"0001666700\",\n    \"founded\":
+        \"2017\"\n  },\n  {\n    \"symbol\": \"DOW\",\n    \"name\": \"Dow Inc.\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Chemicals\",\n
+        \   \"headQuarter\": \"Midland, Michigan\",\n    \"dateFirstAdded\": \"2019-04-01\",\n
+        \   \"cik\": \"0001751788\",\n    \"founded\": \"2019\"\n  },\n  {\n    \"symbol\":
+        \"FOX\",\n    \"name\": \"Fox Corporation (Class B)\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Broadcasting\",\n    \"headQuarter\": \"New
+        York City, New York\",\n    \"dateFirstAdded\": \"2019-03-04\",\n    \"cik\":
+        \"0001754301\",\n    \"founded\": \"2019\"\n  },\n  {\n    \"symbol\": \"FOXA\",\n
+        \   \"name\": \"Fox Corporation (Class A)\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Broadcasting\",\n    \"headQuarter\": \"New
+        York City, New York\",\n    \"dateFirstAdded\": \"2019-03-04\",\n    \"cik\":
+        \"0001754301\",\n    \"founded\": \"2019\"\n  },\n  {\n    \"symbol\": \"WAB\",\n
+        \   \"name\": \"Wabtec\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Construction Machinery & Heavy Transportation Equipment\",\n    \"headQuarter\":
+        \"Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\": \"2019-02-27\",\n    \"cik\":
+        \"0000943452\",\n    \"founded\": \"1999\"\n  },\n  {\n    \"symbol\": \"ATO\",\n
+        \   \"name\": \"Atmos Energy\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Gas Utilities\",\n    \"headQuarter\": \"Dallas, Texas\",\n    \"dateFirstAdded\":
+        \"2019-02-15\",\n    \"cik\": \"0000731802\",\n    \"founded\": \"1906\"\n
+        \ },\n  {\n    \"symbol\": \"TFX\",\n    \"name\": \"Teleflex\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\":
+        \"Wayne, Pennsylvania\",\n    \"dateFirstAdded\": \"2019-01-18\",\n    \"cik\":
+        \"0000096943\",\n    \"founded\": \"1943\"\n  },\n  {\n    \"symbol\": \"CE\",\n
+        \   \"name\": \"Celanese\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Specialty Chemicals\",\n    \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\":
+        \"2018-12-24\",\n    \"cik\": \"0001306830\",\n    \"founded\": \"1918\"\n
+        \ },\n  {\n    \"symbol\": \"FANG\",\n    \"name\": \"Diamondback Energy\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Exploration &
+        Production\",\n    \"headQuarter\": \"Midland, Texas\",\n    \"dateFirstAdded\":
+        \"2018-12-03\",\n    \"cik\": \"0001539838\",\n    \"founded\": \"2007\"\n
+        \ },\n  {\n    \"symbol\": \"LW\",\n    \"name\": \"Lamb Weston\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n
+        \   \"headQuarter\": \"Eagle, Idaho\",\n    \"dateFirstAdded\": \"2018-12-03\",\n
+        \   \"cik\": \"0001679273\",\n    \"founded\": \"2016\"\n  },\n  {\n    \"symbol\":
+        \"JKHY\",\n    \"name\": \"Jack Henry & Associates\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Transaction & Payment Processing Services\",\n    \"headQuarter\":
+        \"Monett, Missouri\",\n    \"dateFirstAdded\": \"2018-11-13\",\n    \"cik\":
+        \"0000779152\",\n    \"founded\": \"1976\"\n  },\n  {\n    \"symbol\": \"KEYS\",\n
+        \   \"name\": \"Keysight Technologies\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Electronic Equipment & Instruments\",\n    \"headQuarter\":
+        \"Santa Rosa, California\",\n    \"dateFirstAdded\": \"2018-11-06\",\n    \"cik\":
+        \"0001601046\",\n    \"founded\": \"2014\"\n  },\n  {\n    \"symbol\": \"FTNT\",\n
+        \   \"name\": \"Fortinet\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Software - Infrastructure\",\n    \"headQuarter\": \"Sunnyvale, California\",\n
+        \   \"dateFirstAdded\": \"2018-10-11\",\n    \"cik\": \"0001262039\",\n    \"founded\":
+        \"2000\"\n  },\n  {\n    \"symbol\": \"ROL\",\n    \"name\": \"Rollins, Inc.\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Environmental
+        & Facilities Services\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n    \"dateFirstAdded\":
+        \"2018-10-01\",\n    \"cik\": \"0000084839\",\n    \"founded\": \"1948\"\n
+        \ },\n  {\n    \"symbol\": \"ANET\",\n    \"name\": \"Arista Networks\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Communications Equipment\",\n
+        \   \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"2018-08-28\",\n    \"cik\": \"0001596532\",\n    \"founded\": \"2004\"\n
+        \ },\n  {\n    \"symbol\": \"CPRT\",\n    \"name\": \"Copart\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Auto - Dealerships\",\n    \"headQuarter\":
+        \"Dallas, Texas\",\n    \"dateFirstAdded\": \"2018-07-02\",\n    \"cik\":
+        \"0000900075\",\n    \"founded\": \"1982\"\n  },\n  {\n    \"symbol\": \"CPAY\",\n
+        \   \"name\": \"Corpay\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Transaction & Payment Processing Services\",\n    \"headQuarter\": \"Atlanta,
+        Georgia\",\n    \"dateFirstAdded\": \"2018-06-20\",\n    \"cik\": \"0001175454\",\n
+        \   \"founded\": \"2000\"\n  },\n  {\n    \"symbol\": \"BR\",\n    \"name\":
+        \"Broadridge Financial Solutions\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Data Processing & Outsourced Services\",\n    \"headQuarter\": \"Lake Success,
+        New York\",\n    \"dateFirstAdded\": \"2018-06-18\",\n    \"cik\": \"0001383312\",\n
+        \   \"founded\": \"1962\"\n  },\n  {\n    \"symbol\": \"EVRG\",\n    \"name\":
+        \"Evergy\",\n    \"sector\": \"Utilities\",\n    \"subSector\": \"Electric
+        Utilities\",\n    \"headQuarter\": \"Kansas City, Missouri\",\n    \"dateFirstAdded\":
+        \"2018-06-05\",\n    \"cik\": \"0001711269\",\n    \"founded\": \"1909\"\n
+        \ },\n  {\n    \"symbol\": \"MSCI\",\n    \"name\": \"MSCI\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Financial Exchanges & Data\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2018-04-04\",\n    \"cik\": \"0001408198\",\n    \"founded\": \"1969\"\n
+        \ },\n  {\n    \"symbol\": \"TTWO\",\n    \"name\": \"Take-Two Interactive\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Electronic Gaming &
+        Multimedia\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2018-03-19\",\n    \"cik\": \"0000946581\",\n    \"founded\": \"1993\"\n
+        \ },\n  {\n    \"symbol\": \"HII\",\n    \"name\": \"Huntington Ingalls Industries\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace & Defense\",\n
+        \   \"headQuarter\": \"Newport News, Virginia\",\n    \"dateFirstAdded\":
+        \"2018-01-03\",\n    \"cik\": \"0001501585\",\n    \"founded\": \"2011\"\n
+        \ },\n  {\n    \"symbol\": \"NCLH\",\n    \"name\": \"Norwegian Cruise Line
+        Holdings\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Hotels,
+        Resorts & Cruise Lines\",\n    \"headQuarter\": \"Miami, Florida\",\n    \"dateFirstAdded\":
+        \"2017-10-13\",\n    \"cik\": \"0001513761\",\n    \"founded\": \"2011\"\n
+        \ },\n  {\n    \"symbol\": \"CDNS\",\n    \"name\": \"Cadence Design Systems\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Software - Application\",\n
+        \   \"headQuarter\": \"San Jose, California\",\n    \"dateFirstAdded\": \"2017-09-18\",\n
+        \   \"cik\": \"0000813672\",\n    \"founded\": \"1988\"\n  },\n  {\n    \"symbol\":
+        \"SBAC\",\n    \"name\": \"SBA Communications\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Telecom Tower REITs\",\n    \"headQuarter\": \"Boca Raton,
+        Florida\",\n    \"dateFirstAdded\": \"2017-09-01\",\n    \"cik\": \"0001034054\",\n
+        \   \"founded\": \"1989\"\n  },\n  {\n    \"symbol\": \"IQV\",\n    \"name\":
+        \"IQVIA\",\n    \"sector\": \"Healthcare\",\n    \"subSector\": \"Life Sciences
+        Tools & Services\",\n    \"headQuarter\": \"Durham, North Carolina\",\n    \"dateFirstAdded\":
+        \"2017-08-29\",\n    \"cik\": \"0001478242\",\n    \"founded\": \"1982\"\n
+        \ },\n  {\n    \"symbol\": \"AOS\",\n    \"name\": \"A. O. Smith\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Building Products\",\n    \"headQuarter\":
+        \"Milwaukee, Wisconsin\",\n    \"dateFirstAdded\": \"2017-07-26\",\n    \"cik\":
+        \"0000091142\",\n    \"founded\": \"1916\"\n  },\n  {\n    \"symbol\": \"MGM\",\n
+        \   \"name\": \"MGM Resorts\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Casinos & Gaming\",\n    \"headQuarter\": \"Paradise, Nevada\",\n    \"dateFirstAdded\":
+        \"2017-07-26\",\n    \"cik\": \"0000789570\",\n    \"founded\": \"1986\"\n
+        \ },\n  {\n    \"symbol\": \"PKG\",\n    \"name\": \"Packaging Corporation
+        of America\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Paper & Plastic Packaging Products & Materials\",\n    \"headQuarter\":
+        \"Lake Forest, Illinois\",\n    \"dateFirstAdded\": \"2017-07-26\",\n    \"cik\":
+        \"0000075677\",\n    \"founded\": \"1959\"\n  },\n  {\n    \"symbol\": \"RMD\",\n
+        \   \"name\": \"ResMed\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Equipment\",\n    \"headQuarter\": \"San Diego, California\",\n
+        \   \"dateFirstAdded\": \"2017-07-26\",\n    \"cik\": \"0000943819\",\n    \"founded\":
+        \"1989\"\n  },\n  {\n    \"symbol\": \"BKR\",\n    \"name\": \"Baker Hughes\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Equipment & Services\",\n
+        \   \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\": \"2017-07-07\",\n
+        \   \"cik\": \"0001701605\",\n    \"founded\": \"2017\"\n  },\n  {\n    \"symbol\":
+        \"ALGN\",\n    \"name\": \"Align Technology\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Supplies\",\n    \"headQuarter\": \"Tempe,
+        Arizona\",\n    \"dateFirstAdded\": \"2017-06-19\",\n    \"cik\": \"0001097149\",\n
+        \   \"founded\": \"1997\"\n  },\n  {\n    \"symbol\": \"ANSS\",\n    \"name\":
+        \"Ansys\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Software
+        - Application\",\n    \"headQuarter\": \"Canonsburg, Pennsylvania\",\n    \"dateFirstAdded\":
+        \"2017-06-19\",\n    \"cik\": \"0001013462\",\n    \"founded\": \"1969\"\n
+        \ },\n  {\n    \"symbol\": \"EG\",\n    \"name\": \"Everest Group\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Reinsurance\",\n    \"headQuarter\":
+        \"Hamilton, Bermuda\",\n    \"dateFirstAdded\": \"2017-06-19\",\n    \"cik\":
+        \"0001095073\",\n    \"founded\": \"1973\"\n  },\n  {\n    \"symbol\": \"HLT\",\n
+        \   \"name\": \"Hilton Worldwide\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Hotels, Resorts & Cruise Lines\",\n    \"headQuarter\":
+        \"Tysons Corner, Virginia\",\n    \"dateFirstAdded\": \"2017-06-19\",\n    \"cik\":
+        \"0001585689\",\n    \"founded\": \"1919\"\n  },\n  {\n    \"symbol\": \"IT\",\n
+        \   \"name\": \"Gartner\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"IT Consulting & Other Services\",\n    \"headQuarter\": \"Stamford, Connecticut\",\n
+        \   \"dateFirstAdded\": \"2017-04-05\",\n    \"cik\": \"0000749251\",\n    \"founded\":
+        \"1979\"\n  },\n  {\n    \"symbol\": \"AMD\",\n    \"name\": \"Advanced Micro
+        Devices\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"2017-03-20\",\n    \"cik\": \"0000002488\",\n    \"founded\": \"1969\"\n
+        \ },\n  {\n    \"symbol\": \"ARE\",\n    \"name\": \"Alexandria Real Estate
+        Equities\",\n    \"sector\": \"Real Estate\",\n    \"subSector\": \"Office
+        REITs\",\n    \"headQuarter\": \"Pasadena, California\",\n    \"dateFirstAdded\":
+        \"2017-03-20\",\n    \"cik\": \"0001035443\",\n    \"founded\": \"1994\"\n
+        \ },\n  {\n    \"symbol\": \"RJF\",\n    \"name\": \"Raymond James Financial\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Investment Banking
+        & Brokerage\",\n    \"headQuarter\": \"St. Petersburg, Florida\",\n    \"dateFirstAdded\":
+        \"2017-03-20\",\n    \"cik\": \"0000720005\",\n    \"founded\": \"1962\"\n
+        \ },\n  {\n    \"symbol\": \"SRE\",\n    \"name\": \"Sempra\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n    \"headQuarter\":
+        \"San Diego, California\",\n    \"dateFirstAdded\": \"2017-03-17\",\n    \"cik\":
+        \"0001032208\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\": \"SNPS\",\n
+        \   \"name\": \"Synopsys\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Software - Infrastructure\",\n    \"headQuarter\": \"Sunnyvale, California\",\n
+        \   \"dateFirstAdded\": \"2017-03-16\",\n    \"cik\": \"0000883241\",\n    \"founded\":
+        \"1986\"\n  },\n  {\n    \"symbol\": \"REG\",\n    \"name\": \"Regency Centers\",\n
+        \   \"sector\": \"Real Estate\",\n    \"subSector\": \"Retail REITs\",\n    \"headQuarter\":
+        \"Jacksonville, Florida\",\n    \"dateFirstAdded\": \"2017-03-02\",\n    \"cik\":
+        \"0000910606\",\n    \"founded\": \"1963\"\n  },\n  {\n    \"symbol\": \"CBOE\",\n
+        \   \"name\": \"Cboe Global Markets\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Financial Exchanges & Data\",\n    \"headQuarter\": \"Chicago,
+        Illinois\",\n    \"dateFirstAdded\": \"2017-03-01\",\n    \"cik\": \"0001374310\",\n
+        \   \"founded\": \"1973\"\n  },\n  {\n    \"symbol\": \"INCY\",\n    \"name\":
+        \"Incyte\",\n    \"sector\": \"Healthcare\",\n    \"subSector\": \"Biotechnology\",\n
+        \   \"headQuarter\": \"Wilmington, Delaware\",\n    \"dateFirstAdded\": \"2017-02-28\",\n
+        \   \"cik\": \"0000879169\",\n    \"founded\": \"1991\"\n  },\n  {\n    \"symbol\":
+        \"IDXX\",\n    \"name\": \"Idexx Laboratories\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Medical - Diagnostics & Research\",\n    \"headQuarter\":
+        \"Westbrook, Maine\",\n    \"dateFirstAdded\": \"2017-01-05\",\n    \"cik\":
+        \"0000874716\",\n    \"founded\": \"1983\"\n  },\n  {\n    \"symbol\": \"MAA\",\n
+        \   \"name\": \"Mid-America Apartment Communities\",\n    \"sector\": \"Real
+        Estate\",\n    \"subSector\": \"Multi-Family Residential REITs\",\n    \"headQuarter\":
+        \"Memphis, Tennessee\",\n    \"dateFirstAdded\": \"2016-12-02\",\n    \"cik\":
+        \"0000912595\",\n    \"founded\": \"1977\"\n  },\n  {\n    \"symbol\": \"D\",\n
+        \   \"name\": \"Dominion Energy\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Multi-Utilities\",\n    \"headQuarter\": \"Richmond, Virginia\",\n    \"dateFirstAdded\":
+        \"2016-11-30\",\n    \"cik\": \"0000715957\",\n    \"founded\": \"1983\"\n
+        \ },\n  {\n    \"symbol\": \"HWM\",\n    \"name\": \"Howmet Aerospace\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace & Defense\",\n
+        \   \"headQuarter\": \"Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\":
+        \"2016-10-21\",\n    \"cik\": \"0000004281\",\n    \"founded\": \"1888\"\n
+        \ },\n  {\n    \"symbol\": \"COO\",\n    \"name\": \"Cooper Companies (The)\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Supplies\",\n
+        \   \"headQuarter\": \"San Ramon, California\",\n    \"dateFirstAdded\": \"2016-09-23\",\n
+        \   \"cik\": \"0000711404\",\n    \"founded\": \"1958\"\n  },\n  {\n    \"symbol\":
+        \"CHTR\",\n    \"name\": \"Charter Communications\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Telecommunications Services\",\n    \"headQuarter\":
+        \"Stamford, Connecticut\",\n    \"dateFirstAdded\": \"2016-09-08\",\n    \"cik\":
+        \"0001091667\",\n    \"founded\": \"1993\"\n  },\n  {\n    \"symbol\": \"MTD\",\n
+        \   \"name\": \"Mettler Toledo\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Life Sciences Tools & Services\",\n    \"headQuarter\": \"Columbus, Ohio\",\n
+        \   \"dateFirstAdded\": \"2016-09-06\",\n    \"cik\": \"0001037646\",\n    \"founded\":
+        \"1945\"\n  },\n  {\n    \"symbol\": \"ALB\",\n    \"name\": \"Albemarle Corporation\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Specialty Chemicals\",\n
+        \   \"headQuarter\": \"Charlotte, North Carolina\",\n    \"dateFirstAdded\":
+        \"2016-07-01\",\n    \"cik\": \"0000915913\",\n    \"founded\": \"1994\"\n
+        \ },\n  {\n    \"symbol\": \"FTV\",\n    \"name\": \"Fortive\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Industrial Machinery & Supplies & Components\",\n
+        \   \"headQuarter\": \"Everett, Washington\",\n    \"dateFirstAdded\": \"2016-07-01\",\n
+        \   \"cik\": \"0001659166\",\n    \"founded\": \"2016\"\n  },\n  {\n    \"symbol\":
+        \"LNT\",\n    \"name\": \"Alliant Energy\",\n    \"sector\": \"Utilities\",\n
+        \   \"subSector\": \"Electric Utilities\",\n    \"headQuarter\": \"Madison,
+        Wisconsin\",\n    \"dateFirstAdded\": \"2016-07-01\",\n    \"cik\": \"0000352541\",\n
+        \   \"founded\": \"1917\"\n  },\n  {\n    \"symbol\": \"TDG\",\n    \"name\":
+        \"TransDigm Group\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Aerospace & Defense\",\n    \"headQuarter\": \"Cleveland, Ohio\",\n    \"dateFirstAdded\":
+        \"2016-06-03\",\n    \"cik\": \"0001260221\",\n    \"founded\": \"1993\"\n
+        \ },\n  {\n    \"symbol\": \"AJG\",\n    \"name\": \"Arthur J. Gallagher &
+        Co.\",\n    \"sector\": \"Financial Services\",\n    \"subSector\": \"Insurance
+        Brokers\",\n    \"headQuarter\": \"Rolling Meadows, Illinois\",\n    \"dateFirstAdded\":
+        \"2016-05-31\",\n    \"cik\": \"0000354190\",\n    \"founded\": \"1927\"\n
+        \ },\n  {\n    \"symbol\": \"LKQ\",\n    \"name\": \"LKQ Corporation\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Distributors\",\n
+        \   \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"2016-05-23\",\n
+        \   \"cik\": \"0001065696\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\":
+        \"DLR\",\n    \"name\": \"Digital Realty\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Data Center REITs\",\n    \"headQuarter\": \"Austin,
+        Texas\",\n    \"dateFirstAdded\": \"2016-05-18\",\n    \"cik\": \"0001297996\",\n
+        \   \"founded\": \"2004\"\n  },\n  {\n    \"symbol\": \"GPN\",\n    \"name\":
+        \"Global Payments\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Transaction & Payment Processing Services\",\n    \"headQuarter\": \"Atlanta,
+        Georgia\",\n    \"dateFirstAdded\": \"2016-04-25\",\n    \"cik\": \"0001123360\",\n
+        \   \"founded\": \"2000\"\n  },\n  {\n    \"symbol\": \"ULTA\",\n    \"name\":
+        \"Ulta Beauty\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Other Specialty Retail\",\n    \"headQuarter\": \"Bolingbrook, Illinois\",\n
+        \   \"dateFirstAdded\": \"2016-04-18\",\n    \"cik\": \"0001403568\",\n    \"founded\":
+        \"1990\"\n  },\n  {\n    \"symbol\": \"CNC\",\n    \"name\": \"Centene Corporation\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Managed Health Care\",\n
+        \   \"headQuarter\": \"St. Louis, Missouri\",\n    \"dateFirstAdded\": \"2016-03-30\",\n
+        \   \"cik\": \"0001071739\",\n    \"founded\": \"1984\"\n  },\n  {\n    \"symbol\":
+        \"HOLX\",\n    \"name\": \"Hologic\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Equipment\",\n    \"headQuarter\": \"Marlborough, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"2016-03-30\",\n    \"cik\": \"0000859737\",\n    \"founded\":
+        \"1985\"\n  },\n  {\n    \"symbol\": \"UDR\",\n    \"name\": \"UDR, Inc.\",\n
+        \   \"sector\": \"Real Estate\",\n    \"subSector\": \"Multi-Family Residential
+        REITs\",\n    \"headQuarter\": \"Highlands Ranch, Colorado\",\n    \"dateFirstAdded\":
+        \"2016-03-07\",\n    \"cik\": \"0000074208\",\n    \"founded\": \"1972\"\n
+        \ },\n  {\n    \"symbol\": \"AWK\",\n    \"name\": \"American Water Works\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Water Utilities\",\n
+        \   \"headQuarter\": \"Camden, New Jersey\",\n    \"dateFirstAdded\": \"2016-03-04\",\n
+        \   \"cik\": \"0001410636\",\n    \"founded\": \"1886\"\n  },\n  {\n    \"symbol\":
+        \"FRT\",\n    \"name\": \"Federal Realty\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Retail REITs\",\n    \"headQuarter\": \"Rockville, Maryland\",\n
+        \   \"dateFirstAdded\": \"2016-02-01\",\n    \"cik\": \"0000034903\",\n    \"founded\":
+        \"1962\"\n  },\n  {\n    \"symbol\": \"CFG\",\n    \"name\": \"Citizens Financial
+        Group\",\n    \"sector\": \"Financial Services\",\n    \"subSector\": \"Regional
+        Banks\",\n    \"headQuarter\": \"Providence, Rhode Island\",\n    \"dateFirstAdded\":
+        \"2016-01-29\",\n    \"cik\": \"0000759944\",\n    \"founded\": \"1828\"\n
+        \ },\n  {\n    \"symbol\": \"EXR\",\n    \"name\": \"Extra Space Storage\",\n
+        \   \"sector\": \"Real Estate\",\n    \"subSector\": \"Self-Storage REITs\",\n
+        \   \"headQuarter\": \"Salt Lake City, Utah\",\n    \"dateFirstAdded\": \"2016-01-19\",\n
+        \   \"cik\": \"0001289490\",\n    \"founded\": \"1977\"\n  },\n  {\n    \"symbol\":
+        \"WTW\",\n    \"name\": \"Willis Towers Watson\",\n    \"sector\": \"Financial
+        Services\",\n    \"subSector\": \"Insurance Brokers\",\n    \"headQuarter\":
+        \"London, United Kingdom\",\n    \"dateFirstAdded\": \"2016-01-05\",\n    \"cik\":
+        \"0001140536\",\n    \"founded\": \"2016\"\n  },\n  {\n    \"symbol\": \"CHD\",\n
+        \   \"name\": \"Church & Dwight\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Household Products\",\n    \"headQuarter\": \"Ewing,
+        New Jersey\",\n    \"dateFirstAdded\": \"2015-12-29\",\n    \"cik\": \"0000313927\",\n
+        \   \"founded\": \"1847\"\n  },\n  {\n    \"symbol\": \"SYF\",\n    \"name\":
+        \"Synchrony Financial\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Consumer Finance\",\n    \"headQuarter\": \"Stamford, Connecticut\",\n    \"dateFirstAdded\":
+        \"2015-11-18\",\n    \"cik\": \"0001601712\",\n    \"founded\": \"2003\"\n
+        \ },\n  {\n    \"symbol\": \"HPE\",\n    \"name\": \"Hewlett Packard Enterprise\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Technology Hardware,
+        Storage & Peripherals\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"2015-11-02\",\n    \"cik\": \"0001645590\",\n    \"founded\": \"2015\"\n
+        \ },\n  {\n    \"symbol\": \"VRSK\",\n    \"name\": \"Verisk\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Consulting Services\",\n    \"headQuarter\":
+        \"Jersey City, New Jersey\",\n    \"dateFirstAdded\": \"2015-10-08\",\n    \"cik\":
+        \"0001442145\",\n    \"founded\": \"1971\"\n  },\n  {\n    \"symbol\": \"NWS\",\n
+        \   \"name\": \"News Corp (Class B)\",\n    \"sector\": \"Communication Services\",\n
+        \   \"subSector\": \"Publishing\",\n    \"headQuarter\": \"New York City,
+        New York\",\n    \"dateFirstAdded\": \"2015-09-18\",\n    \"cik\": \"0001564708\",\n
+        \   \"founded\": \"2013\"\n  },\n  {\n    \"symbol\": \"UAL\",\n    \"name\":
+        \"United Airlines Holdings\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Passenger Airlines\",\n    \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"2015-09-03\",\n    \"cik\": \"0000100517\",\n    \"founded\": \"1967\"\n
+        \ },\n  {\n    \"symbol\": \"PYPL\",\n    \"name\": \"PayPal\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Financial - Credit Services\",\n
+        \   \"headQuarter\": \"San Jose, California\",\n    \"dateFirstAdded\": \"2015-07-20\",\n
+        \   \"cik\": \"0001633917\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\":
+        \"KHC\",\n    \"name\": \"Kraft Heinz\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Packaged Foods\",\n    \"headQuarter\": \"Chicago, Illinois;
+        Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\": \"2015-07-06\",\n    \"cik\":
+        \"0001637459\",\n    \"founded\": \"2015\"\n  },\n  {\n    \"symbol\": \"JBHT\",\n
+        \   \"name\": \"J.B. Hunt\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Cargo Ground Transportation\",\n    \"headQuarter\": \"Lowell, Arkansas\",\n
+        \   \"dateFirstAdded\": \"2015-07-01\",\n    \"cik\": \"0000728535\",\n    \"founded\":
+        \"1961\"\n  },\n  {\n    \"symbol\": \"QRVO\",\n    \"name\": \"Qorvo\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Greensboro, North Carolina\",\n    \"dateFirstAdded\":
+        \"2015-06-11\",\n    \"cik\": \"0001604778\",\n    \"founded\": \"2015\"\n
+        \ },\n  {\n    \"symbol\": \"O\",\n    \"name\": \"Realty Income\",\n    \"sector\":
+        \"Real Estate\",\n    \"subSector\": \"Retail REITs\",\n    \"headQuarter\":
+        \"San Diego, California\",\n    \"dateFirstAdded\": \"2015-04-07\",\n    \"cik\":
+        \"0000726728\",\n    \"founded\": \"1969\"\n  },\n  {\n    \"symbol\": \"EQIX\",\n
+        \   \"name\": \"Equinix\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Data Center REITs\",\n    \"headQuarter\": \"Redwood City, California\",\n
+        \   \"dateFirstAdded\": \"2015-03-20\",\n    \"cik\": \"0001101239\",\n    \"founded\":
+        \"1998\"\n  },\n  {\n    \"symbol\": \"HSIC\",\n    \"name\": \"Henry Schein\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Distributors\",\n
+        \   \"headQuarter\": \"Melville, New York\",\n    \"dateFirstAdded\": \"2015-03-17\",\n
+        \   \"cik\": \"0001000228\",\n    \"founded\": \"1932\"\n  },\n  {\n    \"symbol\":
+        \"SWKS\",\n    \"name\": \"Skyworks Solutions\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Semiconductors\",\n    \"headQuarter\": \"Irvine, California\",\n
+        \   \"dateFirstAdded\": \"2015-03-12\",\n    \"cik\": \"0000004127\",\n    \"founded\":
+        \"2002\"\n  },\n  {\n    \"symbol\": \"HCA\",\n    \"name\": \"HCA Healthcare\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Facilities\",\n
+        \   \"headQuarter\": \"Nashville, Tennessee\",\n    \"dateFirstAdded\": \"2015-01-27\",\n
+        \   \"cik\": \"0000860730\",\n    \"founded\": \"1968\"\n  },\n  {\n    \"symbol\":
+        \"RCL\",\n    \"name\": \"Royal Caribbean Group\",\n    \"sector\": \"Consumer
+        Cyclical\",\n    \"subSector\": \"Hotels, Resorts & Cruise Lines\",\n    \"headQuarter\":
+        \"Miami, Florida\",\n    \"dateFirstAdded\": \"2014-12-05\",\n    \"cik\":
+        \"0000884887\",\n    \"founded\": \"1997\"\n  },\n  {\n    \"symbol\": \"UHS\",\n
+        \   \"name\": \"Universal Health Services\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Facilities\",\n    \"headQuarter\": \"King
+        of Prussia, Pennsylvania\",\n    \"dateFirstAdded\": \"2014-09-20\",\n    \"cik\":
+        \"0000352915\",\n    \"founded\": \"1979\"\n  },\n  {\n    \"symbol\": \"URI\",\n
+        \   \"name\": \"United Rentals\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Trading Companies & Distributors\",\n    \"headQuarter\": \"Stamford, Connecticut\",\n
+        \   \"dateFirstAdded\": \"2014-09-20\",\n    \"cik\": \"0001067701\",\n    \"founded\":
+        \"1997\"\n  },\n  {\n    \"symbol\": \"MLM\",\n    \"name\": \"Martin Marietta
+        Materials\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\": \"Construction
+        Materials\",\n    \"headQuarter\": \"Raleigh, North Carolina\",\n    \"dateFirstAdded\":
+        \"2014-07-02\",\n    \"cik\": \"0000916076\",\n    \"founded\": \"1993\"\n
+        \ },\n  {\n    \"symbol\": \"AVGO\",\n    \"name\": \"Broadcom\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Semiconductors\",\n    \"headQuarter\":
+        \"Palo Alto, California\",\n    \"dateFirstAdded\": \"2014-05-08\",\n    \"cik\":
+        \"0001730168\",\n    \"founded\": \"1961\"\n  },\n  {\n    \"symbol\": \"GOOGL\",\n
+        \   \"name\": \"Alphabet Inc. (Class A)\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Internet Content & Information\",\n    \"headQuarter\":
+        \"Mountain View, California\",\n    \"dateFirstAdded\": \"2014-04-03\",\n
+        \   \"cik\": \"0001652044\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\":
+        \"ESS\",\n    \"name\": \"Essex Property Trust\",\n    \"sector\": \"Real
+        Estate\",\n    \"subSector\": \"Multi-Family Residential REITs\",\n    \"headQuarter\":
+        \"San Mateo, California\",\n    \"dateFirstAdded\": \"2014-04-02\",\n    \"cik\":
+        \"0000920522\",\n    \"founded\": \"1971\"\n  },\n  {\n    \"symbol\": \"TSCO\",\n
+        \   \"name\": \"Tractor Supply\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Other Specialty Retail\",\n    \"headQuarter\": \"Brentwood,
+        Tennessee\",\n    \"dateFirstAdded\": \"2014-01-24\",\n    \"cik\": \"0000916365\",\n
+        \   \"founded\": \"1938\"\n  },\n  {\n    \"symbol\": \"META\",\n    \"name\":
+        \"Meta Platforms\",\n    \"sector\": \"Communication Services\",\n    \"subSector\":
+        \"Internet Content & Information\",\n    \"headQuarter\": \"Menlo Park, California\",\n
+        \   \"dateFirstAdded\": \"2013-12-23\",\n    \"cik\": \"0001326801\",\n    \"founded\":
+        \"2004\"\n  },\n  {\n    \"symbol\": \"MHK\",\n    \"name\": \"Mohawk Industries\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Home Furnishings\",\n
+        \   \"headQuarter\": \"Calhoun, Georgia\",\n    \"dateFirstAdded\": \"2013-12-23\",\n
+        \   \"cik\": \"0000851968\",\n    \"founded\": \"1878\"\n  },\n  {\n    \"symbol\":
+        \"ALLE\",\n    \"name\": \"Allegion\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Building Products\",\n    \"headQuarter\": \"Dublin,
+        Ireland\",\n    \"dateFirstAdded\": \"2013-12-02\",\n    \"cik\": \"0001579241\",\n
+        \   \"founded\": \"1908\"\n  },\n  {\n    \"symbol\": \"AME\",\n    \"name\":
+        \"Ametek\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Electrical
+        Components & Equipment\",\n    \"headQuarter\": \"Berwyn, Pennsylvania\",\n
+        \   \"dateFirstAdded\": \"2013-09-23\",\n    \"cik\": \"0001037868\",\n    \"founded\":
+        \"1930\"\n  },\n  {\n    \"symbol\": \"VRTX\",\n    \"name\": \"Vertex Pharmaceuticals\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Biotechnology\",\n    \"headQuarter\":
+        \"Boston, Massachusetts\",\n    \"dateFirstAdded\": \"2013-09-23\",\n    \"cik\":
+        \"0000875320\",\n    \"founded\": \"1989\"\n  },\n  {\n    \"symbol\": \"DAL\",\n
+        \   \"name\": \"Delta Air Lines\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Passenger Airlines\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n    \"dateFirstAdded\":
+        \"2013-09-11\",\n    \"cik\": \"0000027904\",\n    \"founded\": \"1929\"\n
+        \ },\n  {\n    \"symbol\": \"NWSA\",\n    \"name\": \"News Corp (Class A)\",\n
+        \   \"sector\": \"Communication Services\",\n    \"subSector\": \"Publishing\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2013-08-01\",\n    \"cik\": \"0001564708\",\n    \"founded\": \"2013\"\n
+        \ },\n  {\n    \"symbol\": \"ZTS\",\n    \"name\": \"Zoetis\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Pharmaceuticals\",\n    \"headQuarter\":
+        \"Parsippany, New Jersey\",\n    \"dateFirstAdded\": \"2013-06-21\",\n    \"cik\":
+        \"0001555280\",\n    \"founded\": \"1952\"\n  },\n  {\n    \"symbol\": \"GM\",\n
+        \   \"name\": \"General Motors\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Automobile Manufacturers\",\n    \"headQuarter\": \"Detroit,
+        Michigan\",\n    \"dateFirstAdded\": \"2013-06-06\",\n    \"cik\": \"0001467858\",\n
+        \   \"founded\": \"1908\"\n  },\n  {\n    \"symbol\": \"REGN\",\n    \"name\":
+        \"Regeneron\",\n    \"sector\": \"Healthcare\",\n    \"subSector\": \"Biotechnology\",\n
+        \   \"headQuarter\": \"Tarrytown, New York\",\n    \"dateFirstAdded\": \"2013-05-01\",\n
+        \   \"cik\": \"0000872589\",\n    \"founded\": \"1988\"\n  },\n  {\n    \"symbol\":
+        \"ABBV\",\n    \"name\": \"AbbVie\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Biotechnology\",\n    \"headQuarter\": \"North Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"2012-12-31\",\n    \"cik\": \"0001551152\",\n    \"founded\": \"2013\"\n
+        \ },\n  {\n    \"symbol\": \"APTV\",\n    \"name\": \"Aptiv\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Automotive Parts & Equipment\",\n
+        \   \"headQuarter\": \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"2012-12-24\",\n
+        \   \"cik\": \"0001521332\",\n    \"founded\": \"1994\"\n  },\n  {\n    \"symbol\":
+        \"GRMN\",\n    \"name\": \"Garmin\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Consumer Electronics\",\n    \"headQuarter\": \"Schaffhausen, Switzerland\",\n
+        \   \"dateFirstAdded\": \"2012-12-12\",\n    \"cik\": \"0001121788\",\n    \"founded\":
+        \"1989\"\n  },\n  {\n    \"symbol\": \"HUM\",\n    \"name\": \"Humana\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Managed Health Care\",\n
+        \   \"headQuarter\": \"Louisville, Kentucky\",\n    \"dateFirstAdded\": \"2012-12-10\",\n
+        \   \"cik\": \"0000049071\",\n    \"founded\": \"1961\"\n  },\n  {\n    \"symbol\":
+        \"DG\",\n    \"name\": \"Dollar General\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Consumer Staples Merchandise Retail\",\n    \"headQuarter\":
+        \"Goodlettsville, Tennessee\",\n    \"dateFirstAdded\": \"2012-12-03\",\n
+        \   \"cik\": \"0000029534\",\n    \"founded\": \"1939\"\n  },\n  {\n    \"symbol\":
+        \"MDLZ\",\n    \"name\": \"Mondelez International\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Food Confectioners\",\n    \"headQuarter\":
+        \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"2012-10-02\",\n    \"cik\":
+        \"0001103982\",\n    \"founded\": \"2012\"\n  },\n  {\n    \"symbol\": \"PNR\",\n
+        \   \"name\": \"Pentair\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Industrial Machinery & Supplies & Components\",\n    \"headQuarter\": \"Worsley,
+        United Kingdom\",\n    \"dateFirstAdded\": \"2012-10-01\",\n    \"cik\": \"0000077360\",\n
+        \   \"founded\": \"1966\"\n  },\n  {\n    \"symbol\": \"LYB\",\n    \"name\":
+        \"LyondellBasell\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Specialty Chemicals\",\n    \"headQuarter\": \"Rotterdam, Netherlands\",\n
+        \   \"dateFirstAdded\": \"2012-09-05\",\n    \"cik\": \"0001489393\",\n    \"founded\":
+        \"2007\"\n  },\n  {\n    \"symbol\": \"STX\",\n    \"name\": \"Seagate Technology\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Technology Hardware,
+        Storage & Peripherals\",\n    \"headQuarter\": \"Dublin, Ireland\",\n    \"dateFirstAdded\":
+        \"2012-07-02\",\n    \"cik\": \"0001137789\",\n    \"founded\": \"1979\"\n
+        \ },\n  {\n    \"symbol\": \"LRCX\",\n    \"name\": \"Lam Research\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Semiconductors\",\n    \"headQuarter\":
+        \"Fremont, California\",\n    \"dateFirstAdded\": \"2012-06-29\",\n    \"cik\":
+        \"0000707549\",\n    \"founded\": \"1980\"\n  },\n  {\n    \"symbol\": \"MNST\",\n
+        \   \"name\": \"Monster Beverage\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Beverages - Non-Alcoholic\",\n    \"headQuarter\": \"Corona,
+        California\",\n    \"dateFirstAdded\": \"2012-06-28\",\n    \"cik\": \"0000865752\",\n
+        \   \"founded\": \"2012\"\n  },\n  {\n    \"symbol\": \"KMI\",\n    \"name\":
+        \"Kinder Morgan\",\n    \"sector\": \"Energy\",\n    \"subSector\": \"Oil
+        & Gas Storage & Transportation\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"2012-05-25\",\n    \"cik\": \"0001506307\",\n    \"founded\":
+        \"1997\"\n  },\n  {\n    \"symbol\": \"PSX\",\n    \"name\": \"Phillips 66\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Refining & Marketing\",\n
+        \   \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\": \"2012-05-01\",\n
+        \   \"cik\": \"0001534701\",\n    \"founded\": \"2012\"\n  },\n  {\n    \"symbol\":
+        \"CCI\",\n    \"name\": \"Crown Castle\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Telecom Tower REITs\",\n    \"headQuarter\": \"Houston,
+        Texas\",\n    \"dateFirstAdded\": \"2012-03-14\",\n    \"cik\": \"0001051470\",\n
+        \   \"founded\": \"1994\"\n  },\n  {\n    \"symbol\": \"BWA\",\n    \"name\":
+        \"BorgWarner\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Automotive Parts & Equipment\",\n    \"headQuarter\": \"Auburn Hills, Michigan\",\n
+        \   \"dateFirstAdded\": \"2011-12-19\",\n    \"cik\": \"0000908255\",\n    \"founded\":
+        \"1880\"\n  },\n  {\n    \"symbol\": \"DLTR\",\n    \"name\": \"Dollar Tree\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Discount Stores\",\n
+        \   \"headQuarter\": \"Chesapeake, Virginia\",\n    \"dateFirstAdded\": \"2011-12-19\",\n
+        \   \"cik\": \"0000935703\",\n    \"founded\": \"1986\"\n  },\n  {\n    \"symbol\":
+        \"XYL\",\n    \"name\": \"Xylem Inc.\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Industrial Machinery & Supplies & Components\",\n    \"headQuarter\":
+        \"White Plains, New York\",\n    \"dateFirstAdded\": \"2011-11-01\",\n    \"cik\":
+        \"0001524472\",\n    \"founded\": \"2011\"\n  },\n  {\n    \"symbol\": \"TEL\",\n
+        \   \"name\": \"TE Connectivity\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Electronic Manufacturing Services\",\n    \"headQuarter\": \"Schaffhausen,
+        Switzerland\",\n    \"dateFirstAdded\": \"2011-10-17\",\n    \"cik\": \"0001385157\",\n
+        \   \"founded\": \"2007\"\n  },\n  {\n    \"symbol\": \"MOS\",\n    \"name\":
+        \"Mosaic Company (The)\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Fertilizers & Agricultural Chemicals\",\n    \"headQuarter\": \"Tampa, Florida\",\n
+        \   \"dateFirstAdded\": \"2011-09-26\",\n    \"cik\": \"0001285785\",\n    \"founded\":
+        \"2004\"\n  },\n  {\n    \"symbol\": \"ACN\",\n    \"name\": \"Accenture\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"IT Consulting & Other
+        Services\",\n    \"headQuarter\": \"Dublin, Ireland\",\n    \"dateFirstAdded\":
+        \"2011-07-06\",\n    \"cik\": \"0001467373\",\n    \"founded\": \"1989\"\n
+        \ },\n  {\n    \"symbol\": \"FCX\",\n    \"name\": \"Freeport-McMoRan\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Copper\",\n    \"headQuarter\":
+        \"Phoenix, Arizona\",\n    \"dateFirstAdded\": \"2011-07-01\",\n    \"cik\":
+        \"0000831259\",\n    \"founded\": \"1912\"\n  },\n  {\n    \"symbol\": \"MPC\",\n
+        \   \"name\": \"Marathon Petroleum\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Refining & Marketing\",\n    \"headQuarter\": \"Findlay, Ohio\",\n
+        \   \"dateFirstAdded\": \"2011-07-01\",\n    \"cik\": \"0001510295\",\n    \"founded\":
+        \"2009\"\n  },\n  {\n    \"symbol\": \"CMG\",\n    \"name\": \"Chipotle Mexican
+        Grill\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Restaurants\",\n
+        \   \"headQuarter\": \"Newport Beach, California\",\n    \"dateFirstAdded\":
+        \"2011-04-28\",\n    \"cik\": \"0001058090\",\n    \"founded\": \"1993\"\n
+        \ },\n  {\n    \"symbol\": \"BLK\",\n    \"name\": \"BlackRock\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Asset Management & Custody Banks\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2011-04-04\",\n    \"cik\": \"0001364742\",\n    \"founded\": \"1988\"\n
+        \ },\n  {\n    \"symbol\": \"EW\",\n    \"name\": \"Edwards Lifesciences\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n
+        \   \"headQuarter\": \"Irvine, California\",\n    \"dateFirstAdded\": \"2011-04-01\",\n
+        \   \"cik\": \"0001099800\",\n    \"founded\": \"1958\"\n  },\n  {\n    \"symbol\":
+        \"FFIV\",\n    \"name\": \"F5, Inc.\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Communications Equipment\",\n    \"headQuarter\": \"Seattle,
+        Washington\",\n    \"dateFirstAdded\": \"2010-12-20\",\n    \"cik\": \"0001048695\",\n
+        \   \"founded\": \"1996\"\n  },\n  {\n    \"symbol\": \"NFLX\",\n    \"name\":
+        \"Netflix\",\n    \"sector\": \"Communication Services\",\n    \"subSector\":
+        \"Entertainment\",\n    \"headQuarter\": \"Los Gatos, California\",\n    \"dateFirstAdded\":
+        \"2010-12-20\",\n    \"cik\": \"0001065280\",\n    \"founded\": \"1997\"\n
+        \ },\n  {\n    \"symbol\": \"TT\",\n    \"name\": \"Trane Technologies\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Building Products\",\n
+        \   \"headQuarter\": \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"2010-11-17\",\n
+        \   \"cik\": \"0001466258\",\n    \"founded\": \"1871\"\n  },\n  {\n    \"symbol\":
+        \"JCI\",\n    \"name\": \"Johnson Controls\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Building Products\",\n    \"headQuarter\": \"Cork, Ireland\",\n
+        \   \"dateFirstAdded\": \"2010-08-27\",\n    \"cik\": \"0000833444\",\n    \"founded\":
+        \"1885\"\n  },\n  {\n    \"symbol\": \"CB\",\n    \"name\": \"Chubb Limited\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Property & Casualty
+        Insurance\",\n    \"headQuarter\": \"Zurich, Switzerland\",\n    \"dateFirstAdded\":
+        \"2010-07-15\",\n    \"cik\": \"0000896159\",\n    \"founded\": \"1985\"\n
+        \ },\n  {\n    \"symbol\": \"KMX\",\n    \"name\": \"CarMax\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Automotive Retail\",\n    \"headQuarter\":
+        \"Richmond, Virginia\",\n    \"dateFirstAdded\": \"2010-06-28\",\n    \"cik\":
+        \"0001170010\",\n    \"founded\": \"1993\"\n  },\n  {\n    \"symbol\": \"OKE\",\n
+        \   \"name\": \"ONEOK\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Storage & Transportation\",\n    \"headQuarter\": \"Tulsa, Oklahoma\",\n
+        \   \"dateFirstAdded\": \"2010-03-15\",\n    \"cik\": \"0001039684\",\n    \"founded\":
+        \"1906\"\n  },\n  {\n    \"symbol\": \"BRK-B\",\n    \"name\": \"Berkshire
+        Hathaway\",\n    \"sector\": \"Financial Services\",\n    \"subSector\": \"Multi-Sector
+        Holdings\",\n    \"headQuarter\": \"Omaha, Nebraska\",\n    \"dateFirstAdded\":
+        \"2010-02-16\",\n    \"cik\": \"0001067983\",\n    \"founded\": \"1839\"\n
+        \ },\n  {\n    \"symbol\": \"NRG\",\n    \"name\": \"NRG Energy\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Independent Power Producers & Energy
+        Traders\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"2010-01-29\",\n    \"cik\": \"0001013871\",\n    \"founded\": \"1992\"\n
+        \ },\n  {\n    \"symbol\": \"ROP\",\n    \"name\": \"Roper Technologies\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial - Machinery\",\n
+        \   \"headQuarter\": \"Sarasota, Florida\",\n    \"dateFirstAdded\": \"2009-12-23\",\n
+        \   \"cik\": \"0000882835\",\n    \"founded\": \"1981\"\n  },\n  {\n    \"symbol\":
+        \"ROST\",\n    \"name\": \"Ross Stores\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Apparel - Retail\",\n    \"headQuarter\": \"Dublin, California\",\n
+        \   \"dateFirstAdded\": \"2009-12-21\",\n    \"cik\": \"0000745732\",\n    \"founded\":
+        \"1982\"\n  },\n  {\n    \"symbol\": \"V\",\n    \"name\": \"Visa Inc.\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Financial -
+        Credit Services\",\n    \"headQuarter\": \"San Francisco, California\",\n
+        \   \"dateFirstAdded\": \"2009-12-21\",\n    \"cik\": \"0001403161\",\n    \"founded\":
+        \"1958\"\n  },\n  {\n    \"symbol\": \"BKNG\",\n    \"name\": \"Booking Holdings\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Travel Services\",\n
+        \   \"headQuarter\": \"Norwalk, Connecticut\",\n    \"dateFirstAdded\": \"2009-11-06\",\n
+        \   \"cik\": \"0001075531\",\n    \"founded\": \"1996\"\n  },\n  {\n    \"symbol\":
+        \"FMC\",\n    \"name\": \"FMC Corporation\",\n    \"sector\": \"Basic Materials\",\n
+        \   \"subSector\": \"Fertilizers & Agricultural Chemicals\",\n    \"headQuarter\":
+        \"Philadelphia, Pennsylvania\",\n    \"dateFirstAdded\": \"2009-08-19\",\n
+        \   \"cik\": \"0000037785\",\n    \"founded\": \"1883\"\n  },\n  {\n    \"symbol\":
+        \"ES\",\n    \"name\": \"Eversource Energy\",\n    \"sector\": \"Utilities\",\n
+        \   \"subSector\": \"Electric Utilities\",\n    \"headQuarter\": \"Hartford,
+        Connecticut\",\n    \"dateFirstAdded\": \"2009-07-24\",\n    \"cik\": \"0000072741\",\n
+        \   \"founded\": \"1966\"\n  },\n  {\n    \"symbol\": \"PWR\",\n    \"name\":
+        \"Quanta Services\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Construction & Engineering\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"2009-07-01\",\n    \"cik\": \"0001050915\",\n    \"founded\":
+        \"1997\"\n  },\n  {\n    \"symbol\": \"WDC\",\n    \"name\": \"Western Digital\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Technology Hardware,
+        Storage & Peripherals\",\n    \"headQuarter\": \"San Jose, California\",\n
+        \   \"dateFirstAdded\": \"2009-07-01\",\n    \"cik\": \"0000106040\",\n    \"founded\":
+        \"1970\"\n  },\n  {\n    \"symbol\": \"ORLY\",\n    \"name\": \"O'Reilly Auto
+        Parts\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Specialty
+        Retail\",\n    \"headQuarter\": \"Springfield, Missouri\",\n    \"dateFirstAdded\":
+        \"2009-03-27\",\n    \"cik\": \"0000898173\",\n    \"founded\": \"1957\"\n
+        \ },\n  {\n    \"symbol\": \"HRL\",\n    \"name\": \"Hormel Foods\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n
+        \   \"headQuarter\": \"Austin, Minnesota\",\n    \"dateFirstAdded\": \"2009-03-04\",\n
+        \   \"cik\": \"0000048465\",\n    \"founded\": \"1891\"\n  },\n  {\n    \"symbol\":
+        \"VTR\",\n    \"name\": \"Ventas\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Health Care REITs\",\n    \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"2009-03-04\",\n    \"cik\": \"0000740260\",\n    \"founded\": \"1998\"\n
+        \ },\n  {\n    \"symbol\": \"WELL\",\n    \"name\": \"Welltower\",\n    \"sector\":
+        \"Real Estate\",\n    \"subSector\": \"Health Care REITs\",\n    \"headQuarter\":
+        \"Toledo, Ohio\",\n    \"dateFirstAdded\": \"2009-01-30\",\n    \"cik\": \"0000766704\",\n
+        \   \"founded\": \"1970\"\n  },\n  {\n    \"symbol\": \"IRM\",\n    \"name\":
+        \"Iron Mountain\",\n    \"sector\": \"Real Estate\",\n    \"subSector\": \"Other
+        Specialized REITs\",\n    \"headQuarter\": \"Boston, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2009-01-06\",\n    \"cik\": \"0001020569\",\n    \"founded\": \"1951\"\n
+        \ },\n  {\n    \"symbol\": \"RSG\",\n    \"name\": \"Republic Services\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Environmental & Facilities
+        Services\",\n    \"headQuarter\": \"Phoenix, Arizona\",\n    \"dateFirstAdded\":
+        \"2008-12-05\",\n    \"cik\": \"0001060391\",\n    \"founded\": \"1998\"\n
+        \ },\n  {\n    \"symbol\": \"WYNN\",\n    \"name\": \"Wynn Resorts\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Casinos & Gaming\",\n    \"headQuarter\":
+        \"Paradise, Nevada\",\n    \"dateFirstAdded\": \"2008-11-14\",\n    \"cik\":
+        \"0001174922\",\n    \"founded\": \"2002\"\n  },\n  {\n    \"symbol\": \"SJM\",\n
+        \   \"name\": \"J.M. Smucker Company (The)\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\":
+        \"Orrville, Ohio\",\n    \"dateFirstAdded\": \"2008-11-06\",\n    \"cik\":
+        \"0000091419\",\n    \"founded\": \"1897\"\n  },\n  {\n    \"symbol\": \"WEC\",\n
+        \   \"name\": \"WEC Energy Group\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Electric Utilities\",\n    \"headQuarter\": \"Milwaukee, Wisconsin\",\n
+        \   \"dateFirstAdded\": \"2008-10-31\",\n    \"cik\": \"0000783325\",\n    \"founded\":
+        \"1896\"\n  },\n  {\n    \"symbol\": \"NDAQ\",\n    \"name\": \"Nasdaq, Inc.\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Financial Exchanges
+        & Data\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2008-10-22\",\n    \"cik\": \"0001120193\",\n    \"founded\": \"1971\"\n
+        \ },\n  {\n    \"symbol\": \"APH\",\n    \"name\": \"Amphenol\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Electronic Components\",\n    \"headQuarter\":
+        \"Wallingford, Connecticut\",\n    \"dateFirstAdded\": \"2008-09-30\",\n    \"cik\":
+        \"0000820313\",\n    \"founded\": \"1932\"\n  },\n  {\n    \"symbol\": \"LHX\",\n
+        \   \"name\": \"L3Harris\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Aerospace & Defense\",\n    \"headQuarter\": \"Melbourne, Florida\",\n    \"dateFirstAdded\":
+        \"2008-09-22\",\n    \"cik\": \"0000202058\",\n    \"founded\": \"2019\"\n
+        \ },\n  {\n    \"symbol\": \"CRM\",\n    \"name\": \"Salesforce\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Software - Application\",\n    \"headQuarter\":
+        \"San Francisco, California\",\n    \"dateFirstAdded\": \"2008-09-15\",\n
+        \   \"cik\": \"0001108524\",\n    \"founded\": \"1999\"\n  },\n  {\n    \"symbol\":
+        \"FAST\",\n    \"name\": \"Fastenal\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Industrial - Distribution\",\n    \"headQuarter\": \"Winona,
+        Minnesota\",\n    \"dateFirstAdded\": \"2008-09-15\",\n    \"cik\": \"0000815556\",\n
+        \   \"founded\": \"1967\"\n  },\n  {\n    \"symbol\": \"CF\",\n    \"name\":
+        \"CF Industries\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Fertilizers & Agricultural Chemicals\",\n    \"headQuarter\": \"Deerfield,
+        Illinois\",\n    \"dateFirstAdded\": \"2008-08-27\",\n    \"cik\": \"0001324404\",\n
+        \   \"founded\": \"1946\"\n  },\n  {\n    \"symbol\": \"IVZ\",\n    \"name\":
+        \"Invesco\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Asset Management & Custody Banks\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n
+        \   \"dateFirstAdded\": \"2008-08-21\",\n    \"cik\": \"0000914208\",\n    \"founded\":
+        \"1935\"\n  },\n  {\n    \"symbol\": \"DVA\",\n    \"name\": \"DaVita\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Services\",\n
+        \   \"headQuarter\": \"Denver, Colorado\",\n    \"dateFirstAdded\": \"2008-07-31\",\n
+        \   \"cik\": \"0000927066\",\n    \"founded\": \"1979\"\n  },\n  {\n    \"symbol\":
+        \"MA\",\n    \"name\": \"Mastercard\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Transaction & Payment Processing Services\",\n    \"headQuarter\":
+        \"Harrison, New York\",\n    \"dateFirstAdded\": \"2008-07-18\",\n    \"cik\":
+        \"0001141391\",\n    \"founded\": \"1966\"\n  },\n  {\n    \"symbol\": \"CTRA\",\n
+        \   \"name\": \"Coterra\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Exploration & Production\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"2008-06-23\",\n    \"cik\": \"0000858470\",\n    \"founded\":
+        \"2021\"\n  },\n  {\n    \"symbol\": \"ISRG\",\n    \"name\": \"Intuitive
+        Surgical\",\n    \"sector\": \"Healthcare\",\n    \"subSector\": \"Medical
+        - Instruments & Supplies\",\n    \"headQuarter\": \"Sunnyvale, California\",\n
+        \   \"dateFirstAdded\": \"2008-06-02\",\n    \"cik\": \"0001035267\",\n    \"founded\":
+        \"1995\"\n  },\n  {\n    \"symbol\": \"DOC\",\n    \"name\": \"Healthpeak
+        Properties\",\n    \"sector\": \"Real Estate\",\n    \"subSector\": \"Health
+        Care REITs\",\n    \"headQuarter\": \"Denver, Colorado\",\n    \"dateFirstAdded\":
+        \"2008-03-31\",\n    \"cik\": \"0000765880\",\n    \"founded\": \"1985\"\n
+        \ },\n  {\n    \"symbol\": \"PM\",\n    \"name\": \"Philip Morris International\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Tobacco\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2008-03-31\",\n    \"cik\": \"0001413329\",\n    \"founded\": \"2008\"\n
+        \ },\n  {\n    \"symbol\": \"AMT\",\n    \"name\": \"American Tower\",\n    \"sector\":
+        \"Real Estate\",\n    \"subSector\": \"Telecom Tower REITs\",\n    \"headQuarter\":
+        \"Boston, Massachusetts\",\n    \"dateFirstAdded\": \"2007-11-19\",\n    \"cik\":
+        \"0001053507\",\n    \"founded\": \"1995\"\n  },\n  {\n    \"symbol\": \"J\",\n
+        \   \"name\": \"Jacobs Solutions\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Construction & Engineering\",\n    \"headQuarter\": \"Dallas, Texas\",\n
+        \   \"dateFirstAdded\": \"2007-10-26\",\n    \"cik\": \"0000052988\",\n    \"founded\":
+        \"1947\"\n  },\n  {\n    \"symbol\": \"EXPD\",\n    \"name\": \"Expeditors
+        International\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Air
+        Freight & Logistics\",\n    \"headQuarter\": \"Seattle, Washington\",\n    \"dateFirstAdded\":
+        \"2007-10-10\",\n    \"cik\": \"0000746515\",\n    \"founded\": \"1979\"\n
+        \ },\n  {\n    \"symbol\": \"EXPE\",\n    \"name\": \"Expedia Group\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Hotels, Resorts & Cruise Lines\",\n
+        \   \"headQuarter\": \"Seattle, Washington\",\n    \"dateFirstAdded\": \"2007-10-02\",\n
+        \   \"cik\": \"0001324424\",\n    \"founded\": \"1996\"\n  },\n  {\n    \"symbol\":
+        \"ICE\",\n    \"name\": \"Intercontinental Exchange\",\n    \"sector\": \"Financial
+        Services\",\n    \"subSector\": \"Financial Exchanges & Data\",\n    \"headQuarter\":
+        \"Atlanta, Georgia\",\n    \"dateFirstAdded\": \"2007-09-26\",\n    \"cik\":
+        \"0001571949\",\n    \"founded\": \"2000\"\n  },\n  {\n    \"symbol\": \"MCHP\",\n
+        \   \"name\": \"Microchip Technology\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Semiconductors\",\n    \"headQuarter\": \"Chandler, Arizona\",\n
+        \   \"dateFirstAdded\": \"2007-09-07\",\n    \"cik\": \"0000827054\",\n    \"founded\":
+        \"1989\"\n  },\n  {\n    \"symbol\": \"AKAM\",\n    \"name\": \"Akamai Technologies\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Internet Services &
+        Infrastructure\",\n    \"headQuarter\": \"Cambridge, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2007-07-12\",\n    \"cik\": \"0001086222\",\n    \"founded\": \"1998\"\n
+        \ },\n  {\n    \"symbol\": \"DFS\",\n    \"name\": \"Discover Financial\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Consumer Finance\",\n
+        \   \"headQuarter\": \"Riverwoods, Illinois\",\n    \"dateFirstAdded\": \"2007-07-02\",\n
+        \   \"cik\": \"0001393612\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\":
+        \"AIZ\",\n    \"name\": \"Assurant\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Multi-line Insurance\",\n    \"headQuarter\": \"Atlanta,
+        Georgia\",\n    \"dateFirstAdded\": \"2007-04-10\",\n    \"cik\": \"0001267238\",\n
+        \   \"founded\": \"1892\"\n  },\n  {\n    \"symbol\": \"HST\",\n    \"name\":
+        \"Host Hotels & Resorts\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Hotel & Resort REITs\",\n    \"headQuarter\": \"Bethesda, Maryland\",\n
+        \   \"dateFirstAdded\": \"2007-03-20\",\n    \"cik\": \"0001070750\",\n    \"founded\":
+        \"1993\"\n  },\n  {\n    \"symbol\": \"CHRW\",\n    \"name\": \"C.H. Robinson\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Air Freight & Logistics\",\n
+        \   \"headQuarter\": \"Eden Prairie, Minnesota\",\n    \"dateFirstAdded\":
+        \"2007-03-02\",\n    \"cik\": \"0001043277\",\n    \"founded\": \"1905\"\n
+        \ },\n  {\n    \"symbol\": \"RL\",\n    \"name\": \"Ralph Lauren Corporation\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Apparel, Accessories
+        & Luxury Goods\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2007-02-02\",\n    \"cik\": \"0001037038\",\n    \"founded\": \"1967\"\n
+        \ },\n  {\n    \"symbol\": \"AVB\",\n    \"name\": \"AvalonBay Communities\",\n
+        \   \"sector\": \"Real Estate\",\n    \"subSector\": \"Multi-Family Residential
+        REITs\",\n    \"headQuarter\": \"Arlington, Virginia\",\n    \"dateFirstAdded\":
+        \"2007-01-10\",\n    \"cik\": \"0000915912\",\n    \"founded\": \"1978\"\n
+        \ },\n  {\n    \"symbol\": \"CTSH\",\n    \"name\": \"Cognizant\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Information Technology Services\",\n
+        \   \"headQuarter\": \"Teaneck, New Jersey\",\n    \"dateFirstAdded\": \"2006-11-17\",\n
+        \   \"cik\": \"0001058290\",\n    \"founded\": \"1994\"\n  },\n  {\n    \"symbol\":
+        \"CBRE\",\n    \"name\": \"CBRE Group\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Real Estate Services\",\n    \"headQuarter\": \"Dallas,
+        Texas\",\n    \"dateFirstAdded\": \"2006-11-10\",\n    \"cik\": \"0001138118\",\n
+        \   \"founded\": \"1906\"\n  },\n  {\n    \"symbol\": \"FIS\",\n    \"name\":
+        \"Fidelity National Information Services\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Transaction & Payment Processing Services\",\n    \"headQuarter\":
+        \"Jacksonville, Florida\",\n    \"dateFirstAdded\": \"2006-11-10\",\n    \"cik\":
+        \"0001136893\",\n    \"founded\": \"1968\"\n  },\n  {\n    \"symbol\": \"CME\",\n
+        \   \"name\": \"CME Group\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Financial Exchanges & Data\",\n    \"headQuarter\": \"Chicago, Illinois\",\n
+        \   \"dateFirstAdded\": \"2006-08-11\",\n    \"cik\": \"0001156375\",\n    \"founded\":
+        \"1848\"\n  },\n  {\n    \"symbol\": \"JNPR\",\n    \"name\": \"Juniper Networks\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Communications Equipment\",\n
+        \   \"headQuarter\": \"Sunnyvale, California\",\n    \"dateFirstAdded\": \"2006-06-02\",\n
+        \   \"cik\": \"0001043604\",\n    \"founded\": \"1996\"\n  },\n  {\n    \"symbol\":
+        \"KIM\",\n    \"name\": \"Kimco Realty\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Retail REITs\",\n    \"headQuarter\": \"Jericho, New
+        York\",\n    \"dateFirstAdded\": \"2006-04-04\",\n    \"cik\": \"0000879101\",\n
+        \   \"founded\": \"1958\"\n  },\n  {\n    \"symbol\": \"BXP\",\n    \"name\":
+        \"BXP, Inc.\",\n    \"sector\": \"Real Estate\",\n    \"subSector\": \"Office
+        REITs\",\n    \"headQuarter\": \"Boston, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2006-04-03\",\n    \"cik\": \"0001037540\",\n    \"founded\": \"1970\"\n
+        \ },\n  {\n    \"symbol\": \"GOOG\",\n    \"name\": \"Alphabet Inc. (Class
+        C)\",\n    \"sector\": \"Communication Services\",\n    \"subSector\": \"Internet
+        Content & Information\",\n    \"headQuarter\": \"Mountain View, California\",\n
+        \   \"dateFirstAdded\": \"2006-04-03\",\n    \"cik\": \"0001652044\",\n    \"founded\":
+        \"1998\"\n  },\n  {\n    \"symbol\": \"VRSN\",\n    \"name\": \"Verisign\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Internet Services &
+        Infrastructure\",\n    \"headQuarter\": \"Dulles, Virginia\",\n    \"dateFirstAdded\":
+        \"2006-02-01\",\n    \"cik\": \"0001014473\",\n    \"founded\": \"1995\"\n
+        \ },\n  {\n    \"symbol\": \"EL\",\n    \"name\": \"Est\xE9e Lauder Companies
+        (The)\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Personal
+        Care Products\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2006-01-05\",\n    \"cik\": \"0001001250\",\n    \"founded\": \"1946\"\n
+        \ },\n  {\n    \"symbol\": \"AMZN\",\n    \"name\": \"Amazon\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Specialty Retail\",\n    \"headQuarter\":
+        \"Seattle, Washington\",\n    \"dateFirstAdded\": \"2005-11-18\",\n    \"cik\":
+        \"0001018724\",\n    \"founded\": \"1994\"\n  },\n  {\n    \"symbol\": \"LEN\",\n
+        \   \"name\": \"Lennar\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Homebuilding\",\n    \"headQuarter\": \"Miami, Florida\",\n    \"dateFirstAdded\":
+        \"2005-10-04\",\n    \"cik\": \"0000920760\",\n    \"founded\": \"1954\"\n
+        \ },\n  {\n    \"symbol\": \"AMP\",\n    \"name\": \"Ameriprise Financial\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Asset Management
+        & Custody Banks\",\n    \"headQuarter\": \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\":
+        \"2005-10-03\",\n    \"cik\": \"0000820027\",\n    \"founded\": \"1894\"\n
+        \ },\n  {\n    \"symbol\": \"PSA\",\n    \"name\": \"Public Storage\",\n    \"sector\":
+        \"Real Estate\",\n    \"subSector\": \"Self-Storage REITs\",\n    \"headQuarter\":
+        \"Glendale, California\",\n    \"dateFirstAdded\": \"2005-08-19\",\n    \"cik\":
+        \"0001393311\",\n    \"founded\": \"1972\"\n  },\n  {\n    \"symbol\": \"TSN\",\n
+        \   \"name\": \"Tyson Foods\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\": \"Springdale,
+        Arkansas\",\n    \"dateFirstAdded\": \"2005-08-10\",\n    \"cik\": \"0000100493\",\n
+        \   \"founded\": \"1935\"\n  },\n  {\n    \"symbol\": \"STZ\",\n    \"name\":
+        \"Constellation Brands\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Distillers & Vintners\",\n    \"headQuarter\": \"Rochester, New York\",\n
+        \   \"dateFirstAdded\": \"2005-07-01\",\n    \"cik\": \"0000016918\",\n    \"founded\":
+        \"1945\"\n  },\n  {\n    \"symbol\": \"DHI\",\n    \"name\": \"D. R. Horton\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Homebuilding\",\n
+        \   \"headQuarter\": \"Arlington, Texas\",\n    \"dateFirstAdded\": \"2005-06-22\",\n
+        \   \"cik\": \"0000882184\",\n    \"founded\": \"1978\"\n  },\n  {\n    \"symbol\":
+        \"LH\",\n    \"name\": \"LabCorp\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Services\",\n    \"headQuarter\": \"Burlington, North Carolina\",\n
+        \   \"dateFirstAdded\": \"2004-11-01\",\n    \"cik\": \"0000920148\",\n    \"founded\":
+        \"1978\"\n  },\n  {\n    \"symbol\": \"TPR\",\n    \"name\": \"Tapestry, Inc.\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Apparel, Accessories
+        & Luxury Goods\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"2004-09-01\",\n    \"cik\": \"0001116132\",\n    \"founded\": \"2017\"\n
+        \ },\n  {\n    \"symbol\": \"TMO\",\n    \"name\": \"Thermo Fisher Scientific\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Life Sciences Tools
+        & Services\",\n    \"headQuarter\": \"Waltham, Massachusetts\",\n    \"dateFirstAdded\":
+        \"2004-08-03\",\n    \"cik\": \"0000097745\",\n    \"founded\": \"2006\"\n
+        \ },\n  {\n    \"symbol\": \"GILD\",\n    \"name\": \"Gilead Sciences\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Drug Manufacturers -
+        General\",\n    \"headQuarter\": \"Foster City, California\",\n    \"dateFirstAdded\":
+        \"2004-07-01\",\n    \"cik\": \"0000882095\",\n    \"founded\": \"1987\"\n
+        \ },\n  {\n    \"symbol\": \"VTRS\",\n    \"name\": \"Viatris\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Pharmaceuticals\",\n    \"headQuarter\":
+        \"Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\": \"2004-04-23\",\n    \"cik\":
+        \"0001792044\",\n    \"founded\": \"1961\"\n  },\n  {\n    \"symbol\": \"MTB\",\n
+        \   \"name\": \"M&T Bank\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Regional Banks\",\n    \"headQuarter\": \"Buffalo, New York\",\n    \"dateFirstAdded\":
+        \"2004-02-23\",\n    \"cik\": \"0000036270\",\n    \"founded\": \"1856\"\n
+        \ },\n  {\n    \"symbol\": \"BIIB\",\n    \"name\": \"Biogen\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Drug Manufacturers - General\",\n    \"headQuarter\":
+        \"Cambridge, Massachusetts\",\n    \"dateFirstAdded\": \"2003-11-13\",\n    \"cik\":
+        \"0000875045\",\n    \"founded\": \"1978\"\n  },\n  {\n    \"symbol\": \"PLD\",\n
+        \   \"name\": \"Prologis\",\n    \"sector\": \"Real Estate\",\n    \"subSector\":
+        \"Industrial REITs\",\n    \"headQuarter\": \"San Francisco, California\",\n
+        \   \"dateFirstAdded\": \"2003-07-17\",\n    \"cik\": \"0001045609\",\n    \"founded\":
+        \"1983\"\n  },\n  {\n    \"symbol\": \"GEN\",\n    \"name\": \"Gen Digital\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Systems Software\",\n
+        \   \"headQuarter\": \"Tempe, Arizona\",\n    \"dateFirstAdded\": \"2003-03-25\",\n
+        \   \"cik\": \"0000849399\",\n    \"founded\": \"1982\"\n  },\n  {\n    \"symbol\":
+        \"MKC\",\n    \"name\": \"McCormick & Company\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\":
+        \"Hunt Valley, Maryland\",\n    \"dateFirstAdded\": \"2003-03-20\",\n    \"cik\":
+        \"0000063754\",\n    \"founded\": \"1889\"\n  },\n  {\n    \"symbol\": \"STT\",\n
+        \   \"name\": \"State Street Corporation\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Asset Management & Custody Banks\",\n    \"headQuarter\":
+        \"Boston, Massachusetts\",\n    \"dateFirstAdded\": \"2003-03-14\",\n    \"cik\":
+        \"0000093751\",\n    \"founded\": \"1792\"\n  },\n  {\n    \"symbol\": \"VLO\",\n
+        \   \"name\": \"Valero Energy\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Refining & Marketing\",\n    \"headQuarter\": \"San Antonio, Texas\",\n
+        \   \"dateFirstAdded\": \"2002-12-20\",\n    \"cik\": \"0001035002\",\n    \"founded\":
+        \"1980\"\n  },\n  {\n    \"symbol\": \"DGX\",\n    \"name\": \"Quest Diagnostics\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Services\",\n
+        \   \"headQuarter\": \"Secaucus, New Jersey\",\n    \"dateFirstAdded\": \"2002-12-12\",\n
+        \   \"cik\": \"0001022079\",\n    \"founded\": \"1967\"\n  },\n  {\n    \"symbol\":
+        \"CMCSA\",\n    \"name\": \"Comcast\",\n    \"sector\": \"Communication Services\",\n
+        \   \"subSector\": \"Telecommunications Services\",\n    \"headQuarter\":
+        \"Philadelphia, Pennsylvania\",\n    \"dateFirstAdded\": \"2002-11-19\",\n
+        \   \"cik\": \"0001166691\",\n    \"founded\": \"1963\"\n  },\n  {\n    \"symbol\":
+        \"TRV\",\n    \"name\": \"Travelers Companies (The)\",\n    \"sector\": \"Financial
+        Services\",\n    \"subSector\": \"Insurance - Property & Casualty\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"2002-08-21\",\n    \"cik\":
+        \"0000086312\",\n    \"founded\": \"1853\"\n  },\n  {\n    \"symbol\": \"ELV\",\n
+        \   \"name\": \"Elevance Health\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Managed Health Care\",\n    \"headQuarter\": \"Indianapolis, Indiana\",\n
+        \   \"dateFirstAdded\": \"2002-07-25\",\n    \"cik\": \"0001156039\",\n    \"founded\":
+        \"2014\"\n  },\n  {\n    \"symbol\": \"EA\",\n    \"name\": \"Electronic Arts\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Electronic Gaming &
+        Multimedia\",\n    \"headQuarter\": \"Redwood City, California\",\n    \"dateFirstAdded\":
+        \"2002-07-22\",\n    \"cik\": \"0000712515\",\n    \"founded\": \"1982\"\n
+        \ },\n  {\n    \"symbol\": \"EBAY\",\n    \"name\": \"eBay\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Broadline Retail\",\n    \"headQuarter\":
+        \"San Jose, California\",\n    \"dateFirstAdded\": \"2002-07-22\",\n    \"cik\":
+        \"0001065088\",\n    \"founded\": \"1995\"\n  },\n  {\n    \"symbol\": \"GS\",\n
+        \   \"name\": \"Goldman Sachs\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Financial - Capital Markets\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"2002-07-22\",\n    \"cik\":
+        \"0000886982\",\n    \"founded\": \"1869\"\n  },\n  {\n    \"symbol\": \"PFG\",\n
+        \   \"name\": \"Principal Financial Group\",\n    \"sector\": \"Financial
+        Services\",\n    \"subSector\": \"Life & Health Insurance\",\n    \"headQuarter\":
+        \"Des Moines, Iowa\",\n    \"dateFirstAdded\": \"2002-07-22\",\n    \"cik\":
+        \"0001126328\",\n    \"founded\": \"1879\"\n  },\n  {\n    \"symbol\": \"PRU\",\n
+        \   \"name\": \"Prudential Financial\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Life & Health Insurance\",\n    \"headQuarter\": \"Newark,
+        New Jersey\",\n    \"dateFirstAdded\": \"2002-07-22\",\n    \"cik\": \"0001137774\",\n
+        \   \"founded\": \"1875\"\n  },\n  {\n    \"symbol\": \"UPS\",\n    \"name\":
+        \"United Parcel Service\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Air Freight & Logistics\",\n    \"headQuarter\": \"Sandy Springs, Georgia\",\n
+        \   \"dateFirstAdded\": \"2002-07-22\",\n    \"cik\": \"0001090727\",\n    \"founded\":
+        \"1907\"\n  },\n  {\n    \"symbol\": \"SPG\",\n    \"name\": \"Simon Property
+        Group\",\n    \"sector\": \"Real Estate\",\n    \"subSector\": \"Retail REITs\",\n
+        \   \"headQuarter\": \"Indianapolis, Indiana\",\n    \"dateFirstAdded\": \"2002-06-26\",\n
+        \   \"cik\": \"0001063761\",\n    \"founded\": \"2003\"\n  },\n  {\n    \"symbol\":
+        \"WAT\",\n    \"name\": \"Waters Corporation\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Life Sciences Tools & Services\",\n    \"headQuarter\":
+        \"Milford, Massachusetts\",\n    \"dateFirstAdded\": \"2002-01-02\",\n    \"cik\":
+        \"0001000697\",\n    \"founded\": \"1958\"\n  },\n  {\n    \"symbol\": \"EQR\",\n
+        \   \"name\": \"Equity Residential\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Multi-Family Residential REITs\",\n    \"headQuarter\":
+        \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"2001-12-03\",\n    \"cik\":
+        \"0000906107\",\n    \"founded\": \"1969\"\n  },\n  {\n    \"symbol\": \"NVDA\",\n
+        \   \"name\": \"Nvidia\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Semiconductors\",\n    \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"2001-11-30\",\n    \"cik\": \"0001045810\",\n    \"founded\": \"1993\"\n
+        \ },\n  {\n    \"symbol\": \"PPL\",\n    \"name\": \"PPL Corporation\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Electric Utilities\",\n
+        \   \"headQuarter\": \"Allentown, Pennsylvania\",\n    \"dateFirstAdded\":
+        \"2001-10-01\",\n    \"cik\": \"0000922224\",\n    \"founded\": \"1920\"\n
+        \ },\n  {\n    \"symbol\": \"COR\",\n    \"name\": \"Cencora\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Distributors\",\n    \"headQuarter\":
+        \"Conshohocken, Pennsylvania\",\n    \"dateFirstAdded\": \"2001-08-30\",\n
+        \   \"cik\": \"0001140859\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\":
+        \"ZBH\",\n    \"name\": \"Zimmer Biomet\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\": \"Warsaw,
+        Indiana\",\n    \"dateFirstAdded\": \"2001-08-07\",\n    \"cik\": \"0001136869\",\n
+        \   \"founded\": \"1927\"\n  },\n  {\n    \"symbol\": \"FI\",\n    \"name\":
+        \"Fiserv\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Transaction
+        & Payment Processing Services\",\n    \"headQuarter\": \"Brookfield, Wisconsin\",\n
+        \   \"dateFirstAdded\": \"2001-04-02\",\n    \"cik\": \"0000798354\",\n    \"founded\":
+        \"1984\"\n  },\n  {\n    \"symbol\": \"TXN\",\n    \"name\": \"Texas Instruments\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Dallas, Texas\",\n    \"dateFirstAdded\": \"2001-03-12\",\n
+        \   \"cik\": \"0000097476\",\n    \"founded\": \"1930\"\n  },\n  {\n    \"symbol\":
+        \"CTAS\",\n    \"name\": \"Cintas\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Specialty Business Services\",\n    \"headQuarter\": \"Mason, Ohio\",\n
+        \   \"dateFirstAdded\": \"2001-03-01\",\n    \"cik\": \"0000723254\",\n    \"founded\":
+        \"1929\"\n  },\n  {\n    \"symbol\": \"SYK\",\n    \"name\": \"Stryker Corporation\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n
+        \   \"headQuarter\": \"Kalamazoo, Michigan\",\n    \"dateFirstAdded\": \"2000-12-12\",\n
+        \   \"cik\": \"0000310764\",\n    \"founded\": \"1941\"\n  },\n  {\n    \"symbol\":
+        \"MET\",\n    \"name\": \"MetLife\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Life & Health Insurance\",\n    \"headQuarter\": \"New
+        York City, New York\",\n    \"dateFirstAdded\": \"2000-12-11\",\n    \"cik\":
+        \"0001099219\",\n    \"founded\": \"1868\"\n  },\n  {\n    \"symbol\": \"INTU\",\n
+        \   \"name\": \"Intuit\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Software - Application\",\n    \"headQuarter\": \"Mountain View, California\",\n
+        \   \"dateFirstAdded\": \"2000-12-05\",\n    \"cik\": \"0000896878\",\n    \"founded\":
+        \"1983\"\n  },\n  {\n    \"symbol\": \"EOG\",\n    \"name\": \"EOG Resources\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Exploration &
+        Production\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"2000-11-02\",\n    \"cik\": \"0000821189\",\n    \"founded\": \"1999\"\n
+        \ },\n  {\n    \"symbol\": \"NI\",\n    \"name\": \"NiSource\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n    \"headQuarter\":
+        \"Merrillville, Indiana\",\n    \"dateFirstAdded\": \"2000-11-02\",\n    \"cik\":
+        \"0001111711\",\n    \"founded\": \"1912\"\n  },\n  {\n    \"symbol\": \"DVN\",\n
+        \   \"name\": \"Devon Energy\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Exploration & Production\",\n    \"headQuarter\": \"Oklahoma City,
+        Oklahoma\",\n    \"dateFirstAdded\": \"2000-08-30\",\n    \"cik\": \"0001090012\",\n
+        \   \"founded\": \"1971\"\n  },\n  {\n    \"symbol\": \"SBUX\",\n    \"name\":
+        \"Starbucks\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Restaurants\",\n    \"headQuarter\": \"Seattle, Washington\",\n    \"dateFirstAdded\":
+        \"2000-06-07\",\n    \"cik\": \"0000829224\",\n    \"founded\": \"1971\"\n
+        \ },\n  {\n    \"symbol\": \"A\",\n    \"name\": \"Agilent Technologies\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Life Sciences Tools
+        & Services\",\n    \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"2000-06-05\",\n    \"cik\": \"0001090872\",\n    \"founded\": \"1999\"\n
+        \ },\n  {\n    \"symbol\": \"ROK\",\n    \"name\": \"Rockwell Automation\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Electrical Components
+        & Equipment\",\n    \"headQuarter\": \"Milwaukee, Wisconsin\",\n    \"dateFirstAdded\":
+        \"2000-03-12\",\n    \"cik\": \"0001024478\",\n    \"founded\": \"1903\"\n
+        \ },\n  {\n    \"symbol\": \"USB\",\n    \"name\": \"U.S. Bancorp\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Diversified Banks\",\n    \"headQuarter\":
+        \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\": \"1999-11-01\",\n    \"cik\":
+        \"0000036104\",\n    \"founded\": \"1968\"\n  },\n  {\n    \"symbol\": \"ADI\",\n
+        \   \"name\": \"Analog Devices\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Semiconductors\",\n    \"headQuarter\": \"Wilmington, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"1999-10-12\",\n    \"cik\": \"0000006281\",\n    \"founded\":
+        \"1965\"\n  },\n  {\n    \"symbol\": \"PNW\",\n    \"name\": \"Pinnacle West\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n
+        \   \"headQuarter\": \"Phoenix, Arizona\",\n    \"dateFirstAdded\": \"1999-10-04\",\n
+        \   \"cik\": \"0000764622\",\n    \"founded\": \"1985\"\n  },\n  {\n    \"symbol\":
+        \"QCOM\",\n    \"name\": \"Qualcomm\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Semiconductors\",\n    \"headQuarter\": \"San Diego,
+        California\",\n    \"dateFirstAdded\": \"1999-07-22\",\n    \"cik\": \"0000804328\",\n
+        \   \"founded\": \"1985\"\n  },\n  {\n    \"symbol\": \"VMC\",\n    \"name\":
+        \"Vulcan Materials Company\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Construction Materials\",\n    \"headQuarter\": \"Birmingham, Alabama\",\n
+        \   \"dateFirstAdded\": \"1999-06-30\",\n    \"cik\": \"0001396009\",\n    \"founded\":
+        \"1909\"\n  },\n  {\n    \"symbol\": \"BBY\",\n    \"name\": \"Best Buy\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Computer & Electronics
+        Retail\",\n    \"headQuarter\": \"Richfield, Minnesota\",\n    \"dateFirstAdded\":
+        \"1999-06-29\",\n    \"cik\": \"0000764478\",\n    \"founded\": \"1966\"\n
+        \ },\n  {\n    \"symbol\": \"NTAP\",\n    \"name\": \"NetApp\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Technology Hardware, Storage & Peripherals\",\n
+        \   \"headQuarter\": \"San Jose, California\",\n    \"dateFirstAdded\": \"1999-06-25\",\n
+        \   \"cik\": \"0001002047\",\n    \"founded\": \"1992\"\n  },\n  {\n    \"symbol\":
+        \"AFL\",\n    \"name\": \"Aflac\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Life & Health Insurance\",\n    \"headQuarter\": \"Columbus,
+        Georgia\",\n    \"dateFirstAdded\": \"1999-05-28\",\n    \"cik\": \"0000004977\",\n
+        \   \"founded\": \"1955\"\n  },\n  {\n    \"symbol\": \"MCK\",\n    \"name\":
+        \"McKesson Corporation\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Distributors\",\n    \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\":
+        \"1999-01-13\",\n    \"cik\": \"0000927653\",\n    \"founded\": \"1833\"\n
+        \ },\n  {\n    \"symbol\": \"CCL\",\n    \"name\": \"Carnival\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Hotels, Resorts & Cruise Lines\",\n
+        \   \"headQuarter\": \"Miami, Florida\",\n    \"dateFirstAdded\": \"1998-12-22\",\n
+        \   \"cik\": \"0000815097\",\n    \"founded\": \"1972\"\n  },\n  {\n    \"symbol\":
+        \"DHR\",\n    \"name\": \"Danaher Corporation\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Life Sciences Tools & Services\",\n    \"headQuarter\":
+        \"Washington, D.C.\",\n    \"dateFirstAdded\": \"1998-11-18\",\n    \"cik\":
+        \"0000313616\",\n    \"founded\": \"1969\"\n  },\n  {\n    \"symbol\": \"AES\",\n
+        \   \"name\": \"AES Corporation\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Independent Power Producers & Energy Traders\",\n    \"headQuarter\": \"Arlington,
+        Virginia\",\n    \"dateFirstAdded\": \"1998-10-02\",\n    \"cik\": \"0000874761\",\n
+        \   \"founded\": \"1981\"\n  },\n  {\n    \"symbol\": \"PAYX\",\n    \"name\":
+        \"Paychex\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Staffing
+        & Employment Services\",\n    \"headQuarter\": \"Penfield, New York\",\n    \"dateFirstAdded\":
+        \"1998-10-01\",\n    \"cik\": \"0000723531\",\n    \"founded\": \"1971\"\n
+        \ },\n  {\n    \"symbol\": \"WM\",\n    \"name\": \"Waste Management\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Environmental & Facilities
+        Services\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"1998-08-31\",\n    \"cik\": \"0000823768\",\n    \"founded\": \"1968\"\n
+        \ },\n  {\n    \"symbol\": \"RF\",\n    \"name\": \"Regions Financial Corporation\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Regional Banks\",\n
+        \   \"headQuarter\": \"Birmingham, Alabama\",\n    \"dateFirstAdded\": \"1998-08-28\",\n
+        \   \"cik\": \"0001281761\",\n    \"founded\": \"1971\"\n  },\n  {\n    \"symbol\":
+        \"COF\",\n    \"name\": \"Capital One\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Consumer Finance\",\n    \"headQuarter\": \"Tysons Corner,
+        Virginia\",\n    \"dateFirstAdded\": \"1998-07-01\",\n    \"cik\": \"0000927628\",\n
+        \   \"founded\": \"1994\"\n  },\n  {\n    \"symbol\": \"MCO\",\n    \"name\":
+        \"Moody's Corporation\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Financial Exchanges & Data\",\n    \"headQuarter\": \"New York City, New
+        York\",\n    \"dateFirstAdded\": \"1998-07-01\",\n    \"cik\": \"0001059556\",\n
+        \   \"founded\": \"1909\"\n  },\n  {\n    \"symbol\": \"MAR\",\n    \"name\":
+        \"Marriott International\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Travel Lodging\",\n    \"headQuarter\": \"Bethesda, Maryland\",\n    \"dateFirstAdded\":
+        \"1998-05-29\",\n    \"cik\": \"0001048286\",\n    \"founded\": \"1927\"\n
+        \ },\n  {\n    \"symbol\": \"BEN\",\n    \"name\": \"Franklin Templeton\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Asset Management
+        & Custody Banks\",\n    \"headQuarter\": \"San Mateo, California\",\n    \"dateFirstAdded\":
+        \"1998-04-30\",\n    \"cik\": \"0000038777\",\n    \"founded\": \"1947\"\n
+        \ },\n  {\n    \"symbol\": \"NTRS\",\n    \"name\": \"Northern Trust\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Asset Management
+        & Custody Banks\",\n    \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"1998-01-30\",\n    \"cik\": \"0000073124\",\n    \"founded\": \"1889\"\n
+        \ },\n  {\n    \"symbol\": \"OMC\",\n    \"name\": \"Omnicom Group\",\n    \"sector\":
+        \"Communication Services\",\n    \"subSector\": \"Advertising\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"1997-12-31\",\n    \"cik\":
+        \"0000029989\",\n    \"founded\": \"1986\"\n  },\n  {\n    \"symbol\": \"CINF\",\n
+        \   \"name\": \"Cincinnati Financial\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Property & Casualty Insurance\",\n    \"headQuarter\":
+        \"Fairfield, Ohio\",\n    \"dateFirstAdded\": \"1997-12-18\",\n    \"cik\":
+        \"0000020286\",\n    \"founded\": \"1950\"\n  },\n  {\n    \"symbol\": \"TFC\",\n
+        \   \"name\": \"Truist Financial\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Regional Banks\",\n    \"headQuarter\": \"Charlotte,
+        North Carolina\",\n    \"dateFirstAdded\": \"1997-12-04\",\n    \"cik\": \"0000092230\",\n
+        \   \"founded\": \"1872\"\n  },\n  {\n    \"symbol\": \"FE\",\n    \"name\":
+        \"FirstEnergy\",\n    \"sector\": \"Utilities\",\n    \"subSector\": \"Electric
+        Utilities\",\n    \"headQuarter\": \"Akron, Ohio\",\n    \"dateFirstAdded\":
+        \"1997-11-28\",\n    \"cik\": \"0001031296\",\n    \"founded\": \"1997\"\n
+        \ },\n  {\n    \"symbol\": \"YUM\",\n    \"name\": \"Yum! Brands\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Restaurants\",\n    \"headQuarter\":
+        \"Louisville, Kentucky\",\n    \"dateFirstAdded\": \"1997-10-06\",\n    \"cik\":
+        \"0001041061\",\n    \"founded\": \"1997\"\n  },\n  {\n    \"symbol\": \"KLAC\",\n
+        \   \"name\": \"KLA Corporation\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Semiconductors\",\n    \"headQuarter\": \"Milpitas, California\",\n    \"dateFirstAdded\":
+        \"1997-09-30\",\n    \"cik\": \"0000319201\",\n    \"founded\": \"1975/1977\"\n
+        \ },\n  {\n    \"symbol\": \"HBAN\",\n    \"name\": \"Huntington Bancshares\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Regional Banks\",\n
+        \   \"headQuarter\": \"Columbus, Ohio; Detroit, Michigan\",\n    \"dateFirstAdded\":
+        \"1997-08-28\",\n    \"cik\": \"0000049196\",\n    \"founded\": \"1866\"\n
+        \ },\n  {\n    \"symbol\": \"PGR\",\n    \"name\": \"Progressive Corporation\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Property & Casualty
+        Insurance\",\n    \"headQuarter\": \"Mayfield Village, Ohio\",\n    \"dateFirstAdded\":
+        \"1997-08-04\",\n    \"cik\": \"0000080661\",\n    \"founded\": \"1937\"\n
+        \ },\n  {\n    \"symbol\": \"APA\",\n    \"name\": \"APA Corporation\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Exploration &
+        Production\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"1997-07-28\",\n    \"cik\": \"0001841666\",\n    \"founded\": \"1954\"\n
+        \ },\n  {\n    \"symbol\": \"EFX\",\n    \"name\": \"Equifax\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Research & Consulting Services\",\n
+        \   \"headQuarter\": \"Atlanta, Georgia\",\n    \"dateFirstAdded\": \"1997-06-19\",\n
+        \   \"cik\": \"0000033185\",\n    \"founded\": \"1899\"\n  },\n  {\n    \"symbol\":
+        \"SCHW\",\n    \"name\": \"Charles Schwab Corporation\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Investment Banking & Brokerage\",\n
+        \   \"headQuarter\": \"Westlake, Texas\",\n    \"dateFirstAdded\": \"1997-06-02\",\n
+        \   \"cik\": \"0000316709\",\n    \"founded\": \"1971\"\n  },\n  {\n    \"symbol\":
+        \"CAH\",\n    \"name\": \"Cardinal Health\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Distributors\",\n    \"headQuarter\": \"Dublin,
+        Ohio\",\n    \"dateFirstAdded\": \"1997-05-27\",\n    \"cik\": \"0000721371\",\n
+        \   \"founded\": \"1971\"\n  },\n  {\n    \"symbol\": \"ADBE\",\n    \"name\":
+        \"Adobe Inc.\",\n    \"sector\": \"Technology\",\n    \"subSector\": \"Software
+        - Infrastructure\",\n    \"headQuarter\": \"San Jose, California\",\n    \"dateFirstAdded\":
+        \"1997-05-05\",\n    \"cik\": \"0000796343\",\n    \"founded\": \"1982\"\n
+        \ },\n  {\n    \"symbol\": \"AZO\",\n    \"name\": \"AutoZone\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Automotive Retail\",\n    \"headQuarter\":
+        \"Memphis, Tennessee\",\n    \"dateFirstAdded\": \"1997-01-02\",\n    \"cik\":
+        \"0000866787\",\n    \"founded\": \"1979\"\n  },\n  {\n    \"symbol\": \"AON\",\n
+        \   \"name\": \"Aon\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Insurance Brokers\",\n    \"headQuarter\": \"London, UK\",\n    \"dateFirstAdded\":
+        \"1996-04-23\",\n    \"cik\": \"0000315293\",\n    \"founded\": \"1982\"\n
+        \ },\n  {\n    \"symbol\": \"FITB\",\n    \"name\": \"Fifth Third Bank\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Diversified
+        Banks\",\n    \"headQuarter\": \"Cincinnati, Ohio\",\n    \"dateFirstAdded\":
+        \"1996-03-29\",\n    \"cik\": \"0000035527\",\n    \"founded\": \"1858\"\n
+        \ },\n  {\n    \"symbol\": \"ALL\",\n    \"name\": \"Allstate\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Property & Casualty Insurance\",\n
+        \   \"headQuarter\": \"Northbrook, Illinois\",\n    \"dateFirstAdded\": \"1995-07-13\",\n
+        \   \"cik\": \"0000899051\",\n    \"founded\": \"1931\"\n  },\n  {\n    \"symbol\":
+        \"DRI\",\n    \"name\": \"Darden Restaurants\",\n    \"sector\": \"Consumer
+        Cyclical\",\n    \"subSector\": \"Restaurants\",\n    \"headQuarter\": \"Orlando,
+        Florida\",\n    \"dateFirstAdded\": \"1995-05-31\",\n    \"cik\": \"0000940944\",\n
+        \   \"founded\": \"1938\"\n  },\n  {\n    \"symbol\": \"L\",\n    \"name\":
+        \"Loews Corporation\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Multi-line Insurance\",\n    \"headQuarter\": \"New York City, New York\",\n
+        \   \"dateFirstAdded\": \"1995-05-31\",\n    \"cik\": \"0000060086\",\n    \"founded\":
+        \"1959\"\n  },\n  {\n    \"symbol\": \"BK\",\n    \"name\": \"BNY Mellon\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Asset Management
+        & Custody Banks\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"1995-03-31\",\n    \"cik\": \"0001390777\",\n    \"founded\": \"1784\"\n
+        \ },\n  {\n    \"symbol\": \"AMAT\",\n    \"name\": \"Applied Materials\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Santa Clara, California\",\n    \"dateFirstAdded\":
+        \"1995-03-16\",\n    \"cik\": \"0000006951\",\n    \"founded\": \"1967\"\n
+        \ },\n  {\n    \"symbol\": \"GLW\",\n    \"name\": \"Corning Inc.\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Electronic Components\",\n    \"headQuarter\":
+        \"Corning, New York\",\n    \"dateFirstAdded\": \"1995-02-27\",\n    \"cik\":
+        \"0000024741\",\n    \"founded\": \"1851\"\n  },\n  {\n    \"symbol\": \"BSX\",\n
+        \   \"name\": \"Boston Scientific\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Health Care Equipment\",\n    \"headQuarter\": \"Marlborough, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"1995-02-24\",\n    \"cik\": \"0000885725\",\n    \"founded\":
+        \"1979\"\n  },\n  {\n    \"symbol\": \"PARA\",\n    \"name\": \"Paramount
+        Global\",\n    \"sector\": \"Communication Services\",\n    \"subSector\":
+        \"Movies & Entertainment\",\n    \"headQuarter\": \"New York City, New York\",\n
+        \   \"dateFirstAdded\": \"1994-09-30\",\n    \"cik\": \"0000813828\",\n    \"founded\":
+        \"2019\"\n  },\n  {\n    \"symbol\": \"MU\",\n    \"name\": \"Micron Technology\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Semiconductors\",\n
+        \   \"headQuarter\": \"Boise, Idaho\",\n    \"dateFirstAdded\": \"1994-09-27\",\n
+        \   \"cik\": \"0000723125\",\n    \"founded\": \"1978\"\n  },\n  {\n    \"symbol\":
+        \"LUV\",\n    \"name\": \"Southwest Airlines\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Passenger Airlines\",\n    \"headQuarter\": \"Dallas,
+        Texas\",\n    \"dateFirstAdded\": \"1994-07-01\",\n    \"cik\": \"0000092380\",\n
+        \   \"founded\": \"1967\"\n  },\n  {\n    \"symbol\": \"UNH\",\n    \"name\":
+        \"UnitedHealth Group\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Medical - Healthcare Plans\",\n    \"headQuarter\": \"Minnetonka, Minnesota\",\n
+        \   \"dateFirstAdded\": \"1994-07-01\",\n    \"cik\": \"0000731766\",\n    \"founded\":
+        \"1977\"\n  },\n  {\n    \"symbol\": \"MSFT\",\n    \"name\": \"Microsoft\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Software - Infrastructure\",\n
+        \   \"headQuarter\": \"Redmond, Washington\",\n    \"dateFirstAdded\": \"1994-06-01\",\n
+        \   \"cik\": \"0000789019\",\n    \"founded\": \"1975\"\n  },\n  {\n    \"symbol\":
+        \"KEY\",\n    \"name\": \"KeyCorp\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Regional Banks\",\n    \"headQuarter\": \"Cleveland,
+        Ohio\",\n    \"dateFirstAdded\": \"1994-03-01\",\n    \"cik\": \"0000091576\",\n
+        \   \"founded\": \"1825\"\n  },\n  {\n    \"symbol\": \"EMN\",\n    \"name\":
+        \"Eastman Chemical Company\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Specialty Chemicals\",\n    \"headQuarter\": \"Kingsport, Tennessee\",\n
+        \   \"dateFirstAdded\": \"1994-01-01\",\n    \"cik\": \"0000915389\",\n    \"founded\":
+        \"1920\"\n  },\n  {\n    \"symbol\": \"CSCO\",\n    \"name\": \"Cisco\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Communication Equipment\",\n
+        \   \"headQuarter\": \"San Jose, California\",\n    \"dateFirstAdded\": \"1993-12-01\",\n
+        \   \"cik\": \"0000858877\",\n    \"founded\": \"1984\"\n  },\n  {\n    \"symbol\":
+        \"COST\",\n    \"name\": \"Costco\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Discount Stores\",\n    \"headQuarter\": \"Issaquah,
+        Washington\",\n    \"dateFirstAdded\": \"1993-10-01\",\n    \"cik\": \"0000909832\",\n
+        \   \"founded\": \"1976\"\n  },\n  {\n    \"symbol\": \"MS\",\n    \"name\":
+        \"Morgan Stanley\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Investment Banking & Brokerage\",\n    \"headQuarter\": \"New York City,
+        New York\",\n    \"dateFirstAdded\": \"1993-07-29\",\n    \"cik\": \"0000895421\",\n
+        \   \"founded\": \"1935\"\n  },\n  {\n    \"symbol\": \"IPG\",\n    \"name\":
+        \"Interpublic Group of Companies (The)\",\n    \"sector\": \"Communication
+        Services\",\n    \"subSector\": \"Advertising\",\n    \"headQuarter\": \"New
+        York City, New York\",\n    \"dateFirstAdded\": \"1992-10-01\",\n    \"cik\":
+        \"0000051644\",\n    \"founded\": \"1961\"\n  },\n  {\n    \"symbol\": \"LIN\",\n
+        \   \"name\": \"Linde plc\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Chemicals - Specialty\",\n    \"headQuarter\": \"Guildford, United Kingdom\",\n
+        \   \"dateFirstAdded\": \"1992-07-01\",\n    \"cik\": \"0001707925\",\n    \"founded\":
+        \"1879\"\n  },\n  {\n    \"symbol\": \"AMGN\",\n    \"name\": \"Amgen\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Drug Manufacturers -
+        General\",\n    \"headQuarter\": \"Thousand Oaks, California\",\n    \"dateFirstAdded\":
+        \"1992-01-02\",\n    \"cik\": \"0000318154\",\n    \"founded\": \"1980\"\n
+        \ },\n  {\n    \"symbol\": \"AEE\",\n    \"name\": \"Ameren\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n    \"headQuarter\":
+        \"St. Louis, Missouri\",\n    \"dateFirstAdded\": \"1991-09-19\",\n    \"cik\":
+        \"0001002910\",\n    \"founded\": \"1902\"\n  },\n  {\n    \"symbol\": \"ADSK\",\n
+        \   \"name\": \"Autodesk\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Software - Application\",\n    \"headQuarter\": \"San Francisco, California\",\n
+        \   \"dateFirstAdded\": \"1989-12-01\",\n    \"cik\": \"0000769397\",\n    \"founded\":
+        \"1982\"\n  },\n  {\n    \"symbol\": \"K\",\n    \"name\": \"Kellanova\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Packaged Foods
+        & Meats\",\n    \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\":
+        \"1989-09-11\",\n    \"cik\": \"0000055067\",\n    \"founded\": \"1906\"\n
+        \ },\n  {\n    \"symbol\": \"ORCL\",\n    \"name\": \"Oracle Corporation\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Application Software\",\n
+        \   \"headQuarter\": \"Austin, Texas\",\n    \"dateFirstAdded\": \"1989-08-31\",\n
+        \   \"cik\": \"0001341439\",\n    \"founded\": \"1977\"\n  },\n  {\n    \"symbol\":
+        \"GL\",\n    \"name\": \"Globe Life\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Life & Health Insurance\",\n    \"headQuarter\": \"McKinney,
+        Texas\",\n    \"dateFirstAdded\": \"1989-04-30\",\n    \"cik\": \"0000320335\",\n
+        \   \"founded\": \"1900\"\n  },\n  {\n    \"symbol\": \"ECL\",\n    \"name\":
+        \"Ecolab\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\": \"Specialty
+        Chemicals\",\n    \"headQuarter\": \"Saint Paul, Minnesota\",\n    \"dateFirstAdded\":
+        \"1989-01-31\",\n    \"cik\": \"0000031462\",\n    \"founded\": \"1923\"\n
+        \ },\n  {\n    \"symbol\": \"NKE\",\n    \"name\": \"Nike, Inc.\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Apparel - Footwear & Accessories\",\n
+        \   \"headQuarter\": \"Washington County, Oregon\",\n    \"dateFirstAdded\":
+        \"1988-11-30\",\n    \"cik\": \"0000320187\",\n    \"founded\": \"1964\"\n
+        \ },\n  {\n    \"symbol\": \"C\",\n    \"name\": \"Citigroup\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Diversified Banks\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"1988-05-31\",\n    \"cik\":
+        \"0000831001\",\n    \"founded\": \"1998\"\n  },\n  {\n    \"symbol\": \"PNC\",\n
+        \   \"name\": \"PNC Financial Services\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Regional Banks\",\n    \"headQuarter\": \"Pittsburgh,
+        Pennsylvania\",\n    \"dateFirstAdded\": \"1988-04-30\",\n    \"cik\": \"0000713676\",\n
+        \   \"founded\": \"1845\"\n  },\n  {\n    \"symbol\": \"HD\",\n    \"name\":
+        \"Home Depot (The)\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Home Improvement\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n    \"dateFirstAdded\":
+        \"1988-03-31\",\n    \"cik\": \"0000354950\",\n    \"founded\": \"1978\"\n
+        \ },\n  {\n    \"symbol\": \"AVY\",\n    \"name\": \"Avery Dennison\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Paper & Plastic Packaging Products
+        & Materials\",\n    \"headQuarter\": \"Mentor, Ohio\",\n    \"dateFirstAdded\":
+        \"1987-12-31\",\n    \"cik\": \"0000008818\",\n    \"founded\": \"1990\"\n
+        \ },\n  {\n    \"symbol\": \"MMC\",\n    \"name\": \"Marsh McLennan\",\n    \"sector\":
+        \"Financial Services\",\n    \"subSector\": \"Insurance Brokers\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"1987-08-31\",\n    \"cik\":
+        \"0000062709\",\n    \"founded\": \"1905\"\n  },\n  {\n    \"symbol\": \"SYY\",\n
+        \   \"name\": \"Sysco\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Food Distributors\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"1986-12-31\",\n    \"cik\": \"0000096021\",\n    \"founded\": \"1969\"\n
+        \ },\n  {\n    \"symbol\": \"MDT\",\n    \"name\": \"Medtronic\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\":
+        \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"1986-10-31\",\n    \"cik\":
+        \"0001613103\",\n    \"founded\": \"1949\"\n  },\n  {\n    \"symbol\": \"ITW\",\n
+        \   \"name\": \"Illinois Tool Works\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Industrial Machinery & Supplies & Components\",\n    \"headQuarter\":
+        \"Glenview, Illinois\",\n    \"dateFirstAdded\": \"1986-02-28\",\n    \"cik\":
+        \"0000049826\",\n    \"founded\": \"1912\"\n  },\n  {\n    \"symbol\": \"PH\",\n
+        \   \"name\": \"Parker Hannifin\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Industrial Machinery & Supplies & Components\",\n    \"headQuarter\": \"Cleveland,
+        Ohio\",\n    \"dateFirstAdded\": \"1985-11-30\",\n    \"cik\": \"0000076334\",\n
+        \   \"founded\": \"1917\"\n  },\n  {\n    \"symbol\": \"DOV\",\n    \"name\":
+        \"Dover Corporation\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Industrial Machinery & Supplies & Components\",\n    \"headQuarter\": \"Downers
+        Grove, Illinois\",\n    \"dateFirstAdded\": \"1985-10-31\",\n    \"cik\":
+        \"0000029905\",\n    \"founded\": \"1955\"\n  },\n  {\n    \"symbol\": \"TJX\",\n
+        \   \"name\": \"TJX Companies\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Apparel Retail\",\n    \"headQuarter\": \"Framingham,
+        Massachusetts\",\n    \"dateFirstAdded\": \"1985-09-30\",\n    \"cik\": \"0000109198\",\n
+        \   \"founded\": \"1987\"\n  },\n  {\n    \"symbol\": \"CNP\",\n    \"name\":
+        \"CenterPoint Energy\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Multi-Utilities\",\n    \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\":
+        \"1985-07-31\",\n    \"cik\": \"0001130310\",\n    \"founded\": \"1882\"\n
+        \ },\n  {\n    \"symbol\": \"RVTY\",\n    \"name\": \"Revvity\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\":
+        \"Waltham, Massachusetts\",\n    \"dateFirstAdded\": \"1985-05-31\",\n    \"cik\":
+        \"0000031791\",\n    \"founded\": \"1937\"\n  },\n  {\n    \"symbol\": \"APD\",\n
+        \   \"name\": \"Air Products\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Industrial Gases\",\n    \"headQuarter\": \"Upper Macungie Township, Pennsylvania\",\n
+        \   \"dateFirstAdded\": \"1985-04-30\",\n    \"cik\": \"0000002969\",\n    \"founded\":
+        \"1940\"\n  },\n  {\n    \"symbol\": \"NUE\",\n    \"name\": \"Nucor\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Steel\",\n    \"headQuarter\":
+        \"Charlotte, North Carolina\",\n    \"dateFirstAdded\": \"1985-04-30\",\n
+        \   \"cik\": \"0000073309\",\n    \"founded\": \"1940\"\n  },\n  {\n    \"symbol\":
+        \"BALL\",\n    \"name\": \"Ball Corporation\",\n    \"sector\": \"Consumer
+        Cyclical\",\n    \"subSector\": \"Metal, Glass & Plastic Containers\",\n    \"headQuarter\":
+        \"Broomfield, Colorado\",\n    \"dateFirstAdded\": \"1984-10-31\",\n    \"cik\":
+        \"0000009389\",\n    \"founded\": \"1880\"\n  },\n  {\n    \"symbol\": \"HAS\",\n
+        \   \"name\": \"Hasbro\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Leisure Products\",\n    \"headQuarter\": \"Pawtucket, Rhode Island\",\n
+        \   \"dateFirstAdded\": \"1984-09-30\",\n    \"cik\": \"0000046080\",\n    \"founded\":
+        \"1923\"\n  },\n  {\n    \"symbol\": \"HES\",\n    \"name\": \"Hess Corporation\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Integrated Oil & Gas\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"1984-05-31\",\n    \"cik\": \"0000004447\",\n    \"founded\": \"1919\"\n
+        \ },\n  {\n    \"symbol\": \"PHM\",\n    \"name\": \"PulteGroup\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Homebuilding\",\n    \"headQuarter\":
+        \"Atlanta, Georgia\",\n    \"dateFirstAdded\": \"1984-04-30\",\n    \"cik\":
+        \"0000822416\",\n    \"founded\": \"1956\"\n  },\n  {\n    \"symbol\": \"LOW\",\n
+        \   \"name\": \"Lowe's\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\":
+        \"Home Improvement Retail\",\n    \"headQuarter\": \"Mooresville, North Carolina\",\n
+        \   \"dateFirstAdded\": \"1984-02-29\",\n    \"cik\": \"0000060667\",\n    \"founded\":
+        \"1904/1946/1959\"\n  },\n  {\n    \"symbol\": \"T\",\n    \"name\": \"AT&T\",\n
+        \   \"sector\": \"Communication Services\",\n    \"subSector\": \"Integrated
+        Telecommunication Services\",\n    \"headQuarter\": \"Dallas, Texas\",\n    \"dateFirstAdded\":
+        \"1983-11-30\",\n    \"cik\": \"0000732717\",\n    \"founded\": \"1983\"\n
+        \ },\n  {\n    \"symbol\": \"VZ\",\n    \"name\": \"Verizon\",\n    \"sector\":
+        \"Communication Services\",\n    \"subSector\": \"Telecommunications Services\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"1983-11-30\",\n    \"cik\": \"0000732712\",\n    \"founded\": \"1983\"\n
+        \ },\n  {\n    \"symbol\": \"BBWI\",\n    \"name\": \"Bath & Body Works, Inc.\",\n
+        \   \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Other Specialty
+        Retail\",\n    \"headQuarter\": \"Columbus, Ohio\",\n    \"dateFirstAdded\":
+        \"1983-09-30\",\n    \"cik\": \"0000701985\",\n    \"founded\": \"1963\"\n
+        \ },\n  {\n    \"symbol\": \"CAG\",\n    \"name\": \"Conagra Brands\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n
+        \   \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1983-08-31\",\n
+        \   \"cik\": \"0000023217\",\n    \"founded\": \"1919\"\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"name\": \"Apple Inc.\",\n    \"sector\": \"Technology\",\n
+        \   \"subSector\": \"Consumer Electronics\",\n    \"headQuarter\": \"Cupertino,
+        California\",\n    \"dateFirstAdded\": \"1982-11-30\",\n    \"cik\": \"0000320193\",\n
+        \   \"founded\": \"1977\"\n  },\n  {\n    \"symbol\": \"BF-B\",\n    \"name\":
+        \"Brown\u2013Forman\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Distillers & Vintners\",\n    \"headQuarter\": \"Louisville, Kentucky\",\n
+        \   \"dateFirstAdded\": \"1982-10-31\",\n    \"cik\": \"0000014693\",\n    \"founded\":
+        \"1870\"\n  },\n  {\n    \"symbol\": \"SNA\",\n    \"name\": \"Snap-on\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial Machinery
+        & Supplies & Components\",\n    \"headQuarter\": \"Kenosha, Wisconsin\",\n
+        \   \"dateFirstAdded\": \"1982-09-30\",\n    \"cik\": \"0000091440\",\n    \"founded\":
+        \"1920\"\n  },\n  {\n    \"symbol\": \"SWK\",\n    \"name\": \"Stanley Black
+        & Decker\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Industrial
+        Machinery & Supplies & Components\",\n    \"headQuarter\": \"New Britain,
+        Connecticut\",\n    \"dateFirstAdded\": \"1982-09-30\",\n    \"cik\": \"0000093556\",\n
+        \   \"founded\": \"1843\"\n  },\n  {\n    \"symbol\": \"WMT\",\n    \"name\":
+        \"Walmart\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Discount Stores\",\n    \"headQuarter\": \"Bentonville, Arkansas\",\n    \"dateFirstAdded\":
+        \"1982-08-31\",\n    \"cik\": \"0000104169\",\n    \"founded\": \"1962\"\n
+        \ },\n  {\n    \"symbol\": \"GWW\",\n    \"name\": \"W. W. Grainger\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Industrial Machinery & Supplies & Components\",\n
+        \   \"headQuarter\": \"Lake Forest, Illinois\",\n    \"dateFirstAdded\": \"1981-06-30\",\n
+        \   \"cik\": \"0000277135\",\n    \"founded\": \"1927\"\n  },\n  {\n    \"symbol\":
+        \"MAS\",\n    \"name\": \"Masco\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Building Products\",\n    \"headQuarter\": \"Livonia, Michigan\",\n    \"dateFirstAdded\":
+        \"1981-06-30\",\n    \"cik\": \"0000062996\",\n    \"founded\": \"1929\"\n
+        \ },\n  {\n    \"symbol\": \"ADP\",\n    \"name\": \"Automatic Data Processing\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Staffing & Employment
+        Services\",\n    \"headQuarter\": \"Roseland, New Jersey\",\n    \"dateFirstAdded\":
+        \"1981-03-31\",\n    \"cik\": \"0000008670\",\n    \"founded\": \"1949\"\n
+        \ },\n  {\n    \"symbol\": \"FDX\",\n    \"name\": \"FedEx\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Air Freight & Logistics\",\n    \"headQuarter\":
+        \"Memphis, Tennessee\",\n    \"dateFirstAdded\": \"1980-12-31\",\n    \"cik\":
+        \"0001048911\",\n    \"founded\": \"1971\"\n  },\n  {\n    \"symbol\": \"PCAR\",\n
+        \   \"name\": \"Paccar\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Agricultural - Machinery\",\n    \"headQuarter\": \"Bellevue, Washington\",\n
+        \   \"dateFirstAdded\": \"1980-12-31\",\n    \"cik\": \"0000075362\",\n    \"founded\":
+        \"1905\"\n  },\n  {\n    \"symbol\": \"AIG\",\n    \"name\": \"American International
+        Group\",\n    \"sector\": \"Financial Services\",\n    \"subSector\": \"Multi-line
+        Insurance\",\n    \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"1980-03-31\",\n    \"cik\": \"0000005272\",\n    \"founded\": \"1919\"\n
+        \ },\n  {\n    \"symbol\": \"WBA\",\n    \"name\": \"Walgreens Boots Alliance\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Medical - Pharmaceuticals\",\n
+        \   \"headQuarter\": \"Deerfield, Illinois\",\n    \"dateFirstAdded\": \"1979-12-31\",\n
+        \   \"cik\": \"0001618921\",\n    \"founded\": \"2014\"\n  },\n  {\n    \"symbol\":
+        \"WY\",\n    \"name\": \"Weyerhaeuser\",\n    \"sector\": \"Real Estate\",\n
+        \   \"subSector\": \"Timber REITs\",\n    \"headQuarter\": \"Seattle, Washington\",\n
+        \   \"dateFirstAdded\": \"1979-10-01\",\n    \"cik\": \"0000106535\",\n    \"founded\":
+        \"1900\"\n  },\n  {\n    \"symbol\": \"TXT\",\n    \"name\": \"Textron\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace & Defense\",\n
+        \   \"headQuarter\": \"Providence, Rhode Island\",\n    \"dateFirstAdded\":
+        \"1978-12-31\",\n    \"cik\": \"0000217346\",\n    \"founded\": \"1923\"\n
+        \ },\n  {\n    \"symbol\": \"INTC\",\n    \"name\": \"Intel\",\n    \"sector\":
+        \"Technology\",\n    \"subSector\": \"Semiconductors\",\n    \"headQuarter\":
+        \"Santa Clara, California\",\n    \"dateFirstAdded\": \"1976-12-31\",\n    \"cik\":
+        \"0000050863\",\n    \"founded\": \"1968\"\n  },\n  {\n    \"symbol\": \"TGT\",\n
+        \   \"name\": \"Target Corporation\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Consumer Staples Merchandise Retail\",\n    \"headQuarter\":
+        \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\": \"1976-12-31\",\n    \"cik\":
+        \"0000027419\",\n    \"founded\": \"1902\"\n  },\n  {\n    \"symbol\": \"AXP\",\n
+        \   \"name\": \"American Express\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Financial - Credit Services\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"1976-06-30\",\n    \"cik\":
+        \"0000004962\",\n    \"founded\": \"1850\"\n  },\n  {\n    \"symbol\": \"BAC\",\n
+        \   \"name\": \"Bank of America\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Diversified Banks\",\n    \"headQuarter\": \"Charlotte,
+        North Carolina\",\n    \"dateFirstAdded\": \"1976-06-30\",\n    \"cik\": \"0000070858\",\n
+        \   \"founded\": \"1998\"\n  },\n  {\n    \"symbol\": \"CI\",\n    \"name\":
+        \"Cigna\",\n    \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care
+        Services\",\n    \"headQuarter\": \"Bloomfield, Connecticut\",\n    \"dateFirstAdded\":
+        \"1976-06-30\",\n    \"cik\": \"0001739940\",\n    \"founded\": \"1982\"\n
+        \ },\n  {\n    \"symbol\": \"DIS\",\n    \"name\": \"Walt Disney Company (The)\",\n
+        \   \"sector\": \"Communication Services\",\n    \"subSector\": \"Entertainment\",\n
+        \   \"headQuarter\": \"Burbank, California\",\n    \"dateFirstAdded\": \"1976-06-30\",\n
+        \   \"cik\": \"0001744489\",\n    \"founded\": \"1923\"\n  },\n  {\n    \"symbol\":
+        \"DUK\",\n    \"name\": \"Duke Energy\",\n    \"sector\": \"Utilities\",\n
+        \   \"subSector\": \"Electric Utilities\",\n    \"headQuarter\": \"Charlotte,
+        North Carolina\",\n    \"dateFirstAdded\": \"1976-06-30\",\n    \"cik\": \"0001326160\",\n
+        \   \"founded\": \"1904\"\n  },\n  {\n    \"symbol\": \"NEE\",\n    \"name\":
+        \"NextEra Energy\",\n    \"sector\": \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n
+        \   \"headQuarter\": \"Juno Beach, Florida\",\n    \"dateFirstAdded\": \"1976-06-30\",\n
+        \   \"cik\": \"0000753308\",\n    \"founded\": \"1984\"\n  },\n  {\n    \"symbol\":
+        \"TAP\",\n    \"name\": \"Molson Coors Beverage Company\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Brewers\",\n    \"headQuarter\":
+        \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1976-06-30\",\n    \"cik\":
+        \"0000024545\",\n    \"founded\": \"2005\"\n  },\n  {\n    \"symbol\": \"WFC\",\n
+        \   \"name\": \"Wells Fargo\",\n    \"sector\": \"Financial Services\",\n
+        \   \"subSector\": \"Diversified Banks\",\n    \"headQuarter\": \"San Francisco,
+        California\",\n    \"dateFirstAdded\": \"1976-06-30\",\n    \"cik\": \"0000072971\",\n
+        \   \"founded\": \"1852\"\n  },\n  {\n    \"symbol\": \"IFF\",\n    \"name\":
+        \"International Flavors & Fragrances\",\n    \"sector\": \"Basic Materials\",\n
+        \   \"subSector\": \"Specialty Chemicals\",\n    \"headQuarter\": \"New York
+        City, New York\",\n    \"dateFirstAdded\": \"1976-03-31\",\n    \"cik\": \"0000051253\",\n
+        \   \"founded\": \"1958\"\n  },\n  {\n    \"symbol\": \"JPM\",\n    \"name\":
+        \"JPMorgan Chase\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Banks - Diversified\",\n    \"headQuarter\": \"New York City, New York\",\n
+        \   \"dateFirstAdded\": \"1975-06-30\",\n    \"cik\": \"0000019617\",\n    \"founded\":
+        \"2000\"\n  },\n  {\n    \"symbol\": \"WMB\",\n    \"name\": \"Williams Companies\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Storage & Transportation\",\n
+        \   \"headQuarter\": \"Tulsa, Oklahoma\",\n    \"dateFirstAdded\": \"1975-03-31\",\n
+        \   \"cik\": \"0000107263\",\n    \"founded\": \"1908\"\n  },\n  {\n    \"symbol\":
+        \"HPQ\",\n    \"name\": \"HP Inc.\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Technology Hardware, Storage & Peripherals\",\n    \"headQuarter\": \"Palo
+        Alto, California\",\n    \"dateFirstAdded\": \"1974-12-31\",\n    \"cik\":
+        \"0000047217\",\n    \"founded\": \"1939\"\n  },\n  {\n    \"symbol\": \"GPC\",\n
+        \   \"name\": \"Genuine Parts Company\",\n    \"sector\": \"Consumer Cyclical\",\n
+        \   \"subSector\": \"Distributors\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n
+        \   \"dateFirstAdded\": \"1973-12-31\",\n    \"cik\": \"0000040987\",\n    \"founded\":
+        \"1925\"\n  },\n  {\n    \"symbol\": \"JNJ\",\n    \"name\": \"Johnson & Johnson\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Drug Manufacturers -
+        General\",\n    \"headQuarter\": \"New Brunswick, New Jersey\",\n    \"dateFirstAdded\":
+        \"1973-06-30\",\n    \"cik\": \"0000200406\",\n    \"founded\": \"1886\"\n
+        \ },\n  {\n    \"symbol\": \"BAX\",\n    \"name\": \"Baxter International\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Health Care Equipment\",\n
+        \   \"headQuarter\": \"Deerfield, Illinois\",\n    \"dateFirstAdded\": \"1972-09-30\",\n
+        \   \"cik\": \"0000010456\",\n    \"founded\": \"1931\"\n  },\n  {\n    \"symbol\":
+        \"BDX\",\n    \"name\": \"Becton Dickinson\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\": \"Franklin
+        Lakes, New Jersey\",\n    \"dateFirstAdded\": \"1972-09-30\",\n    \"cik\":
+        \"0000010795\",\n    \"founded\": \"1897\"\n  },\n  {\n    \"symbol\": \"LLY\",\n
+        \   \"name\": \"Lilly (Eli)\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Pharmaceuticals\",\n    \"headQuarter\": \"Indianapolis, Indiana\",\n    \"dateFirstAdded\":
+        \"1970-12-31\",\n    \"cik\": \"0000059478\",\n    \"founded\": \"1876\"\n
+        \ },\n  {\n    \"symbol\": \"MCD\",\n    \"name\": \"McDonald's\",\n    \"sector\":
+        \"Consumer Cyclical\",\n    \"subSector\": \"Restaurants\",\n    \"headQuarter\":
+        \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1970-06-30\",\n    \"cik\":
+        \"0000063908\",\n    \"founded\": \"1940\"\n  },\n  {\n    \"symbol\": \"NEM\",\n
+        \   \"name\": \"Newmont\",\n    \"sector\": \"Basic Materials\",\n    \"subSector\":
+        \"Gold\",\n    \"headQuarter\": \"Denver, Colorado\",\n    \"dateFirstAdded\":
+        \"1969-06-30\",\n    \"cik\": \"0001164727\",\n    \"founded\": \"1921\"\n
+        \ },\n  {\n    \"symbol\": \"CLX\",\n    \"name\": \"Clorox\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Household Products\",\n    \"headQuarter\":
+        \"Oakland, California\",\n    \"dateFirstAdded\": \"1969-03-31\",\n    \"cik\":
+        \"0000021076\",\n    \"founded\": \"1913\"\n  },\n  {\n    \"symbol\": \"CMI\",\n
+        \   \"name\": \"Cummins\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Construction Machinery & Heavy Transportation Equipment\",\n    \"headQuarter\":
+        \"Columbus, Indiana\",\n    \"dateFirstAdded\": \"1965-03-31\",\n    \"cik\":
+        \"0000026172\",\n    \"founded\": \"1919\"\n  },\n  {\n    \"symbol\": \"EMR\",\n
+        \   \"name\": \"Emerson Electric\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Electrical Components & Equipment\",\n    \"headQuarter\": \"Ferguson, Missouri\",\n
+        \   \"dateFirstAdded\": \"1965-03-31\",\n    \"cik\": \"0000032604\",\n    \"founded\":
+        \"1890\"\n  },\n  {\n    \"symbol\": \"SHW\",\n    \"name\": \"Sherwin-Williams\",\n
+        \   \"sector\": \"Basic Materials\",\n    \"subSector\": \"Specialty Chemicals\",\n
+        \   \"headQuarter\": \"Cleveland, Ohio\",\n    \"dateFirstAdded\": \"1964-06-30\",\n
+        \   \"cik\": \"0000089800\",\n    \"founded\": \"1866\"\n  },\n  {\n    \"symbol\":
+        \"ABT\",\n    \"name\": \"Abbott Laboratories\",\n    \"sector\": \"Healthcare\",\n
+        \   \"subSector\": \"Health Care Equipment\",\n    \"headQuarter\": \"North
+        Chicago, Illinois\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000001800\",\n    \"founded\": \"1888\"\n  },\n  {\n    \"symbol\": \"ADM\",\n
+        \   \"name\": \"Archer Daniels Midland\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Agricultural Products & Services\",\n    \"headQuarter\":
+        \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000007084\",\n    \"founded\": \"1902\"\n  },\n  {\n    \"symbol\": \"AEP\",\n
+        \   \"name\": \"American Electric Power\",\n    \"sector\": \"Utilities\",\n
+        \   \"subSector\": \"Regulated Electric\",\n    \"headQuarter\": \"Columbus,
+        Ohio\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000004904\",\n
+        \   \"founded\": \"1906\"\n  },\n  {\n    \"symbol\": \"BA\",\n    \"name\":
+        \"Boeing\",\n    \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace
+        & Defense\",\n    \"headQuarter\": \"Arlington, Virginia\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000012927\",\n    \"founded\": \"1916\"\n
+        \ },\n  {\n    \"symbol\": \"BMY\",\n    \"name\": \"Bristol Myers Squibb\",\n
+        \   \"sector\": \"Healthcare\",\n    \"subSector\": \"Pharmaceuticals\",\n
+        \   \"headQuarter\": \"New York City, New York\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000014272\",\n    \"founded\": \"1989\"\n
+        \ },\n  {\n    \"symbol\": \"CAT\",\n    \"name\": \"Caterpillar Inc.\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Agricultural - Machinery\",\n
+        \   \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000018230\",\n    \"founded\": \"1925\"\n  },\n  {\n    \"symbol\":
+        \"CL\",\n    \"name\": \"Colgate-Palmolive\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Household Products\",\n    \"headQuarter\":
+        \"New York City, New York\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000021665\",\n    \"founded\": \"1806\"\n  },\n  {\n    \"symbol\": \"CMS\",\n
+        \   \"name\": \"CMS Energy\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Multi-Utilities\",\n    \"headQuarter\": \"Jackson, Michigan\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000811156\",\n    \"founded\": \"1886\"\n
+        \ },\n  {\n    \"symbol\": \"COP\",\n    \"name\": \"ConocoPhillips\",\n    \"sector\":
+        \"Energy\",\n    \"subSector\": \"Oil & Gas Exploration & Production\",\n
+        \   \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0001163165\",\n    \"founded\": \"2002\"\n  },\n  {\n    \"symbol\":
+        \"CPB\",\n    \"name\": \"Campbell Soup Company\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\":
+        \"Camden, New Jersey\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000016732\",\n    \"founded\": \"1869\"\n  },\n  {\n    \"symbol\": \"CSX\",\n
+        \   \"name\": \"CSX Corporation\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Railroads\",\n    \"headQuarter\": \"Jacksonville, Florida\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000277948\",\n    \"founded\": \"1980\"\n
+        \ },\n  {\n    \"symbol\": \"CVS\",\n    \"name\": \"CVS Health\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Health Care Services\",\n    \"headQuarter\":
+        \"Woonsocket, Rhode Island\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000064803\",\n    \"founded\": \"1996\"\n  },\n  {\n    \"symbol\": \"CVX\",\n
+        \   \"name\": \"Chevron Corporation\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Integrated\",\n    \"headQuarter\": \"San Ramon, California\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000093410\",\n    \"founded\":
+        \"1879\"\n  },\n  {\n    \"symbol\": \"DE\",\n    \"name\": \"Deere & Company\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Agricultural & Farm
+        Machinery\",\n    \"headQuarter\": \"Moline, Illinois\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000315189\",\n    \"founded\": \"1837\"\n
+        \ },\n  {\n    \"symbol\": \"DTE\",\n    \"name\": \"DTE Energy\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Multi-Utilities\",\n    \"headQuarter\":
+        \"Detroit, Michigan\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000936340\",\n    \"founded\": \"1995\"\n  },\n  {\n    \"symbol\": \"ED\",\n
+        \   \"name\": \"Consolidated Edison\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Multi-Utilities\",\n    \"headQuarter\": \"New York City, New York\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0001047862\",\n    \"founded\":
+        \"1823\"\n  },\n  {\n    \"symbol\": \"EIX\",\n    \"name\": \"Edison International\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Electric Utilities\",\n
+        \   \"headQuarter\": \"Rosemead, California\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000827052\",\n    \"founded\": \"1886\"\n  },\n  {\n    \"symbol\":
+        \"ETN\",\n    \"name\": \"Eaton Corporation\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Electrical Components & Equipment\",\n    \"headQuarter\":
+        \"Dublin, Ireland\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0001551182\",\n    \"founded\": \"1911\"\n  },\n  {\n    \"symbol\": \"ETR\",\n
+        \   \"name\": \"Entergy\",\n    \"sector\": \"Utilities\",\n    \"subSector\":
+        \"Electric Utilities\",\n    \"headQuarter\": \"New Orleans, Louisiana\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000065984\",\n    \"founded\":
+        \"1913\"\n  },\n  {\n    \"symbol\": \"EXC\",\n    \"name\": \"Exelon\",\n
+        \   \"sector\": \"Utilities\",\n    \"subSector\": \"Regulated Electric\",\n
+        \   \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0001109357\",\n    \"founded\": \"2000\"\n  },\n  {\n    \"symbol\":
+        \"F\",\n    \"name\": \"Ford Motor Company\",\n    \"sector\": \"Consumer
+        Cyclical\",\n    \"subSector\": \"Automobile Manufacturers\",\n    \"headQuarter\":
+        \"Dearborn, Michigan\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000037996\",\n    \"founded\": \"1903\"\n  },\n  {\n    \"symbol\": \"GD\",\n
+        \   \"name\": \"General Dynamics\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Aerospace & Defense\",\n    \"headQuarter\": \"Falls Church, Virginia\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000040533\",\n    \"founded\":
+        \"1899\"\n  },\n  {\n    \"symbol\": \"GE\",\n    \"name\": \"GE Aerospace\",\n
+        \   \"sector\": \"Industrials\",\n    \"subSector\": \"Aerospace & Defense\",\n
+        \   \"headQuarter\": \"Evendale, Ohio\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000040545\",\n    \"founded\": \"1892\"\n  },\n  {\n    \"symbol\":
+        \"GIS\",\n    \"name\": \"General Mills\",\n    \"sector\": \"Consumer Defensive\",\n
+        \   \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\": \"Golden
+        Valley, Minnesota\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000040704\",\n    \"founded\": \"1856\"\n  },\n  {\n    \"symbol\": \"HAL\",\n
+        \   \"name\": \"Halliburton\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Equipment & Services\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000045012\",\n    \"founded\":
+        \"1919\"\n  },\n  {\n    \"symbol\": \"HIG\",\n    \"name\": \"Hartford (The)\",\n
+        \   \"sector\": \"Financial Services\",\n    \"subSector\": \"Property & Casualty
+        Insurance\",\n    \"headQuarter\": \"Hartford, Connecticut\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000874766\",\n    \"founded\": \"1810\"\n
+        \ },\n  {\n    \"symbol\": \"HON\",\n    \"name\": \"Honeywell\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Conglomerates\",\n    \"headQuarter\":
+        \"Charlotte, North Carolina\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000773840\",\n    \"founded\": \"1906\"\n  },\n  {\n    \"symbol\":
+        \"HSY\",\n    \"name\": \"Hershey Company (The)\",\n    \"sector\": \"Consumer
+        Defensive\",\n    \"subSector\": \"Packaged Foods & Meats\",\n    \"headQuarter\":
+        \"Hershey, Pennsylvania\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000047111\",\n    \"founded\": \"1894\"\n  },\n  {\n    \"symbol\": \"IBM\",\n
+        \   \"name\": \"IBM\",\n    \"sector\": \"Technology\",\n    \"subSector\":
+        \"Information Technology Services\",\n    \"headQuarter\": \"Armonk, New York\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000051143\",\n    \"founded\":
+        \"1911\"\n  },\n  {\n    \"symbol\": \"IP\",\n    \"name\": \"International
+        Paper\",\n    \"sector\": \"Consumer Cyclical\",\n    \"subSector\": \"Paper
+        & Plastic Packaging Products & Materials\",\n    \"headQuarter\": \"Memphis,
+        Tennessee\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000051434\",\n
+        \   \"founded\": \"1898\"\n  },\n  {\n    \"symbol\": \"KMB\",\n    \"name\":
+        \"Kimberly-Clark\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Household Products\",\n    \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000055785\",\n    \"founded\": \"1872\"\n
+        \ },\n  {\n    \"symbol\": \"KO\",\n    \"name\": \"Coca-Cola Company (The)\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Beverages -
+        Non-Alcoholic\",\n    \"headQuarter\": \"Atlanta, Georgia\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000021344\",\n    \"founded\": \"1886\"\n
+        \ },\n  {\n    \"symbol\": \"KR\",\n    \"name\": \"Kroger\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Food Retail\",\n    \"headQuarter\":
+        \"Cincinnati, Ohio\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000056873\",\n    \"founded\": \"1883\"\n  },\n  {\n    \"symbol\": \"LMT\",\n
+        \   \"name\": \"Lockheed Martin\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Aerospace & Defense\",\n    \"headQuarter\": \"Bethesda, Maryland\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000936468\",\n    \"founded\": \"1995\"\n
+        \ },\n  {\n    \"symbol\": \"MMM\",\n    \"name\": \"3M\",\n    \"sector\":
+        \"Industrials\",\n    \"subSector\": \"Conglomerates\",\n    \"headQuarter\":
+        \"Saint Paul, Minnesota\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000066740\",\n    \"founded\": \"1902\"\n  },\n  {\n    \"symbol\": \"MO\",\n
+        \   \"name\": \"Altria\",\n    \"sector\": \"Consumer Defensive\",\n    \"subSector\":
+        \"Tobacco\",\n    \"headQuarter\": \"Richmond, Virginia\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000764180\",\n    \"founded\": \"1985\"\n
+        \ },\n  {\n    \"symbol\": \"MRK\",\n    \"name\": \"Merck & Co.\",\n    \"sector\":
+        \"Healthcare\",\n    \"subSector\": \"Drug Manufacturers - General\",\n    \"headQuarter\":
+        \"Kenilworth, New Jersey\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000310158\",\n    \"founded\": \"1891\"\n  },\n  {\n    \"symbol\": \"MRO\",\n
+        \   \"name\": \"Marathon Oil\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Exploration & Production\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000101778\",\n    \"founded\":
+        \"1887\"\n  },\n  {\n    \"symbol\": \"MSI\",\n    \"name\": \"Motorola Solutions\",\n
+        \   \"sector\": \"Technology\",\n    \"subSector\": \"Communications Equipment\",\n
+        \   \"headQuarter\": \"Chicago, Illinois\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000068505\",\n    \"founded\": \"1928\"\n  },\n  {\n    \"symbol\":
+        \"NOC\",\n    \"name\": \"Northrop Grumman\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Aerospace & Defense\",\n    \"headQuarter\": \"West Falls
+        Church, Virginia\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0001133421\",\n    \"founded\": \"1994\"\n  },\n  {\n    \"symbol\": \"NSC\",\n
+        \   \"name\": \"Norfolk Southern Railway\",\n    \"sector\": \"Industrials\",\n
+        \   \"subSector\": \"Rail Transportation\",\n    \"headQuarter\": \"Atlanta,
+        Georgia\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000702165\",\n
+        \   \"founded\": \"1881/1894\"\n  },\n  {\n    \"symbol\": \"OXY\",\n    \"name\":
+        \"Occidental Petroleum\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Oil & Gas Exploration & Production\",\n    \"headQuarter\": \"Houston, Texas\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000797468\",\n    \"founded\":
+        \"1920\"\n  },\n  {\n    \"symbol\": \"PEG\",\n    \"name\": \"Public Service
+        Enterprise Group\",\n    \"sector\": \"Utilities\",\n    \"subSector\": \"Electric
+        Utilities\",\n    \"headQuarter\": \"Newark, New Jersey\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000788784\",\n    \"founded\": \"1903\"\n
+        \ },\n  {\n    \"symbol\": \"PEP\",\n    \"name\": \"PepsiCo\",\n    \"sector\":
+        \"Consumer Defensive\",\n    \"subSector\": \"Beverages - Non-Alcoholic\",\n
+        \   \"headQuarter\": \"Purchase, New York\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000077476\",\n    \"founded\": \"1898\"\n  },\n  {\n    \"symbol\":
+        \"PFE\",\n    \"name\": \"Pfizer\",\n    \"sector\": \"Healthcare\",\n    \"subSector\":
+        \"Pharmaceuticals\",\n    \"headQuarter\": \"New York City, New York\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000078003\",\n    \"founded\":
+        \"1849\"\n  },\n  {\n    \"symbol\": \"PG\",\n    \"name\": \"Procter & Gamble\",\n
+        \   \"sector\": \"Consumer Defensive\",\n    \"subSector\": \"Household &
+        Personal Products\",\n    \"headQuarter\": \"Cincinnati, Ohio\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000080424\",\n    \"founded\": \"1837\"\n
+        \ },\n  {\n    \"symbol\": \"PPG\",\n    \"name\": \"PPG Industries\",\n    \"sector\":
+        \"Basic Materials\",\n    \"subSector\": \"Specialty Chemicals\",\n    \"headQuarter\":
+        \"Pittsburgh, Pennsylvania\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000079879\",\n    \"founded\": \"1883\"\n  },\n  {\n    \"symbol\": \"RTX\",\n
+        \   \"name\": \"RTX Corporation\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Aerospace & Defense\",\n    \"headQuarter\": \"Waltham, Massachusetts\",\n
+        \   \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000101829\",\n    \"founded\":
+        \"1922\"\n  },\n  {\n    \"symbol\": \"SLB\",\n    \"name\": \"Schlumberger\",\n
+        \   \"sector\": \"Energy\",\n    \"subSector\": \"Oil & Gas Equipment & Services\",\n
+        \   \"headQuarter\": \"Houston, Texas\",\n    \"dateFirstAdded\": \"1957-03-04\",\n
+        \   \"cik\": \"0000087347\",\n    \"founded\": \"1926\"\n  },\n  {\n    \"symbol\":
+        \"SO\",\n    \"name\": \"Southern Company\",\n    \"sector\": \"Utilities\",\n
+        \   \"subSector\": \"Electric Utilities\",\n    \"headQuarter\": \"Atlanta,
+        Georgia\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000092122\",\n
+        \   \"founded\": \"1945\"\n  },\n  {\n    \"symbol\": \"SPGI\",\n    \"name\":
+        \"S&P Global\",\n    \"sector\": \"Financial Services\",\n    \"subSector\":
+        \"Financial Exchanges & Data\",\n    \"headQuarter\": \"New York City, New
+        York\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\": \"0000064040\",\n
+        \   \"founded\": \"1917\"\n  },\n  {\n    \"symbol\": \"UNP\",\n    \"name\":
+        \"Union Pacific Corporation\",\n    \"sector\": \"Industrials\",\n    \"subSector\":
+        \"Rail Transportation\",\n    \"headQuarter\": \"Omaha, Nebraska\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000100885\",\n    \"founded\": \"1862\"\n
+        \ },\n  {\n    \"symbol\": \"XEL\",\n    \"name\": \"Xcel Energy\",\n    \"sector\":
+        \"Utilities\",\n    \"subSector\": \"Regulated Electric\",\n    \"headQuarter\":
+        \"Minneapolis, Minnesota\",\n    \"dateFirstAdded\": \"1957-03-04\",\n    \"cik\":
+        \"0000072903\",\n    \"founded\": \"1909\"\n  },\n  {\n    \"symbol\": \"XOM\",\n
+        \   \"name\": \"ExxonMobil\",\n    \"sector\": \"Energy\",\n    \"subSector\":
+        \"Integrated Oil & Gas\",\n    \"headQuarter\": \"Irving, Texas\",\n    \"dateFirstAdded\":
+        \"1957-03-04\",\n    \"cik\": \"0000034088\",\n    \"founded\": \"1999\"\n
+        \ }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '131468'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 25 Oct 2024 03:40:56 GMT
+      Etag:
+      - W/"2018c-zn/6LhNGcKb3AXqQjveKhc+13yI"
+      Server:
+      - gunicorn
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

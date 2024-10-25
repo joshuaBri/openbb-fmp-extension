@@ -1,0 +1,211 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - fmp.a.pinggy.link
+      User-Agent:
+      - Python-urllib/3.11
+    method: GET
+    uri: https://127.0.0.1:7890/api/v3/form-thirteen/0001388838?date=2023-09-30
+  response:
+    body:
+      string: "[\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"674215207\",\n    \"tickercusip\": \"CHRD\",\n    \"nameOfIssuer\": \"CHORD
+        ENERGY CORPORATION\",\n    \"shares\": 13280,\n    \"titleOfClass\": \"COM
+        NEW\",\n    \"value\": 2152290,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"231082801\",\n    \"tickercusip\": \"CMLS\",\n    \"nameOfIssuer\": \"CUMULUS
+        MEDIA INC\",\n    \"shares\": 39900,\n    \"titleOfClass\": \"COM CL A\",\n
+        \   \"value\": 203091,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"256135203\",\n    \"tickercusip\": \"RDY\",\n    \"nameOfIssuer\": \"DR
+        REDDYS LABS LTD\",\n    \"shares\": 53700,\n    \"titleOfClass\": \"ADR\",\n
+        \   \"value\": 3590919,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"266605500\",\n    \"tickercusip\": null,\n    \"nameOfIssuer\": \"DURECT
+        CORP\",\n    \"shares\": 325000,\n    \"titleOfClass\": \"COM NEW\",\n    \"value\":
+        809250,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"294375209\",\n    \"tickercusip\": \"EPSN\",\n    \"nameOfIssuer\": \"EPSILON
+        ENERGY LTD\",\n    \"shares\": 250000,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        1320000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"302081104\",\n    \"tickercusip\": \"EXLS\",\n    \"nameOfIssuer\": \"EXLSERVICE
+        HOLDINGS INC\",\n    \"shares\": 29195,\n    \"titleOfClass\": \"COM\",\n
+        \   \"value\": 818628,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"358054104\",\n    \"tickercusip\": \"FRSH\",\n    \"nameOfIssuer\": \"FRESHWORKS
+        INC\",\n    \"shares\": 111700,\n    \"titleOfClass\": \"CLASS A COM\",\n
+        \   \"value\": 2225064,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"456788108\",\n    \"tickercusip\": \"INFY\",\n    \"nameOfIssuer\": \"INFOSYS
+        LTD\",\n    \"shares\": 697677,\n    \"titleOfClass\": \"SPONSORED ADR\",\n
+        \   \"value\": 11937253,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"594918104\",\n    \"tickercusip\": \"MSFT\",\n    \"nameOfIssuer\": \"MICROSOFT
+        CORP\",\n    \"shares\": 8100,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        2557575,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"595112103\",\n    \"tickercusip\": \"MU\",\n    \"nameOfIssuer\": \"MICRON
+        TECHNOLOGY INC\",\n    \"shares\": 7760,\n    \"titleOfClass\": \"COM\",\n
+        \   \"value\": 527913,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"880890108\",\n    \"tickercusip\": \"TX\",\n    \"nameOfIssuer\": \"TERNIUM
+        SA\",\n    \"shares\": 41775,\n    \"titleOfClass\": \"SPONSORED ADS\",\n
+        \   \"value\": 1666823,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"03212B103\",\n    \"tickercusip\": \"AMPY\",\n    \"nameOfIssuer\": \"AMPLIFY
+        ENERGY CORP NEW\",\n    \"shares\": 89410,\n    \"titleOfClass\": \"COM\",\n
+        \   \"value\": 657164,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"03674X106\",\n    \"tickercusip\": \"AR\",\n    \"nameOfIssuer\": \"ANTERO
+        RESOURCES CORP\",\n    \"shares\": 10000,\n    \"titleOfClass\": \"COM\",\n
+        \   \"value\": 253800,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"040413106\",\n    \"tickercusip\": \"ANET\",\n    \"nameOfIssuer\": \"ARISTA
+        NETWORKS INC\",\n    \"shares\": 11300,\n    \"titleOfClass\": \"COM\",\n
+        \   \"value\": 2078409,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"16411R208\",\n    \"tickercusip\": \"LNG\",\n    \"nameOfIssuer\": \"CHENIERE
+        ENERGY INC\",\n    \"shares\": 31242,\n    \"titleOfClass\": \"COM NEW\",\n
+        \   \"value\": 5184922,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"36165L108\",\n    \"tickercusip\": \"GDS\",\n    \"nameOfIssuer\": \"GDS
+        HLDGS LTD\",\n    \"shares\": 61500,\n    \"titleOfClass\": \"SPONSORED ADS\",\n
+        \   \"value\": 673425,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"45104G104\",\n    \"tickercusip\": \"IBN\",\n    \"nameOfIssuer\": \"ICICI
+        BANK LIMITED\",\n    \"shares\": 1671490,\n    \"titleOfClass\": \"ADR\",\n
+        \   \"value\": 38644849,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"45258D105\",\n    \"tickercusip\": \"IMCR\",\n    \"nameOfIssuer\": \"IMMUNOCORE
+        HLDGS PLC\",\n    \"shares\": 10000,\n    \"titleOfClass\": \"ADS\",\n    \"value\":
+        519000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"V5633W109\",\n    \"tickercusip\": \"MMYT\",\n    \"nameOfIssuer\": \"MAKEMYTRIP
+        LIMITED MAURITIUS\",\n    \"shares\": 633941,\n    \"titleOfClass\": \"SHS\",\n
+        \   \"value\": 25687289,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"67066G104\",\n    \"tickercusip\": \"NVDA\",\n    \"nameOfIssuer\": \"NVIDIA
+        CORPORATION\",\n    \"shares\": 21705,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        9441458,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"89151E109\",\n    \"tickercusip\": \"TTE\",\n    \"nameOfIssuer\": \"TOTALENERGIES
+        SE\",\n    \"shares\": 68500,\n    \"titleOfClass\": \"SPONSORED ADS\",\n
+        \   \"value\": 4504560,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"92932M101\",\n    \"tickercusip\": \"WNS\",\n    \"nameOfIssuer\": \"WNS
+        HLDGS LTD\",\n    \"shares\": 20803,\n    \"titleOfClass\": \"SPON ADR\",\n
+        \   \"value\": 1424173,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"98954M101\",\n    \"tickercusip\": \"ZG\",\n    \"nameOfIssuer\": \"ZILLOW
+        GROUP INC\",\n    \"shares\": 10000,\n    \"titleOfClass\": \"CL A\",\n    \"value\":
+        447900,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"49177J102\",\n    \"tickercusip\": \"KVUE\",\n    \"nameOfIssuer\": \"KENVUE
+        INC\",\n    \"shares\": 15000,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        301200,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"682189105\",\n    \"tickercusip\": \"ON\",\n    \"nameOfIssuer\": \"ON SEMICONDUCTOR
+        CORP\",\n    \"shares\": 14300,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        1329185,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"G3922B107\",\n    \"tickercusip\": \"G\",\n    \"nameOfIssuer\": \"GENPACT
+        LIMITED\",\n    \"shares\": 272764,\n    \"titleOfClass\": \"SHS\",\n    \"value\":
+        9874057,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ },\n  {\n    \"date\": \"2023-09-30\",\n    \"fillingDate\": \"2023-11-13\",\n
+        \   \"acceptedDate\": \"2023-11-13\",\n    \"cik\": \"0001388838\",\n    \"cusip\":
+        \"536797103\",\n    \"tickercusip\": \"LAD\",\n    \"nameOfIssuer\": \"LITHIA
+        MTRS INC\",\n    \"shares\": 1000,\n    \"titleOfClass\": \"COM\",\n    \"value\":
+        295330,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/0001172661-23-003760-index.htm\",\n
+        \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/1388838/000117266123003760/infotable.xml\"\n
+        \ }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '13663'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 25 Oct 2024 03:40:40 GMT
+      Etag:
+      - W/"355f-zv31Gwcwx301mWmhJdM4Lv55MdU"
+      Server:
+      - gunicorn
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

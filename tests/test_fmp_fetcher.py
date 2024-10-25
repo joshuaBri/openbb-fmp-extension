@@ -15,6 +15,7 @@ from openbb_fmp_extension.models.calendar_dividend import FMPCalendarDividendFet
 from openbb_fmp_extension.models.etf_search import FMPEtfSearchFetcher
 from openbb_fmp_extension.models.etf_holdings import FMPEtfHoldingsFetcher
 from openbb_fmp_extension.models.index_constituents import FMPIndexConstituentsFetcher
+from openbb_fmp_extension.models.index_historical_constituents import  FMPIndexHistoricalConstituentsFetcher
 
 test_credentials = UserService().default_user_settings.credentials.model_dump(
     mode="json"
@@ -183,5 +184,16 @@ def test_fmp_index_constituents_fetcher(credentials=test_credentials):
     }
 
     fetcher = FMPIndexConstituentsFetcher()
+    result = fetcher.test(params, credentials)
+    assert result is None
+
+
+def test_fmp_index_historical_constituents_fetcher(credentials=test_credentials):
+    """Test etf holdings fetcher."""
+    params = {
+        "symbol": "sp500",
+    }
+
+    fetcher = FMPIndexHistoricalConstituentsFetcher()
     result = fetcher.test(params, credentials)
     assert result is None

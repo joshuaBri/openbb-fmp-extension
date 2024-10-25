@@ -11,6 +11,7 @@ from openbb_fmp_extension.models.form_13f import FMPForm13fFetcher
 from openbb_fmp_extension.models.historical_rating import FMPHistoricalRatingFetcher
 from openbb_fmp_extension.models.income_statement import FMPIncomeStatementFetcher
 from openbb_fmp_extension.models.index_constituents import FMPIndexConstituentsFetcher
+from openbb_fmp_extension.models.index_historical_constituents import FMPIndexHistoricalConstituentsFetcher
 from openbb_fmp_extension.models.levered_dcf import FMPLeveredDcfFetcher
 from openbb_fmp_extension.models.equity_historical import FMPEquityHistoricalFetcher
 from openbb_fmp_extension.models.balance_sheet import FMPBalanceSheetFetcher
@@ -43,6 +44,7 @@ provider = Provider(
         "EtfSearch": FMPEtfSearchFetcher,
         "EtfHoldings": FMPEtfHoldingsFetcher,
         "IndexConstituents": FMPIndexConstituentsFetcher,
+        "IndexHistoricalConstituents": FMPIndexHistoricalConstituentsFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

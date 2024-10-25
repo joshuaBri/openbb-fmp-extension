@@ -105,7 +105,6 @@ class FMPEtfSearchFetcher(
         data = get_jsonparsed_data(url)
         if not data:
             raise EmptyDataError("No data returned for the given symbol.")
-        data = [{to_snake_case(key): value for key, value in d.items()} for d in data]
 
         return data
 

@@ -6,11 +6,16 @@ from openbb_fmp_extension.models.cash_flow import FMPCashFlowStatementFetcher
 from openbb_fmp_extension.models.discounted_cashflow import FMPDiscountedCashflowFetcher
 from openbb_fmp_extension.models.advanced_dcf import FMPAdvancedDcfFetcher
 from openbb_fmp_extension.models.company_rating import FMPCompanyRatingFetcher
+from openbb_fmp_extension.models.etf_holdings import FMPEtfHoldingsFetcher
+from openbb_fmp_extension.models.form_13f import FMPForm13fFetcher
 from openbb_fmp_extension.models.historical_rating import FMPHistoricalRatingFetcher
 from openbb_fmp_extension.models.income_statement import FMPIncomeStatementFetcher
+from openbb_fmp_extension.models.index_constituents import FMPIndexConstituentsFetcher
 from openbb_fmp_extension.models.levered_dcf import FMPLeveredDcfFetcher
 from openbb_fmp_extension.models.equity_historical import FMPEquityHistoricalFetcher
 from openbb_fmp_extension.models.balance_sheet import FMPBalanceSheetFetcher
+from openbb_fmp_extension.models.calendar_dividend import FMPCalendarDividendFetcher
+from openbb_fmp_extension.models.etf_search import FMPEtfSearchFetcher
 
 
 # mypy: disable-error-code="list-item"
@@ -33,6 +38,11 @@ provider = Provider(
         "BalanceSheet": FMPBalanceSheetFetcher,
         "CashFlowStatement": FMPCashFlowStatementFetcher,
         "IncomeStatement": FMPIncomeStatementFetcher,
+        "Form13f": FMPForm13fFetcher,
+        "CalendarDividend": FMPCalendarDividendFetcher,
+        "EtfSearch": FMPEtfSearchFetcher,
+        "EtfHoldings": FMPEtfHoldingsFetcher,
+        "IndexConstituents": FMPIndexConstituentsFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

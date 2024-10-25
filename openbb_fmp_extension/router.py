@@ -10,7 +10,7 @@ from openbb_core.app.query import Query
 from openbb_core.app.router import Router
 from pydantic import BaseModel
 
-router = Router(prefix="/price")
+router = Router(prefix="")
 
 
 @router.command(
@@ -85,7 +85,7 @@ async def levered_dcf(
         APIEx(parameters={"symbol": "AAPL", "interval": "1d", "provider": "intrinio"}),
     ],
 )
-async def equity_historical(
+async def historical(
         cc: CommandContext,
         provider_choices: ProviderChoices,
         standard_params: StandardParams,
@@ -157,6 +157,98 @@ async def cash(
     ],
 )
 async def income(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject:
+    """Get the income statement for a given company."""
+    return await OBBject.from_query(Query(**locals()))
+
+
+@router.command(
+    model="Form13f",
+    examples=[
+        APIEx(
+            parameters={
+                "cik": "0001388838",
+                "date": "2021-09-30",
+                "provider": "fmp",
+            }
+        ),
+    ],
+)
+async def form_13f(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject:
+    """Get the income statement for a given company."""
+    return await OBBject.from_query(Query(**locals()))
+
+
+@router.command(
+    model="EtfHoldings",
+    examples=[
+        APIEx(
+            parameters={
+                "symbol": "SPY",
+                "date": "2021-09-30",
+                "provider": "fmp",
+            }
+        ),
+        APIEx(
+            parameters={
+                "symbol": "SPY",
+                "provider": "fmp",
+            }
+        ),
+    ],
+)
+async def holdings(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject:
+    """Get the income statement for a given company."""
+    return await OBBject.from_query(Query(**locals()))
+
+
+@router.command(
+    model="CalendarDividend",
+    examples=[
+        APIEx(
+            parameters={
+                "start_date": "2023-01-01",
+                "end_date": "2023-01-10",
+                "provider": "fmp",
+            }
+        ),
+    ],
+)
+async def calendar_dividend(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject:
+    """Get the income statement for a given company."""
+    return await OBBject.from_query(Query(**locals()))
+
+
+@router.command(
+    model="EtfSearch",
+    examples=[
+        APIEx(
+            parameters={
+                "provider": "fmp",
+            }
+        ),
+    ],
+)
+async def search(
         cc: CommandContext,
         provider_choices: ProviderChoices,
         standard_params: StandardParams,

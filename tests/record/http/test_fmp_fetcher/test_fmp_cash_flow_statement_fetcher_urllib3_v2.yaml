@@ -25,8 +25,8 @@ interactions:
         -29513000000,\n    \"salesMaturitiesOfInvestments\": 45514000000,\n    \"otherInvestingActivites\":
         -1337000000,\n    \"netCashUsedForInvestingActivites\": 3705000000,\n    \"debtRepayment\":
         -5923000000,\n    \"commonStockIssued\": 0,\n    \"commonStockRepurchased\":
-        -82981000000,\n    \"dividendsPaid\": -15025000000,\n    \"otherFinancingActivites\":
-        -4559000000,\n    \"netCashUsedProvidedByFinancingActivities\": -108488000000,\n
+        -77550000000,\n    \"dividendsPaid\": -15025000000,\n    \"otherFinancingActivites\":
+        -6012000000,\n    \"netCashUsedProvidedByFinancingActivities\": -108488000000,\n
         \   \"effectOfForexChangesOnCash\": 0,\n    \"netChangeInCash\": 5760000000,\n
         \   \"cashAtEndOfPeriod\": 30737000000,\n    \"cashAtBeginningOfPeriod\":
         24977000000,\n    \"operatingCashFlow\": 110543000000,\n    \"capitalExpenditure\":
@@ -132,9 +132,9 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 08:36:01 GMT
+      - Fri, 25 Oct 2024 03:40:35 GMT
       Etag:
-      - W/"210f-HoY6KKBuTvZpjZoT1/PWm82ptVY"
+      - W/"210f-UD81YSe6oLHtD4JLuwGZy5nnRjo"
       Server:
       - gunicorn
       Vary:

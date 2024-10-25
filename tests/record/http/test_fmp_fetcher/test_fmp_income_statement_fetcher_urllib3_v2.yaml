@@ -20,7 +20,7 @@ interactions:
         0.4413112958,\n    \"researchAndDevelopmentExpenses\": 29915000000,\n    \"generalAndAdministrativeExpenses\":
         0,\n    \"sellingAndMarketingExpenses\": 0,\n    \"sellingGeneralAndAdministrativeExpenses\":
         24932000000,\n    \"otherExpenses\": 382000000,\n    \"operatingExpenses\":
-        55229000000,\n    \"costAndExpenses\": 269366000000,\n    \"interestIncome\":
+        54847000000,\n    \"costAndExpenses\": 268984000000,\n    \"interestIncome\":
         3750000000,\n    \"interestExpense\": 3933000000,\n    \"depreciationAndAmortization\":
         11519000000,\n    \"ebitda\": 125820000000,\n    \"ebitdaratio\": 0.3282674772,\n
         \   \"operatingIncome\": 114301000000,\n    \"operatingIncomeRatio\": 0.2982141227,\n
@@ -127,9 +127,9 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 08:36:03 GMT
+      - Fri, 25 Oct 2024 03:40:37 GMT
       Etag:
-      - W/"1d47-ICee1+jqiwp5cP6XV1GikeXWcm8"
+      - W/"1d47-peaM/OPhhhrh3tfRVfwbO5/7SA0"
       Server:
       - gunicorn
       Vary:

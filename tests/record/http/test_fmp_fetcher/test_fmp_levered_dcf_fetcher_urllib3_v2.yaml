@@ -15,143 +15,143 @@ interactions:
       string: "[\n  {\n    \"year\": \"2028\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         644148620017,\n    \"revenuePercentage\": 10.94,\n    \"capitalExpenditure\":
         -19712612712,\n    \"capitalExpenditurePercentage\": -3.06,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 185922773176,\n    \"pvLfcf\":
-        104905051312,\n    \"sumPvLfcf\": 512372182100,\n    \"longTermGrowthRate\":
-        4,\n    \"freeCashFlow\": 166210160464,\n    \"terminalValue\": 3064428335346,\n
-        \   \"presentTerminalValue\": 1934141756824,\n    \"enterpriseValue\": 2446513938924,\n
-        \   \"netDebt\": 93965000000,\n    \"equityValue\": 2352548938924,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 185922773176,\n    \"pvLfcf\":
+        104682523654,\n    \"sumPvLfcf\": 511714757659,\n    \"longTermGrowthRate\":
+        4,\n    \"freeCashFlow\": 166210160464,\n    \"terminalValue\": 3039333749547,\n
+        \   \"presentTerminalValue\": 1914233920725,\n    \"enterpriseValue\": 2425948678385,\n
+        \   \"netDebt\": 81123000000,\n    \"equityValue\": 2344825678385,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.86\n  },\n  {\n    \"year\": \"2027\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         580621654861,\n    \"revenuePercentage\": 10.94,\n    \"capitalExpenditure\":
         -17768523379,\n    \"capitalExpenditurePercentage\": -3.06,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 167586772498,\n    \"pvLfcf\":
-        103675415054,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        149818249119,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934141756824,\n    \"enterpriseValue\": 2446513938924,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352548938924,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 167586772498,\n    \"pvLfcf\":
+        103499442249,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
+        149818249119,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914233920725,\n    \"enterpriseValue\": 2425948678385,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344825678385,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.86\n  },\n  {\n    \"year\": \"2026\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         523359820417,\n    \"revenuePercentage\": 10.94,\n    \"capitalExpenditure\":
         -16016163240,\n    \"capitalExpenditurePercentage\": -3.06,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 151059097477,\n    \"pvLfcf\":
-        102460191881,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        135042934237,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934141756824,\n    \"enterpriseValue\": 2446513938924,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352548938924,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 151059097477,\n    \"pvLfcf\":
+        102329731572,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
+        135042934237,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914233920725,\n    \"enterpriseValue\": 2425948678385,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344825678385,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.86\n  },\n  {\n    \"year\": \"2025\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         471745239492,\n    \"revenuePercentage\": 10.94,\n    \"capitalExpenditure\":
         -14436623655,\n    \"capitalExpenditurePercentage\": -3.06,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 136161408149,\n    \"pvLfcf\":
-        101259212850,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        121724784494,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934141756824,\n    \"enterpriseValue\": 2446513938924,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352548938924,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 136161408149,\n    \"pvLfcf\":
+        101173240513,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
+        121724784494,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914233920725,\n    \"enterpriseValue\": 2425948678385,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344825678385,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.86\n  },\n  {\n    \"year\": \"2024\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         425220970930,\n    \"revenuePercentage\": 10.94,\n    \"capitalExpenditure\":
         -13012860785,\n    \"capitalExpenditurePercentage\": -3.06,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 122732952724,\n    \"pvLfcf\":
-        100072311000,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        109720091939,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934141756824,\n    \"enterpriseValue\": 2446513938924,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352548938924,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 122732952724,\n    \"pvLfcf\":
+        100029819670,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
+        109720091939,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914233920725,\n    \"enterpriseValue\": 2425948678385,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344825678385,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.86\n  },\n  {\n    \"year\": \"2023\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         383285000000,\n    \"revenuePercentage\": -2.8,\n    \"capitalExpenditure\":
         -10959000000,\n    \"capitalExpenditurePercentage\": -2.86,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 110543000000,\n    \"pvLfcf\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 110543000000,\n    \"pvLfcf\":
         0,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        99584000000,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934119017574,\n    \"enterpriseValue\": 2446491199675,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352526199675,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        99584000000,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914213083135,\n    \"enterpriseValue\": 2425927840795,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344804840795,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.84\n  },\n  {\n    \"year\": \"2022\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         394328000000,\n    \"revenuePercentage\": 7.79,\n    \"capitalExpenditure\":
         -10708000000,\n    \"capitalExpenditurePercentage\": -2.72,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 122151000000,\n    \"pvLfcf\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 122151000000,\n    \"pvLfcf\":
         0,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        111443000000,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934287555171,\n    \"enterpriseValue\": 2446659737271,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352694737271,\n    \"equityValuePerShare\":
-        148.79,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        111443000000,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914367525593,\n    \"enterpriseValue\": 2426082283253,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344959283253,\n    \"equityValuePerShare\":
+        148.3,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         30.98\n  },\n  {\n    \"year\": \"2021\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         365817000000,\n    \"revenuePercentage\": 33.26,\n    \"capitalExpenditure\":
         -11085000000,\n    \"capitalExpenditurePercentage\": -3.03,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 104038000000,\n    \"pvLfcf\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 104038000000,\n    \"pvLfcf\":
         0,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        92953000000,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1933958254901,\n    \"enterpriseValue\": 2446330437001,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352365437001,\n    \"equityValuePerShare\":
-        148.77,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        92953000000,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914065764253,\n    \"enterpriseValue\": 2425780521912,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344657521912,\n    \"equityValuePerShare\":
+        148.28,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         28.44\n  },\n  {\n    \"year\": \"2020\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         274515000000,\n    \"revenuePercentage\": 5.51,\n    \"capitalExpenditure\":
         -7309000000,\n    \"capitalExpenditurePercentage\": -2.66,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 80674000000,\n    \"pvLfcf\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 80674000000,\n    \"pvLfcf\":
         0,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        73365000000,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934085998394,\n    \"enterpriseValue\": 2446458180494,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352493180494,\n    \"equityValuePerShare\":
-        148.77,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        73365000000,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914182825275,\n    \"enterpriseValue\": 2425897582935,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344774582935,\n    \"equityValuePerShare\":
+        148.29,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         29.39\n  },\n  {\n    \"year\": \"2019\",\n    \"symbol\": \"AAPL\",\n    \"revenue\":
         260174000000,\n    \"revenuePercentage\": 0,\n    \"capitalExpenditure\":
         -10495000000,\n    \"capitalExpenditurePercentage\": -4.03,\n    \"price\":
-        235.86,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
-        \   \"costofDebt\": 4,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
-        3.41,\n    \"riskFreeRate\": 4,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
-        9.85,\n    \"totalDebt\": 123930000000,\n    \"totalEquity\": 3729547335420,\n
-        \   \"totalCapital\": 3853477335420,\n    \"debtWeighting\": 3.22,\n    \"equityWeighting\":
-        96.78,\n    \"wacc\": 9.64,\n    \"operatingCashFlow\": 69391000000,\n    \"pvLfcf\":
+        230.57,\n    \"beta\": 1.239,\n    \"dilutedSharesOutstanding\": 15812547000,\n
+        \   \"costofDebt\": 4.03,\n    \"taxRate\": 14.72,\n    \"afterTaxCostOfDebt\":
+        3.44,\n    \"riskFreeRate\": 4.03,\n    \"marketRiskPremium\": 4.72,\n    \"costOfEquity\":
+        9.88,\n    \"totalDebt\": 111088000000,\n    \"totalEquity\": 3645898961790,\n
+        \   \"totalCapital\": 3756986961790,\n    \"debtWeighting\": 2.96,\n    \"equityWeighting\":
+        97.04,\n    \"wacc\": 9.69,\n    \"operatingCashFlow\": 69391000000,\n    \"pvLfcf\":
         0,\n    \"sumPvLfcf\": 0,\n    \"longTermGrowthRate\": 4,\n    \"freeCashFlow\":
-        58896000000,\n    \"terminalValue\": 3064428335346,\n    \"presentTerminalValue\":
-        1934257980435,\n    \"enterpriseValue\": 2446630162535,\n    \"netDebt\":
-        93965000000,\n    \"equityValue\": 2352665162535,\n    \"equityValuePerShare\":
-        148.78,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
+        58896000000,\n    \"terminalValue\": 3039333749547,\n    \"presentTerminalValue\":
+        1914340424338,\n    \"enterpriseValue\": 2426055181998,\n    \"netDebt\":
+        81123000000,\n    \"equityValue\": 2344932181998,\n    \"equityValuePerShare\":
+        148.3,\n    \"freeCashFlowT1\": 172858566882,\n    \"operatingCashFlowPercentage\":
         26.67\n  }\n]"
     headers:
       Access-Control-Allow-Credentials:
@@ -168,13 +168,13 @@ interactions:
       Connection:
       - close
       Content-Length:
-      - '10454'
+      - '10512'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 08:35:50 GMT
+      - Fri, 25 Oct 2024 03:40:29 GMT
       Etag:
-      - W/"28d6-epIMr+AlptxaAfeqHyGuiAqJlaU"
+      - W/"2910-sc3SMnDLgdmO5zSWzhZrwP6M//o"
       Server:
       - gunicorn
       Vary:

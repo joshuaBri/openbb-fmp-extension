@@ -12,8 +12,8 @@ interactions:
     uri: https://127.0.0.1:7890/api/v3/discounted-cash-flow/AAPL?
   response:
     body:
-      string: "[\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-10-23\",\n
-        \   \"dcf\": 148.77735629335677,\n    \"Stock Price\": 235.86\n  }\n]"
+      string: "[\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-10-24\",\n
+        \   \"dcf\": 147.51854671883913,\n    \"Stock Price\": 230.47\n  }\n]"
     headers:
       Access-Control-Allow-Credentials:
       - 'true'
@@ -33,9 +33,9 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 08:34:33 GMT
+      - Fri, 25 Oct 2024 03:40:00 GMT
       Etag:
-      - W/"74-Xye6PNxl+fEQsS0HOs4FgI1ra4k"
+      - W/"74-J/cEK1YUwl/1XXdZ6rBRY09dIKs"
       Server:
       - gunicorn
       X-Frame-Options:

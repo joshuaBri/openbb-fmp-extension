@@ -24,10 +24,10 @@ interactions:
         100544000000,\n    \"taxAssets\": 17852000000,\n    \"otherNonCurrentAssets\":
         36245000000,\n    \"totalNonCurrentAssets\": 209017000000,\n    \"otherAssets\":
         0,\n    \"totalAssets\": 352583000000,\n    \"accountPayables\": 62611000000,\n
-        \   \"shortTermDebt\": 17382000000,\n    \"taxPayables\": 8819000000,\n    \"deferredRevenue\":
-        8061000000,\n    \"otherCurrentLiabilities\": 57254000000,\n    \"totalCurrentLiabilities\":
-        145308000000,\n    \"longTermDebt\": 106548000000,\n    \"deferredRevenueNonCurrent\":
-        -19454000000,\n    \"deferredTaxLiabilitiesNonCurrent\": 19454000000,\n    \"otherNonCurrentLiabilities\":
+        \   \"shortTermDebt\": 15807000000,\n    \"taxPayables\": 8819000000,\n    \"deferredRevenue\":
+        0,\n    \"otherCurrentLiabilities\": 65315000000,\n    \"totalCurrentLiabilities\":
+        145308000000,\n    \"longTermDebt\": 95281000000,\n    \"deferredRevenueNonCurrent\":
+        0,\n    \"deferredTaxLiabilitiesNonCurrent\": 0,\n    \"otherNonCurrentLiabilities\":
         38581000000,\n    \"totalNonCurrentLiabilities\": 145129000000,\n    \"otherLiabilities\":
         0,\n    \"capitalLeaseObligations\": 12842000000,\n    \"totalLiabilities\":
         290437000000,\n    \"preferredStock\": 0,\n    \"commonStock\": 73812000000,\n
@@ -36,7 +36,7 @@ interactions:
         62146000000,\n    \"totalEquity\": 62146000000,\n    \"totalLiabilitiesAndStockholdersEquity\":
         352583000000,\n    \"minorityInterest\": 0,\n    \"totalLiabilitiesAndTotalEquity\":
         352583000000,\n    \"totalInvestments\": 132134000000,\n    \"totalDebt\":
-        123930000000,\n    \"netDebt\": 93965000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/0000320193-23-000106-index.htm\",\n
+        111088000000,\n    \"netDebt\": 81123000000,\n    \"link\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/0000320193-23-000106-index.htm\",\n
         \   \"finalLink\": \"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm\"\n
         \ },\n  {\n    \"date\": \"2022-09-24\",\n    \"symbol\": \"AAPL\",\n    \"reportedCurrency\":
         \"USD\",\n    \"cik\": \"0000320193\",\n    \"fillingDate\": \"2022-10-28\",\n
@@ -155,13 +155,13 @@ interactions:
       Connection:
       - close
       Content-Length:
-      - '10526'
+      - '10495'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 23 Oct 2024 08:35:54 GMT
+      - Fri, 25 Oct 2024 03:40:33 GMT
       Etag:
-      - W/"291e-ET66ulhV+wDiRkv+VVxQofu147w"
+      - W/"28ff-jHoBM24lGVnvi1DbAuvhFxmPqIU"
       Server:
       - gunicorn
       Vary:

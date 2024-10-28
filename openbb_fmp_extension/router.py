@@ -5,7 +5,9 @@ from openbb_fmp_extension.extensions.equity.equity_router import router as equit
 from openbb_fmp_extension.extensions.etf.etf_router import router as etf_router
 from openbb_fmp_extension.extensions.index.index_router import router as index_router
 
-router = Router(prefix="", description="Derivatives market data.")
-router.include_router(equity_router)
-router.include_router(etf_router)
-router.include_router(index_router)
+router_etf = Router(prefix="", description="Derivatives market data.")
+router_equity = Router(prefix="", description="Derivatives market data.")
+
+router_etf.include_router(router_etf)
+router_equity.include_router(router_equity)
+# router.include_router(index_router)

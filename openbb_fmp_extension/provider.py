@@ -22,7 +22,7 @@ from openbb_fmp_extension.models.etf_search import FMPEtfSearchFetcher
 # mypy: disable-error-code="list-item"
 
 provider = Provider(
-    name="fmp",
+    name="fmp_extension",
     website="https://financialmodelingprep.com",
     description="""Financial Modeling Prep is a new concept that informs you about
     senate trading and house disclosure trading and RSS feed.""",

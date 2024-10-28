@@ -41,7 +41,7 @@ async def search(
         ),
     ],
 )
-async def search(
+async def holdings(
         cc: CommandContext,
         provider_choices: ProviderChoices,
         standard_params: StandardParams,

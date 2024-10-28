@@ -7,6 +7,7 @@ from openbb_core.app.provider_interface import (ExtraParams, ProviderChoices,
 from openbb_core.app.query import Query
 from openbb_core.app.router import Router
 from pydantic import BaseModel
+
 router = Router(prefix="/estimates")
 
 
@@ -21,6 +22,8 @@ async def discounted_cashflow(
         extra_params: ExtraParams,
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
+
+
 @router.command(
     model="AdvancedDcf",
     examples=[APIEx(parameters={"symbol": "AAPL", "provider": "fmp"})],
@@ -32,6 +35,8 @@ async def advanced_dcf(
         extra_params: ExtraParams,
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
+
+
 @router.command(
     model="CompanyRating",
     examples=[APIEx(parameters={"symbol": "AAPL", "provider": "fmp"})],
@@ -43,6 +48,8 @@ async def company_rating(
         extra_params: ExtraParams,
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
+
+
 @router.command(
     model="HistoricalRating",
     examples=[APIEx(parameters={"symbol": "AAPL", "provider": "fmp"})],
@@ -54,6 +61,8 @@ async def historical_rating(
         extra_params: ExtraParams,
 ) -> OBBject[BaseModel]:
     return await OBBject.from_query(Query(**locals()))
+
+
 @router.command(
     model="LeveredDcf",
     examples=[APIEx(parameters={"symbol": "AAPL", "provider": "fmp"})],

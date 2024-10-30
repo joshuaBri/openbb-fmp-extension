@@ -5,6 +5,7 @@ from datetime import date as dateType
 from typing import Any, Dict, List, Optional
 from warnings import warn
 
+from openbb_fmp.utils.helpers import create_url
 from pydantic import Field
 
 from openbb_core.provider.abstract.fetcher import Fetcher
@@ -14,7 +15,10 @@ from openbb_core.provider.standard_models.form_13FHR import (
     Form13FHRData,
     Form13FHRQueryParams,
 )
-from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
+from openbb_core.provider.utils.helpers import amake_request
+
+
+# from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
 
 
 class FMPForm13FHRQueryParams(Form13FHRQueryParams):
@@ -79,10 +83,11 @@ class FMPForm13FHRFetcher(
 
         async def get_one(symbol):
             """Get data for the given symbol."""
+            api_key = credentials.get("fmp_api_key") if credentials else ""
             url = create_url(
-                3, f"form-thirteen/{query.symbol}", query, exclude=["symbol"]
+                3, f"form-thirteen/{query.symbol}", api_key , query, exclude=["symbol"]
             )
-            result = get_jsonparsed_data(url)
+            result = await amake_request(url, **kwargs)
             if not result or len(result) == 0:
                 warn(f"Symbol Error: No data found for symbol {symbol}")
             if result:

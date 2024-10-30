@@ -1,12 +1,14 @@
 """Form 13f Model."""
 
 import asyncio
+from datetime import date as dateType
 from typing import Any, Dict, List, Optional
 from warnings import warn
 
+from pydantic import Field
+
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.utils.errors import EmptyDataError
-from openbb_core.provider.utils.helpers import to_snake_case
 
 from openbb_core.provider.standard_models.form_13FHR import (
     Form13FHRData,
@@ -23,18 +25,42 @@ class FMPForm13FHRQueryParams(Form13FHRQueryParams):
 
 
 class FMPForm13FHRData(Form13FHRData):
-    """Company Rating Data Model."""
+    """Form13 FHR Data Model."""
 
-    __alias_dict__ = {"symbol": "ticker"}
+    __alias_dict__ = {
+        "period_ending": "date",
+        "issuer": "nameOfIssuer",
+        "principal_amount": "shares",
+        "asset_class": "titleOfClass",
+        "filling_date": "fillingDate",
+        "accepted_date": "acceptedDate",
+        "ticker_cusip": "tickercusip",
+        "final_link": "finalLink",
+    }
+    filling_date: dateType = Field(
+        default=None, description="Date when the filing was submitted to the SEC."
+    )
+    accepted_date: dateType = Field(
+        default=None, description="Date when the filing was accepted by the SEC."
+    )
+    ticker_cusip: Optional[str] = Field(
+        default=None, description="Ticker symbol associated with the CUSIP."
+    )
+    link: Optional[str] = Field(
+        default=None, description="URL link to the SEC filing on the SEC website."
+    )
+    final_link: Optional[str] = Field(
+        default=None, description="URL link to the XML information table of the SEC filing."
+    )
 
 
-class FMPForm13fFetcher(
+class FMPForm13FHRFetcher(
     Fetcher[
         Form13FHRQueryParams,
         List[Form13FHRData],
     ]
 ):
-    """Fetches and transforms data from the House Disclosure endpoints."""
+    """Fetches and transforms data from the Form 13f endpoints."""
 
     @staticmethod
     def transform_query(params: Dict[str, Any]) -> Form13FHRQueryParams:
@@ -48,13 +74,13 @@ class FMPForm13fFetcher(
             **kwargs: Any,
     ) -> List[Dict]:
         """Return the raw data from the House Disclosure endpoint."""
-        ciks = query.cik.split(",")
+        symbols = query.symbol.split(",")
         results: List[Dict] = []
 
         async def get_one(symbol):
             """Get data for the given symbol."""
             url = create_url(
-                3, f"form-thirteen/{query.cik}", query, exclude=["cik"]
+                3, f"form-thirteen/{query.symbol}", query, exclude=["symbol"]
             )
             result = get_jsonparsed_data(url)
             if not result or len(result) == 0:
@@ -62,11 +88,10 @@ class FMPForm13fFetcher(
             if result:
                 results.extend(result)
 
-        await asyncio.gather(*[get_one(cik) for cik in ciks])
+        await asyncio.gather(*[get_one(symbol) for symbol in symbols])
 
         if not results:
             raise EmptyDataError("No data returned for the given symbol.")
-        results = [{to_snake_case(key): value for key, value in d.items()} for d in results]
 
         return results
 

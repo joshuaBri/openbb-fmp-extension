@@ -2,13 +2,11 @@
 
 from openbb_core.provider.abstract.provider import Provider
 
-from openbb_fmp_extension.models.form_13f import FMPForm13fFetcher
-
-
+from openbb_fmp_extension.models.form_13f import FMPForm13FHRFetcher
 # mypy: disable-error-code="list-item"
 
 provider = Provider(
-    name="fmp_extension",
+    name="fmp",
     website="https://financialmodelingprep.com",
     description="""Financial Modeling Prep is a new concept that informs you about
     senate trading and house disclosure trading and RSS feed.""",
@@ -16,7 +14,7 @@ provider = Provider(
     # Here, we list out the fetchers showing what our provider can get.
     # The dictionary key is the fetcher's name, used in the `router.py`.
     fetcher_dict={
-        "Form13f": FMPForm13fFetcher,
+        "Form13FHR": FMPForm13FHRFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

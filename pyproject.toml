@@ -13,6 +13,18 @@ openbb-fmp = "^1.3.3"
 openbb = "^4.3.3"
 openbb-cli = "^1.1.3"
 
+openbb-commodity = "^1.2.3"
+openbb-crypto = "^1.3.3"
+openbb-currency = "^1.3.3"
+openbb-derivatives = "^1.3.3"
+openbb-economy = "^1.3.3"
+openbb-equity = "^1.3.3"
+openbb-etf = "^1.3.3"
+openbb-fixedincome = "^1.3.3"
+openbb-index = "^1.3.3"
+openbb-news = "^1.3.3"
+openbb-regulators = "^1.3.3"
+
 [tool.poetry.group.dev.dependencies]
 openbb-devtools = "^1.3.1"
 pytest = "<8.0.0"

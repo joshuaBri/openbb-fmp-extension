@@ -10,11 +10,11 @@ from openbb_core.app.router import Router
 router = Router(prefix="/ownership")
 
 @router.command(
-    model="Form13f",
+    model="Form13FHR",
     examples=[
         APIEx(
             parameters={
-                "cik": "0001388838",
+                "symbol": "0001388838",
                 "date": "2021-09-30",
                 "provider": "fmp",
             }

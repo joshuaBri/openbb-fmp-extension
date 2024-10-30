@@ -8,21 +8,21 @@ from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.utils.errors import EmptyDataError
 from openbb_core.provider.utils.helpers import to_snake_case
 
-from openbb_fmp_extension.standard_models.form_13f import (
-    Form13fData,
-    Form13fQueryParams,
+from openbb_core.provider.standard_models.form_13FHR import (
+    Form13FHRData,
+    Form13FHRQueryParams,
 )
 from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
 
 
-class FMPForm13fQueryParams(Form13fQueryParams):
+class FMPForm13FHRQueryParams(Form13FHRQueryParams):
     """Form 13f Query Parameters.
 
     Source: https://fmp.a.pinggy.link/api/v3/form-thirteen/0001388838?date=2021-09-30
     """
 
 
-class FMPForm13fData(Form13fData):
+class FMPForm13FHRData(Form13FHRData):
     """Company Rating Data Model."""
 
     __alias_dict__ = {"symbol": "ticker"}
@@ -30,20 +30,20 @@ class FMPForm13fData(Form13fData):
 
 class FMPForm13fFetcher(
     Fetcher[
-        Form13fQueryParams,
-        List[Form13fData],
+        Form13FHRQueryParams,
+        List[Form13FHRData],
     ]
 ):
     """Fetches and transforms data from the House Disclosure endpoints."""
 
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> Form13fQueryParams:
+    def transform_query(params: Dict[str, Any]) -> Form13FHRQueryParams:
         """Transform the query params."""
-        return Form13fQueryParams(**params)
+        return Form13FHRQueryParams(**params)
 
     @staticmethod
     async def aextract_data(
-            query: FMPForm13fQueryParams,
+            query: FMPForm13FHRQueryParams,
             credentials: Optional[Dict[str, str]] = None,
             **kwargs: Any,
     ) -> List[Dict]:
@@ -72,7 +72,7 @@ class FMPForm13fFetcher(
 
     @staticmethod
     def transform_data(
-            query: FMPForm13fQueryParams, data: List[Dict], **kwargs: Any
-    ) -> List[Form13fData]:
+            query: FMPForm13FHRQueryParams, data: List[Dict], **kwargs: Any
+    ) -> List[Form13FHRData]:
         """Return the transformed data."""
-        return [FMPForm13fData(**d) for d in data]
+        return [FMPForm13FHRData(**d) for d in data]

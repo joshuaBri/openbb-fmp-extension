@@ -7,7 +7,10 @@ from openbb_core.app.provider_interface import (ExtraParams, ProviderChoices,
 from openbb_core.app.query import Query
 from openbb_core.app.router import Router
 
-router = Router(prefix="/index")
+from openbb_fmp_extension.extensions.index.price.price_router import router as price_router
+
+router = Router(prefix="")
+router.include_router(price_router)
 
 
 @router.command(

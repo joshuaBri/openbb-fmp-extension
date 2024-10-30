@@ -8,10 +8,22 @@ packages = [{ include = "openbb_fmp_extension" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-openbb-core = { version = ">=1.1.2" }
+openbb-core = "^1.3.5"
 openbb-fmp = "^1.3.3"
 openbb = "^4.3.3"
 openbb-cli = "^1.1.3"
+
+openbb-commodity = "^1.2.3"
+openbb-crypto = "^1.3.3"
+openbb-currency = "^1.3.3"
+openbb-derivatives = "^1.3.3"
+openbb-economy = "^1.3.3"
+openbb-equity = "^1.3.3"
+openbb-etf = "^1.3.3"
+openbb-fixedincome = "^1.3.3"
+openbb-index = "^1.3.3"
+openbb-news = "^1.3.3"
+openbb-regulators = "^1.3.3"
 
 [tool.poetry.group.dev.dependencies]
 openbb-devtools = "^1.3.1"
@@ -22,7 +34,9 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."openbb_core_extension"]
-openbb_fmp_extension = "openbb_fmp_extension.router:router"
+etf = "openbb_fmp_extension.router:etf_router"
+equity = "openbb_fmp_extension.router:equity_router"
+index = "openbb_fmp_extension.router:index_router"
 
 [tool.poetry.plugins."openbb_provider_extension"]
 openbb_fmp_extension = "openbb_fmp_extension.provider:provider"

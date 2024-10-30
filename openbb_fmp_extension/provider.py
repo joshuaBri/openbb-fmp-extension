@@ -10,6 +10,7 @@ from openbb_fmp_extension.models.etf_holdings import FMPEtfHoldingsFetcher
 from openbb_fmp_extension.models.form_13f import FMPForm13fFetcher
 from openbb_fmp_extension.models.historical_rating import FMPHistoricalRatingFetcher
 from openbb_fmp_extension.models.income_statement import FMPIncomeStatementFetcher
+from openbb_fmp_extension.models.index_historical import FMPIndexHistoricalFetcher
 from openbb_fmp_extension.models.index_constituents import FMPIndexConstituentsFetcher
 from openbb_fmp_extension.models.index_historical_constituents import FMPIndexHistoricalConstituentsFetcher
 from openbb_fmp_extension.models.levered_dcf import FMPLeveredDcfFetcher
@@ -43,6 +44,7 @@ provider = Provider(
         "CalendarDividend": FMPCalendarDividendFetcher,
         "EtfSearch": FMPEtfSearchFetcher,
         "EtfHoldings": FMPEtfHoldingsFetcher,
+        "IndexHistorical": FMPIndexHistoricalFetcher,
         "IndexConstituents": FMPIndexConstituentsFetcher,
         "IndexHistoricalConstituents": FMPIndexHistoricalConstituentsFetcher,
     },

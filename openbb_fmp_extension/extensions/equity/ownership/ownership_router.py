@@ -39,12 +39,14 @@ async def form_13f(
                 "chamber": "all",
                 "symbol": "AAPL",
                 "limit": 500,
+                "provider": "fmp",
             }
         ),
         APIEx(
             parameters={
                 "chamber": "all",
                 "limit": 300,
+                "provider": "fmp",
             }
         ),
     ],

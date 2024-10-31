@@ -15,11 +15,11 @@ from openbb_fmp_extension.standard_models.government_trades import (
     GovernmentTradesData,
     GovernmentTradesQueryParams,
 )
-# from openbb_fmp.utils.helpers import create_url
-# from openbb_core.provider.utils.helpers import amake_request
+from openbb_fmp.utils.helpers import create_url
+from openbb_core.provider.utils.helpers import amake_request
 
 
-from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
+# from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
 
 
 class FMPGovernmentTradesQueryParams(GovernmentTradesQueryParams):
@@ -95,6 +95,7 @@ class FMPGovernmentTradesFetcher(
             "senate": ["senate-trading"],
             "all": ["senate-disclosure", "senate-trading"],
         }
+        api_key = credentials.get("fmp_api_key") if credentials else ""
 
         async def get_one(url):
             # 指定要移除的键
@@ -105,9 +106,9 @@ class FMPGovernmentTradesFetcher(
                 "disclosureDate": "date"
             }
             """Get data for the given symbol."""
-            # api_key = credentials.get("fmp_api_key") if credentials else ""
-            # result = await amake_request(url, **kwargs)
-            result = get_jsonparsed_data(url)
+
+            result = await amake_request(url, **kwargs)
+            # result = get_jsonparsed_data(url)
             # 处理数据
             processed_list = []
             for entry in result:
@@ -127,7 +128,7 @@ class FMPGovernmentTradesFetcher(
             urls_list = []
             for symbol in symbols:
                 query.symbol = symbol
-                url = [create_url(4, f"{i}", query=query, exclude=["chamber", "limit"]) for i in
+                url = [create_url(4, f"{i}", api_key=api_key, query=query, exclude=["chamber", "limit"]) for i in
                        chamber_url_dict[query.chamber]]
                 urls_list.extend(url)
             await asyncio.gather(*[get_one(url) for url in urls_list])
@@ -136,7 +137,7 @@ class FMPGovernmentTradesFetcher(
             pages = math.ceil(query.limit / 100)
             for page in range(pages):
                 query.page = page
-                url = [create_url(4, f"{i}-rss-feed", query=query, exclude=["chamber", "limit"]) for i in
+                url = [create_url(4, f"{i}-rss-feed", api_key=api_key, query=query, exclude=["chamber", "limit"]) for i in
                        chamber_url_dict[query.chamber]]
                 urls_list.extend(url)
             await asyncio.gather(*[get_one(url) for url in urls_list])

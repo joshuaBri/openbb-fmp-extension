@@ -27,7 +27,7 @@ async def form_13f(
         standard_params: StandardParams,
         extra_params: ExtraParams,
 ) -> OBBject:
-    """Get the income statement for a given company."""
+    """Get the form_13f data for a given cik."""
     return await OBBject.from_query(Query(**locals()))
 
 
@@ -57,7 +57,7 @@ async def government_trades(
         standard_params: StandardParams,
         extra_params: ExtraParams,
 ) -> OBBject:
-    """Get the income statement for a given company."""
+    """Get the government trades data ."""
     return await OBBject.from_query(Query(**locals()))
 
 

@@ -5,7 +5,6 @@ from datetime import date as dateType
 from typing import Any, Dict, List, Optional
 from warnings import warn
 
-from openbb_fmp.utils.helpers import create_url
 from pydantic import Field
 
 from openbb_core.provider.abstract.fetcher import Fetcher
@@ -15,16 +14,14 @@ from openbb_core.provider.standard_models.form_13FHR import (
     Form13FHRData,
     Form13FHRQueryParams,
 )
+from openbb_fmp.utils.helpers import create_url
 from openbb_core.provider.utils.helpers import amake_request
-
-
-# from openbb_fmp_extension.utils.helpers import create_url, get_jsonparsed_data
 
 
 class FMPForm13FHRQueryParams(Form13FHRQueryParams):
     """Form 13f Query Parameters.
 
-    Source: https://fmp.a.pinggy.link/api/v3/form-thirteen/0001388838?date=2021-09-30
+    Source: https://financialmodelingprep.com/api/v3/form-thirteen/0001388838?date=2021-09-30
     """
 
 

@@ -16,9 +16,9 @@ from openbb_core.provider.utils.descriptions import (
 class GovernmentTradesQueryParams(QueryParams):
     """Government Trades Query."""
 
-    symbol: Optional[str] = Field(description=QUERY_DESCRIPTIONS.get("symbol", ""))
+    symbol: Optional[str] = Field(default=None, description=QUERY_DESCRIPTIONS.get("symbol", ""))
     chamber: Literal["house", "senate", "all"] = Field(description="Government Chamber.")
-    limit: NonNegativeInt = Field(
+    limit: Optional[NonNegativeInt] = Field(
         default=100, description=QUERY_DESCRIPTIONS.get("limit", "")
     )
 

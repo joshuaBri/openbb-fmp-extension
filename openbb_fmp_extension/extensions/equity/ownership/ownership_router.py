@@ -29,3 +29,33 @@ async def form_13f(
 ) -> OBBject:
     """Get the income statement for a given company."""
     return await OBBject.from_query(Query(**locals()))
+
+
+@router.command(
+    model="GovernmentTrades",
+    examples=[
+        APIEx(
+            parameters={
+                "chamber": "all",
+                "symbol": "AAPL",
+                "limit": 500,
+            }
+        ),
+        APIEx(
+            parameters={
+                "chamber": "all",
+                "limit": 300,
+            }
+        ),
+    ],
+)
+async def government_trades(
+        cc: CommandContext,
+        provider_choices: ProviderChoices,
+        standard_params: StandardParams,
+        extra_params: ExtraParams,
+) -> OBBject:
+    """Get the income statement for a given company."""
+    return await OBBject.from_query(Query(**locals()))
+
+

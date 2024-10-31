@@ -3,6 +3,8 @@
 from openbb_core.provider.abstract.provider import Provider
 
 from openbb_fmp_extension.models.form_13f import FMPForm13FHRFetcher
+from openbb_fmp_extension.models.government_trades import FMPGovernmentTradesFetcher
+
 # mypy: disable-error-code="list-item"
 
 provider = Provider(
@@ -15,6 +17,7 @@ provider = Provider(
     # The dictionary key is the fetcher's name, used in the `router.py`.
     fetcher_dict={
         "Form13FHR": FMPForm13FHRFetcher,
+        "GovernmentTrades": FMPGovernmentTradesFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},

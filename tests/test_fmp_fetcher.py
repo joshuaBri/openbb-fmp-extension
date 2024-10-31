@@ -21,11 +21,20 @@ def test_fmp_form_13f_fetcher(credentials=test_credentials):
 
 
 def test_fmp_government_trades_fetcher(credentials=test_credentials):
-    """Test FMP government trades fetcher."""
+    """Test FMP government trades fetcher.
+    params limit only functions when there is no parameter symbol
+    """
     params = {
-        "chamber": "house",
+        "chamber": "all",
         "symbol": "AAPL",
         "limit": 500,
+    }
+    fetcher = FMPGovernmentTradesFetcher()
+    result = fetcher.test(params, credentials)
+    assert result is None
+    params = {
+        "chamber": "all",
+        "limit": 300,
     }
     fetcher = FMPGovernmentTradesFetcher()
     result = fetcher.test(params, credentials)

@@ -87,7 +87,7 @@ class FMPGovernmentTradesFetcher(
     ) -> List[Dict]:
         """Return the raw data from the Government Trades endpoint."""
         symbols = []
-        if "symbol" in query.__dict__:
+        if query.symbol:
             symbols = query.symbol.split(",")
         results: List[Dict] = []
         chamber_url_dict = {
@@ -96,16 +96,15 @@ class FMPGovernmentTradesFetcher(
             "all": ["senate-disclosure", "senate-trading"],
         }
 
-        async def get_one(symbol, url):
+        async def get_one(url):
             # 指定要移除的键
-            keys_to_remove = ["comment", "district", "capitalGainsOver200USD"]
+            keys_to_remove = ["comment", "district", "capitalGainsOver200USD", "disclosureYear"]
             # 指定要重命名的键，格式为 {原键: 新键}
             keys_to_rename = {
                 "dateRecieved": "date",
                 "disclosureDate": "date"
             }
             """Get data for the given symbol."""
-            chamber = query.chamber
             # api_key = credentials.get("fmp_api_key") if credentials else ""
             # result = await amake_request(url, **kwargs)
             result = get_jsonparsed_data(url)
@@ -120,23 +119,27 @@ class FMPGovernmentTradesFetcher(
                         new_entry[new_key] = new_entry.pop(old_key)
                 processed_list.append(new_entry)
             if not processed_list or len(processed_list) == 0:
-                warn(f"Symbol Error: No data found for symbol {symbol}")
+                warn(f"Symbol Error: No data found for {url}")
             if processed_list:
                 results.extend(processed_list)
 
         if symbols:
-            urls_list = [create_url(4, f"{i}", query=query, exclude=["chamber", "limit"]) for i in
-                         chamber_url_dict[query.chamber]]
-            await asyncio.gather(*[get_one(symbol, url) for symbol in symbols for url in urls_list])
-        else:
             urls_list = []
-            pages = math.ceil(query.limit / 100)
-            for page in range(pages + 1):
-                query.page = page
+            for symbol in symbols:
+                query.symbol = symbol
                 url = [create_url(4, f"{i}", query=query, exclude=["chamber", "limit"]) for i in
                        chamber_url_dict[query.chamber]]
                 urls_list.extend(url)
-            await asyncio.gather(*[get_one(symbol, url) for symbol in symbols for url in urls_list])
+            await asyncio.gather(*[get_one(url) for url in urls_list])
+        else:
+            urls_list = []
+            pages = math.ceil(query.limit / 100)
+            for page in range(pages):
+                query.page = page
+                url = [create_url(4, f"{i}-rss-feed", query=query, exclude=["chamber", "limit"]) for i in
+                       chamber_url_dict[query.chamber]]
+                urls_list.extend(url)
+            await asyncio.gather(*[get_one(url) for url in urls_list])
 
         if not results:
             raise EmptyDataError("No data returned for the given symbol.")

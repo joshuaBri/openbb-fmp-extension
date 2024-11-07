@@ -25,7 +25,7 @@ class DcfQueryParams(QueryParams):
 
 
 class DcfData(Data):
-    """Government Trades data."""
+    """Dcf data."""
     symbol: Optional[str] = Field(
         default=None, description=DATA_DESCRIPTIONS.get("symbol", "")
     )

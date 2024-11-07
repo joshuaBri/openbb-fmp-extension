@@ -4,10 +4,12 @@ from openbb_core.provider.abstract.provider import Provider
 
 from openbb_fmp_extension.models.form_13f import FMPForm13FHRFetcher
 from openbb_fmp_extension.models.government_trades import FMPGovernmentTradesFetcher
+from openbb_fmp_extension.models.dcf import FMPDcfFetcher
+from openbb_fmp_extension.models.advanced_dcf import FMPAdvancedDcfFetcher
 
 # mypy: disable-error-code="list-item"
 
-provider = Provider(
+fmp_provider = Provider(
     name="fmp",
     website="https://financialmodelingprep.com",
     description="""Financial Modeling Prep is a new concept that informs you about
@@ -18,6 +20,8 @@ provider = Provider(
     fetcher_dict={
         "Form13FHR": FMPForm13FHRFetcher,
         "GovernmentTrades": FMPGovernmentTradesFetcher,
+        "Dcf": FMPDcfFetcher,
+        "AdvancedDcf": FMPAdvancedDcfFetcher,
     },
     repr_name="Financial Modeling Prep (FMP)",
     deprecated_credentials={"API_KEY_FINANCIALMODELINGPREP": "fmp_api_key"},
